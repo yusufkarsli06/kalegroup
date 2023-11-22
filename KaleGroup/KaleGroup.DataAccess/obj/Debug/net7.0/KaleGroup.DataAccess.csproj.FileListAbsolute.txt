@@ -1,0 +1,5 @@
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.csproj.AssemblyReference.cache
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.AssemblyInfoInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.AssemblyInfo.cs
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.Business.deps.json
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.Business.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.Business.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.csproj.AssemblyReference.cache
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.AssemblyInfoInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.AssemblyInfo.cs
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.csproj.CoreCompileInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\refint\KaleGroup.Business.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\ref\KaleGroup.Business.dll
