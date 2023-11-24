@@ -34,7 +34,7 @@ namespace KaleGroup.DataAccess.Abstract
             this._dbSet = _dbContext.Set<T>();
         }
         #endregion
-        public void Delete(Guid Id)
+        public void Delete(int Id)
         {
             T entity = _dbSet.Find(Id);
             Delete(entity);
@@ -46,7 +46,7 @@ namespace KaleGroup.DataAccess.Abstract
             Save();
         }
 
-        public async Task DeleteAsync(Guid Id)
+        public async Task DeleteAsync(int Id)
         {
             T entity = await _dbSet.FindAsync(Id);
             Delete(entity);
@@ -63,7 +63,7 @@ namespace KaleGroup.DataAccess.Abstract
             await _dbContext.SaveChangesAsync();
             return await Task.FromResult("Ok");
         }
-        public T GetById(Guid Id)
+        public T GetById(int Id)
         {
             return _dbSet.Find(Id);
         }

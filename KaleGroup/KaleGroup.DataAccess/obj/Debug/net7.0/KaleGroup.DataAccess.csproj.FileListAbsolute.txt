@@ -3,3 +3,13 @@ D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAcces
 D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.AssemblyInfoInputs.cache
 D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.AssemblyInfo.cs
 D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.csproj.CoreCompileInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Debug\net7.0\KaleGroup.DataAccess.deps.json
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Debug\net7.0\KaleGroup.DataAccess.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Debug\net7.0\KaleGroup.DataAccess.pdb
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Debug\net7.0\KaleGroup.Data.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Debug\net7.0\KaleGroup.Data.pdb
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.csproj.CopyComplete
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\refint\KaleGroup.DataAccess.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\KaleGroup.DataAccess.pdb
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Debug\net7.0\ref\KaleGroup.DataAccess.dll

@@ -15,4 +15,9 @@
     <ProjectReference Include="..\KaleGroup.Data\KaleGroup.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repository\Files\Command\" />
+    <Folder Include="Repository\Files\Interface\" />
+  </ItemGroup>
+
 </Project>

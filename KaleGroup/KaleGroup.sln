@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaleGroup.Web", "KaleGroup\KaleGroup.Web.csproj", "{AF5C8C16-EAF4-474E-A954-752BAA503E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaleGroup.Data", "KaleGroup.Data\KaleGroup.Data.csproj", "{3E41C175-EF54-4095-8B03-DFE4C64AA6D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaleGroup.Data", "KaleGroup.Data\KaleGroup.Data.csproj", "{3E41C175-EF54-4095-8B03-DFE4C64AA6D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaleGroup.DataAccess", "KaleGroup.DataAccess\KaleGroup.DataAccess.csproj", "{EE3AC74C-390E-4E05-8BF8-1EE97BDAE09B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaleGroup.DataAccess", "KaleGroup.DataAccess\KaleGroup.DataAccess.csproj", "{EE3AC74C-390E-4E05-8BF8-1EE97BDAE09B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaleGroup.Business", "KaleGroup.Business\KaleGroup.Business.csproj", "{0AE55145-DF7A-4946-9F74-AD91457D2422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaleGroup.Business", "KaleGroup.Business\KaleGroup.Business.csproj", "{0AE55145-DF7A-4946-9F74-AD91457D2422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaleGroup.Common", "KaleGroup.Common\KaleGroup.Common.csproj", "{2D639806-3BD2-4246-A851-660588C8D868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaleGroup.Common", "KaleGroup.Common\KaleGroup.Common.csproj", "{2D639806-3BD2-4246-A851-660588C8D868}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaleGroup.Web", "KaleGroup.Web\KaleGroup.Web.csproj", "{650213FA-8A65-4BAB-ADC2-A4DB8A54D195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AF5C8C16-EAF4-474E-A954-752BAA503E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF5C8C16-EAF4-474E-A954-752BAA503E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF5C8C16-EAF4-474E-A954-752BAA503E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF5C8C16-EAF4-474E-A954-752BAA503E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3E41C175-EF54-4095-8B03-DFE4C64AA6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E41C175-EF54-4095-8B03-DFE4C64AA6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E41C175-EF54-4095-8B03-DFE4C64AA6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{2D639806-3BD2-4246-A851-660588C8D868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D639806-3BD2-4246-A851-660588C8D868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D639806-3BD2-4246-A851-660588C8D868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650213FA-8A65-4BAB-ADC2-A4DB8A54D195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650213FA-8A65-4BAB-ADC2-A4DB8A54D195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650213FA-8A65-4BAB-ADC2-A4DB8A54D195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650213FA-8A65-4BAB-ADC2-A4DB8A54D195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

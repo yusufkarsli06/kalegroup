@@ -1,4 +1,5 @@
 ﻿
+using KaleGroup.Business.Dto;
 using KaleGroup.Data.Entities;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace KaleGroup.Business.IBusiness
 {
     public interface IUserLogic
     {
-        bool AddUser(Users users);
-        Users AuthenticateUser(string username, string password);
+        bool AddUser(UserDtos users);
+        bool AuthenticateUser(string username, string password);
         bool ChangePassword(long userId, string password);
-        Users GetUserInfo(long userId);
+        UserDtos GetUserInfo(long userId);
     }
 }

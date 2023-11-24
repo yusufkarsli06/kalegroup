@@ -1,4 +1,5 @@
-﻿using KaleGroup.Business.IBusiness;
+﻿using KaleGroup.Business.Dto;
+using KaleGroup.Business.IBusiness;
 using KaleGroup.Common.Helper;
 using KaleGroup.Data.Entities;
 using KaleGroup.DataAccess.Repository.User.Interface;
@@ -12,29 +13,49 @@ namespace KaleGroup.Business.Business
 {
     public class UserLogic : IUserLogic
     {
-        private readonly ISubMenuRepository _userRepository;
+        private readonly IUserRepository _userRepository;
 
-        public UserLogic(ISubMenuRepository userRepository)
+        public UserLogic(IUserRepository userRepository)
         {
             _userRepository = userRepository;
         }
 
-        public bool AddUser(Users users)
+        public bool AddUser(UserDtos users)
         {
-            users.Password = HashHelper.ComputeSha256Hash(users.Password);
-            return _userRepository.AddUser(users);
+            Users user = new Users();
+            user.Username = users.Username;
+            user.Email = users.Email;
+            user.IsActive =true;
+            user.Password = HashHelper.ComputeSha256Hash(users.Password);  
+           
+            return _userRepository.AddUser(user);
         }
-        public Users AuthenticateUser(string username, string password)
+        public bool AuthenticateUser(string username, string password)
         {          
-            return _userRepository.AuthenticateUser(username, HashHelper.ComputeSha256Hash(password));
+            var user =  _userRepository.AuthenticateUser(username, HashHelper.ComputeSha256Hash(password));
+
+            if(user != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         public bool ChangePassword(long userId, string password)
         {         
             return _userRepository.ChangePassword(userId, HashHelper.ComputeSha256Hash(password));
         }
-        public Users GetUserInfo(long userId)
+        public UserDtos GetUserInfo(long userId)
         {
-            return _userRepository.GetUserInfo(userId);
+            var user =  _userRepository.GetUserInfo(userId);
+
+            UserDtos userDtos = new UserDtos();
+            userDtos.Username = user.Username;
+            userDtos.Email= user.Email;
+            return userDtos;
+
         }
     }
 }

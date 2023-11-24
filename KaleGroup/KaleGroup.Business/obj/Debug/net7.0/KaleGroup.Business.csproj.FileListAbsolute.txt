@@ -10,3 +10,10 @@ D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.dl
 D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\refint\KaleGroup.Business.dll
 D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\ref\KaleGroup.Business.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.Common.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.Data.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.DataAccess.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.Common.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.DataAccess.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Business\bin\Debug\net7.0\KaleGroup.Data.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.csproj.CopyComplete
