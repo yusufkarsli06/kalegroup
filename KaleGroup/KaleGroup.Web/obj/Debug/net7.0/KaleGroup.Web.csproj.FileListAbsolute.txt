@@ -42,3 +42,4 @@ D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\KaleGroup.DataAccess.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\KaleGroup.Common.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\KaleGroup.Data.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\KaleGroup.Web.csproj.CopyComplete
+D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css

@@ -9,13 +9,10 @@ namespace KaleGroup.Business.Dto
 {
     public class FileDtos : ModelBaseDto
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public int OrderNumber { get; set; }     
-        public string NewsImages { get; set; }     
-        public string TopHeaderImages { get; set; }     
-        public string TopHeaderBackground { get; set; }     
-        
+        public string FileName { get; set; }
+        public string FileUrl { get; set; }
+
+
     }
 }
 
