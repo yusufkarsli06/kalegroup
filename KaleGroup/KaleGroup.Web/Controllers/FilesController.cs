@@ -5,36 +5,36 @@ using System.Diagnostics;
 
 namespace KaleGroup.Web.Controllers
 {
-    public class MenuController : Controller
+    public class FilesController : Controller
     {
-
-        public MenuController()
+     
+      
+        public FilesController( )
         {
-
-
+            
+       
         }
 
         public IActionResult Index()
         {
-            
+             
+            return View();
+        }
+        public IActionResult AddFile(AddFileViewModel param)
+        { 
 
             return View();
         }
 
-        public IActionResult AddMenu(AddMenuViewModel param)
+        public IActionResult UpdateFile(AddFileViewModel param)
         {
+             
             return View();
         }
-        public IActionResult UpdateMenu(AddMenuViewModel param)
+        public IActionResult DeleteFile()
         {
-            return View();
-        }
-        public IActionResult DeleteMenu(int menuId)
-        {
-            return View();
-        }
-        public IActionResult PasiveMenu(int menuId)
-        {
+
+
             return View();
         }
     }

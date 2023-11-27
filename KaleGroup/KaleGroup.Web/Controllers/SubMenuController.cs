@@ -5,13 +5,14 @@ using System.Diagnostics;
 
 namespace KaleGroup.Web.Controllers
 {
-    public class MenuController : Controller
+    public class SubMenuController : Controller
     {
-
-        public MenuController()
+     
+      
+        public SubMenuController( )
         {
-
-
+            
+       
         }
 
         public IActionResult Index()
@@ -21,19 +22,19 @@ namespace KaleGroup.Web.Controllers
             return View();
         }
 
-        public IActionResult AddMenu(AddMenuViewModel param)
+        public IActionResult AddSubMenu(AddSubMenuViewModel param)
         {
             return View();
         }
-        public IActionResult UpdateMenu(AddMenuViewModel param)
+        public IActionResult UpdateSubMenu(AddSubMenuViewModel param)
         {
             return View();
         }
-        public IActionResult DeleteMenu(int menuId)
+        public IActionResult DeleteSubMenu(int subMenuId)
         {
             return View();
         }
-        public IActionResult PasiveMenu(int menuId)
+        public IActionResult PasiveSubMenu(int subMenuId)
         {
             return View();
         }
