@@ -7,6 +7,7 @@ namespace KaleGroup.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IMenu
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -15,6 +16,7 @@ namespace KaleGroup.Web.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 
