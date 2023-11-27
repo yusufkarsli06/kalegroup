@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,12 +32,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Menu/AddMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxBZGRNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Menu/UpdateMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxVcGRhdGVNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/SubMenu/AddSubMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViTWVudVxBZGRTdWJNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/SubMenu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/SubMenu/UpdateSubMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViTWVudVxVcGRhdGVTdWJNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/User/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/User/UpdateSubMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVTdWJNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/_ViewImports.cshtml]

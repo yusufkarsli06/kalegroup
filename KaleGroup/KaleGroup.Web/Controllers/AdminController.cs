@@ -21,7 +21,12 @@ namespace KaleGroup.Web.Controllers
 
             return View();
         }
+        public IActionResult Login(LoginViewModel param)
+        {
 
-       
+
+            return View();
+        }
+
     }
 }
