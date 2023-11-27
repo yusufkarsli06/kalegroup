@@ -12,31 +12,31 @@ using System.Threading.Tasks;
 
 namespace KaleGroup.Business.Business
 {
-    public class MenuLogic : IMenuLogic
+    public class SubMenuLogic : ISubMenuLogic
     {
-        private readonly IMenuRepository _menuRepository;
+        private readonly ISubMenuRepository _subMenuRepository;
 
-        public MenuLogic(IMenuRepository menuRepository)
+        public SubMenuLogic(ISubMenuRepository subMenuRepository)
         {
-            _menuRepository = menuRepository;
+            _subMenuRepository = subMenuRepository;
         }
 
-        public List<MenuDtos> GetMenuList()
+        public List<SubMenuDtos> GetSubMenuList()
         {
-            List<MenuDtos> menuList = new List<MenuDtos>();
-            var menuResult = _menuRepository.GetMenuList();
-            foreach ( var item in menuResult)
+            List<SubMenuDtos> subMenuList = new List<SubMenuDtos>();
+            var subMenuResult = _subMenuRepository.GetSubMenuList();
+            foreach ( var item in subMenuResult)
             {
-                MenuDtos menu = new MenuDtos();
+                SubMenuDtos menu = new SubMenuDtos();
                 menu.Name= item.Name;
                 menu.Description= item.Description;
                 menu.EnDescription= item.EnDescription;
                 menu.EnName= item.EnName;
                 menu.Id= item.Id;
-                menuList.Add(menu); 
+                subMenuList.Add(menu); 
 
             }
-            return menuList;
+            return subMenuList;
         }
     }
 }

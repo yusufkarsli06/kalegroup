@@ -14,7 +14,9 @@ builder.Services.AddControllersWithViews();
  
 
 //builder.Services.AddControllersWithViews();
-//builder.Services.AddTransient<IUserLogic, UserLogic>();
+ builder.Services.AddTransient<IUserLogic, UserLogic>();
+ builder.Services.AddTransient<IMenuLogic, MenuLogic>();
+ builder.Services.AddTransient<ISubMenuLogic, SubMenuLogic>();
 
 
 //builder.Services.AddScoped(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));

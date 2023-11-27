@@ -8,9 +8,9 @@ namespace KaleGroup.DataAccess.Repository.SubMenu.Interface
         bool AddSubMenu(SubMenus subMenu);
         bool UpdateSubMenu(SubMenus subMenu);
         bool PasiveSubMenu(int subMenuId);
-        List<SubMenus> GetSubMenuList(int subMenuId);
+        List<SubMenus> GetSubMenuList();
+        List<SubMenus> GetSubMenuListById(int menuId);
     }
 }
 
- 
- 
+

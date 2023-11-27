@@ -53,9 +53,14 @@ namespace KaleGroup.DataAccess.Repository.User.Command
             return true;
         }
 
-        public List<SubMenus> GetSubMenuList(int subMenuId)
+        public List<SubMenus> GetSubMenuList()
         {
-            return _SubMenuRepository.Table.Where(x=>x.IsActive && x.Id == subMenuId).ToList();
+            return _SubMenuRepository.Table.Where(x=>x.IsActive).ToList();
+        }
+
+        public List<SubMenus> GetSubMenuListById(int menuId)
+        {
+            return _SubMenuRepository.Table.Where(x => x.IsActive && x.Id == menuId).ToList();
         }
     }
 }

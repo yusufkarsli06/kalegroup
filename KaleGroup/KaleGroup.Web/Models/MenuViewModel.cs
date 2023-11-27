@@ -8,6 +8,6 @@ namespace KaleGroup.Web.Models
         public string EnName { get; set; }
         public string EnDescription { get; set; }
 
-
+        List<SubMenuViewModel> SubMenuViewModels { get; set; }
     }
 }

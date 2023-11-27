@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace KaleGroup.Business.IBusiness
 {
-    public interface IMenuLogic
+    public interface ISubMenuLogic
     {
-       List<MenuDtos> GetMenuList();
+       List<SubMenuDtos> GetSubMenuList();
       
     }
 }

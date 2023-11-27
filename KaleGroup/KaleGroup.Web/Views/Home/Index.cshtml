@@ -1,8 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-
+@model IEnumerable<KaleGroup.Web.Models.MenuViewModel>
+ 
 <body>
     <main>
         <header class="app-header bg-dark text-white sticky-top">
@@ -11,144 +11,30 @@
                     <img src="~/image/logo.svg" alt="" class="mr-5 mr-xl-5">
                 </a>
                 <ul class="nav flex-grow-1 mr-5 d-none d-lg-flex">
-                    <li class="submenu">
-                        <a href="hakkimizda.html" title="Kurumsal">
-                            Kurumsal
-                        </a>
+                   
+                    @foreach (var item in Model)
+                    {
+                        <li class="submenu">
 
-                        <ol>
-                            <li>
-                                <a href="hakkimizda.html" title="Kurumsal">
-                                    Hakk&#x131;m&#x131;zda
-                                </a>
-                            </li>
-                            <li>
-                                <a href="kurucumuz.html" title="Kurumsal">
-                                    Kurucumuz
-                                </a>
-                            </li>
-                            <li>
-                                <a href="yonetim.html" title="Kurumsal">
-                                    Y&#xF6;netim
-                                </a>
-                            </li>
-                            <li>
-                                <a href="kilometre-taslari.html" title="Kurumsal">
-                                    Kilometre Ta&#x15F;lar&#x131;
-                                </a>
-                            </li>
-                            <li>
-                                <a href="baskanin-mesaji.html" title="Kurumsal">
-                                    Ba&#x15F;kan&#x131;n Mesaj&#x131;
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li class="submenu">
-                        <a href="sektorler.html" title="Faaliyet Alanlar&#x131;">
-                            Faaliyet Alanlar&#x131;
-                        </a>
+                            <a href="hakkimizda.html" title="@item.Name ">
+                                @item.Name 
+                            </a>
 
-                        <ol>
-                            <li>
-                                <a href="sektorler.html" title="Faaliyet Alanlar&#x131;">
-                                    Sekt&#xF6;rler
-                                </a>
-                            </li>
-                            <li>
-                                <a href="markalar.html" title="Faaliyet Alanlar&#x131;">
-                                    Markalar
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li class="submenu">
-                        <a href="toplumsal-yatirimlar.html" title="Toplumsal Yat&#x131;r&#x131;mlar">
-                            Toplumsal Yat&#x131;r&#x131;mlar
-                        </a>
+                            <ol>
+                              @*  @foreach (var subItem in item.SubMenuViewModels)
+                                {
+                                <li>
+                                    <a href="kurucumuz.html" title="Kurumsal">
+                                        @subItem.Name
+                                    </a>
+                                </li>  
+                                }     *@  
+                               
+                            </ol>
+                        </li>
+                    }
 
-                        <ol>
-                            <li>
-                                <a href="toplumsal-yatirimlar/projeler.html" title="Toplumsal Yat&#x131;r&#x131;mlar">
-                                    Projeler
-                                </a>
-                            </li>
-                            <li>
-                                <a href="toplumsal-yatirimlar/ksv.html" title="Toplumsal Yat&#x131;r&#x131;mlar">
-                                    KSV
-                                </a>
-                            </li>
-                            <li>
-                                <a href="toplumsal-yatirimlar/surdurulebilirlik.html" title="Toplumsal Yat&#x131;r&#x131;mlar">
-                                    S&#xFC;rd&#xFC;r&#xFC;lebilirlik
-                                </a>
-                            </li>
-                            <li>
-                                <a href="toplumsal-yatirimlar/taahhutler.html" title="Toplumsal Yat&#x131;r&#x131;mlar">
-                                    Taahh&#xFC;tler
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li class="submenu">
-                        <a href="insan-kaynaklari.html" title="&#x130;nsan Kaynaklar&#x131;">
-                            &#x130;nsan Kaynaklar&#x131;
-                        </a>
 
-                        <ol>
-                            <li>
-                                <a href="insan-kaynaklari/insan-kaynaklari-uygulamalari.html" title="&#x130;nsan Kaynaklar&#x131;">
-                                    Uygulamalar
-                                </a>
-                            </li>
-                            <li>
-                                <a href="insan-kaynaklari/kalegends.html" title="&#x130;nsan Kaynaklar&#x131;">
-                                    Kalegends
-                                </a>
-                            </li>
-                            <li>
-                                <a href="insan-kaynaklari/gelecegin-kaleleri.html" title="&#x130;nsan Kaynaklar&#x131;">
-                                    Gelece&#x11F;in Kaleleri
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li class="submenu">
-                        <a href="haberler.html" title="Medya">
-                            Medya
-                        </a>
-
-                        <ol>
-                            <li>
-                                <a href="haberler.html" title="Medya">
-                                    Bizden Haberler
-                                </a>
-                            </li>
-                            <li>
-                                <a href="basin-odasi.html" title="Medya">
-                                    Bas&#x131;n Odas&#x131;
-                                </a>
-                            </li>
-                            <li>
-                                <a href="kurumsal-kimlik.html" title="Medya">
-                                    Kurumsal Kimlik
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li class="submenu">
-                        <a href="iletisim.html" title="&#x130;leti&#x15F;im">
-                            &#x130;leti&#x15F;im
-                        </a>
-
-                        <ol>
-                            <li>
-                                <a href="etik-hat.html" title="&#x130;leti&#x15F;im">
-                                    Etik Hat
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
                 </ul>
                 <ul class="nav align-items-center ml-auto">
                     <li class="d-none d-md-inline">
