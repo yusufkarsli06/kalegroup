@@ -1,6 +1,11 @@
 using KaleGroup.Business.Business;
 using KaleGroup.Business.IBusiness;
 using KaleGroup.DataAccess.Context;
+using KaleGroup.DataAccess.Repository;
+using KaleGroup.DataAccess.Repository.Menu.Command;
+using KaleGroup.DataAccess.Repository.SubMenu.Interface;
+using KaleGroup.DataAccess.Repository.User.Command;
+using KaleGroup.DataAccess.Repository.User.Interface;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -10,20 +15,24 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=kalegroup;MultipleActiveResultSets=true;Integrated Security=True; TrustServerCertificate=True"));
- 
+builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=kalegroup;MultipleActiveResultSets=true;Integrated Security=True; TrustServerCertificate=True"));
+
 
 //builder.Services.AddControllersWithViews();
- builder.Services.AddTransient<IUserLogic, UserLogic>();
- builder.Services.AddTransient<IMenuLogic, MenuLogic>();
- builder.Services.AddTransient<ISubMenuLogic, SubMenuLogic>();
+//builder.Services.AddTransient<IUserLogic, UserLogic>();
+ //builder.Services.AddTransient<IMenuLogic, MenuLogic>();
+//builder.Services.AddTransient<ISubMenuLogic, SubMenuLogic>();
 
 
-//builder.Services.AddScoped(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));
-//builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+//builder.Services.AddTransient(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));
+//builder.Services.AddScoped(typeof(KaleGroup.DataAccess.Abstract.IRepository<IMenuRepository>), typeof(KaleGroup.DataAccess.Abstract.Repository<MenuRepository>));
+//builder.Services.AddScoped(typeof(KaleGroup.DataAccess.Abstract.IRepository<ISubMenuRepository>), typeof(KaleGroup.DataAccess.Abstract.Repository<SubMenuRepository>));
+//builder.Services.AddScoped(typeof(KaleGroup.DataAccess.Abstract.IRepository<IUserRepository>), typeof(KaleGroup.DataAccess.Abstract.Repository<UserRepository>));
+// builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
