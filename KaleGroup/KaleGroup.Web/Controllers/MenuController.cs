@@ -61,9 +61,7 @@ namespace KaleGroup.Web.Controllers
             vm.Description = menuDtos.Description;
             vm.IsActive = menuDtos.IsActive;
             vm.Id = menuDtos.Id;
-
-
-
+             
 
             return View(vm);
         }

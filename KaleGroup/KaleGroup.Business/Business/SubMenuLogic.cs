@@ -2,8 +2,10 @@
 using KaleGroup.Business.IBusiness;
 using KaleGroup.Common.Helper;
 using KaleGroup.Data.Entities;
+using KaleGroup.DataAccess.Repository.Menu.Command;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
 using KaleGroup.DataAccess.Repository.User.Interface;
+using Nest;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,19 +27,69 @@ namespace KaleGroup.Business.Business
         {
             List<SubMenuDtos> subMenuList = new List<SubMenuDtos>();
             var subMenuResult = _subMenuRepository.GetSubMenuList();
-            foreach ( var item in subMenuResult)
+            foreach (var item in subMenuResult)
             {
-                SubMenuDtos menu = new SubMenuDtos();
-                menu.Name= item.Name;
-                menu.Description= item.Description;
-                menu.EnDescription= item.EnDescription;
-                menu.EnName= item.EnName;
-                menu.Id= item.Id;
-                menu.MenuId= item.MenuId;
-                subMenuList.Add(menu); 
+                SubMenuDtos subMenu = new SubMenuDtos();
+                subMenu.Name = item.Name;
+                subMenu.Description = item.Description;
+                subMenu.EnDescription = item.EnDescription;
+                subMenu.EnName = item.EnName;
+                subMenu.IsActive = item.IsActive;
+                subMenu.Id = item.Id;
+                subMenu.MenuId = item.MenuId;
+                subMenuList.Add(subMenu);
 
             }
             return subMenuList;
+        }
+        public void PasiveSubMenu(int subMenuId)
+        {
+            _subMenuRepository.PasiveSubMenu(subMenuId);
+        }
+
+        public void DeleteSubMenu(int subMenuId)
+        {
+            _subMenuRepository.Delete(subMenuId);
+        }
+        public void AddSubMenu(SubMenuDtos param)
+        {
+            SubMenus subMenus = new SubMenus();
+            subMenus.Name = param.Name;
+            subMenus.Description = param.Description;
+            subMenus.EnDescription = param.EnDescription;
+            subMenus.EnName = param.EnName;
+            subMenus.IsActive = true;
+            subMenus.MenuId = param.MenuId;
+            _subMenuRepository.Insert(subMenus);
+        }
+
+        public void UpdateSubMenu(SubMenuDtos param)
+        {
+            SubMenus subMenus = new SubMenus();
+            subMenus.Name = param.Name;
+            subMenus.Description = param.Description;
+            subMenus.EnDescription = param.EnDescription;
+            subMenus.EnName = param.EnName;
+            subMenus.IsActive = true;
+            subMenus.MenuId = param.MenuId;
+            _subMenuRepository.Update(subMenus);
+        }
+
+        public SubMenuDtos GetSubMenu(int subMenuId)
+        {
+            SubMenuDtos subMenuDtos = new SubMenuDtos();
+
+            var subMenuResult = _subMenuRepository.GetById(subMenuId);
+
+            subMenuDtos.EnDescription = subMenuResult.EnDescription;
+            subMenuDtos.Description = subMenuResult.Description;
+            subMenuDtos.Name = subMenuResult.Name;
+            subMenuDtos.EnName = subMenuResult.EnName;
+            subMenuDtos.IsActive = subMenuResult.IsActive;
+            subMenuDtos.Id = subMenuResult.Id;
+            return subMenuDtos;
+
+
         }
     }
 }

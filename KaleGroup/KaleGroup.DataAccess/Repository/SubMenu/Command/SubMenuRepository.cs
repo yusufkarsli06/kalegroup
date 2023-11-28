@@ -19,12 +19,14 @@ namespace KaleGroup.DataAccess.Repository.User.Command
      
         public void UpdateSubMenu(SubMenus subMenu)
         {
-            var menu = _dbSet.Where(x => x.Id == subMenu.Id).FirstOrDefault();
+            var subMenus = _dbSet.Where(x => x.Id == subMenu.Id).FirstOrDefault();
 
-            menu.Name = subMenu.Name;
-            menu.Description = subMenu.Description;            
+            subMenus.Name = subMenu.Name;
+            subMenus.EnName = subMenu.EnName;
+            subMenus.Description = subMenu.Description;
+            subMenus.EnDescription = subMenu.EnDescription;            
 
-            _dbContext.Entry(menu).State = EntityState.Modified;
+            _dbContext.Entry(subMenus).State = EntityState.Modified;
 
             _dbContext.SaveChanges();
 
@@ -33,11 +35,17 @@ namespace KaleGroup.DataAccess.Repository.User.Command
 
         public void PasiveSubMenu(int subMenuId)
         {
-            var menu = _dbSet.Where(x => x.Id == subMenuId).FirstOrDefault();
-
-            menu.IsActive = false;            
-
-            _dbContext.Entry(menu).State = EntityState.Modified;
+            var subMenu = _dbSet.Where(x => x.Id == subMenuId).FirstOrDefault();
+            if (subMenu.IsActive == false)
+            {
+                subMenu.IsActive = true;
+            }
+            else
+            {
+                subMenu.IsActive = false;
+            }
+          
+            _dbContext.Entry(subMenu).State = EntityState.Modified;
 
             _dbContext.SaveChanges();
 
@@ -47,12 +55,12 @@ namespace KaleGroup.DataAccess.Repository.User.Command
         public List<SubMenus> GetSubMenuList()
         {
         
-             return _dbSet.Where(x => x.IsActive).ToList();
+             return _dbSet.ToList();
         }
 
         public List<SubMenus> GetSubMenuListById(int menuId)
         {
-            return _dbSet.Where(x => x.IsActive && x.Id == menuId).ToList();
+            return _dbSet.Where(x => x.Id == menuId).ToList();
         }
     }
 }

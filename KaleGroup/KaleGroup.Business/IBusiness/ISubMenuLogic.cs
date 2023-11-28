@@ -12,7 +12,18 @@ namespace KaleGroup.Business.IBusiness
 {
     public interface ISubMenuLogic
     {
-       List<SubMenuDtos> GetSubMenuList();
-      
+        List<SubMenuDtos> GetSubMenuList();
+
+        void PasiveSubMenu(int subMenuId);
+        void DeleteSubMenu(int subMenuId);
+        void AddSubMenu(SubMenuDtos param);
+        void UpdateSubMenu(SubMenuDtos param);
+
+        SubMenuDtos GetSubMenu(int subMenuId);
     }
 }
+ 
+ 
+ 
+ 
+ 
