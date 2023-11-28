@@ -12,33 +12,23 @@ using System.Threading.Tasks;
 namespace KaleGroup.DataAccess.Repository.User.Command
 {
 
-    public class UserRepository: IUserRepository
+    public class UserRepository: Repository<Users>,IUserRepository
     {
-        private readonly IRepository<Users> _userRepository;
-        private readonly BaseContext _dbContext;
-        public UserRepository(IRepository<Users> userRepository, BaseContext dbContext)
-        {
-            _userRepository = userRepository;
-            _dbContext = dbContext;
-
+        public UserRepository() : base(new BaseContext())
+        { 
         }
-        public bool AddUser(Users users)
+        public UserRepository(BaseContext dbContext):base(dbContext) 
         {
-            var result = _userRepository.InsertAsync(users);
-            if (result != null)
-                return true;
-
-            return false;
         }
         public Users AuthenticateUser(string username, string password)
         {
-            var model = _userRepository.Table.Where(x => x.Username == username && x.Password == password && x.IsActive).FirstOrDefault();
+            var model = _dbSet.Where(x => x.Username == username && x.Password == password && x.IsActive).FirstOrDefault();
 
             return model;
         }
-        public bool ChangePassword(long userId, string password)
+        public void ChangePassword(int userId, string password)
         {
-            var user = _userRepository.Table.Where(x => x.Id == userId).FirstOrDefault();
+            var user = _dbSet.Where(x => x.Id == userId).FirstOrDefault();
 
             user.Password = password;
 
@@ -46,12 +36,6 @@ namespace KaleGroup.DataAccess.Repository.User.Command
 
             _dbContext.SaveChanges();
 
-            return true;
-        }
-
-        public Users GetUserInfo(long userId)
-        {
-            return _userRepository.Table.Where(x => x.Id == userId).FirstOrDefault();
         }
     }
 }

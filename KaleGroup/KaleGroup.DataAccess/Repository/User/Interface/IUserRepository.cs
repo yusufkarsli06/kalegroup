@@ -1,13 +1,12 @@
 ﻿using KaleGroup.Data.Entities;
+using KaleGroup.DataAccess.Abstract;
 
 namespace KaleGroup.DataAccess.Repository.User.Interface
 {
-    public interface IUserRepository
+    public interface IUserRepository : IRepository<Users>
     {
-        bool AddUser(Users users);
         Users AuthenticateUser(string username, string password);
-        bool ChangePassword(long userId, string password);
-        Users GetUserInfo(long userId);
+        void ChangePassword(int userId, string password);
 
     }
 }

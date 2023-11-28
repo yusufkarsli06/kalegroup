@@ -1,13 +1,13 @@
 ﻿using KaleGroup.Data.Entities;
+using KaleGroup.DataAccess.Abstract;
 using Microsoft.EntityFrameworkCore;
 
 namespace KaleGroup.DataAccess.Repository.SubMenu.Interface
 {
-    public interface ISubMenuRepository
+    public interface ISubMenuRepository:IRepository<SubMenus>
     {
-        bool AddSubMenu(SubMenus subMenu);
-        bool UpdateSubMenu(SubMenus subMenu);
-        bool PasiveSubMenu(int subMenuId);
+        void UpdateSubMenu(SubMenus subMenu);
+        void PasiveSubMenu(int subMenuId);
         List<SubMenus> GetSubMenuList();
         List<SubMenus> GetSubMenuListById(int menuId);
     }

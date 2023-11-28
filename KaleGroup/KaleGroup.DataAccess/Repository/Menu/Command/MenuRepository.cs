@@ -12,29 +12,21 @@ using System.Threading.Tasks;
 
 namespace KaleGroup.DataAccess.Repository.Menu.Command
 {
-
-    public class MenuRepository : IMenuRepository
+    
+    public class MenuRepository : Repository<Menus>, IMenuRepository
     {
-        private readonly IRepository<Menus> _menuRepository;
-        private readonly BaseContext _dbContext;
-        public MenuRepository(IRepository<Menus> menuRepository, BaseContext dbContext)
+        public MenuRepository() : base(new BaseContext())
         {
-            _menuRepository = menuRepository;
-            _dbContext = dbContext;
-
         }
-        public bool AddMenu(Menus subMenus)
+        public MenuRepository(BaseContext dbContext) : base(dbContext)
         {
-            var result = _menuRepository.InsertAsync(subMenus);
-            if (result != null)
-                return true;
-
-            return false;
         }
+       
+     
    
-        public bool UpdateMenu(Menus menus)
+        public void UpdateMenu(Menus menus)
         {
-            var menu = _menuRepository.Table.Where(x => x.Id == menus.Id).FirstOrDefault();
+            var menu = _dbSet.Where(x => x.Id == menus.Id).FirstOrDefault();
 
             menu.Name = menus.Name;
             menu.Description = menus.Description;
@@ -42,13 +34,12 @@ namespace KaleGroup.DataAccess.Repository.Menu.Command
             _dbContext.Entry(menu).State = EntityState.Modified;
 
             _dbContext.SaveChanges();
-
-            return true;
+             
         }
 
-        public bool PasiveMenu(int menuId)
+        public void PasiveMenu(int menuId)
         {
-            var menu = _menuRepository.Table.Where(x => x.Id == menuId).FirstOrDefault();
+            var menu = _dbSet.Where(x => x.Id == menuId).FirstOrDefault();
 
             menu.IsActive = false;            
 
@@ -56,15 +47,14 @@ namespace KaleGroup.DataAccess.Repository.Menu.Command
 
             _dbContext.SaveChanges();
 
-            return true;
+           
         }
 
         public List<Menus> GetMenuList()
         {
-            return _menuRepository.Table.Where(x=>x.IsActive).ToList();
+            return _dbSet.Where(x=>x.IsActive).ToList();
         }
     }
 }
-
 
  

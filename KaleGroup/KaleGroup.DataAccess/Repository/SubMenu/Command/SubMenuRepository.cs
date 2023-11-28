@@ -7,28 +7,19 @@ using Microsoft.EntityFrameworkCore;
 namespace KaleGroup.DataAccess.Repository.User.Command
 {
 
-    public class SubMenuRepository : ISubMenuRepository
+    public class SubMenuRepository : Repository<SubMenus>, ISubMenuRepository
     {
-        private readonly IRepository<SubMenus> _SubMenuRepository;
-        private readonly BaseContext _dbContext;
-        public SubMenuRepository(IRepository<SubMenus> SubMenuRepository, BaseContext dbContext)
+        public SubMenuRepository() : base(new BaseContext())
         {
-            _SubMenuRepository = SubMenuRepository;
-            _dbContext = dbContext;
-
         }
-        public bool AddSubMenu(SubMenus subMenu)
+        public SubMenuRepository(BaseContext dbContext) : base(dbContext)
         {
-            var result = _SubMenuRepository.InsertAsync(subMenu);
-            if (result != null)
-                return true;
-
-            return false;
         }
-   
-        public bool UpdateSubMenu(SubMenus subMenu)
+
+     
+        public void UpdateSubMenu(SubMenus subMenu)
         {
-            var menu = _SubMenuRepository.Table.Where(x => x.Id == subMenu.Id).FirstOrDefault();
+            var menu = _dbSet.Where(x => x.Id == subMenu.Id).FirstOrDefault();
 
             menu.Name = subMenu.Name;
             menu.Description = subMenu.Description;            
@@ -37,12 +28,12 @@ namespace KaleGroup.DataAccess.Repository.User.Command
 
             _dbContext.SaveChanges();
 
-            return true;
+           
         }
 
-        public bool PasiveSubMenu(int subMenuId)
+        public void PasiveSubMenu(int subMenuId)
         {
-            var menu = _SubMenuRepository.Table.Where(x => x.Id == subMenuId).FirstOrDefault();
+            var menu = _dbSet.Where(x => x.Id == subMenuId).FirstOrDefault();
 
             menu.IsActive = false;            
 
@@ -50,17 +41,18 @@ namespace KaleGroup.DataAccess.Repository.User.Command
 
             _dbContext.SaveChanges();
 
-            return true;
+         
         }
 
         public List<SubMenus> GetSubMenuList()
         {
-            return _SubMenuRepository.Table.Where(x=>x.IsActive).ToList();
+        
+             return _dbSet.Where(x => x.IsActive).ToList();
         }
 
         public List<SubMenus> GetSubMenuListById(int menuId)
         {
-            return _SubMenuRepository.Table.Where(x => x.IsActive && x.Id == menuId).ToList();
+            return _dbSet.Where(x => x.IsActive && x.Id == menuId).ToList();
         }
     }
 }

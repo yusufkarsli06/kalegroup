@@ -33,6 +33,7 @@ namespace KaleGroup.Business.Business
                 menu.EnDescription= item.EnDescription;
                 menu.EnName= item.EnName;
                 menu.Id= item.Id;
+                menu.MenuId= item.MenuId;
                 subMenuList.Add(menu); 
 
             }

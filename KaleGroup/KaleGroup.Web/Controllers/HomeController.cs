@@ -1,4 +1,5 @@
 ﻿using KaleGroup.Business.IBusiness;
+using KaleGroup.Data.Entities;
 using KaleGroup.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -8,42 +9,44 @@ namespace KaleGroup.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        //private readonly IMenuLogic _menuLogic;
-        //private readonly ISubMenuLogic _subMenuLogic;
+        private readonly IMenuLogic _menuLogic;
+        private readonly ISubMenuLogic _subMenuLogic;
 
-        public HomeController(ILogger<HomeController> logger
-            //, IMenuLogic menuLogic,ISubMenuLogic subMenuLogic
+        public HomeController(ILogger<HomeController> logger,
+          IMenuLogic menuLogic,ISubMenuLogic subMenuLogic
             )
         {
             _logger = logger;
-            //_subMenuLogic = subMenuLogic;
-            //_menuLogic = menuLogic; 
+            _subMenuLogic = subMenuLogic;
+           _menuLogic = menuLogic; 
         }
 
         public IActionResult Index()
         {
             List<MenuViewModel> vm = new List<MenuViewModel>();
-           // List<SubMenuViewModel> subMenuList = new List<SubMenuViewModel>();
+            List<SubMenuViewModel> subMenuList = new List<SubMenuViewModel>();
 
 
-           //var menuResult = _menuLogic.GetMenuList();
-           //var subMenuResult = _subMenuLogic.GetSubMenuList();
+            var menuResult = _menuLogic.GetMenuList();
+            var subMenuResult = _subMenuLogic.GetSubMenuList();
 
-           // foreach (var item in menuResult)
-           // {
-           //    MenuViewModel menu = new MenuViewModel();
-           //     menu.Name = item.Name;             
-           //     menu.EnName= item.EnName;
+            foreach (var item in menuResult)
+            {
+                MenuViewModel menu = new MenuViewModel();
+                menu.Name = item.Name;
+                menu.EnName = item.EnName;
 
-           //     foreach (var subItem in subMenuResult)
-           //     {
-           //         SubMenuViewModel subMenu = new SubMenuViewModel();
-           //         subMenu.Name= subItem.Name;
-           //         subMenu.EnName= subItem.EnName;
-           //     }
-
-           //     vm.Add(menu);
-           // }
+                foreach (var subItem in subMenuResult.Where(x=>x.MenuId==item.Id))
+                {
+                    SubMenuViewModel subMenu = new SubMenuViewModel();
+                    subMenu.Name = subItem.Name;
+                    subMenu.EnName = subItem.EnName;
+                    subMenu.MenuId = subItem.MenuId;
+                    subMenuList.Add(subMenu);
+                }
+                menu.SubMenuViewModels = subMenuList;
+                vm.Add(menu);
+            }
 
             return View(vm);
         }

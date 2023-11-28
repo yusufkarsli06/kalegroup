@@ -20,7 +20,7 @@ namespace KaleGroup.Business.Business
             _userRepository = userRepository;
         }
 
-        public bool AddUser(UserDtos users)
+        public void AddUser(UserDtos users)
         {
             Users user = new Users();
             user.Username = users.Username;
@@ -28,7 +28,7 @@ namespace KaleGroup.Business.Business
             user.IsActive =true;
             user.Password = HashHelper.ComputeSha256Hash(users.Password);  
            
-            return _userRepository.AddUser(user);
+            _userRepository.Insert(user);
         }
         public bool AuthenticateUser(string username, string password)
         {          
@@ -43,13 +43,13 @@ namespace KaleGroup.Business.Business
                 return false;
             }
         }
-        public bool ChangePassword(long userId, string password)
+        public void ChangePassword(int userId, string password)
         {         
-            return _userRepository.ChangePassword(userId, HashHelper.ComputeSha256Hash(password));
+            _userRepository.ChangePassword(userId, HashHelper.ComputeSha256Hash(password));
         }
-        public UserDtos GetUserInfo(long userId)
+        public UserDtos GetUserInfo(int userId)
         {
-            var user =  _userRepository.GetUserInfo(userId);
+            var user =  _userRepository.GetById(userId);
 
             UserDtos userDtos = new UserDtos();
             userDtos.Username = user.Username;

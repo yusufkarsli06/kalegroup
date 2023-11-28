@@ -12,9 +12,9 @@ namespace KaleGroup.Business.IBusiness
 {
     public interface IUserLogic
     {
-        bool AddUser(UserDtos users);
+        void AddUser(UserDtos users);
         bool AuthenticateUser(string username, string password);
-        bool ChangePassword(long userId, string password);
-        UserDtos GetUserInfo(long userId);
+        void ChangePassword(int userId, string password);
+        UserDtos GetUserInfo(int userId);
     }
 }

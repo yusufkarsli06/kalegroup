@@ -13,11 +13,11 @@ using System.Threading.Tasks;
 namespace KaleGroup.DataAccess.Abstract
 {
 
-    public class Repository<T> : IRepository<T> where T : class
+    public class Repository<T>  where T : class
     {
         #region Fields
-        private readonly BaseContext _dbContext;
-        internal DbSet<T> _dbSet;
+        protected readonly BaseContext _dbContext;
+        protected DbSet<T> _dbSet;
 
         public IQueryable<T> Table
         {
