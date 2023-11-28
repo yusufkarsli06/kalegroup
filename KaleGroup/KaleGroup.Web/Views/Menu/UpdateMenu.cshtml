@@ -11,6 +11,9 @@
         <h1 class="text-center">Tüm <span class="text-primary">Menü Güncelle</span></h1>
     </div>
     <form asp-controller="Menu" asp-action="UpdateMenu" asp-validator="true">
+
+        <input type="hidden"  asp-for="Id">
+    
         @Html.AntiForgeryToken()
         <div class="row">
             <div class="col-lg-12">

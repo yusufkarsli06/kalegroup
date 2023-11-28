@@ -25,6 +25,30 @@
       "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css.map"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\char_counter.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\char_counter.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\char_counter.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\char_counter.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\code_view.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\code_view.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\code_view.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\code_view.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\colors.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\colors.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\colors.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\colors.min.css"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\colors\\cyan.css",
       "PackagePath": "staticwebassets\\Admin\\css\\colors\\cyan.css"
     },
@@ -65,8 +89,80 @@
       "PackagePath": "staticwebassets\\Admin\\css\\datepicker.min.css"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\draggable.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\draggable.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\draggable.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\draggable.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\emoticons.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\emoticons.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\emoticons.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\emoticons.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\file.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\file.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\file.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\file.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\files_manager.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\files_manager.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\files_manager.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\files_manager.min.css"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\flatpickr.min.css",
       "PackagePath": "staticwebassets\\Admin\\css\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\fullscreen.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\fullscreen.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\fullscreen.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\fullscreen.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\help.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\help.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\help.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\help.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\image.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\image.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\image.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\image.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\image_manager.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\image_manager.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\image_manager.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\image_manager.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\line_breaker.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\line_breaker.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\line_breaker.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\line_breaker.min.css"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\materialdesignicons.css.map",
@@ -85,12 +181,28 @@
       "PackagePath": "staticwebassets\\Admin\\css\\meyerweb-slider.css"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\quick_insert.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\quick_insert.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\quick_insert.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\quick_insert.min.css"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\simplebar.css",
       "PackagePath": "staticwebassets\\Admin\\css\\simplebar.css"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\site.css",
       "PackagePath": "staticwebassets\\Admin\\css\\site.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\special_characters.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\special_characters.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\special_characters.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\special_characters.min.css"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\style-dark-rtl.css",
@@ -165,6 +277,14 @@
       "PackagePath": "staticwebassets\\Admin\\css\\swiper.min.css"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\table.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\table.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\table.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\table.min.css"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\tiny-slider.css",
       "PackagePath": "staticwebassets\\Admin\\css\\tiny-slider.css"
     },
@@ -175,6 +295,22 @@
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\tobii.min.css",
       "PackagePath": "staticwebassets\\Admin\\css\\tobii.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\trim_video.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\trim_video.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\trim_video.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\trim_video.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\video.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\video.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\css\\video.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\video.min.css"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Admin\\favicon.ico",

@@ -13,6 +13,10 @@ namespace KaleGroup.Business.IBusiness
     public interface IMenuLogic
     {
        List<MenuDtos> GetMenuList();
-      
+        void PasiveMenu(int menuId);
+        void DeleteMenu(int menuId);
+        void AddMenu(MenuDtos param);
+        MenuDtos GetMenu(int menuId);
+        void UpdateMenu(MenuDtos param);
     }
 }

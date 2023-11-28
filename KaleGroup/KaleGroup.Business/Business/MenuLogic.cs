@@ -25,22 +25,70 @@ namespace KaleGroup.Business.Business
         {
             List<MenuDtos> menuList = new List<MenuDtos>();
             var menuResult = _menuRepository.GetMenuList();
-            foreach ( var item in menuResult)
+            foreach (var item in menuResult)
             {
                 MenuDtos menu = new MenuDtos();
-                menu.Name= item.Name;
-                menu.Description= item.Description;
-                menu.EnDescription= item.EnDescription;
-                menu.EnName= item.EnName;
-                menu.Id= item.Id;
-                menuList.Add(menu); 
+                menu.Name = item.Name;
+                menu.Description = item.Description;
+                menu.EnDescription = item.EnDescription;
+                menu.EnName = item.EnName;
+                menu.IsActive = item.IsActive;
+                menu.Id = item.Id;
+                menuList.Add(menu);
 
             }
             return menuList;
+        }
+        public void PasiveMenu(int menuId)
+        {
+            _menuRepository.PasiveMenu(menuId);
+        }
+
+        public void DeleteMenu(int menuId)
+        {
+            _menuRepository.Delete(menuId);
+        }
+        public void AddMenu(MenuDtos param)
+        {
+            Menus menus = new Menus();
+            menus.Name = param.Name;
+            menus.Description = param.Description;
+            menus.EnDescription = param.EnDescription;
+            menus.EnName = param.EnName;
+            menus.IsActive = true;
+            _menuRepository.Insert(menus);
+        }
+
+        public void UpdateMenu(MenuDtos param)
+        {
+            Menus menus = new Menus();
+            menus.Id = param.Id;
+            menus.Name = param.Name;
+            menus.Description = param.Description;
+            menus.EnDescription = param.EnDescription;
+            menus.EnName = param.EnName;
+            menus.IsActive = true;
+            _menuRepository.Update(menus);
+        }
+
+        public MenuDtos GetMenu(int menuId)
+        {
+            MenuDtos menuDtos = new MenuDtos();
+
+            var menuResult = _menuRepository.GetById(menuId);
+
+            menuDtos.EnDescription  = menuResult.EnDescription;
+            menuDtos.Description = menuResult.Description;  
+            menuDtos.Name = menuResult.Name;
+            menuDtos.EnName = menuResult.EnName;
+            menuDtos.IsActive = menuResult.IsActive;
+            menuDtos.Id = menuResult.Id;
+            return menuDtos;
+
+
         }
     }
 }
 
 
- 
- 
+

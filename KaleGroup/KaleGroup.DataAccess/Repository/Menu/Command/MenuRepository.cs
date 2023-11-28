@@ -40,8 +40,15 @@ namespace KaleGroup.DataAccess.Repository.Menu.Command
         public void PasiveMenu(int menuId)
         {
             var menu = _dbSet.Where(x => x.Id == menuId).FirstOrDefault();
-
-            menu.IsActive = false;            
+            if (menu.IsActive == false)
+            {
+                menu.IsActive = true;
+            }
+            else
+            {
+                menu.IsActive = false;
+            }
+                   
 
             _dbContext.Entry(menu).State = EntityState.Modified;
 
@@ -52,7 +59,7 @@ namespace KaleGroup.DataAccess.Repository.Menu.Command
 
         public List<Menus> GetMenuList()
         {
-            return _dbSet.Where(x=>x.IsActive).ToList();
+            return _dbSet.ToList();
         }
     }
 }

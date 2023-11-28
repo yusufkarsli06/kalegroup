@@ -1,4 +1,6 @@
-﻿using KaleGroup.Business.IBusiness;
+﻿using KaleGroup.Business.Business;
+using KaleGroup.Business.Dto;
+using KaleGroup.Business.IBusiness;
 using KaleGroup.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -7,37 +9,102 @@ namespace KaleGroup.Web.Controllers
 {
     public class MenuController : Controller
     {
-
-        public MenuController()
+        private readonly IMenuLogic _menuLogic;
+        public MenuController(IMenuLogic menuLogic)
         {
-
+            _menuLogic= menuLogic;
 
         }
 
         public IActionResult Index()
         {
-            List<AddMenuViewModel> vm = new List<AddMenuViewModel>();
+ 
+            List<MenuViewModel> vm = new List<MenuViewModel>();
+ 
+
+            var menuResult = _menuLogic.GetMenuList();
+           
+
+            foreach (var item in menuResult)
+            {
+                MenuViewModel menu = new MenuViewModel();
+                menu.Name = item.Name;
+                menu.EnName = item.EnName;
+                menu.Description = item.Description;
+                menu.EnDescription = item.EnDescription;
+                menu.IsActive = item.IsActive;
+                menu.Id= item.Id;
+                menu.IsActive= item.IsActive;
+                
+            
+                vm.Add(menu);
+            }
+
+            return View(vm);
+ 
+        }
+
+        public IActionResult AddMenu()
+        {
+            AddMenuViewModel vm = new AddMenuViewModel();
+
+            return View(vm);
+        }
+        public IActionResult UpdateMenu(int menuId)
+        {
+            AddMenuViewModel vm = new AddMenuViewModel();
+           var menuDtos= _menuLogic.GetMenu(menuId);
+           
+            vm.Name = menuDtos.Name;
+            vm.EnName = menuDtos.EnName;
+            vm.EnDescription = menuDtos.EnDescription;
+            vm.Description = menuDtos.Description;
+            vm.IsActive = menuDtos.IsActive;
+            vm.Id = menuDtos.Id;
+
 
 
 
             return View(vm);
         }
 
-        public IActionResult AddMenu(AddMenuViewModel param)
-        {
-            return View();
-        }
+        [HttpPost]
         public IActionResult UpdateMenu(AddMenuViewModel param)
         {
-            return View();
+            MenuDtos menuDtos = new MenuDtos();
+            menuDtos.Name = param.Name;
+            menuDtos.EnName = param.EnName;
+            menuDtos.EnDescription = param.EnDescription;
+            menuDtos.Description = param.Description;
+            menuDtos.Id = param.Id;
+            menuDtos.IsActive = param.IsActive;
+
+            _menuLogic.UpdateMenu(menuDtos);
+            return RedirectToAction("Index");
         }
+        [HttpPost]
+        public IActionResult AddMenu(AddMenuViewModel param)
+        {
+            MenuDtos menuDtos = new MenuDtos();
+            menuDtos.Name = param.Name;
+            menuDtos.EnName = param.EnName;
+            menuDtos.EnDescription = param.EnDescription;
+            menuDtos.Description = param.Description;
+            menuDtos.IsActive = param.IsActive;
+            _menuLogic.AddMenu(menuDtos);
+            return RedirectToAction("Index");
+        }
+
+      
         public IActionResult DeleteMenu(int menuId)
         {
-            return View();
+            _menuLogic.DeleteMenu(menuId);
+            return RedirectToAction("Index");
         }
         public IActionResult PasiveMenu(int menuId)
         {
-            return View();
+            _menuLogic.PasiveMenu(menuId);
+            return RedirectToAction("Index");
         }
     }
 }
