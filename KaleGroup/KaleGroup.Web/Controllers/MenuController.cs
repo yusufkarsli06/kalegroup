@@ -16,9 +16,11 @@ namespace KaleGroup.Web.Controllers
 
         public IActionResult Index()
         {
-            
+            List<AddMenuViewModel> vm = new List<AddMenuViewModel>();
 
-            return View();
+
+
+            return View(vm);
         }
 
         public IActionResult AddMenu(AddMenuViewModel param)

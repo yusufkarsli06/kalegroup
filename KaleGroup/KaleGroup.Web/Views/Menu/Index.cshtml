@@ -1,6 +1,78 @@
-﻿ 
+﻿ @model List<KaleGroup.Web.Models.AddMenuViewModel> 
  @{
-    ViewData["Title"] = "AllUsers";
+    ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
+ 
+<div class="container mt-5 mb-5">
+    <div class="heading mb-3">
+        Menüler
+        <h1 class="text-center">
+          
+            <a href="@Url.Action("AddMenu","Menu")" class="btn btn-primary pull-right">Menü Ekle</a>
+            @Html.AntiForgeryToken()
+        </h1>
+    </div>
+    <table id="dataTable" class="table table-striped table-bordered" width="100%">
+        <thead>
+            <tr>
+                <th>
+                    Menü Adı
+                </th>
+                <th>
+                    Açıklama
+                </th>
+
+             
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Name
+
+                    </td>
+                    <td>
+                        @item.Description
+                    </td>
+
+                    
+
+                    <td class="text-center">
+                        <form asp-action="Delete" asp-controller="CorporatePetition" asp-formhelper="true">
+                            <a href="@Url.Action("UpdateMenu","Menu",new { id = item.Id })" class="btn btn-sm btn-primary" target="_blank"><i class="uil uil-refresh"></i> Güncelle</a>
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" asp-for="@item.Id" id="Id" name="Id" />
+                            <a href="@Url.Action("PasiveMenu","Menu",new { id = item.Id ,regulationsId = item.Id})" class="btn btn-sm btn-primary"><i class="uil uil-refresh"></i> Pasif Et </a>
+                            @Html.AntiForgeryToken()
+                            <a href="@Url.Action("Delete","Menu",new { id = item.Id ,regulationsId = item.Id})" class="btn btn-sm btn-danger"><i class="uil uil-refresh"></i> Sil</a>
+                            @Html.AntiForgeryToken()
+                          
+
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#dataTable").dataTable({
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Turkish.json"
+            },
+            "searching": true,
+            "ordering": true,
+            "paging": true,
+            "pagingType": "full_numbers",
+            "pageLength": 20,
+            "responsive": true,
+            "order": [[1, 'asc']]
+        });
+    });
+</script>

@@ -11,13 +11,13 @@
     <meta name="title" content="Kale Grubu">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="shortcut icon" type="~/image/png" href="~/favicon.png" />
-    <link rel="stylesheet" href="../use.typekit.net/rlu6mzh.css">
-    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/%40mdi/font%404.7.95/css/materialdesignicons.min.css" />
+    <link rel="shortcut icon" type="~/Admin/image/png" href="~/favicon.png" />
+    <link rel="stylesheet" href="~/use.typekit.net/rlu6mzh.css">
+    <link rel="stylesheet" href="~/cdn.jsdelivr.net/npm/%40mdi/font%404.7.95/css/materialdesignicons.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="~/css/main.css">
-    <link rel="stylesheet" href="~/css/extend.css">
+    <link rel="stylesheet" href="~/cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="~/Admin/">
+    <link rel="stylesheet" href="~/Admin/">
    
 
    
@@ -36,7 +36,7 @@
     <link href="~/dashboard/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- simplebar -->
     <link href="~/dashboard/assets/css/simplebar.css" rel="stylesheet" type="text/css" />
-    <link href="~/css/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Admin/" rel="stylesheet" />
     <!-- Icons -->
     <link href="~/dashboard/assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
     <link href="~/dashboard/assets/css/tabler-icons.min.css" rel="stylesheet" type="text/css" />
@@ -44,19 +44,19 @@
     <!-- Css -->
     <link href="~/dashboard/assets/css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
-    <link href="~/css/jquery-ui.theme.min.css" rel="stylesheet" />
+    <link href="~/Admin/" rel="stylesheet" />
     <link rel="stylesheet" href="/formhelper/formhelper.min.css" />
-    <link rel="stylesheet" href="~/froala/css/froala_editor.css">
-    <link rel="stylesheet" href="~/froala/css/froala_style.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/code_view.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/colors.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/emoticons.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/image_manager.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/image.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/line_breaker.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/table.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/char_counter.css">
-    <link rel="stylesheet" href="~/froala/css/plugins/video.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/froala_editor.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/froala_style.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/code_view.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/colors.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/emoticons.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/image_manager.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/image.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/line_breaker.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/table.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/char_counter.css">
+    <link rel="stylesheet" href="~/Admin/froala/css/plugins/video.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">
     <style>
         div#dragme {
@@ -180,10 +180,11 @@
 
             <div class="container-fluid">
                 <div class="layout-specing">
+                    @RenderBody()
                 </div>
             </div>
 
-            @RenderBody()
+         
 
 <footer class="bg-white shadow py-3">
     <div class="container-fluid">

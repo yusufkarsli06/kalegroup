@@ -11,9 +11,13 @@ namespace KaleGroup.Web.Controllers
         public UserController( )
         {         
             
-        } 
+        }
+        public IActionResult Index()
+        {
 
-     
+            return View();
+        }
+
         public IActionResult Logout()
         {
 
