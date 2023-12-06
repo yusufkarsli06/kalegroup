@@ -55,7 +55,7 @@
                     </td>
 
                     <td class="text-center">
-                        <form asp-action="Delete" asp-controller="CorporatePetition" asp-formhelper="true">
+                        @*<form asp-action="Delete" asp-controller="CorporatePetition" asp-formhelper="true">*@
                             <a href="@Url.Action("UpdateMenu","Menu",new { menuId = item.Id })" class="btn btn-sm btn-primary" target="_blank"><i class="uil uil-refresh"></i> Güncelle</a>
                             @Html.AntiForgeryToken()
                             <input type="hidden" asp-for="@item.Id" id="Id" name="Id" />
@@ -74,7 +74,7 @@
                             @Html.AntiForgeryToken()
 
 
-                        </form>
+                      @*  </form>*@
                     </td>
                 </tr>
             }

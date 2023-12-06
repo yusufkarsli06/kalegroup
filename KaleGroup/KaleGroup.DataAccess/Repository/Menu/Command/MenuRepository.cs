@@ -23,20 +23,7 @@ namespace KaleGroup.DataAccess.Repository.Menu.Command
         }
        
      
-   
-        public void UpdateMenu(Menus menus)
-        {
-            var menu = _dbSet.Where(x => x.Id == menus.Id).FirstOrDefault();
-
-            menu.Name = menus.Name;
-            menu.Description = menus.Description;
-            menu.IsActive = menus.IsActive;
-            _dbContext.Entry(menu).State = EntityState.Modified;
-
-            _dbContext.SaveChanges();
-             
-        }
-
+  
         public void PasiveMenu(int menuId)
         {
             var menu = _dbSet.Where(x => x.Id == menuId).FirstOrDefault();

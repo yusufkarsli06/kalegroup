@@ -19,7 +19,7 @@ namespace KaleGroup.DataAccess.Context
 
         }
 
-        public DbSet<Users> User { get; set; }
+        public DbSet<Users> Users { get; set; }
         public DbSet<SubMenus> SubMenus { get; set; }
         public DbSet<Pages> Pages { get; set; }
         public DbSet<Files> Files { get; set; }

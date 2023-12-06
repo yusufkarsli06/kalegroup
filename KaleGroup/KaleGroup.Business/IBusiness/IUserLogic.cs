@@ -16,5 +16,10 @@ namespace KaleGroup.Business.IBusiness
         bool AuthenticateUser(string username, string password);
         void ChangePassword(int userId, string password);
         UserDtos GetUserInfo(int userId);
+        List<UserDtos> GetUserList();
+        void PasiveUser(int userId);
+        void DeleteUser(int userId);
+        void UpdateUser(UserDtos users);
+        bool CheckUser(int userId, string password);
     }
 }

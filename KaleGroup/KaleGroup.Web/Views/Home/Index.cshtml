@@ -3,76 +3,6 @@
 }
 @model IEnumerable<KaleGroup.Web.Models.MenuViewModel>
  
-<body>
-    <main>
-        <header class="app-header bg-dark text-white sticky-top">
-            <div class="container d-flex align-items-center">
-                <a href="index.html" title="">
-                    <img src="~/image/logo.svg" alt="" class="mr-5 mr-xl-5">
-                </a>
-                <ul class="nav flex-grow-1 mr-5 d-none d-lg-flex">
-                   
-                    @foreach (var item in Model)
-                    {
-                        <li class="submenu">
-
-                            <a href="hakkimizda.html" title="@item.Name ">
-                                @item.Name 
-                            </a>
-
-                            <ol>
-                                @foreach (var subItem in item.SubMenuViewModels)
-                                {
-                                <li>
-                                    <a href="kurucumuz.html" title="Kurumsal">
-                                        @subItem.Name
-                                    </a>
-                                </li>  
-                                }       
-                               
-                            </ol>
-                        </li>
-                    }
-
-
-                </ul>
-                <ul class="nav align-items-center ml-auto">
-                    <li class="d-none d-md-inline">
-                        <a href="#" title="" class="open-search-box d-flex align-items-center">
-                            <i class="mdi mdi-magnify text-lg mr-2"></i> Arama
-                        </a>
-                    </li>
-                    <li class="submenu d-none d-md-inline">
-                        <a href="#" title="" data-code="tr-TR">
-                            T&#xFC;rk&#xE7;e
-                        </a>
-                        <ol>
-                            <li>
-                                <a href="index.html" data-code="tr-TR" title="T&#xFC;rk&#xE7;e">
-                                    T&#xFC;rk&#xE7;e
-                                </a>
-                            </li>
-                            <li>
-                                <a href="en.html" data-code="en-US" title="English">
-                                    English
-                                </a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li class="d-inline d-xl-none">
-                        <a href="#" title="" class="open-search-box-mobile d-flex align-items-center">
-                            <i class="mdi mdi-magnify text-xl"></i>
-                        </a>
-                    </li>
-                    <li class="d-inline d-xl-none">
-                        <a href="#mobile-menu" title="" class="d-flex align-items-center">
-                            <i class="mdi mdi-menu text-xl"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-
 
         <section>
             <div class="container pr-7 pr-md-0">
@@ -499,126 +429,27 @@
     </main>
     <nav id="mobile-menu">
         <ul>
-            <li>
-                <span>Kurumsal</span>
-                <ul>
-                    <li>
-                        <a href="hakkimizda.html" title="">
-                            Hakk&#x131;m&#x131;zda
-                        </a>
-                    </li>
-                    <li>
-                        <a href="kurucumuz.html" title="">
-                            Kurucumuz
-                        </a>
-                    </li>
-                    <li>
-                        <a href="yonetim.html" title="">
-                            Y&#xF6;netim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="kilometre-taslari.html" title="">
-                            Kilometre Ta&#x15F;lar&#x131;
-                        </a>
-                    </li>
-                    <li>
-                        <a href="baskanin-mesaji.html" title="">
-                            Ba&#x15F;kan&#x131;n Mesaj&#x131;
-                        </a>
-                    </li>
-                    <li>
-                        <a href="politikalar-ve-sertifikalar.html" title="">
-                            Politikalar ve Sertifikalar
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <span>Faaliyet Alanlar&#x131;</span>
-                <ul>
-                    <li>
-                        <a href="sektorler.html" title="">
-                            Sekt&#xF6;rler
-                        </a>
-                    </li>
-                    <li>
-                        <a href="markalar.html" title="">
-                            Markalar
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <span>Toplumsal Yat&#x131;r&#x131;mlar</span>
-                <ul>
-                    <li>
-                        <a href="toplumsal-yatirimlar/projeler.html" title="">
-                            Projeler
-                        </a>
-                    </li>
-                    <li>
-                        <a href="toplumsal-yatirimlar/ksv.html" title="">
-                            KSV
-                        </a>
-                    </li>
-                    <li>
-                        <a href="toplumsal-projeler/surdurulebilirlik.html" title="">
-                            S&#xFC;rd&#xFC;r&#xFC;lebilirlik
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="">
-                            Taahh&#xFC;tler
-                        </a>
-                    </li>
-                    <li>
-                        <a href="toplumsal-yatirimlar/Iyi-bak-dunyana.html" title="">
-                            &#x130;yi Bak D&#xFC;nyana
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <span>&#x130;nsan Kaynaklar&#x131;</span>
-                <ul>
-                    <li>
-                        <a href="insan-kaynaklari/insan-kaynaklari-uygulamalari.html" title="">
-                            Uygulamalar
-                        </a>
-                    </li>
-                    <li>
-                        <a href="insan-kaynaklari/kalegends.html" title="">
-                            Kalegends
-                        </a>
-                    </li>
-                    <li>
-                        <a href="insan-kaynaklari/gelecegin-kaleleri.html" title="">
-                            Gelece&#x11F;in Kaleleri
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <span>Medya</span>
-                <ul>
-                    <li>
-                        <a href="haberler.html" title="">
-                            Bizden Haberler
-                        </a>
-                    </li>
-                    <li>
-                        <a href="basin-odasi.html" title="">
-                            Bas&#x131;n Odas&#x131;
-                        </a>
-                    </li>
-                    <li>
-                        <a href="kurumsal-kimlik.html" title="">
-                            Kurumsal Kimlik
-                        </a>
-                    </li>
-                </ul>
-            </li>
+            @foreach (var item in Model)
+            {
+                <li class="submenu">
+
+                    <a href="hakkimizda.html" title="@item.Name ">
+                        @item.Name
+                    </a>
+
+                    <ol>
+                        @foreach (var subItem in item.SubMenuViewModels)
+                        {
+                            <li>
+                                <a href="kurucumuz.html" title="@subItem.Name">
+                                    @subItem.Name
+                                </a>
+                            </li>
+                        }
+
+                    </ol>
+                </li>
+            }
         </ul>
         <a href="#" title="" class="menu-close">
             <i class="mdi mdi-close"></i>
@@ -633,7 +464,7 @@
             <span class="languages">
                 <a href="index.html" title="" data-code="tr-TR">
                     <span class="flag-icon flag-icon-tr-TR"></span>
-                    T&#xFC;rk&#xE7;e
+                   Türkçe
                 </a>
                 <a href="en.html" title="" data-code="en-US">
                     <span class="flag-icon flag-icon-en-US"></span>
@@ -696,38 +527,3 @@
 
         </div>
     </div>
-
-    <script src="~/js/main.js"></script>
-    <script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="~/js/search.js"></script>
-
- 
-
-    <script>
-        $(function(){
-            search.init({
-                nodeId : 1,
-                searchUrl : '/Search/SearchInPages'
-            });
-
-            $('.raw-content *').css("font-family", "").css("font-size","");
-            $('.raw-content span, .raw-content font').contents().unwrap();
-
-            $('.lightbox .btn-close').click(function () {
-                 var popupId = $(this).attr("data-id");
-
-                 if ($(this).hasClass("lightbox"))
-                     $(this).removeClass("open");
-                 else
-                     $(this).parents(".lightbox").removeClass("open");
-
-                 if(popupId != null && popupId !== '') {
-                     document.cookie = 'popup-display-' + popupId + '=success';
-                 }
-            });
-        })
-    </script>
-
-</body>
-
- </html>

@@ -33,7 +33,7 @@ builder.Services.AddTransient<IUserRepository, UserRepository>();
 
 
 
-  // builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+ //builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
 var app = builder.Build();

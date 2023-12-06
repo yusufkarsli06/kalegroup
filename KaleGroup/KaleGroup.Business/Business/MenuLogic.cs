@@ -1,14 +1,7 @@
 ﻿using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
-using KaleGroup.Common.Helper;
 using KaleGroup.Data.Entities;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
-using KaleGroup.DataAccess.Repository.User.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KaleGroup.Business.Business
 {

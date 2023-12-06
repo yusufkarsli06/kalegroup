@@ -37,6 +37,34 @@ namespace KaleGroup.DataAccess.Repository.User.Command
             _dbContext.SaveChanges();
 
         }
+
+        public void PasiveUser(int userId)
+        {
+            var user = _dbSet.Where(x => x.Id == userId).FirstOrDefault();
+            
+            if (user.IsActive == false)
+            {
+                user.IsActive = true;
+            }
+            else
+            {
+                user.IsActive = false;
+            }
+
+
+            _dbContext.Entry(user).State = EntityState.Modified;
+
+            _dbContext.SaveChanges();
+
+
+        }
+        public Users CheckUser(int UserId, string password)
+        {
+            var model = _dbSet.Where(x => x.Id == UserId && x.Password == password && x.IsActive).FirstOrDefault();
+
+            return model;
+        }
+
     }
 }
 

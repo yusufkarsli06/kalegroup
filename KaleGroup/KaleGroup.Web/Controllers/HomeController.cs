@@ -24,19 +24,20 @@ namespace KaleGroup.Web.Controllers
         public IActionResult Index()
         {
             List<MenuViewModel> vm = new List<MenuViewModel>();
-            List<SubMenuViewModel> subMenuList = new List<SubMenuViewModel>();
+ 
 
-
-            var menuResult = _menuLogic.GetMenuList();
-            var subMenuResult = _subMenuLogic.GetSubMenuList();
+            var menuResult = _menuLogic.GetMenuList().Where(x => x.IsActive).ToList();
+            var subMenuResult = _subMenuLogic.GetSubMenuList().Where(x=>x.IsActive).ToList();
 
             foreach (var item in menuResult)
             {
+                List<SubMenuViewModel> subMenuList = new List<SubMenuViewModel>();
                 MenuViewModel menu = new MenuViewModel();
                 menu.Name = item.Name;
                 menu.EnName = item.EnName;
+                var subMenuListNew = subMenuResult.Where(x => x.MenuId == item.Id).ToList();
 
-                foreach (var subItem in subMenuResult.Where(x=>x.MenuId==item.Id))
+                foreach (var subItem in subMenuListNew)
                 {
                     SubMenuViewModel subMenu = new SubMenuViewModel();
                     subMenu.Name = subItem.Name;

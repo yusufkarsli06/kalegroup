@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html>
- 
+
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <title>Kale Grubu</title>
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="~/cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="~/css/main.css">
     <link rel="stylesheet" href="~/css/extend.css">
-   
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYLLZNZTR5"></script>
@@ -30,154 +30,145 @@
         gtag('config', 'G-SYLLZNZTR5');
     </script>
 </head>
- 
-            @RenderBody()
+<body>
+    <main>
+        <header class="app-header bg-dark text-white sticky-top">
+            <div class="container d-flex align-items-center">
+                <a href="index.html" title="">
+                    <img src="~/image/logo.svg" alt="" class="mr-5 mr-xl-5">
+                </a>
+                <ul class="nav flex-grow-1 mr-5 d-none d-lg-flex">
+
+                    @foreach (var item in Model)
+                    {
+                        <li class="submenu">
+
+                            <a href="hakkimizda.html" title="@item.Name ">
+                                @item.Name
+                            </a>
+
+                            <ol>
+                                @foreach (var subItem in item.SubMenuViewModels)
+                                {
+                                    <li>
+                                        <a href="kurucumuz.html" title="@subItem.Name">
+                                            @subItem.Name
+                                        </a>
+                                    </li>
+                                }
+
+                            </ol>
+                        </li>
+                    }
+
+
+                </ul>
+                <ul class="nav align-items-center ml-auto">
+                    <li class="d-none d-md-inline">
+                        <a href="#" title="" class="open-search-box d-flex align-items-center">
+                            <i class="mdi mdi-magnify text-lg mr-2"></i> Arama
+                        </a>
+                    </li>
+                    <li class="submenu d-none d-md-inline">
+                        <a href="#" title="" data-code="tr-TR">
+                            Türkçe
+                        </a>
+                        <ol>
+                            <li>
+                                <a href="index.html" data-code="tr-TR" title="T&#xFC;rk&#xE7;e">
+                                    T&#xFC;rk&#xE7;e
+                                </a>
+                            </li>
+                            <li>
+                                <a href="en.html" data-code="en-US" title="English">
+                                    English
+                                </a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="d-inline d-xl-none">
+                        <a href="#" title="" class="open-search-box-mobile d-flex align-items-center">
+                            <i class="mdi mdi-magnify text-xl"></i>
+                        </a>
+                    </li>
+                    <li class="d-inline d-xl-none">
+                        <a href="#mobile-menu" title="" class="d-flex align-items-center">
+                            <i class="mdi mdi-menu text-xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+@RenderBody()
+
+<script src="~/js/main.js"></script>
+<script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="~/js/search.js"></script>
+
+
+
+<script>
+    $(function () {
+        search.init({
+            nodeId: 1,
+            searchUrl: '/Search/SearchInPages'
+        });
+
+        $('.raw-content *').css("font-family", "").css("font-size", "");
+        $('.raw-content span, .raw-content font').contents().unwrap();
+
+        $('.lightbox .btn-close').click(function () {
+            var popupId = $(this).attr("data-id");
+
+            if ($(this).hasClass("lightbox"))
+                $(this).removeClass("open");
+            else
+                $(this).parents(".lightbox").removeClass("open");
+
+            if (popupId != null && popupId !== '') {
+                document.cookie = 'popup-display-' + popupId + '=success';
+            }
+        });
+    })
+</script>
+
+</body>
 
 <footer class="app-footer bg-dark text-white py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 order-2 order-md-1">
                 <div class="footer-menu d-flex justify-space-between">
-                    <ul>
-                        <li>
-                            <a href="hakkimizda.html" class="font-weight-semi-bold">
-                                Kurumsal
-                            </a>
-                        </li>
 
-                        <li>
-                            <a href="hakkimizda.html">
-                                Hakk&#x131;m&#x131;zda
-                            </a>
-                        </li>
-                        <li>
-                            <a href="kurucumuz.html">
-                                Kurucumuz
-                            </a>
-                        </li>
-                        <li>
-                            <a href="yonetim.html">
-                                Y&#xF6;netim
-                            </a>
-                        </li>
-                        <li>
-                            <a href="kilometre-taslari.html">
-                                Kilometre Ta&#x15F;lar&#x131;
-                            </a>
-                        </li>
-                        <li>
-                            <a href="baskanin-mesaji.html">
-                                Ba&#x15F;kan&#x131;n Mesaj&#x131;
-                            </a>
-                        </li>
-                        <li>
-                            <a href="politikalar-ve-sertifikalar.html">
-                                Politikalar ve Sertifikalar
-                            </a>
-                        </li>
 
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="sektorler.html" class="font-weight-semi-bold">
-                                Faaliyet Alanlar&#x131;
-                            </a>
-                        </li>
+                    @foreach (var item in Model)
+                    {
+                        <ul>
+                            <li>
 
-                        <li>
-                            <a href="sektorler.html">
-                                Sekt&#xF6;rler
-                            </a>
-                        </li>
-                        <li>
-                            <a href="markalar.html">
-                                Markalar
-                            </a>
-                        </li>
+                                <a href="hakkimizda.html" title="@item.Name " class="font-weight-semi-bold">
+                                    @item.Name
+                                </a>
 
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="toplumsal-yatirimlar.html" class="font-weight-semi-bold">
-                                Toplumsal Yat&#x131;r&#x131;mlar
-                            </a>
-                        </li>
 
-                        <li>
-                            <a href="toplumsal-yatirimlar/projeler.html">
-                                Projeler
-                            </a>
-                        </li>
-                        <li>
-                            <a href="toplumsal-yatirimlar/ksv.html">
-                                KSV
-                            </a>
-                        </li>
-                        <li>
-                            <a href="toplumsal-projeler/surdurulebilirlik.html">
-                                S&#xFC;rd&#xFC;r&#xFC;lebilirlik
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Taahh&#xFC;tler
-                            </a>
-                        </li>
-                        <li>
-                            <a href="toplumsal-yatirimlar/Iyi-bak-dunyana.html">
-                                &#x130;yi Bak D&#xFC;nyana
-                            </a>
-                        </li>
+                                @foreach (var subItem in item.SubMenuViewModels)
+                                {
+                                <li>
+                                    <a href="kurucumuz.html" title="@subItem.Name">
+                                            @subItem.Name
+                                    </a>
+                                </li>
+                                }
 
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="insan-kaynaklari.html" class="font-weight-semi-bold">
-                                &#x130;nsan Kaynaklar&#x131;
-                            </a>
-                        </li>
 
-                        <li>
-                            <a href="insan-kaynaklari/insan-kaynaklari-uygulamalari.html">
-                                Uygulamalar
-                            </a>
-                        </li>
-                        <li>
-                            <a href="insan-kaynaklari/kalegends.html">
-                                Kalegends
-                            </a>
-                        </li>
-                        <li>
-                            <a href="insan-kaynaklari/gelecegin-kaleleri.html">
-                                Gelece&#x11F;in Kaleleri
-                            </a>
-                        </li>
+                            </li>
+                        </ul>
+                    }
 
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="haberler.html" class="font-weight-semi-bold">
-                                Medya
-                            </a>
-                        </li>
 
-                        <li>
-                            <a href="haberler.html">
-                                Bizden Haberler
-                            </a>
-                        </li>
-                        <li>
-                            <a href="basin-odasi.html">
-                                Bas&#x131;n Odas&#x131;
-                            </a>
-                        </li>
-                        <li>
-                            <a href="kurumsal-kimlik.html">
-                                Kurumsal Kimlik
-                            </a>
-                        </li>
 
-                    </ul>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-md-2">
@@ -207,6 +198,6 @@
     </div>
 </footer>
 
-   
+
 
 </html>

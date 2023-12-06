@@ -7,6 +7,7 @@ namespace KaleGroup.DataAccess.Repository.User.Interface
     {
         Users AuthenticateUser(string username, string password);
         void ChangePassword(int userId, string password);
-
+        void PasiveUser(int userId);
+        Users CheckUser(int UserId, string password);
     }
 }
