@@ -12,7 +12,7 @@ build_property.RootNamespace = KaleGroup.Web
 build_property.ProjectDir = D:\kalegroup\KaleGroup\KaleGroup.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\kalegroup\KaleGroup\KaleGroup.Web
 build_property._RazorSourceGeneratorDebug = 
 
@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Menu/AddMenu.cshtml]

@@ -30,18 +30,23 @@ namespace KaleGroup.Business.Business
            
             _userRepository.Insert(user);
         }
-        public bool AuthenticateUser(string username, string password)
+        public UserDtos AuthenticateUser(string username, string password)
         {          
             var user =  _userRepository.AuthenticateUser(username, HashHelper.ComputeSha256Hash(password));
-
-            if(user != null)
+            if (user != null)
             {
-                return true;
+                UserDtos userDtos = new UserDtos();
+                userDtos.Id = user.Id;
+                userDtos.Username = user.Username;
+                userDtos.Email = user.Email;
+
+                return userDtos;
             }
             else
             {
-                return false;
+                return null;
             }
+
         }
         public void ChangePassword(int userId, string password)
         {         

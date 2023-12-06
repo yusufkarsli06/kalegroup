@@ -1,17 +1,11 @@
 using KaleGroup.Business.Business;
 using KaleGroup.Business.IBusiness;
-using KaleGroup.Data.Entities;
-using KaleGroup.DataAccess.Abstract;
 using KaleGroup.DataAccess.Context;
-using KaleGroup.DataAccess.Repository;
 using KaleGroup.DataAccess.Repository.Menu.Command;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
 using KaleGroup.DataAccess.Repository.User.Command;
 using KaleGroup.DataAccess.Repository.User.Interface;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Nest;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,7 +27,7 @@ builder.Services.AddTransient<IUserRepository, UserRepository>();
 
 
 
- //builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
 var app = builder.Build();
