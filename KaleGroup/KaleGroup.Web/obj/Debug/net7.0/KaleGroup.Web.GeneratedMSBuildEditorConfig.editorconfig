@@ -64,6 +64,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViTWVudVxVcGRhdGVTdWJNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/UploadFile/AddFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZVxBZGRGaWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/UploadFile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/User/AddUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

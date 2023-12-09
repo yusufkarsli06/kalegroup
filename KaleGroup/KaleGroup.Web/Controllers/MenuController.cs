@@ -34,8 +34,7 @@ namespace KaleGroup.Web.Controllers
                 menu.EnDescription = item.EnDescription;
                 menu.IsActive = item.IsActive;
                 menu.Id= item.Id;
-                menu.IsActive= item.IsActive;
-                
+                 
             
                 vm.Add(menu);
             }

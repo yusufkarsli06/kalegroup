@@ -8,7 +8,7 @@ namespace KaleGroup.DataAccess.Repository.SubMenu.Interface
        
        
         void PasiveMenu(int menuId);
-        List<Menus> GetMenuList();
+  
 
     }
 }

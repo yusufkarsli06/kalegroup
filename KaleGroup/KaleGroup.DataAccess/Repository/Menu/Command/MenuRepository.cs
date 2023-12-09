@@ -43,11 +43,7 @@ namespace KaleGroup.DataAccess.Repository.Menu.Command
 
            
         }
-
-        public List<Menus> GetMenuList()
-        {
-            return _dbSet.ToList();
-        }
+ 
     }
 }
 

@@ -1,6 +1,8 @@
 using KaleGroup.Business.Business;
 using KaleGroup.Business.IBusiness;
 using KaleGroup.DataAccess.Context;
+using KaleGroup.DataAccess.Repository.Files.Command;
+using KaleGroup.DataAccess.Repository.Files.Interface;
 using KaleGroup.DataAccess.Repository.Menu.Command;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
 using KaleGroup.DataAccess.Repository.User.Command;
@@ -18,19 +20,21 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IUserLogic, UserLogic>();
 builder.Services.AddTransient<IMenuLogic, MenuLogic>();
 builder.Services.AddTransient<ISubMenuLogic, SubMenuLogic>();
+builder.Services.AddTransient<IUploadFileLogic, UploadFileLogic>();
 
 
 builder.Services.AddTransient(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));
 builder.Services.AddTransient<IMenuRepository, MenuRepository>();
 builder.Services.AddTransient<ISubMenuRepository, SubMenuRepository>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IUploadFilesRepository, UploadFilesRepository>();
 
 
-
- builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
 var app = builder.Build();
+
 
 
 // Configure the HTTP request pipeline.
@@ -53,3 +57,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+ 

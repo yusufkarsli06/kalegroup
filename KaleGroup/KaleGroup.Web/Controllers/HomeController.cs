@@ -105,5 +105,16 @@ namespace KaleGroup.Web.Controllers
             }
             
         }
+
+       
+        public IActionResult SetLanguage (string language)
+        {
+            ViewBag.Language = "tr";
+
+
+            return RedirectToAction("Index");
+
+
+        }
     }
 }

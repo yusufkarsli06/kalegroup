@@ -17,7 +17,7 @@ namespace KaleGroup.Business.Business
         public List<MenuDtos> GetMenuList()
         {
             List<MenuDtos> menuList = new List<MenuDtos>();
-            var menuResult = _menuRepository.GetMenuList();
+            var menuResult = _menuRepository.GetAll();
             foreach (var item in menuResult)
             {
                 MenuDtos menu = new MenuDtos();
