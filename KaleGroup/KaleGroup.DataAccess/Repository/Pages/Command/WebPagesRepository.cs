@@ -22,7 +22,7 @@ namespace KaleGroup.DataAccess.Repository.Pages.Command
         }
         public WebPages GetWebPageByPageUrl(string pageUrl)
         {
-            var result= _dbSet.Where(x => x.PageUrl == pageUrl).FirstOrDefault();
+            var result= _dbSet.Where(x => x.PageUrl == pageUrl || x.EnPageUrl==pageUrl).FirstOrDefault();
             return result;
         }
         public List<WebPages> GetWebPageByMenuId(int menuId)

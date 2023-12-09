@@ -79,7 +79,7 @@ namespace KaleGroup.Business.Business
                 WebPagesDtos webPage = new WebPagesDtos();
                 webPage.PageTopDescription = item.PageTopDescription;
                 webPage.EnPageTopDescription = item.EnPageTopDescription;
-               
+                webPage.PageTopSubject = item.PageTopSubject;               
                 webPage.PageUrl = item.PageUrl;
                 webPage.EnPageUrl = item.EnPageUrl;
                 webPage.PageTopImages = item.PageTopImages;

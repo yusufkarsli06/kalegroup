@@ -1,15 +1,12 @@
 ﻿@using System.Web;
-@{
  
-    Layout = null;
-}
  
 @model KaleGroup.Web.Models.WebPagesViewModel
 
  
 <section class="bg-lavender page-promo pb-5" style="background: @Model.PageTopBackground;">
     <div class="container">
-        <div class="page-promo-image" style="background-image: url('~/Uploads/@Model.PageTopImages');"></div>
+        <div class="page-promo-image" style="background-image: url('/Uploads/@Model.PageTopImages');"></div>
         <div class="row mt-4 mt-md-6 mb-3 mb-md-7">
             <div class="col-md-8">
                 <h1>@Model.PageTopSubject</h1>
@@ -20,14 +17,16 @@
                 </p>
             </div>
         </div>
+        @if(!Model.IsMenu){
         <div class="row">
             <div class="col-12">
-                <a href=  <a href="@Url.Action("Pages?pageUrl="+(string)@Model.LastPageUrl,"Home")" title="" class="btn btn-dark btn-size-160">
+                <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })" title="" class="btn btn-dark btn-size-160">
                     <i class="mdi mdi-arrow-left text-xl mr-2"></i>
                    @Model.LastPageName
                 </a>
             </div>
         </div>
+        }
     </div>
 </section>
 <section>
@@ -38,11 +37,13 @@
                     <a href="../">Anasayfa</a>
                 </li>
                 <li class="breadcrumb-item ">
-                    <a href="@Url.Action("Pages?pageUrl="+(string)@Model.LastPageUrl,"Home")"> @Model.LastPageName</a>
+                    <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })"> @Model.LastPageName</a>
                 </li>
+                  @if(!Model.IsMenu){
                 <li class="breadcrumb-item active">
-                    <a href="@Url.Action("Pages?pageUrl="+(string)@Model.PageUrl,"Home")">@Model.PageTopSubject</a>
+                    <a href="@Url.Action("Pages","Home", new { pageUrl = Model.PageUrl })">@Model.PageTopSubject</a>
                 </li>
+                  }
             </ol>
         </nav>
     </div>
@@ -63,13 +64,14 @@
             <div class="row">
               @foreach (var item in Model.SubPagesViewModel)
                 {
-                      
+                     
+               
                 <div class="col-md-3 mb-4">
-                        <a href="@Url.Action("Pages?pageUrl="+(string)item.PageUrl,"Home")" title="" class="card bg-dark card-hover text-white">
-                            <img src="Uploads/ecf5d64110ab4a90b322b122e70f2f3b.jpg" srcset="/Uploads/@item.PageImage" class="card-img" alt="">
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card bg-dark card-hover text-white">
+                            <img src="Uploads/@item.PageImage" srcset="/Uploads/@item.PageImage" class="card-img" alt="">
                         <div class="card-img-overlay">
                             <div>
-                                <h6 class="card-title">@item.PageTopSubject</h6>
+                                    <h6 class="card-title">@item.PageTopSubject</h6>
                                 <button class="btn btn-danger btn-h-33">
                                     İNCELE
                                 </button>

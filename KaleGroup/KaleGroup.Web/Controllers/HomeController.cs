@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using Nest;
 using System.Diagnostics;
 using System.Security.Claims;
-
+using RestSharp;
+ 
 namespace KaleGroup.Web.Controllers
 {
     public class HomeController : Controller
@@ -60,6 +61,7 @@ namespace KaleGroup.Web.Controllers
                     webPage.EnName = subItem.EnName;
                     webPage.MenuId = subItem.MenuId;
                     webPage.PageUrl = subItem.PageUrl;
+                    webPage.PageTopSubject = subItem.PageTopSubject;
                     webPageList.Add(webPage);
                 }
                 menu.WebPagesViewModel = webPageList;
@@ -167,9 +169,14 @@ namespace KaleGroup.Web.Controllers
 
         public IActionResult SetLanguage(string language)
         {
-            ViewBag.Language = "tr";
+             Cookie Cookie = new  Cookie("weblanguage");
 
-
+            
+          
+            
+            Cookie["language"] = language;
+            Cookie.Expires = DateTime.Now.AddMonths(1);
+             Response.Cookies.Add(Cookie);
             return RedirectToAction("Index");
 
 
