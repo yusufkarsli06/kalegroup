@@ -43,15 +43,15 @@
                     {
                         <li class="submenu">
 
-                            <a href="hakkimizda.html" title="@item.Name ">
+                            <a href="@Url.Action("Pages?pageUrl="+(string)item.PageUrl,"Home")" title="@item.Name ">
                                 @item.Name
                             </a>
 
                             <ol>
-                                @foreach (var subItem in item.SubMenuViewModels)
+                                @foreach (var subItem in item.WebPagesViewModel)
                                 {
                                     <li>
-                                        <a href="kurucumuz.html" title="@subItem.Name">
+                                        <a href="@Url.Action("Pages?pageUrl="+(string)subItem.PageUrl,"Home")" title="@subItem.Name">
                                             @subItem.Name
                                         </a>
                                     </li>
@@ -148,15 +148,15 @@
                         <ul>
                             <li>
 
-                                <a href="hakkimizda.html" title="@item.Name " class="font-weight-semi-bold">
+                                <a href="@Url.Action("Pages?pageUrl="+(string)item.PageUrl,"Home")" title="@item.Name " class="font-weight-semi-bold">
                                     @item.Name
                                 </a>
 
 
-                                @foreach (var subItem in item.SubMenuViewModels)
+                                @foreach (var subItem in item.WebPagesViewModel)
                                 {
                                 <li>
-                                    <a href="kurucumuz.html" title="@subItem.Name">
+                                    <a href="@Url.Action("Pages?pageUrl="+(string)subItem.PageUrl,"Home")" title="@subItem.Name">
                                             @subItem.Name
                                     </a>
                                 </li>

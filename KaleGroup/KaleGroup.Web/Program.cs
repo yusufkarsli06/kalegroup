@@ -4,6 +4,8 @@ using KaleGroup.DataAccess.Context;
 using KaleGroup.DataAccess.Repository.Files.Command;
 using KaleGroup.DataAccess.Repository.Files.Interface;
 using KaleGroup.DataAccess.Repository.Menu.Command;
+using KaleGroup.DataAccess.Repository.Pages.Command;
+using KaleGroup.DataAccess.Repository.Pages.Interface;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
 using KaleGroup.DataAccess.Repository.User.Command;
 using KaleGroup.DataAccess.Repository.User.Interface;
@@ -21,6 +23,7 @@ builder.Services.AddTransient<IUserLogic, UserLogic>();
 builder.Services.AddTransient<IMenuLogic, MenuLogic>();
 builder.Services.AddTransient<ISubMenuLogic, SubMenuLogic>();
 builder.Services.AddTransient<IUploadFileLogic, UploadFileLogic>();
+builder.Services.AddTransient<IWebPagesLogic, WebPagesLogic>();
 
 
 builder.Services.AddTransient(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));
@@ -28,6 +31,7 @@ builder.Services.AddTransient<IMenuRepository, MenuRepository>();
 builder.Services.AddTransient<ISubMenuRepository, SubMenuRepository>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IUploadFilesRepository, UploadFilesRepository>();
+builder.Services.AddTransient<IWebPagesRepository, WebPagesRepository>();
 
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();

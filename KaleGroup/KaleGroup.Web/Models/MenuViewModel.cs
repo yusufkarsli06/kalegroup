@@ -5,7 +5,7 @@ namespace KaleGroup.Web.Models
 
         public MenuViewModel()
         {
-            SubMenuViewModels = new List<SubMenuViewModel>();
+            WebPagesViewModel = new List<WebPagesViewModel>();
         }
 
         public int Id { get; set; }
@@ -14,7 +14,8 @@ namespace KaleGroup.Web.Models
         public bool IsActive { get; set; }
         public string EnName { get; set; }
         public string EnDescription { get; set; }
+        public string PageUrl { get; set; }
 
-       public List<SubMenuViewModel> SubMenuViewModels { get; set; }
-    }
+       public List<WebPagesViewModel> WebPagesViewModel  { get; set; }
+     }
 }
