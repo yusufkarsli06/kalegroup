@@ -1,9 +1,9 @@
 ﻿@using System.Web;
- 
- 
+
+
 @model KaleGroup.Web.Models.WebPagesViewModel
 
- 
+
 <section class="bg-lavender page-promo pb-5" style="background: @Model.PageTopBackground;">
     <div class="container">
         <div class="page-promo-image" style="background-image: url('/Uploads/@Model.PageTopImages');"></div>
@@ -17,15 +17,16 @@
                 </p>
             </div>
         </div>
-        @if(!Model.IsMenu){
-        <div class="row">
-            <div class="col-12">
-                <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })" title="" class="btn btn-dark btn-size-160">
-                    <i class="mdi mdi-arrow-left text-xl mr-2"></i>
-                   @Model.LastPageName
-                </a>
+        @if (!Model.IsMenu)
+        {
+            <div class="row">
+                <div class="col-12">
+                    <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })" title="" class="btn btn-dark btn-size-160">
+                        <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                        @Model.LastPageName
+                    </a>
+                </div>
             </div>
-        </div>
         }
     </div>
 </section>
@@ -34,52 +35,71 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item ">
-                    <a href="../">Anasayfa</a>
+                     @if (ViewBag.Language == "tr")
+                    {
+                        <a href="../">Anasayfa</a>
+                    }
+                    else
+                    {
+                        <a href="../">Home</a>
+                    }
                 </li>
                 <li class="breadcrumb-item ">
                     <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })"> @Model.LastPageName</a>
                 </li>
-                  @if(!Model.IsMenu){
-                <li class="breadcrumb-item active">
-                    <a href="@Url.Action("Pages","Home", new { pageUrl = Model.PageUrl })">@Model.PageTopSubject</a>
-                </li>
-                  }
+                @if (!Model.IsMenu)
+                {
+                    <li class="breadcrumb-item active">
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = Model.PageUrl })">@Model.PageTopSubject</a>
+                    </li>
+                }
             </ol>
         </nav>
     </div>
 </section>
-<section class="mb-3 mb-md-5">
-    <div class="container">
-        <div class="row">
-            <div class="content-text raw-content col-md-8 offset-md-2 text-justify">
-                @Html.Raw( Model.PageDescription)
+@if (!Model.IsMenu)
+{
+    <section class="mb-3 mb-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="content-text raw-content col-md-8 offset-md-2 text-justify">
+                    @Html.Raw( Model.PageDescription)
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-@if(Model.IsMenu){
+    </section>
+}
+@if (Model.IsMenu)
+{
     <section class="mb-5">
         <div class="container">
             <div class="row">
-              @foreach (var item in Model.SubPagesViewModel)
+                @foreach (var item in Model.SubPagesViewModel)
                 {
-                     
-               
-                <div class="col-md-3 mb-4">
+
+
+                    <div class="col-md-3 mb-4">
                         <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card bg-dark card-hover text-white">
                             <img src="Uploads/@item.PageImage" srcset="/Uploads/@item.PageImage" class="card-img" alt="">
-                        <div class="card-img-overlay">
-                            <div>
+                            <div class="card-img-overlay">
+                                <div>
                                     <h6 class="card-title">@item.PageTopSubject</h6>
-                                <button class="btn btn-danger btn-h-33">
-                                    İNCELE
-                                </button>
+
+                                    @if (ViewBag.Language == "tr")
+                                    {
+                                        <button class="btn btn-danger btn-h-33">    İNCELE    </button>
+                                        }
+                                        else
+                                        {
+                                        <button class="btn btn-danger btn-h-33">   VIEW     </button>
+                                            
+                                     }
+
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-           
+                        </a>
+                    </div>
+
                 }
             </div>
         </div>

@@ -77,13 +77,27 @@ namespace KaleGroup.Business.Business
             foreach (var item in webPageResult)
             {
                 WebPagesDtos webPage = new WebPagesDtos();
+                webPage.Id = item.Id;
+                webPage.Name = item.Name;
+                webPage.MenuId = item.MenuId;
+                webPage.EnName = item.EnName;
+                webPage.PageTopSubject = item.PageTopSubject;
+                webPage.PageTopBackground = item.PageTopBackground;
                 webPage.PageTopDescription = item.PageTopDescription;
                 webPage.EnPageTopDescription = item.EnPageTopDescription;
-                webPage.PageTopSubject = item.PageTopSubject;               
-                webPage.PageUrl = item.PageUrl;
-                webPage.EnPageUrl = item.EnPageUrl;
                 webPage.PageTopImages = item.PageTopImages;
-                
+                webPage.PageDescription = item.PageDescription;
+                webPage.PageUrl = item.PageUrl;
+                webPage.Keyword = item.Keyword;
+
+                webPage.EnPageTopSubject = item.EnPageTopSubject;
+                webPage.EnPageTopSubject = item.EnPageTopSubject;
+                webPage.EnPageTopDescription = item.EnPageTopDescription;
+                webPage.EnPageTopBackground = item.EnPageTopBackground;
+                webPage.EnPageDescription = item.EnPageDescription;
+                webPage.EnPageUrl = item.EnPageUrl;
+                webPage.IsMenu = item.IsMenu;
+
 
                 webPageList.Add(webPage);
 
