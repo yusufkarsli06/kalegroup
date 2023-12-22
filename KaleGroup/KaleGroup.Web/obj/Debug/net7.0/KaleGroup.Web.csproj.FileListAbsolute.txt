@@ -409,3 +409,4 @@ D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.
 D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\KaleGroup.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\Newtonsoft.Json.dll

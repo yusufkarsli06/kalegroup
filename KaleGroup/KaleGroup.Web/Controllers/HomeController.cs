@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Nest;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Security.Claims;
@@ -70,7 +71,9 @@ namespace KaleGroup.Web.Controllers
                 vm.Add(menu);
             }
             ViewBag.Language = language;
-            
+           
+            var str = JsonConvert.SerializeObject(vm);
+            HttpContext.Session.SetString("menuModel", str);
             return View(vm);
         }
 
@@ -100,8 +103,13 @@ namespace KaleGroup.Web.Controllers
             //todo bağlı olduğu sayfa bilgileri 
 
             var lastPageInfo = _webPagesLogic.GetWebPageByMenuId(pageResult.MenuId).Where(x=>x.IsMenu).FirstOrDefault();
-            vm.LastPageName = language == "tr" ? lastPageInfo.Name : lastPageInfo.EnName; ;
-            vm.LastPageUrl = language == "tr" ? lastPageInfo.PageUrl : lastPageInfo.EnPageUrl;
+           if(lastPageInfo!= null)
+            {
+                vm.LastPageName = language == "tr" ? lastPageInfo.Name : lastPageInfo.EnName; ;
+                vm.LastPageUrl = language == "tr" ? lastPageInfo.PageUrl : lastPageInfo.EnPageUrl;
+
+            }
+
             vm.IsMenu = pageResult.IsMenu;
 
             if (pageResult.IsMenu)
@@ -173,10 +181,7 @@ namespace KaleGroup.Web.Controllers
             CookieOptions cookie = new CookieOptions();
             cookie.Expires = DateTime.Now.AddMonths(1);
             Response.Cookies.Append("language", language, cookie);
-
             return RedirectToAction("Index");
-
-
         }
     }
 }

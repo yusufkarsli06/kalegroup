@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XzEunY1BV9Lh3R4WO2mxMgNzUFWc9yDTN2HRf4871dDxmyHXm77y6GQj9xjcJDUeQ3JX8hPbT2l/xIVZDcCAnQ==",
+  "dgSpecHash": "nrJc7M336ii9BuyVJQEcvbT/+ERd0XTHvzOf2IiAb74GnmVHo87mh5zXLY9yMRcpDxYilq6czIn4m/TIJ0JNtg==",
   "success": true,
   "projectFilePath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\KaleGroup.Web.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\Tiga\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Tiga\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Tiga\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\Tiga\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Tiga\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Tiga\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Tiga\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",

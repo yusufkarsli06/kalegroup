@@ -1,5 +1,13 @@
-﻿
+﻿ 
 
+@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json;
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    //Get object from session
+    var mySessionObject = HttpContextAccessor.HttpContext.Session.GetString("menuModel");
+    var menuModel = JsonConvert.DeserializeObject<List<MenuViewModel>>(mySessionObject);
+}
 <!DOCTYPE html>
 <html>
 
@@ -39,11 +47,11 @@
                 </a>
                 <ul class="nav flex-grow-1 mr-5 d-none d-lg-flex">
 
-                  @*  @foreach (var item in Model)
+                    @foreach (var item in menuModel)
                     {
                         <li class="submenu">
 
-                            <a href="@Url.Action("Pages?pageUrl="+(string)item.PageUrl,"Home")" title="@item.Name ">
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
                                 @item.Name
                             </a>
 
@@ -51,7 +59,7 @@
                                 @foreach (var subItem in item.WebPagesViewModel)
                                 {
                                     <li>
-                                        <a href="@Url.Action("Pages?pageUrl="+(string)subItem.PageUrl,"Home")" title="@subItem.Name">
+                                        <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
                                             @subItem.Name
                                         </a>
                                     </li>
@@ -60,7 +68,7 @@
                             </ol>
                         </li>
                     }
-*@
+ 
 
                 </ul>
                 <ul class="nav align-items-center ml-auto">
@@ -171,13 +179,13 @@
             <div class="col-lg-8 order-2 order-md-1">
                 <div class="footer-menu d-flex justify-space-between">
 
-@*
-                    @foreach (var item in Model)
+
+                    @foreach (var item in menuModel)
                     {
                         <ul>
                             <li>
 
-                                <a href="@Url.Action("Pages?pageUrl="+(string)item.PageUrl,"Home")" title="@item.Name " class="font-weight-semi-bold">
+                                <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name " class="font-weight-semi-bold">
                                     @item.Name
                                 </a>
 
@@ -185,17 +193,17 @@
                                 @foreach (var subItem in item.WebPagesViewModel)
                                 {
                                 <li>
-                                    <a href="@Url.Action("Pages?pageUrl="+(string)subItem.PageUrl,"Home")" title="@subItem.Name">
+                                    <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
                                             @subItem.Name
                                     </a>
                                 </li>
                                 }
-
+                                
 
                             </li>
                         </ul>
                     }
-*@
+
 
 
                 </div>
