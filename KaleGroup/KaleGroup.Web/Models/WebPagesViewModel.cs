@@ -26,7 +26,8 @@ namespace KaleGroup.Web.Models
         public string EnPageUrl { get; set; }
         public bool IsNews { get; set; }
         public bool IsMenu { get; set; }
-
+        public bool IsTopBody { get; set; }
+        public bool IsButtomBody { get; set; }
         public string LastPageUrl { get; set; }
         public string LastPageName { get; set; }
         public List<SubPagesViewModel> SubPagesViewModel { get; set; }
@@ -40,5 +41,7 @@ namespace KaleGroup.Web.Models
 
         public string EnPageTopSubject { get; set; }
         public string EnPageUrl { get; set; }
+        public string CreatedAt { get; set; }
+        public bool IsNews { get; set; }
     }
 }

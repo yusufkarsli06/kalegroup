@@ -27,9 +27,10 @@ namespace KaleGroup.Data.Entities
         public string EnPageDescription { get; set; }
         public string EnPageUrl { get; set; }
         public bool IsNews { get; set; }
-        public bool IsMenu { get; set; }
-
-
+        public bool IsMenu { get; set; } 
+        public bool IsTopBody { get; set; }
+        public bool IsButtomBody { get; set; }
+        public DateTime CreatedAt { get; set; }
 
     }
 }

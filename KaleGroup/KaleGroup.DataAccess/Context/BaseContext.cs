@@ -24,6 +24,7 @@ namespace KaleGroup.DataAccess.Context
         public DbSet<WebPages> WebPages { get; set; }
         public DbSet<UploadFiles> UploadFiles { get; set; }
         public DbSet<Menus> Menus { get; set; }
+        public DbSet<Slider> Slider { get; set; }
         
 
 

@@ -1,505 +1,254 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-@model IEnumerable<KaleGroup.Web.Models.MenuViewModel>
- 
+﻿
+@*model KaleGroup.Web.Models.HomeViewModel*@
 
-        <section>
-            <div class="container pr-7 pr-md-0">
-                <div class="row mt-3 mt-md-6">
-                    <div class="col-md-7">
-                        <h1>Bu Topraklar&#x131;n Kale&#x27;si</h1>
-                    </div>
-                    <div class="col-md-5">
-                        <p class="font-weight-medium text-md-lg mb-4">
-                            Sanayici miras&#x131; ve giri&#x15F;imcili&#x11F;i ile alan&#x131;nda &#xF6;nder, insana ve &#xE7;evreye sayg&#x131;l&#x131;, topluma s&#xFC;rd&#xFC;r&#xFC;lebilir de&#x11F;er katan itibarl&#x131; &#x15F;irketler grubu...
-                        </p>
-                        <a href="hakkimizda.html" title="" class="btn btn-danger">
-                            DETAYLI B&#x130;LG&#x130;
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="mt-5">
-            <div class="container">
-                <div class="promo-slider">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="#" title="">
-                                    <img src="Uploads/c3a11288dc034cd5b5525f7215696a90.jpg" srcset="/Uploads/c3a11288dc034cd5b5525f7215696a90.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="d-block d-md-none swiper-pagination text-center"></div>
-                        <div class="swiper-prev">
-                            <i class="mdi mdi-arrow-left"></i>
-                        </div>
-                        <div class="swiper-next">
-                            <i class="mdi mdi-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="mt-7">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 pr-0 pr-md-10">
-                        <div class="text-danger font-weight-semi-bold text-xs-sm mb-1">Kilometre Ta&#x15F;lar&#x131;</div>
-                        <h2>66 Yıllık Sanayi Yolculuğu</h2>
-                        <p>Kuruldu&#x11F;umuz g&#xFC;nden bu yana her alanda &#xF6;nc&#xFC; olduk. Her zaman ilkleri ger&#xE7;ekle&#x15F;tirirken, milyonlarca hayata dokunduk. 1957 y&#x131;l&#x131;nda ba&#x15F;lad&#x131;&#x11F;&#x131;m&#x131;z yolculu&#x11F;umuzu...</p>
-                        <div>
-                            <a href="kilometre-taslari.html" title="" class="btn btn-danger">
-                                DAHA FAZLA
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mt-5 mt-md-0">
-                        <img src="Uploads/4201fd97bf7b41a6b67fe0d5bce4e10a.jpg" srcset="/Uploads/4201fd97bf7b41a6b67fe0d5bce4e10a.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="mt-7">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 pr-0 pr-md-10">
-                        <div class="text-danger font-weight-semi-bold text-xs-sm mb-1"></div>
-                        <h2>#İyiBakDünyana</h2>
-                        <p>Daha iyi bir d&#xFC;nya i&#xE7;in faaliyet g&#xF6;sterdi&#x11F;i her alanda de&#x11F;er &#xFC;reten Kale Grubu, yepyeni bir s&#xFC;recin kap&#x131;lar&#x131;n&#x131; a&#xE7;arak &#x2018;&#x130;yi Bak D&#xFC;nyana&#x2019; hareketi ba&#x15F;latt&#x131;. </p>
-                        <div>
-                            <a href="toplumsal-yatirimlar/Iyi-bak-dunyana.html" title="" class="btn btn-danger">
-                                DAHA FAZLA
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mt-5 mt-md-0">
-                        <img src="Uploads/9e65d9d086ec4a37803652a06a306462.jpg" srcset="/Uploads/9e65d9d086ec4a37803652a06a306462.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bg-light mt-7 py-4 py-md-7">
-            <div class="container">
-                <nav class="mb-5">
-                    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active px-3 px-md-5" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
-                            SEKT&#xD6;RLER
-                        </a>
-                        <a class="nav-item nav-link px-3 px-md-5" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
-                            MARKALAR
-                        </a>
-                    </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                        <div class="row">
-                            <div class="col-md-3 mb-4 mb-md-0">
-                                <a href="sektorler/yapi-urunleri.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/ebeaec4290c048b5a5f0b7f7d8474f6f.jpg" srcset="/Uploads/ebeaec4290c048b5a5f0b7f7d8474f6f.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Yap&#x131; &#xDC;r&#xFC;nleri</h6>
-                                            <button class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4 mb-md-0">
-                                <a href="sektorler/yapi-kimyasallari.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/0601397483df43a48b6885055b1731fa.jpg" srcset="/Uploads/0601397483df43a48b6885055b1731fa.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Yap&#x131; Kimyasallar&#x131;</h6>
-                                            <button class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4 mb-md-0">
-                                <a href="sektorler/havacilik.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/04426ace41df451d9483c178fdd9c134.jpg" srcset="/Uploads/04426ace41df451d9483c178fdd9c134.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Havac&#x131;l&#x131;k</h6>
-                                            <button class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4 mb-md-0">
-                                <a href="sektorler/hizmet.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/a23dedab4d454721a26c010ae89651d8.jpg" srcset="/Uploads/a23dedab4d454721a26c010ae89651d8.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Hizmet</h6>
-                                            <button class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <div class="row">
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/canakkale-seramik.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/5f06d2e0fe6d4cac830be6fe9161436d.jpg" srcset="/Uploads/5f06d2e0fe6d4cac830be6fe9161436d.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">&#xC7;anakkale Seramik</h6>
-                                            <button href="markalar/canakkale-seramik.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/kalebodur.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/46bf1a8ad8c74db1931a2e58ffb2d8e7.jpg" srcset="/Uploads/46bf1a8ad8c74db1931a2e58ffb2d8e7.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Kalebodur</h6>
-                                            <button href="markalar/kalebodur.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/kalekim.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/2423242525be4fa3b1b7dd3df4ad6d00.jpg" srcset="/Uploads/2423242525be4fa3b1b7dd3df4ad6d00.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Kalekim</h6>
-                                            <button href="markalar/kalekim.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/kale-banyo.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/7c709d90298d43e2b6766fe59068cf95.jpg" srcset="/Uploads/7c709d90298d43e2b6766fe59068cf95.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Kale Banyo</h6>
-                                            <button href="markalar/kale-banyo.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/kale-atolye.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/d815c063f44c453f831d05a7dbd95dfc.jpg" srcset="/Uploads/d815c063f44c453f831d05a7dbd95dfc.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Kale At&#xF6;lye</h6>
-                                            <button href="markalar/kale-atolye.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/kalesinterflex.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/996be559a8f34b20842959bf4e5cb817.jpg" srcset="/Uploads/996be559a8f34b20842959bf4e5cb817.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Kalesinterflex</h6>
-                                            <button href="markalar/kalesinterflex.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/t-one.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/73cd2b81d0d646a0bd449d4f67c60807.jpg" srcset="/Uploads/73cd2b81d0d646a0bd449d4f67c60807.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">T-One</h6>
-                                            <button href="markalar/t-one.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-3 mb-4">
-                                <a href="markalar/biboya.html" title="" class="card bg-dark card-hover text-white">
-                                    <img src="Uploads/087a344f933a4f80bbee26cf9f00e1a7.jpg" srcset="/Uploads/087a344f933a4f80bbee26cf9f00e1a7.jpg" class="card-img" alt="">
-                                    <div class="card-img-overlay">
-                                        <div>
-                                            <h6 class="card-title mb-0">Bi&#x27;Boya</h6>
-                                            <button href="markalar/biboya.html" class="btn btn-danger btn-h-33 mt-3">
-                                                &#x130;NCELE
-                                            </button>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bg-teal">
-            <div class="project-slider container py-4 py-md-7">
-                <h2 class="mb-5 text-md-center">Toplumsal Yat&#x131;r&#x131;mlar</h2>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
+<section class="mt-5">
+    <div class="container">
+        <div class="promo-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                   @foreach (var item in Model.SliderViewModel)
+                    {
                         <div class="swiper-slide">
-                            <a href="toplumsal-yatirimlar/projeler/Ibrahim-bodur-sosyal-girisimcilik-odul-programi.html" title="" class="card h-100">
-                                <img src="Uploads/0fe0acf28dfd428d96f538e919fc6501.jpg" srcset="/Uploads/0fe0acf28dfd428d96f538e919fc6501.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title"> &#x130;brahim Bodur Sosyal Giri&#x15F;imcilik &#xD6;d&#xFC;l Program&#x131;</h6>
-                                </div>
+                            <a href="#" title="">
+                                <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" alt="">
                             </a>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="toplumsal-yatirimlar/projeler/kale-tasarim-ve-sanat-merkezi.html" title="" class="card h-100">
-                                <img src="Uploads/4b120d3236164c91b03640808d5bdb79.jpg" srcset="/Uploads/4b120d3236164c91b03640808d5bdb79.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">Kale Tasar&#x131;m ve Sanat Merkezi</h6>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="toplumsal-yatirimlar/projeler/aklim-fikrim-canakkale.html" title="" class="card h-100">
-                                <img src="Uploads/a65fd0a328b04b249274c76b1e678a4d.jpg" srcset="/Uploads/a65fd0a328b04b249274c76b1e678a4d.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">Akl&#x131;m Fikrim &#xC7;anakkale</h6>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="toplumsal-yatirimlar/ksv.html" title="" class="card h-100">
-                                <img src="Uploads/4a444f21be044fa1aac751f41205c546.jpg" srcset="/Uploads/4a444f21be044fa1aac751f41205c546.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">KSV</h6>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="toplumsal-yatirimlar/Iyi-bak-dunyana.html" title="" class="card h-100">
-                                <img src="Uploads/d5e14eab8e044580a4ae4fb46e10e042.jpg" srcset="/Uploads/d5e14eab8e044580a4ae4fb46e10e042.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">&#x130;yi bak d&#xFC;nyana</h6>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    }
+
                 </div>
+                <div class="d-block d-md-none swiper-pagination text-center"></div>
                 <div class="swiper-prev">
                     <i class="mdi mdi-arrow-left"></i>
                 </div>
                 <div class="swiper-next">
                     <i class="mdi mdi-arrow-right"></i>
                 </div>
-                <div class="container">
-                    <div class="row align-items-center mt-4 mt-md-0">
-                        <div class="col-5 col-md-12">
-                            <div class="swiper-pagination text-left text-md-center"></div>
-                        </div>
-                        <div class="col-7 col-md-12">
-                            <div class="mt-0 mt-md-7 text-right text-md-center">
-                                <a href="toplumsal-yatirimlar.html" title="" class="btn btn-outline-dark">T&#xDC;M&#xDC;N&#xDC; G&#xD6;R</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <section class="news-slider bg-light py-4 py-md-7">
-            <div class="container">
-                <h2 class="mb-5 text-center">Haberler</h2>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
-                        <div class="swiper-slide">
-                            <a href="haberler/kale-grubundan-65-kurulus-yil-donumunde-230-milyon-dolar-yatirim-mujdesi.html" title="" class="card h-100">
-                                <img src="Uploads/News/53e63503348e4ba288dc60841394136b.jpg" srcset="/Uploads/News/53e63503348e4ba288dc60841394136b.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">
-                                        Kale Grubu&#x2019;ndan 65. kurulu&#x15F; y&#x131;l d&#xF6;n&#xFC;m&#xFC;nde  230 milyon dolar yat&#x131;r&#x131;m m&#xFC;jdesi
-                                    </h6>
-                                </div>
-                                <time class="text-xs text-muted px-4 mb-2">03 A&#x11F;ustos 2022</time>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="haberler/hayata-deger-Ibrahim-bodur-anma-gunu-etkinligi-30-mayista-muze-gazhanede.html" title="" class="card h-100">
-                                <img src="Uploads/News/0e42dc1b17f04374898a04db1f34b580.jpg" srcset="/Uploads/News/0e42dc1b17f04374898a04db1f34b580.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">
-                                        Hayata De&#x11F;er: &#x130;brahim Bodur Anma G&#xFC;n&#xFC; Etkinli&#x11F;i 30 May&#x131;s&#x2019;ta M&#xFC;ze Gazhane&#x27;de
-                                    </h6>
-                                </div>
-                                <time class="text-xs text-muted px-4 mb-2">30 May&#x131;s 2022</time>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="haberler/copumuze-sahip-cikalim.html" title="" class="card h-100">
-                                <img src="Uploads/News/24a3379390484402ac4767da5c6a067c.jpg" srcset="/Uploads/News/24a3379390484402ac4767da5c6a067c.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">
-                                        C&#x327;o&#x308;pu&#x308;mu&#x308;ze Sahip C&#x327;&#x131;kal&#x131;m
-                                    </h6>
-                                </div>
-                                <time class="text-xs text-muted px-4 mb-2">26 Ocak 2022</time>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="haberler/enerji-verimliligi-sanayi-icin-tercih-olmaktan-cikti-zorunluluk-haline-donustu.html" title="" class="card h-100">
-                                <img src="Uploads/News/075e2b46b37d49b4887233978a56a91e.jpg" srcset="/Uploads/News/075e2b46b37d49b4887233978a56a91e.jpg" class="card-img-top" alt="">
-                                <div class="card-body">
-                                    <h6 class="card-title">
-                                        Enerji verimlili&#x11F;i sanayi i&#xE7;in tercih olmaktan &#xE7;&#x131;kt&#x131;, zorunluluk haline d&#xF6;n&#xFC;&#x15F;t&#xFC;
-                                    </h6>
-                                </div>
-                                <time class="text-xs text-muted px-4 mb-2">14 Ocak 2022</time>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row align-items-center mt-4 mt-md-0">
-                        <div class="col-5 col-md-12">
-                            <div class="d-block d-md-none swiper-pagination text-left text-md-center"></div>
-                        </div>
-                        <div class="col-7 col-md-12">
-                            <div class="mt-0 mt-md-7 text-right text-md-center">
-                                <a href="haberler.html" class="btn btn-outline-dark">T&#xDC;M&#xDC;N&#xDC; G&#xD6;R</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+@foreach (var item in Model.TopBodyViewModel)
+{
+    <section class="mt-7">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 pr-0 pr-md-10">
 
+                    <h2>@item.Name</h2>
+                    <p>@item.Description</p>
+                    <div>
 
-
-
-
-      
-     
-
-    </main>
-    <nav id="mobile-menu">
-        <ul>
-            @foreach (var item in Model)
-            {
-                <li class="submenu">
-
-                    <a href="hakkimizda.html" title="@item.Name ">
-                        @item.Name
-                    </a>
-
-                    <ol>
-                        @foreach (var subItem in item.WebPagesViewModel)
+                     @if (ViewBag.Language == "tr")
                         {
-                            <li>
-                                <a href="@subItem.PageUrl" title="@subItem.Name">
-                                    @subItem.Name
-                                </a>
-                            </li>
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="btn btn-danger">
+                                Daha Fazla
+                            </a>
+                        }
+                        else
+                        {
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="btn btn-danger">
+                               Learn More
+                            </a>
                         }
 
-                    </ol>
-                </li>
-            }
-        </ul>
-        <a href="#" title="" class="menu-close">
-            <i class="mdi mdi-close"></i>
-        </a>
-        <span class="mm-footer">
-            <span class="head">
-                <span>
-                    <span class="flag-icon flag-icon-tr"></span> T&#xFC;rk&#xE7;e
-                </span>
-                <i class="mdi mdi-chevron-down ml-auto"></i>
-            </span>
-            <span class="languages">
-            <a href="../" title="" data-code="tr-TR">
-                    <span class="flag-icon flag-icon-tr-TR"></span>
-                   Türkçe
-                </a>
-            <a href="../" title="" data-code="en-US">
-                    <span class="flag-icon flag-icon-en-US"></span>
-                    English
-                </a>
-            </span>
-        </span>
-    </nav>
-    <div class="search-box">
-        <span class="search-box-close-btn">
-            <i class="mdi mdi-close"></i>
-        </span>
-        <div class="container position-relative h-100">
-            <div class="row align-items-center h-100">
-                <div class="col-md-6">
-                    <form id="form-search" action="https://kalegrubu.com.tr/arama-sonuclari" method="get">
-                        <div class="d-flex flex-column">
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="searchText" placeholder="Arama Yap&#x131;n...">
-                            </div>
-                            <div class="d-none d-md-block">
-                                <div id="all-results" class="mt-10 d-none">
-                                    <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
-                                        T&#xDC;M SONU&#xC7;LARI G&#xD6;R
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div id="search-results"></div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" alt="">
                 </div>
             </div>
         </div>
-    </div>
-    <div class="search-box-mobile">
-        <span class="search-box-close-btn">
-            <i class="mdi mdi-close"></i>
-        </span>
-        <div class="container position-relative h-100">
+    </section>
+}
 
-            <div id="all-results-mobile" class="mt-10 d-none">
-                <a href="javascript:$('#form-search-mobile').submit();" title="" class="all-results btn btn-outline-dark btn-block">
-                    T&#xDC;M SONU&#xC7;LARI G&#xD6;R
-                </a>
-            </div>
-            <div class="row align-items-center h-100">
-                <div class="col-12">
-                    <div class="d-flex flex-column">
-                        <form id="form-search-mobile" action="https://kalegrubu.com.tr/arama-sonuclari" method="get">
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="searchText" placeholder="Arama Yap&#x131;n...">
+
+<section class="bg-teal">
+    <div class="project-slider container py-4 py-md-7">
+        <h2 class="mb-5 text-md-center">Toplumsal Yat&#x131;r&#x131;mlar</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
+  @*        @foreach (var item in model.ButtomBodyViewModel)
+
+                {
+                    <div class="swiper-slide">
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card h-100">
+                            <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">@item.Name</h6>
                             </div>
-                            <div id="search-results-mobile"></div>
-                        </form>
+                        </a>
+                    </div>
+
+                }
+*@
+
+
+            </div>
+        </div>
+        <div class="swiper-prev">
+            <i class="mdi mdi-arrow-left"></i>
+        </div>
+        <div class="swiper-next">
+            <i class="mdi mdi-arrow-right"></i>
+        </div>
+        <div class="container">
+            <div class="row align-items-center mt-4 mt-md-0">
+                <div class="col-5 col-md-12">
+                    <div class="swiper-pagination text-left text-md-center"></div>
+                </div>
+                <div class="col-7 col-md-12">
+                    <div class="mt-0 mt-md-7 text-right text-md-center">
+                        <a href="toplumsal-yatirimlar.html" title="" class="btn btn-outline-dark">T&#xDC;M&#xDC;N&#xDC; G&#xD6;R</a>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+</section>
+
+<section class="news-slider bg-light py-4 py-md-7">
+    <div class="container">
+        <h2 class="mb-5 text-center">Haberler</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
+              @foreach (var item in Model.NewsBodyViewModel)
+                {
+                    <div class="swiper-slide">
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card h-100">
+                            <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h6 class="card-title">
+                                    @item.Name
+                                </h6>
+                            </div>
+                            <time class="text-xs text-muted px-4 mb-2">@item.NewsDate</time>
+                        </a>
+                    </div>
+                }
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center mt-4 mt-md-0">
+                <div class="col-5 col-md-12">
+                    <div class="d-block d-md-none swiper-pagination text-left text-md-center"></div>
+                </div>
+                <div class="col-7 col-md-12">
+                    <div class="mt-0 mt-md-7 text-right text-md-center">
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = "haberler" })" class="btn btn-outline-dark">T&#xDC;M&#xDC;N&#xDC; G&#xD6;R</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<nav id="mobile-menu">
+    <ul>
+@*        @foreach (var item in Model)
+        {
+        <li class="submenu">
+
+        <a href="hakkimizda.html" title="@item.Name ">
+        @item.Name
+        </a>
+
+        <ol>
+        @foreach (var subItem in item.WebPagesViewModel)
+        {
+        <li>
+        <a href="@subItem.PageUrl" title="@subItem.Name">
+        @subItem.Name
+        </a>
+        </li>
+        }
+
+        </ol>
+        </li>
+        }*@
+    </ul>
+    <a href="#" title="" class="menu-close">
+        <i class="mdi mdi-close"></i>
+    </a>
+    <span class="mm-footer">
+        <span class="head">
+            <span>
+                <span class="flag-icon flag-icon-tr"></span> T&#xFC;rk&#xE7;e
+            </span>
+            <i class="mdi mdi-chevron-down ml-auto"></i>
+        </span>
+        <span class="languages">
+            <a href="../" title="" data-code="tr-TR">
+                <span class="flag-icon flag-icon-tr-TR"></span>
+                Türkçe
+            </a>
+            <a href="../" title="" data-code="en-US">
+                <span class="flag-icon flag-icon-en-US"></span>
+                English
+            </a>
+        </span>
+    </span>
+</nav>
+<div class="search-box">
+    <span class="search-box-close-btn">
+        <i class="mdi mdi-close"></i>
+    </span>
+    <div class="container position-relative h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-md-6">
+                <form id="form-search" action="https://kalegrubu.com.tr/arama-sonuclari" method="get">
+                    <div class="d-flex flex-column">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="searchText" placeholder="Arama Yap&#x131;n...">
+                        </div>
+                        <div class="d-none d-md-block">
+                            <div id="all-results" class="mt-10 d-none">
+                                <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
+                                    T&#xDC;M SONU&#xC7;LARI G&#xD6;R
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div id="search-results"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="search-box-mobile">
+    <span class="search-box-close-btn">
+        <i class="mdi mdi-close"></i>
+    </span>
+    <div class="container position-relative h-100">
+
+        <div id="all-results-mobile" class="mt-10 d-none">
+            <a href="javascript:$('#form-search-mobile').submit();" title="" class="all-results btn btn-outline-dark btn-block">
+                T&#xDC;M SONU&#xC7;LARI G&#xD6;R
+            </a>
+        </div>
+        <div class="row align-items-center h-100">
+            <div class="col-12">
+                <div class="d-flex flex-column">
+                    <form id="form-search-mobile" action="https://kalegrubu.com.tr/arama-sonuclari" method="get">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="searchText" placeholder="Arama Yap&#x131;n...">
+                        </div>
+                        <div id="search-results-mobile"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

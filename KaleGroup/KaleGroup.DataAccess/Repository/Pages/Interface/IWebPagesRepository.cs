@@ -1,5 +1,6 @@
 ﻿using KaleGroup.Data.Entities;
 using KaleGroup.DataAccess.Abstract;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,9 @@ namespace KaleGroup.DataAccess.Repository.Pages.Interface
     {
         WebPages GetWebPageByPageUrl(string pageUrl);
         List<WebPages> GetWebPageByMenuId(int menuId);
+        List<WebPages> GetWebPageByDetailList(bool isTopBody, bool isButtomBody, bool isNews);
+
+
     }
 }
- 
+

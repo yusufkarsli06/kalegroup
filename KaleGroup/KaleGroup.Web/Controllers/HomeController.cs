@@ -3,6 +3,7 @@ using KaleGroup.Web.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Nest;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -17,15 +18,17 @@ namespace KaleGroup.Web.Controllers
         private readonly IMenuLogic _menuLogic;
         private readonly IUserLogic _userLogic;
         private readonly IWebPagesLogic _webPagesLogic;
+        private readonly ISliderLogic _sliderLogic;
 
         public HomeController(ILogger<HomeController> logger,
-          IMenuLogic menuLogic, IWebPagesLogic webPagesLogic, IUserLogic userLogic
+          IMenuLogic menuLogic, IWebPagesLogic webPagesLogic, IUserLogic userLogic, ISliderLogic sliderLogic
             )
         {
             _logger = logger;
             _webPagesLogic = webPagesLogic;
             _menuLogic = menuLogic;
             _userLogic = userLogic;
+            _sliderLogic = sliderLogic;
         }
         public IActionResult Login()
         {
@@ -36,7 +39,9 @@ namespace KaleGroup.Web.Controllers
         {
             string language = Request.Cookies["language"];
 
-            List<MenuViewModel> vm = new List<MenuViewModel>();
+            List<MenuViewModel> menuList = new List<MenuViewModel>();
+            
+            HomeViewModel vm = new HomeViewModel();
 
 
             var menuResult = _menuLogic.GetMenuList().Where(x => x.IsActive).ToList();
@@ -68,12 +73,19 @@ namespace KaleGroup.Web.Controllers
                     webPageList.Add(webPage);
                 }
                 menu.WebPagesViewModel = webPageList;
-                vm.Add(menu);
+                menuList.Add(menu);
             }
             ViewBag.Language = language;
            
-            var str = JsonConvert.SerializeObject(vm);
+            var str = JsonConvert.SerializeObject(menuList);
             HttpContext.Session.SetString("menuModel", str);
+
+            vm.SliderViewModel = GetSliderList(1);
+            vm.TopBodyViewModel = GetTopBodyList();
+            vm.ButtomBodyViewModel = GetButtomBodyList();
+            vm.NewsBodyViewModel = GetNewBodyList();
+
+
             return View(vm);
         }
 
@@ -125,6 +137,8 @@ namespace KaleGroup.Web.Controllers
                     subPage.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
                     subPage.PageImage = item.PageTopImages;
                     subPage.PageTopSubject = language == "tr" ? item.PageTopSubject : item.EnPageTopSubject;
+                    subPage.CreatedAt = item.CreatedAt.ToString("dd.MMMM.yyyy");
+                    subPage.IsNews = item.IsNews;
                     subPageList.Add(subPage);
                 }
                 vm.SubPagesViewModel = subPageList;
@@ -182,6 +196,91 @@ namespace KaleGroup.Web.Controllers
             cookie.Expires = DateTime.Now.AddMonths(1);
             Response.Cookies.Append("language", language, cookie);
             return RedirectToAction("Index");
+        }
+        private List<SliderViewModel> GetSliderList(int menuId)
+        {
+            List<SliderViewModel> sliderList = new List<SliderViewModel>();
+           var sliderResult = _sliderLogic.GetSliderByMenuIdList(menuId);
+            foreach (var item in sliderResult)
+            {
+                SliderViewModel slider = new SliderViewModel();
+
+                slider.FilePath = item.FilePath;
+                sliderList.Add(slider);
+            }
+
+
+            return sliderList;
+
+        }
+
+        private List<TopBodyViewModel> GetTopBodyList()
+        {
+            string language = Request.Cookies["language"];
+
+            List<TopBodyViewModel> topBodyList = new List<TopBodyViewModel>();
+
+            var pageResult = _webPagesLogic.GetWebPageByDetailList(true,false,false);
+            foreach (var item in pageResult)
+            {
+                TopBodyViewModel topBody = new TopBodyViewModel();
+
+                topBody.FilePath = item.PageTopImages;
+                topBody.Name = language == "tr" ? item.Name : item.EnName;
+
+                topBody.Description =language == "tr" ? item.PageTopDescription : item.EnPageTopDescription;
+                topBody.PageUrl =language == "tr" ? item.PageUrl : item.EnPageUrl;
+                
+                topBodyList.Add(topBody);
+            }
+
+
+            return topBodyList;
+
+        }
+        private List<ButtomBodyViewModel> GetButtomBodyList()
+        {
+            string language = Request.Cookies["language"];
+
+            List<ButtomBodyViewModel> buttomBodyList = new List<ButtomBodyViewModel>();
+
+            var pageResult = _webPagesLogic.GetWebPageByDetailList(false,true,false);
+            foreach (var item in pageResult)
+            {
+                ButtomBodyViewModel buttomBody = new ButtomBodyViewModel();
+
+                buttomBody.FilePath = item.PageTopImages;
+                buttomBody.Name = language == "tr" ? item.Name : item.EnName;
+                buttomBody.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
+ 
+                buttomBodyList.Add(buttomBody);
+            }
+
+
+            return buttomBodyList;
+
+        } 
+        
+        private List<NewsBodyViewModel> GetNewBodyList()
+        {
+            string language = Request.Cookies["language"];
+
+            List<NewsBodyViewModel> newBodyList = new List<NewsBodyViewModel>();
+
+            var pageResult = _webPagesLogic.GetWebPageByDetailList(false,false,true);
+            foreach (var item in pageResult)
+            {
+                NewsBodyViewModel newBody = new NewsBodyViewModel();
+
+                newBody.FilePath = item.PageTopImages;
+                newBody.Name = language == "tr" ? item.Name : item.EnName;
+                newBody.NewsDate =  item.CreatedAt.ToString("dd.MMMM.yyyy");
+ 
+                newBodyList.Add(newBody);
+            }
+
+            return newBodyList;
+
         }
     }
 }

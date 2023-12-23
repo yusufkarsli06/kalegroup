@@ -91,7 +91,6 @@ namespace KaleGroup.Business.Business
                 webPage.Keyword = item.Keyword;
 
                 webPage.EnPageTopSubject = item.EnPageTopSubject;
-                webPage.EnPageTopSubject = item.EnPageTopSubject;
                 webPage.EnPageTopDescription = item.EnPageTopDescription;
                 webPage.EnPageTopBackground = item.EnPageTopBackground;
                 webPage.EnPageDescription = item.EnPageDescription;
@@ -105,55 +104,38 @@ namespace KaleGroup.Business.Business
             return webPageList;
         }
 
-        //public void PasiveSubMenu(int subMenuId)
-        //{
-        //    _subMenuRepository.PasiveSubMenu(subMenuId);
-        //}
+        public List<WebPagesDtos> GetWebPageByDetailList(bool isTopBody=false,bool isButtomBody = false, bool isNews = false)
 
-        //public void DeleteSubMenu(int subMenuId)
-        //{
-        //    _subMenuRepository.Delete(subMenuId);
-        //}
-        //public void AddSubMenu(SubMenuDtos param)
-        //{
-        //    SubMenus subMenus = new SubMenus();
-        //    subMenus.Name = param.Name;
-        //    subMenus.Description = param.Description;
-        //    subMenus.EnDescription = param.EnDescription;
-        //    subMenus.EnName = param.EnName;
-        //    subMenus.IsActive = true;
-        //    subMenus.MenuId = param.MenuId;
-        //    _subMenuRepository.Insert(subMenus);
-        //}
+        {
+            List<WebPagesDtos> webPageList = new List<WebPagesDtos>();
+            var webPageResult = _webPagesRepository.GetWebPageByDetailList(isTopBody,isButtomBody,isNews);
 
-        //public void UpdateSubMenu(SubMenuDtos param)
-        //{
-        //    SubMenus subMenus = new SubMenus();
-        //    subMenus.Name = param.Name;
-        //    subMenus.Description = param.Description;
-        //    subMenus.EnDescription = param.EnDescription;
-        //    subMenus.EnName = param.EnName;
-        //    subMenus.IsActive = true;
-        //    subMenus.MenuId = param.MenuId;
-        //    _subMenuRepository.Update(subMenus);
-        //}
-
-        //public SubMenuDtos GetSubMenu(int subMenuId)
-        //{
-        //    SubMenuDtos subMenuDtos = new SubMenuDtos();
-
-        //    var subMenuResult = _subMenuRepository.GetById(subMenuId);
-
-        //    subMenuDtos.EnDescription = subMenuResult.EnDescription;
-        //    subMenuDtos.Description = subMenuResult.Description;
-        //    subMenuDtos.Name = subMenuResult.Name;
-        //    subMenuDtos.EnName = subMenuResult.EnName;
-        //    subMenuDtos.IsActive = subMenuResult.IsActive;
-        //    subMenuDtos.Id = subMenuResult.Id;
-        //    return subMenuDtos;
+            foreach (var item in webPageResult)
+            {
+                WebPagesDtos webPage = new WebPagesDtos();
+                webPage.Id = item.Id;
+                webPage.Name = item.Name;
+                webPage.EnName = item.EnName;
+                webPage.PageTopSubject = item.PageTopSubject;
+                webPage.PageTopDescription = item.PageTopDescription;
+                webPage.EnPageTopDescription = item.EnPageTopDescription;
+                webPage.PageTopImages = item.PageTopImages;
+                webPage.PageDescription = item.PageDescription;
+                webPage.PageUrl = item.PageUrl;
+ 
+                webPage.EnPageTopSubject = item.EnPageTopSubject;
+                webPage.EnPageTopDescription = item.EnPageTopDescription;
+                webPage.EnPageTopBackground = item.EnPageTopBackground;
+                webPage.EnPageDescription = item.EnPageDescription;
+                webPage.EnPageUrl = item.EnPageUrl;
+                webPage.CreatedAt = item.CreatedAt;
 
 
-        //}
+                webPageList.Add(webPage);
+
+            }
+            return webPageList;
+        }
     }
 }
 

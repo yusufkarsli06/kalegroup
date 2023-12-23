@@ -15,6 +15,7 @@ namespace KaleGroup.Business.IBusiness
         List<WebPagesDtos> GetAllWebPagesList();
         WebPagesDtos GetWebPageByPageUrl(string pageUrl);
         List<WebPagesDtos> GetWebPageByMenuId(int menuId);
+        List<WebPagesDtos> GetWebPageByDetailList(bool isTopBody = false, bool isButtomBody = false, bool isNews = false);
     }
 }
  
