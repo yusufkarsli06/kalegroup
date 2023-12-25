@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/KaleGroup/KaleGroup.Web/bin/Debug/net7.0
+/KaleGroup/KaleGroup.Web/obj/Debug/net7.0
+/KaleGroup/KaleGroup.Business/bin/Debug/net7.0/KaleGroup.Business.dll
