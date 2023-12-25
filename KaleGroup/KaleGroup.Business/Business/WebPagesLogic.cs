@@ -3,6 +3,7 @@ using KaleGroup.Business.IBusiness;
 using KaleGroup.Data.Entities;
 using KaleGroup.DataAccess.Repository.Pages.Interface;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
+using Nest;
 
 namespace KaleGroup.Business.Business
 {
@@ -29,6 +30,7 @@ namespace KaleGroup.Business.Business
                 webPage.MenuId = item.MenuId;
                 webPage.PageUrl = item.PageUrl;
                 webPage.IsMenu = item.IsMenu;
+                webPage.IsSubMenu = item.IsSubMenu;
 
                 webPageList.Add(webPage);
 
@@ -63,6 +65,7 @@ namespace KaleGroup.Business.Business
             webPage.EnPageDescription = pageResult.EnPageDescription;
             webPage.EnPageUrl = pageResult.EnPageUrl;
             webPage.IsMenu = pageResult.IsMenu;
+            webPage.IsSubMenu = pageResult.IsSubMenu;
 
 
             return webPage;
@@ -96,6 +99,7 @@ namespace KaleGroup.Business.Business
                 webPage.EnPageDescription = item.EnPageDescription;
                 webPage.EnPageUrl = item.EnPageUrl;
                 webPage.IsMenu = item.IsMenu;
+                webPage.IsSubMenu = item.IsSubMenu;
 
 
                 webPageList.Add(webPage);
@@ -104,11 +108,11 @@ namespace KaleGroup.Business.Business
             return webPageList;
         }
 
-        public List<WebPagesDtos> GetWebPageByDetailList(bool isTopBody=false,bool isButtomBody = false, bool isNews = false)
+        public List<WebPagesDtos> GetWebPageByDetailList(bool isTopBody = false, bool isButtomBody = false, bool isNews = false)
 
         {
             List<WebPagesDtos> webPageList = new List<WebPagesDtos>();
-            var webPageResult = _webPagesRepository.GetWebPageByDetailList(isTopBody,isButtomBody,isNews);
+            var webPageResult = _webPagesRepository.GetWebPageByDetailList(isTopBody, isButtomBody, isNews);
 
             foreach (var item in webPageResult)
             {
@@ -122,13 +126,42 @@ namespace KaleGroup.Business.Business
                 webPage.PageTopImages = item.PageTopImages;
                 webPage.PageDescription = item.PageDescription;
                 webPage.PageUrl = item.PageUrl;
- 
+
                 webPage.EnPageTopSubject = item.EnPageTopSubject;
                 webPage.EnPageTopDescription = item.EnPageTopDescription;
                 webPage.EnPageTopBackground = item.EnPageTopBackground;
                 webPage.EnPageDescription = item.EnPageDescription;
                 webPage.EnPageUrl = item.EnPageUrl;
                 webPage.CreatedAt = item.CreatedAt;
+                webPage.IsSubMenu = item.IsSubMenu;
+
+
+                webPageList.Add(webPage);
+
+            }
+            return webPageList;
+        }
+
+        public List<WebPagesDtos> GetWebSearchList(string language, string searchText)
+        {
+            List<WebPagesDtos> webPageList = new List<WebPagesDtos>();
+            var webPageResult = _webPagesRepository.GetWebSearchList(language, searchText);
+
+            foreach (var item in webPageResult)
+            {
+                WebPagesDtos webPage = new WebPagesDtos();
+                webPage.Id = item.Id;
+                webPage.Name = item.Name;
+                webPage.EnName = item.EnName;
+                webPage.PageTopSubject = item.PageTopSubject;
+                webPage.PageTopDescription = item.PageTopDescription;
+                webPage.EnPageTopDescription = item.EnPageTopDescription;
+                webPage.PageUrl = item.PageUrl;
+                webPage.MenuId = item.MenuId;
+
+                webPage.EnPageTopSubject = item.EnPageTopSubject;
+                webPage.EnPageTopDescription = item.EnPageTopDescription;
+                webPage.EnPageUrl = item.EnPageUrl;
 
 
                 webPageList.Add(webPage);

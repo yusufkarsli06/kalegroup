@@ -26,6 +26,7 @@ namespace KaleGroup.Web.Models
         public string EnPageUrl { get; set; }
         public bool IsNews { get; set; }
         public bool IsMenu { get; set; }
+        public bool IsSubMenu { get; set; }
         public bool IsTopBody { get; set; }
         public bool IsButtomBody { get; set; }
         public string LastPageUrl { get; set; }

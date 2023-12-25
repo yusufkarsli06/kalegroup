@@ -1,5 +1,9 @@
-﻿
-@*model KaleGroup.Web.Models.HomeViewModel*@
+﻿@model KaleGroup.Web.Models.HomeViewModel
+@{
+  
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
 
 <section class="mt-5">
     <div class="container">
@@ -63,13 +67,16 @@
     </section>
 }
 
+@if (Model.ButtomBodyViewModel.Count > 0)
+{
+    
 
 <section class="bg-teal">
     <div class="project-slider container py-4 py-md-7">
         <h2 class="mb-5 text-md-center">Toplumsal Yat&#x131;r&#x131;mlar</h2>
         <div class="swiper-container">
             <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
-  @*        @foreach (var item in model.ButtomBodyViewModel)
+          @foreach (var item in Model.ButtomBodyViewModel)
 
                 {
                     <div class="swiper-slide">
@@ -82,7 +89,7 @@
                     </div>
 
                 }
-*@
+
 
 
             </div>
@@ -100,52 +107,69 @@
                 </div>
                 <div class="col-7 col-md-12">
                     <div class="mt-0 mt-md-7 text-right text-md-center">
-                        <a href="toplumsal-yatirimlar.html" title="" class="btn btn-outline-dark">T&#xDC;M&#xDC;N&#xDC; G&#xD6;R</a>
-                    </div>
+                            @if (ViewBag.Language == "tr")
+                            {
+                                <a href="@Url.Action("Pages","Home", new { pageUrl = "toplumsal_yatirim" })" class="btn btn-outline-dark">Tümünü Gör</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Pages","Home", new { pageUrl = "social_investments" })" class="btn btn-outline-dark">See All</a>
+                            }
+                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+}
+@if (Model.NewsBodyViewModel.Count > 0)
+{
 
-<section class="news-slider bg-light py-4 py-md-7">
-    <div class="container">
-        <h2 class="mb-5 text-center">Haberler</h2>
-        <div class="swiper-container">
-            <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
-              @foreach (var item in Model.NewsBodyViewModel)
-                {
-                    <div class="swiper-slide">
-                        <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card h-100">
-                            <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <h6 class="card-title">
-                                    @item.Name
-                                </h6>
-                            </div>
-                            <time class="text-xs text-muted px-4 mb-2">@item.NewsDate</time>
-                        </a>
-                    </div>
-                }
-
-            </div>
-        </div>
+    <section class="news-slider bg-light py-4 py-md-7">
         <div class="container">
-            <div class="row align-items-center mt-4 mt-md-0">
-                <div class="col-5 col-md-12">
-                    <div class="d-block d-md-none swiper-pagination text-left text-md-center"></div>
+            <h2 class="mb-5 text-center">Haberler</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
+                    @foreach (var item in Model.NewsBodyViewModel)
+                    {
+                        <div class="swiper-slide">
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card h-100">
+                                <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h6 class="card-title">
+                                        @item.Name
+                                    </h6>
+                                </div>
+                                <time class="text-xs text-muted px-4 mb-2">@item.NewsDate</time>
+                            </a>
+                        </div>
+                    }
+
                 </div>
-                <div class="col-7 col-md-12">
-                    <div class="mt-0 mt-md-7 text-right text-md-center">
-                        <a href="@Url.Action("Pages","Home", new { pageUrl = "haberler" })" class="btn btn-outline-dark">T&#xDC;M&#xDC;N&#xDC; G&#xD6;R</a>
+            </div>
+            <div class="container">
+                <div class="row align-items-center mt-4 mt-md-0">
+                    <div class="col-5 col-md-12">
+                        <div class="d-block d-md-none swiper-pagination text-left text-md-center"></div>
+                    </div>
+                    <div class="col-7 col-md-12">
+                        <div class="mt-0 mt-md-7 text-right text-md-center">
+                            @if (ViewBag.Language == "tr")
+                            {
+                                <a href="@Url.Action("Pages","Home", new { pageUrl = "haberler" })" class="btn btn-outline-dark">Tümünü Gör</a>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("Pages","Home", new { pageUrl = "news" })" class="btn btn-outline-dark">See All</a>
+                            }
+                          
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-
+    </section>
+}
 
 
 
@@ -221,7 +245,10 @@
                 </form>
             </div>
             <div class="col-md-6">
-                <div id="search-results"></div>
+                <div id="search-results">
+
+                    test
+                </div>
             </div>
         </div>
     </div>

@@ -14,7 +14,7 @@ namespace KaleGroup.DataAccess.Repository.Pages.Interface
         WebPages GetWebPageByPageUrl(string pageUrl);
         List<WebPages> GetWebPageByMenuId(int menuId);
         List<WebPages> GetWebPageByDetailList(bool isTopBody, bool isButtomBody, bool isNews);
-
+        List<WebPages> GetWebSearchList(string language, string searchText);
 
     }
 }

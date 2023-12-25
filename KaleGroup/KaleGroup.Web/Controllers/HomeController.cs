@@ -60,7 +60,7 @@ namespace KaleGroup.Web.Controllers
                 menu.PageUrl = language == "tr" ? webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.PageUrl).FirstOrDefault() :
                     webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.EnPageUrl).FirstOrDefault();
 
-                var webPageListResult = webPageResult.Where(x => x.MenuId == item.Id && !x.IsMenu).ToList();
+                var webPageListResult = webPageResult.Where(x => x.MenuId == item.Id && !x.IsMenu && x.IsSubMenu).ToList();
 
                 foreach (var subItem in webPageListResult)
                 {
@@ -147,6 +147,54 @@ namespace KaleGroup.Web.Controllers
             ViewBag.Language = language;
             return View(vm);
         }
+
+        public IActionResult SearchResult(string searchText)
+        {
+            string language = Request.Cookies["language"];
+            List<SearchListViewModel> searchList = new List<SearchListViewModel>();
+            List<SearchMenuViewModel> searchMenuListViewModel = new List<SearchMenuViewModel>();
+            SearchViewModel vm = new SearchViewModel();
+
+
+            var pageResult = _webPagesLogic.GetWebSearchList(language,searchText);
+
+            var mySessionObject =  HttpContext.Session.GetString("menuModel");
+            var menuModel = JsonConvert.DeserializeObject<List<MenuViewModel>>(mySessionObject);
+
+            foreach (var item in pageResult)
+            {
+                SearchMenuViewModel searchMenuViewModel = new SearchMenuViewModel();
+
+                var menuNames = menuModel.Where(x => x.Id == item.MenuId);
+                
+                string menuName = menuNames.Select(x => x.Name).FirstOrDefault();
+                string menuEnName = menuNames.Select(x => x.EnName).FirstOrDefault();
+
+                searchMenuViewModel.MenuName = language == "tr" ? menuName : menuEnName;
+                foreach (var itemList in pageResult.Where(x=>x.MenuId==item.MenuId))
+                {
+                    SearchListViewModel search = new SearchListViewModel();
+
+                    search.Name = language == "tr" ? itemList.Name : itemList.EnName;
+
+                    search.PageTopSubject = language == "tr" ? itemList.PageTopSubject : itemList.EnPageTopSubject;
+                    search.PageTopDescription = language == "tr" ? itemList.PageTopDescription : itemList.EnPageTopDescription;
+
+                    search.PageUrl = language == "tr" ? itemList.PageUrl : itemList.EnPageUrl;
+
+                    searchList.Add(search);
+                }
+                searchMenuListViewModel.Add(searchMenuViewModel);
+                searchMenuViewModel.SearchListViewModel = searchList;
+
+            }
+
+            vm.SearchText = searchText;
+            vm.SearchMenuViewModel = searchMenuListViewModel;
+            ViewBag.Language = language;
+            return View(vm);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -274,6 +322,7 @@ namespace KaleGroup.Web.Controllers
 
                 newBody.FilePath = item.PageTopImages;
                 newBody.Name = language == "tr" ? item.Name : item.EnName;
+                newBody.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
                 newBody.NewsDate =  item.CreatedAt.ToString("dd.MMMM.yyyy");
  
                 newBodyList.Add(newBody);

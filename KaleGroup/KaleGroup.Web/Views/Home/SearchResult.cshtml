@@ -1,0 +1,46 @@
+﻿@model KaleGroup.Web.Models.SearchViewModel
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ 
+<section class="py-5 py-md-8">
+    <div class="container">
+        @if (ViewBag.Language == "tr")
+        {
+            <h3 class="mb-10">“ @Model.SearchText ” için arama sonuçları</h3>
+        }
+        else
+        {
+            <h3 class="mb-10">Search results for “ @Model.SearchText ”</h3>
+        }
+       
+        <div class="row">
+        </div>
+        <div class="row mt-10">
+            @foreach (var item in Model.SearchMenuViewModel)
+            {
+                <div class="col-md-3">
+                    <small>
+                        @item.MenuName
+                    </small>
+                    @foreach (var itemSearch in item.SearchListViewModel)
+                    {
+                        <div class="item mt-4">
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = itemSearch.PageUrl })">
+                                <p>@itemSearch.PageTopSubject</p>
+                                <p class="text-xs text-secondary line-height-lg">
+                                    @itemSearch.PageTopDescription
+                                </p>
+                            </a>
+                        </div>
+                    }
+                   
+                </div>
+            }           
+
+        </div>
+    </div>
+</section>
