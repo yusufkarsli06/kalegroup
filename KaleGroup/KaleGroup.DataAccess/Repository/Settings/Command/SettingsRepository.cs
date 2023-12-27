@@ -14,7 +14,24 @@ namespace KaleGroup.DataAccess.Repository.Slider.Command
         }
         public SettingsRepository(BaseContext dbContext) : base(dbContext)
         {
-        } 
-       
+        }
+
+        public void PasiveSettings(int id)
+        {
+            var slider = _dbSet.Where(x => x.Id == id).FirstOrDefault();
+            if (slider.IsActive == false)
+            {
+                slider.IsActive = true;
+            }
+            else
+            {
+                slider.IsActive = false;
+            }
+
+            _dbContext.Entry(slider).State = EntityState.Modified;
+
+            _dbContext.SaveChanges();
+        }
+
     }
 }
