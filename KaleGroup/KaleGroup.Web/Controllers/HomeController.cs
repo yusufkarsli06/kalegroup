@@ -40,7 +40,7 @@ namespace KaleGroup.Web.Controllers
             string language = Request.Cookies["language"];
 
             List<MenuViewModel> menuList = new List<MenuViewModel>();
-            
+
             HomeViewModel vm = new HomeViewModel();
 
 
@@ -56,7 +56,7 @@ namespace KaleGroup.Web.Controllers
                 MenuViewModel menu = new MenuViewModel();
 
                 menu.Name = language == "tr" ? item.Name : item.EnName;
-
+                menu.Id = item.Id;
                 menu.PageUrl = language == "tr" ? webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.PageUrl).FirstOrDefault() :
                     webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.EnPageUrl).FirstOrDefault();
 
@@ -70,13 +70,14 @@ namespace KaleGroup.Web.Controllers
                     webPage.MenuId = subItem.MenuId;
                     webPage.PageUrl = language == "tr" ? subItem.PageUrl : subItem.EnPageUrl;
                     webPage.PageTopSubject = language == "tr" ? subItem.PageTopSubject : subItem.EnPageTopSubject;
+                    webPage.Id = subItem.Id;
                     webPageList.Add(webPage);
                 }
                 menu.WebPagesViewModel = webPageList;
                 menuList.Add(menu);
             }
             ViewBag.Language = language;
-           
+
             var str = JsonConvert.SerializeObject(menuList);
             HttpContext.Session.SetString("menuModel", str);
 
@@ -114,8 +115,8 @@ namespace KaleGroup.Web.Controllers
 
             //todo bağlı olduğu sayfa bilgileri 
 
-            var lastPageInfo = _webPagesLogic.GetWebPageByMenuId(pageResult.MenuId).Where(x=>x.IsMenu).FirstOrDefault();
-           if(lastPageInfo!= null)
+            var lastPageInfo = _webPagesLogic.GetWebPageByMenuId(pageResult.MenuId).Where(x => x.IsMenu).FirstOrDefault();
+            if (lastPageInfo != null)
             {
                 vm.LastPageName = language == "tr" ? lastPageInfo.Name : lastPageInfo.EnName; ;
                 vm.LastPageUrl = language == "tr" ? lastPageInfo.PageUrl : lastPageInfo.EnPageUrl;
@@ -126,7 +127,7 @@ namespace KaleGroup.Web.Controllers
 
             if (pageResult.IsMenu)
             {
-                var subPageResult = _webPagesLogic.GetWebPageByMenuId(pageResult.MenuId).Where(x=>!x.IsMenu);
+                var subPageResult = _webPagesLogic.GetWebPageByMenuId(pageResult.MenuId).Where(x => !x.IsMenu);
 
                 List<SubPagesViewModel> subPageList = new List<SubPagesViewModel>();
 
@@ -150,47 +151,69 @@ namespace KaleGroup.Web.Controllers
 
         public IActionResult SearchResult(string searchText)
         {
-            string language = Request.Cookies["language"];
-            List<SearchListViewModel> searchList = new List<SearchListViewModel>();
-            List<SearchMenuViewModel> searchMenuListViewModel = new List<SearchMenuViewModel>();
             SearchViewModel vm = new SearchViewModel();
 
+            vm.SearchText = searchText;
+            string language = Request.Cookies["language"];
 
-            var pageResult = _webPagesLogic.GetWebSearchList(language,searchText);
+            List<SearchMenuViewModel> searchMenuListViewModel = new List<SearchMenuViewModel>();
+            List<SearchListViewModel> searchListViewModel = new List<SearchListViewModel>();
 
-            var mySessionObject =  HttpContext.Session.GetString("menuModel");
+
+            var mySessionObject = HttpContext.Session.GetString("menuModel");
             var menuModel = JsonConvert.DeserializeObject<List<MenuViewModel>>(mySessionObject);
-
-            foreach (var item in pageResult)
+            var pageResult = _webPagesLogic.GetWebSearchList(language, searchText);
+            foreach (var item in menuModel)
             {
                 SearchMenuViewModel searchMenuViewModel = new SearchMenuViewModel();
+                searchMenuViewModel.MenuName = language == "tr" ? item.Name : item.EnName;
 
-                var menuNames = menuModel.Where(x => x.Id == item.MenuId);
-                
-                string menuName = menuNames.Select(x => x.Name).FirstOrDefault();
-                string menuEnName = menuNames.Select(x => x.EnName).FirstOrDefault();
 
-                searchMenuViewModel.MenuName = language == "tr" ? menuName : menuEnName;
-                foreach (var itemList in pageResult.Where(x=>x.MenuId==item.MenuId))
+                foreach (var resultItem in pageResult.Where(x=>x.MenuId==item.Id))
                 {
-                    SearchListViewModel search = new SearchListViewModel();
-
-                    search.Name = language == "tr" ? itemList.Name : itemList.EnName;
-
-                    search.PageTopSubject = language == "tr" ? itemList.PageTopSubject : itemList.EnPageTopSubject;
-                    search.PageTopDescription = language == "tr" ? itemList.PageTopDescription : itemList.EnPageTopDescription;
-
-                    search.PageUrl = language == "tr" ? itemList.PageUrl : itemList.EnPageUrl;
-
-                    searchList.Add(search);
+                    SearchListViewModel searchListView = new SearchListViewModel();
+                    searchListView.PageUrl = language == "tr" ? resultItem.PageUrl : resultItem.EnPageUrl;
+                    searchListView.Name = language == "tr" ? resultItem.Name : resultItem.EnName;
+                    searchListView.PageTopSubject = language == "tr" ? resultItem.PageTopSubject : resultItem.EnPageTopSubject;
+                    searchListView.PageTopDescription = language == "tr" ? resultItem.PageTopDescription : resultItem.EnPageTopDescription;
+                    searchListViewModel.Add(searchListView);
                 }
+                searchMenuViewModel.SearchListViewModel = searchListViewModel;
                 searchMenuListViewModel.Add(searchMenuViewModel);
-                searchMenuViewModel.SearchListViewModel = searchList;
-
             }
-
-            vm.SearchText = searchText;
             vm.SearchMenuViewModel = searchMenuListViewModel;
+            //var pageResult = _webPagesLogic.GetWebSearchList(language,searchText);
+
+
+            //foreach (var item in pageResult)
+            //{
+            //    SearchMenuViewModel searchMenuViewModel = new SearchMenuViewModel();
+
+
+            //    string menuName = menuModel.Select(x => x.Name).FirstOrDefault();
+            //    string menuEnName = menuModel.Select(x => x.EnName).FirstOrDefault();
+
+            //    searchMenuViewModel.MenuName = language == "tr" ? menuName : menuEnName;
+            //    foreach (var itemList in pageResult.Where(x=>x.MenuId==item.MenuId))
+            //    {
+            //        SearchListViewModel search = new SearchListViewModel();
+
+            //        search.Name = language == "tr" ? itemList.Name : itemList.EnName;
+
+            //        search.PageTopSubject = language == "tr" ? itemList.PageTopSubject : itemList.EnPageTopSubject;
+            //        search.PageTopDescription = language == "tr" ? itemList.PageTopDescription : itemList.EnPageTopDescription;
+
+            //        search.PageUrl = language == "tr" ? itemList.PageUrl : itemList.EnPageUrl;
+
+            //        searchList.Add(search);
+            //    }
+            //    searchMenuListViewModel.Add(searchMenuViewModel);
+            //    searchMenuViewModel.SearchListViewModel = searchList;
+
+            //}
+
+            //vm.SearchText = searchText;
+            //vm.SearchMenuViewModel = searchMenuListViewModel;
             ViewBag.Language = language;
             return View(vm);
         }
@@ -248,7 +271,7 @@ namespace KaleGroup.Web.Controllers
         private List<SliderViewModel> GetSliderList(int menuId)
         {
             List<SliderViewModel> sliderList = new List<SliderViewModel>();
-           var sliderResult = _sliderLogic.GetSliderByMenuIdList(menuId);
+            var sliderResult = _sliderLogic.GetSliderByMenuIdList(menuId);
             foreach (var item in sliderResult)
             {
                 SliderViewModel slider = new SliderViewModel();
@@ -268,7 +291,7 @@ namespace KaleGroup.Web.Controllers
 
             List<TopBodyViewModel> topBodyList = new List<TopBodyViewModel>();
 
-            var pageResult = _webPagesLogic.GetWebPageByDetailList(true,false,false);
+            var pageResult = _webPagesLogic.GetWebPageByDetailList(true, false, false);
             foreach (var item in pageResult)
             {
                 TopBodyViewModel topBody = new TopBodyViewModel();
@@ -276,9 +299,9 @@ namespace KaleGroup.Web.Controllers
                 topBody.FilePath = item.PageTopImages;
                 topBody.Name = language == "tr" ? item.Name : item.EnName;
 
-                topBody.Description =language == "tr" ? item.PageTopDescription : item.EnPageTopDescription;
-                topBody.PageUrl =language == "tr" ? item.PageUrl : item.EnPageUrl;
-                
+                topBody.Description = language == "tr" ? item.PageTopDescription : item.EnPageTopDescription;
+                topBody.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
+
                 topBodyList.Add(topBody);
             }
 
@@ -292,7 +315,7 @@ namespace KaleGroup.Web.Controllers
 
             List<ButtomBodyViewModel> buttomBodyList = new List<ButtomBodyViewModel>();
 
-            var pageResult = _webPagesLogic.GetWebPageByDetailList(false,true,false);
+            var pageResult = _webPagesLogic.GetWebPageByDetailList(false, true, false);
             foreach (var item in pageResult)
             {
                 ButtomBodyViewModel buttomBody = new ButtomBodyViewModel();
@@ -300,22 +323,22 @@ namespace KaleGroup.Web.Controllers
                 buttomBody.FilePath = item.PageTopImages;
                 buttomBody.Name = language == "tr" ? item.Name : item.EnName;
                 buttomBody.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
- 
+
                 buttomBodyList.Add(buttomBody);
             }
 
 
             return buttomBodyList;
 
-        } 
-        
+        }
+
         private List<NewsBodyViewModel> GetNewBodyList()
         {
             string language = Request.Cookies["language"];
 
             List<NewsBodyViewModel> newBodyList = new List<NewsBodyViewModel>();
 
-            var pageResult = _webPagesLogic.GetWebPageByDetailList(false,false,true);
+            var pageResult = _webPagesLogic.GetWebPageByDetailList(false, false, true);
             foreach (var item in pageResult)
             {
                 NewsBodyViewModel newBody = new NewsBodyViewModel();
@@ -323,8 +346,8 @@ namespace KaleGroup.Web.Controllers
                 newBody.FilePath = item.PageTopImages;
                 newBody.Name = language == "tr" ? item.Name : item.EnName;
                 newBody.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
-                newBody.NewsDate =  item.CreatedAt.ToString("dd.MMMM.yyyy");
- 
+                newBody.NewsDate = item.CreatedAt.ToString("dd.MMMM.yyyy");
+
                 newBodyList.Add(newBody);
             }
 

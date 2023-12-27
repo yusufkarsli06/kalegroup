@@ -31,6 +31,7 @@ namespace KaleGroup.Business.Business
                 webPage.PageUrl = item.PageUrl;
                 webPage.IsMenu = item.IsMenu;
                 webPage.IsSubMenu = item.IsSubMenu;
+                webPage.Id = item.Id;
 
                 webPageList.Add(webPage);
 
