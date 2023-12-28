@@ -1,0 +1,47 @@
+﻿ @model KaleGroup.Admin.Models.AddUserViewModel
+ @{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ 
+
+<div class="container mt-5 mb-5">
+    <div class="heading mb-3">
+        <h1 class="text-center">Tüm <span class="text-primary">Kullanıcı Güncelle</span></h1>
+    </div>
+    <form asp-controller="User" asp-action="UpdateUser" asp-validator="true">
+        @Html.AntiForgeryToken()
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form-group position-relative">
+                    <label>Kullanıcı Adı <span class="text-danger">*</span></label>
+                    <i data-feather="user" class="fea icon-sm icons"></i>
+                    <input type="text" class="form-control pl-5" placeholder="Kullanıcı Adı" asp-for="Username">
+                    <span asp-validation-for="Username" class="text-danger mt-2"></span>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="form-group position-relative">
+                    <label>E mail <span class="text-danger">*</span></label>
+                    <i data-feather="user" class="fea icon-sm icons"></i>
+                    <input type="text" class="form-control pl-5" placeholder="Açıklama" asp-for="Email">
+                    <span asp-validation-for="Email" class="text-danger mt-2"></span>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="form-group position-relative">
+                    <label>Şifre<span class="text-danger">*</span></label>
+                    <i data-feather="user" class="fea icon-sm icons"></i>
+                    <input type="password" class="form-control pl-5" placeholder="Şifre" asp-for="Password">
+                    <span asp-validation-for="Password" class="text-danger mt-2"></span>
+                </div>
+            </div>
+
+            <div class="col-lg-12 mb-0">
+                <input type="submit" class="btn btn-primary btn-block" value="Kaydet">
+            </div>
+        </div>
+    </form>
+</div>

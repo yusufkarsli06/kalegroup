@@ -70,7 +70,6 @@ D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\staticwebassets.pack.json
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\staticwebassets.build.json
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\staticwebassets.development.json
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\scopedcss\bundle\KaleGroup.Web.styles.css
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\scopedcss\projectbundle\KaleGroup.Web.bundle.scp.css
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\KaleGroup.Web.csproj.CopyComplete

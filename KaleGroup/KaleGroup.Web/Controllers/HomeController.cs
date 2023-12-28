@@ -19,7 +19,7 @@ namespace KaleGroup.Web.Controllers
         private readonly IUserLogic _userLogic;
         private readonly IWebPagesLogic _webPagesLogic;
         private readonly ISliderLogic _sliderLogic;
-        string language = Request.Cookies["language"];
+        string language = "";//todo düzeltilmesi gerekiyor.Request.Cookies["language"];
 
         public HomeController(ILogger<HomeController> logger,
           IMenuLogic menuLogic, IWebPagesLogic webPagesLogic, IUserLogic userLogic, ISliderLogic sliderLogic
@@ -31,11 +31,7 @@ namespace KaleGroup.Web.Controllers
             _userLogic = userLogic;
             _sliderLogic = sliderLogic;
         }
-        public IActionResult Login()
-        {
-            LoginViewModel vm = new LoginViewModel();
-            return View(vm);
-        }
+      
         public IActionResult Index()
         {
           
@@ -193,41 +189,7 @@ namespace KaleGroup.Web.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        [HttpPost]
-        public IActionResult Login(LoginViewModel param)
-        {
-
-            var loginResult = _userLogic.AuthenticateUser(param.Username, param.Password);
-
-            if (loginResult != null)
-            {
-
-                Claim[] claims = new Claim[]
-                   {
-                            new Claim(ClaimTypes.Name,loginResult.Username),
-                            new Claim("EndDate",  DateTime.MinValue.AddDays(30).ToString()),
-                            new Claim(ClaimTypes.NameIdentifier, loginResult.Id.ToString())
-                   };
-                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                HttpContext.SignInAsync(
-                  CookieAuthenticationDefaults.AuthenticationScheme,
-                  new ClaimsPrincipal(identity),
-                  new AuthenticationProperties
-                  {
-                      IsPersistent = true,
-                      ExpiresUtc = DateTimeOffset.Now.AddDays(30),
-                  }
-              );
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                ViewBag.ResultText = "Kullanıcı Adı veya Şifre Yanlış";
-                return View(param);
-            }
-
-        }
-
+       
 
         public IActionResult SetLanguage(string language)
         {
