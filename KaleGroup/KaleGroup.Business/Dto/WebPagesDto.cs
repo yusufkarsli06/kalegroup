@@ -30,6 +30,7 @@ namespace KaleGroup.Business.Dto
         public bool IsSubMenu { get; set; }
         public bool IsTopBody { get; set; }
         public bool IsButtomBody { get; set; }
+        public bool IsSlider { get; set; }
         public DateTime CreatedAt { get; set; }
     }
 }

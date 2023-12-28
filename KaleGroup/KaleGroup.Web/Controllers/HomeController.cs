@@ -19,6 +19,7 @@ namespace KaleGroup.Web.Controllers
         private readonly IUserLogic _userLogic;
         private readonly IWebPagesLogic _webPagesLogic;
         private readonly ISliderLogic _sliderLogic;
+        string language = Request.Cookies["language"];
 
         public HomeController(ILogger<HomeController> logger,
           IMenuLogic menuLogic, IWebPagesLogic webPagesLogic, IUserLogic userLogic, ISliderLogic sliderLogic
@@ -37,8 +38,7 @@ namespace KaleGroup.Web.Controllers
         }
         public IActionResult Index()
         {
-            string language = Request.Cookies["language"];
-
+          
             List<MenuViewModel> menuList = new List<MenuViewModel>();
 
             HomeViewModel vm = new HomeViewModel();
@@ -92,8 +92,7 @@ namespace KaleGroup.Web.Controllers
 
         public IActionResult Pages(string pageUrl)
         {
-            string language = Request.Cookies["language"];
-            WebPagesViewModel vm = new WebPagesViewModel();
+             WebPagesViewModel vm = new WebPagesViewModel();
 
 
             var pageResult = _webPagesLogic.GetWebPageByPageUrl(pageUrl);
@@ -146,6 +145,7 @@ namespace KaleGroup.Web.Controllers
 
             }
             ViewBag.Language = language;
+            vm.SliderViewModel = GetSliderList(pageResult.MenuId);
             return View(vm);
         }
 
@@ -154,8 +154,7 @@ namespace KaleGroup.Web.Controllers
             SearchViewModel vm = new SearchViewModel();
 
             vm.SearchText = searchText;
-            string language = Request.Cookies["language"];
-
+ 
             List<SearchMenuViewModel> searchMenuListViewModel = new List<SearchMenuViewModel>();
             List<SearchListViewModel> searchListViewModel = new List<SearchListViewModel>();
 
@@ -182,38 +181,7 @@ namespace KaleGroup.Web.Controllers
                 searchMenuListViewModel.Add(searchMenuViewModel);
             }
             vm.SearchMenuViewModel = searchMenuListViewModel;
-            //var pageResult = _webPagesLogic.GetWebSearchList(language,searchText);
-
-
-            //foreach (var item in pageResult)
-            //{
-            //    SearchMenuViewModel searchMenuViewModel = new SearchMenuViewModel();
-
-
-            //    string menuName = menuModel.Select(x => x.Name).FirstOrDefault();
-            //    string menuEnName = menuModel.Select(x => x.EnName).FirstOrDefault();
-
-            //    searchMenuViewModel.MenuName = language == "tr" ? menuName : menuEnName;
-            //    foreach (var itemList in pageResult.Where(x=>x.MenuId==item.MenuId))
-            //    {
-            //        SearchListViewModel search = new SearchListViewModel();
-
-            //        search.Name = language == "tr" ? itemList.Name : itemList.EnName;
-
-            //        search.PageTopSubject = language == "tr" ? itemList.PageTopSubject : itemList.EnPageTopSubject;
-            //        search.PageTopDescription = language == "tr" ? itemList.PageTopDescription : itemList.EnPageTopDescription;
-
-            //        search.PageUrl = language == "tr" ? itemList.PageUrl : itemList.EnPageUrl;
-
-            //        searchList.Add(search);
-            //    }
-            //    searchMenuListViewModel.Add(searchMenuViewModel);
-            //    searchMenuViewModel.SearchListViewModel = searchList;
-
-            //}
-
-            //vm.SearchText = searchText;
-            //vm.SearchMenuViewModel = searchMenuListViewModel;
+       
             ViewBag.Language = language;
             return View(vm);
         }
@@ -270,6 +238,8 @@ namespace KaleGroup.Web.Controllers
         }
         private List<SliderViewModel> GetSliderList(int menuId)
         {
+            string language = Request.Cookies["language"];
+
             List<SliderViewModel> sliderList = new List<SliderViewModel>();
             var sliderResult = _sliderLogic.GetSliderByMenuIdList(menuId);
             foreach (var item in sliderResult)
@@ -277,6 +247,7 @@ namespace KaleGroup.Web.Controllers
                 SliderViewModel slider = new SliderViewModel();
 
                 slider.FilePath = item.FilePath;
+                slider.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
                 sliderList.Add(slider);
             }
 
@@ -286,9 +257,7 @@ namespace KaleGroup.Web.Controllers
         }
 
         private List<TopBodyViewModel> GetTopBodyList()
-        {
-            string language = Request.Cookies["language"];
-
+        { 
             List<TopBodyViewModel> topBodyList = new List<TopBodyViewModel>();
 
             var pageResult = _webPagesLogic.GetWebPageByDetailList(true, false, false);
@@ -305,14 +274,11 @@ namespace KaleGroup.Web.Controllers
                 topBodyList.Add(topBody);
             }
 
-
             return topBodyList;
 
         }
         private List<ButtomBodyViewModel> GetButtomBodyList()
-        {
-            string language = Request.Cookies["language"];
-
+        { 
             List<ButtomBodyViewModel> buttomBodyList = new List<ButtomBodyViewModel>();
 
             var pageResult = _webPagesLogic.GetWebPageByDetailList(false, true, false);
@@ -327,15 +293,11 @@ namespace KaleGroup.Web.Controllers
                 buttomBodyList.Add(buttomBody);
             }
 
-
             return buttomBodyList;
-
         }
 
         private List<NewsBodyViewModel> GetNewBodyList()
-        {
-            string language = Request.Cookies["language"];
-
+        {     
             List<NewsBodyViewModel> newBodyList = new List<NewsBodyViewModel>();
 
             var pageResult = _webPagesLogic.GetWebPageByDetailList(false, false, true);
@@ -350,9 +312,7 @@ namespace KaleGroup.Web.Controllers
 
                 newBodyList.Add(newBody);
             }
-
             return newBodyList;
-
         }
     }
 }

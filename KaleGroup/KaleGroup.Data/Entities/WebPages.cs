@@ -32,6 +32,7 @@ namespace KaleGroup.Data.Entities
         public bool IsTopBody { get; set; }
         public bool IsButtomBody { get; set; }
         public DateTime CreatedAt { get; set; }
+        public bool IsSlider  { get; set; }
 
     }
 }

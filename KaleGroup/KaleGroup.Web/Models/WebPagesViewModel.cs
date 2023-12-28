@@ -5,6 +5,7 @@ namespace KaleGroup.Web.Models
         public WebPagesViewModel()
         {
             SubPagesViewModel = new List<SubPagesViewModel>();
+            SliderViewModel = new List<SliderViewModel>();
         }
         public int Id { get; set; }
         public string Name { get; set; }
@@ -31,7 +32,9 @@ namespace KaleGroup.Web.Models
         public bool IsButtomBody { get; set; }
         public string LastPageUrl { get; set; }
         public string LastPageName { get; set; }
+        public bool IsSlider { get; set; }
         public List<SubPagesViewModel> SubPagesViewModel { get; set; }
+        public List<SliderViewModel> SliderViewModel { get; set; }
 
     }
     public class SubPagesViewModel

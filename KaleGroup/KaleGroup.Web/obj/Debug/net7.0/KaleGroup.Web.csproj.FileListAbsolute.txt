@@ -410,3 +410,14 @@ D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnal
 D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\kalegroup\KaleGroup\KaleGroup.Web\obj\Debug\net7.0\KaleGroup.Web.MvcApplicationPartsAssemblyInfo.cs
 D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\Enums.NET.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\MathNet.Numerics.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\NPOI.Core.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\NPOI.OOXML.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\NPOI.OpenXml4Net.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\NPOI.OpenXmlFormats.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\ICSharpCode.SharpZipLib.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\kalegroup\KaleGroup\KaleGroup.Web\bin\Debug\net7.0\SixLabors.ImageSharp.dll

@@ -22,11 +22,6 @@ namespace KaleGroup.Web.Models
        public List<ButtomBodyViewModel> ButtomBodyViewModel { get; set; }
        public List<NewsBodyViewModel> NewsBodyViewModel { get; set; }
      }
-    public class SliderViewModel
-    {
-        public string FilePath { get; set; }
-
-    }
  
     public class AcordionDetailViewModel
     {

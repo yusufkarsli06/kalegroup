@@ -14,7 +14,7 @@
                    @foreach (var item in Model.SliderViewModel)
                     {
                         <div class="swiper-slide">
-                            <a href="#" title="">
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="">
                                 <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" alt="">
                             </a>
                         </div>

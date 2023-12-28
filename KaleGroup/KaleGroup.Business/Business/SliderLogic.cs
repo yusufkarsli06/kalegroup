@@ -3,6 +3,7 @@ using KaleGroup.Business.IBusiness;
 using KaleGroup.Data.Entities;
 using KaleGroup.DataAccess.Repository.Slider.Interface;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
+using Nest;
 
 namespace KaleGroup.Business.Business
 {
@@ -28,6 +29,8 @@ namespace KaleGroup.Business.Business
                 slider.IsActive = item.IsActive;
                 slider.Id = item.Id;
                 slider.OrderNumber = item.OrderNumber;
+                slider.PageUrl = item.PageUrl;
+                slider.EnPageUrl = item.EnPageUrl;
                 sliderList.Add(slider);
 
             }
@@ -50,7 +53,8 @@ namespace KaleGroup.Business.Business
             slider.MenuId = param.MenuId;         
             slider.OrderNumber = param.OrderNumber;         
             slider.IsActive = true;
-
+            slider.PageUrl = param.PageUrl;
+            slider.EnPageUrl = param.EnPageUrl;
             _sliderRepository.Insert(slider);
         }
 
@@ -63,7 +67,8 @@ namespace KaleGroup.Business.Business
             slider.MenuId = param.MenuId;          
             slider.IsActive = param.IsActive;
             slider.OrderNumber = param.OrderNumber;
-
+            slider.PageUrl = param.PageUrl;
+            slider.EnPageUrl = param.EnPageUrl;
             _sliderRepository.Update(slider);
         }
 
@@ -77,7 +82,8 @@ namespace KaleGroup.Business.Business
             sliderDtos.FilePath  = sliderResult.FilePath;
             sliderDtos.MenuId = sliderResult.MenuId; 
             sliderDtos.IsActive = sliderResult.IsActive;
-          
+            sliderDtos.PageUrl = sliderResult.PageUrl;
+            sliderDtos.EnPageUrl = sliderResult.EnPageUrl;
             sliderResult.OrderNumber = sliderResult.OrderNumber;
 
             return sliderDtos;

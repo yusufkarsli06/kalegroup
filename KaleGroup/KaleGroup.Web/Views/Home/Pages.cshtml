@@ -1,8 +1,6 @@
 ﻿@using System.Web;
 
-
 @model KaleGroup.Web.Models.WebPagesViewModel
-
 
 <section class="bg-lavender page-promo pb-5" style="background: @Model.PageTopBackground;">
     <div class="container">
@@ -76,8 +74,6 @@
             <div class="row">
                 @foreach (var item in Model.SubPagesViewModel)
                 {
-
-
                     <div class="col-md-3 mb-4">
                         <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card bg-dark card-hover text-white">
                             <img src="Uploads/@item.PageImage" srcset="/Uploads/@item.PageImage" class="card-img" alt="">
@@ -104,9 +100,38 @@
                             </div>
                         </a>
                     </div>
-
                 }
             </div>
         </div>
     </section>
+}
+@if (Model.SliderViewModel.Count > 0)
+{
+<section class="mb-3 mb-md-5">
+    <div class="container">
+        <div class="row">
+            <div class="content-text col-md-8 offset-md-2 text-justify">
+                <div class="images-slider mb-5 mt-5">
+                    <div class="swiper-pagination d-block d-md-none"></div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            @foreach (var sliderItem in Model.SliderViewModel)
+                            {
+                                <div class="swiper-slide">
+                                    <img src="../Uploads/@sliderItem.FilePath" srcset="/Uploads/@sliderItem.FilePath" alt="" />
+                            </div> 
+                            } 
+                        </div>
+                    </div>
+                    <div class="swiper-prev">
+                        <i class="mdi mdi-arrow-left"></i>
+                    </div>
+                    <div class="swiper-next">
+                        <i class="mdi mdi-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
 }

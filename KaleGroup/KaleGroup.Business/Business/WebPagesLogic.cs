@@ -67,6 +67,7 @@ namespace KaleGroup.Business.Business
             webPage.EnPageUrl = pageResult.EnPageUrl;
             webPage.IsMenu = pageResult.IsMenu;
             webPage.IsSubMenu = pageResult.IsSubMenu;
+            webPage.IsSlider = pageResult.IsSlider;
 
 
             return webPage;
@@ -101,6 +102,7 @@ namespace KaleGroup.Business.Business
                 webPage.EnPageUrl = item.EnPageUrl;
                 webPage.IsMenu = item.IsMenu;
                 webPage.IsSubMenu = item.IsSubMenu;
+                webPage.IsSlider = item.IsSlider;
 
 
                 webPageList.Add(webPage);
@@ -135,6 +137,7 @@ namespace KaleGroup.Business.Business
                 webPage.EnPageUrl = item.EnPageUrl;
                 webPage.CreatedAt = item.CreatedAt;
                 webPage.IsSubMenu = item.IsSubMenu;
+                webPage.IsSlider = item.IsSlider;
 
 
                 webPageList.Add(webPage);
@@ -163,6 +166,7 @@ namespace KaleGroup.Business.Business
                 webPage.EnPageTopSubject = item.EnPageTopSubject;
                 webPage.EnPageTopDescription = item.EnPageTopDescription;
                 webPage.EnPageUrl = item.EnPageUrl;
+                webPage.IsSlider = item.IsSlider;
 
 
                 webPageList.Add(webPage);
