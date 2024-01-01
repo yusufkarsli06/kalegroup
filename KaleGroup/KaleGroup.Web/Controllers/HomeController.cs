@@ -19,7 +19,7 @@ namespace KaleGroup.Web.Controllers
         private readonly IUserLogic _userLogic;
         private readonly IWebPagesLogic _webPagesLogic;
         private readonly ISliderLogic _sliderLogic;
-        string language = "";//todo düzeltilmesi gerekiyor.Request.Cookies["language"];
+        string language = "tr";//todo düzeltilmesi gerekiyor.Request.Cookies["language"];
 
         public HomeController(ILogger<HomeController> logger,
           IMenuLogic menuLogic, IWebPagesLogic webPagesLogic, IUserLogic userLogic, ISliderLogic sliderLogic
