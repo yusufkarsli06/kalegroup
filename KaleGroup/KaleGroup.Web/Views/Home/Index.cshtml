@@ -15,7 +15,7 @@
                     {
                         <div class="swiper-slide">
                             <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="">
-                                <img src="Uploads/@item.FilePath" srcset="/Uploads/@item.FilePath" alt="">
+                                <img src="@item.FilePath" srcset="@item.FilePath" alt="">
                             </a>
                         </div>
                     }

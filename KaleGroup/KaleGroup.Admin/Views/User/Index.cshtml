@@ -6,10 +6,9 @@
 
  
 
-<div class="container mt-5 mb-5">
-    <div class="heading mb-3">
-        Menüler
-        <h1 class="text-center">
+     <div class="heading mb-3">
+         
+        <h1 class="text-left">
 
             <a href="@Url.Action("AddUser","User")" class="btn btn-primary pull-right">Kullanıcı Ekle</a>
             @Html.AntiForgeryToken()
@@ -56,13 +55,12 @@
                     </td>
 
                     <td class="text-center">
-                        <form asp-action="Delete" asp-controller="CorporatePetition" asp-formhelper="true">
-                            <a href="@Url.Action("UpdateUser","User",new { userId = item.Id })" class="btn btn-sm btn-primary" target="_blank"><i class="uil uil-refresh"></i> Güncelle</a>
+                             <a href="@Url.Action("UpdateUser","User",new { userId = item.Id })" class="btn btn-sm btn-primary" target="_blank"><i class="uil uil-refresh"></i> Güncelle</a>
                             @Html.AntiForgeryToken()
                             <input type="hidden" asp-for="@item.Id" id="Id" name="Id" />
                             <a href="@Url.Action("PasiveUser","User",new { userId = item.Id })" class="btn btn-sm btn-primary">
                                 <i class="uil uil-refresh"></i>
-                                @if (item.IsActive)
+                                @if (!item.IsActive)
                                 {
                                     <text>Aktif Et</text>
                                 }
@@ -77,28 +75,10 @@
                                @Html.AntiForgeryToken()
                             <a href="@Url.Action("ChangePasswordUser","User",new { userId  = item.Id })" class="btn btn-sm btn-danger"><i class="uil uil-refresh"></i> Şifre Değiştir</a>
                             @Html.AntiForgeryToken()
-
-                        </form>
+                        
                     </td>
                 </tr>
             }
         </tbody>
     </table>
-</div>
-
-<script>
-    $(document).ready(function () {
-        $("#dataTable").dataTable({
-            "language": {
-                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Turkish.json"
-            },
-            "searching": true,
-            "ordering": true,
-            "paging": true,
-            "pagingType": "full_numbers",
-            "pageLength": 20,
-            "responsive": true,
-            "order": [[1, 'asc']]
-        });
-    });
-</script>
+ 

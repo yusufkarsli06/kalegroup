@@ -1,0 +1,12 @@
+D:\kalegroup\KaleGroup\KaleGroup.Data\bin\Release\net7.0\KaleGroup.Data.deps.json
+D:\kalegroup\KaleGroup\KaleGroup.Data\bin\Release\net7.0\KaleGroup.Data.dll
+D:\kalegroup\KaleGroup\KaleGroup.Data\bin\Release\net7.0\KaleGroup.Data.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\KaleGroup.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\KaleGroup.Data.AssemblyInfoInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\KaleGroup.Data.AssemblyInfo.cs
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\KaleGroup.Data.csproj.CoreCompileInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\KaleGroup.Data.sourcelink.json
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\KaleGroup.Data.dll
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\refint\KaleGroup.Data.dll
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\KaleGroup.Data.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Release\net7.0\ref\KaleGroup.Data.dll

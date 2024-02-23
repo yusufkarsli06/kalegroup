@@ -1,10 +1,13 @@
 ﻿using KaleGroup.Admin.Models;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
+using KaleGroup.Data.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KaleGroup.Admin.Controllers
 {
+    [Authorize]
     public class UploadFileController : Controller
     {
         private readonly IUploadFileLogic _uploadFileLogic;
@@ -36,23 +39,37 @@ namespace KaleGroup.Admin.Controllers
         public IActionResult AddFile()
         {
             AddFileViewModel vm = new AddFileViewModel();
-
+            vm.IsActive = true;
             return View(vm);
         }
         [HttpPost]
         public IActionResult AddFile(AddFileViewModel param)
         {
 
-        
-            UploadFileDtos fileDtos = new UploadFileDtos();
-            fileDtos.FileName = fileDtos.FileName;
-            fileDtos.FilePath = fileDtos.FilePath;
-            fileDtos.FileUrl = fileDtos.FileUrl;
-            fileDtos.Description = fileDtos.Description;
-            fileDtos.IsActive = fileDtos.IsActive;        
 
+            if (param.UploadFile != null)
+            {
 
-            _uploadFileLogic.AddFile(fileDtos);
+                var extent = Path.GetExtension(param.UploadFile.FileName);
+
+                var randomName = ($"{Guid.NewGuid()}{extent}");
+
+                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+
+                using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
+                    param.UploadFile.CopyTo(fileStream);
+
+                UploadFileDtos fileDtos = new UploadFileDtos();
+
+                fileDtos.FileName = randomName;
+                fileDtos.FilePath = "Uploads/" + randomName;
+                fileDtos.FileUrl = "Uploads/" + randomName;
+                fileDtos.Description = param.Description;
+                fileDtos.IsActive = fileDtos.IsActive;
+
+                _uploadFileLogic.AddFile(fileDtos);
+
+            }
             return RedirectToAction("Index");
         }
         public IActionResult UpdateFile(int fileId)
@@ -74,18 +91,50 @@ namespace KaleGroup.Admin.Controllers
         [HttpPost]
         public IActionResult UpdateFile(AddFileViewModel param)
         {
-            UploadFileDtos fileDtos = new UploadFileDtos();
-            fileDtos.FileName = fileDtos.FileName;
-            fileDtos.FilePath = fileDtos.FilePath;
-            fileDtos.FileUrl = fileDtos.FileUrl;
-            fileDtos.Description = fileDtos.Description;
-            fileDtos.IsActive = fileDtos.IsActive;
-            fileDtos.Id = fileDtos.Id;
+            if (param.UploadFile != null)
+            {
+
+                var extent = Path.GetExtension(param.UploadFile.FileName);
+
+                var randomName = ($"{Guid.NewGuid()}{extent}");
+
+                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+
+                using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
+                    param.UploadFile.CopyTo(fileStream);
+
+                UploadFileDtos fileDtos = new UploadFileDtos();
+                fileDtos.FileName = fileDtos.FileName;
+                fileDtos.FilePath = "Uploads/" + randomName;
+                fileDtos.FileUrl = "Uploads/" + randomName;
+                fileDtos.Description = fileDtos.Description;
+                fileDtos.IsActive = fileDtos.IsActive;
+                fileDtos.Id = fileDtos.Id;
 
 
-            _uploadFileLogic.UpdateFile(fileDtos);
+                _uploadFileLogic.UpdateFile(fileDtos);
+            }
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+
+        public IActionResult PasiveFile(int fileId)
+        {
+            _uploadFileLogic.PasiveFile(fileId);
+
+            return RedirectToAction("Index");
+
+        }
+
+        [HttpPost]
+
+        public IActionResult DeleteFile(int fileId)
+        {
+            _uploadFileLogic.DeleteFile(fileId);
+
+            return RedirectToAction("Index");
+
+        }
     }
 }

@@ -14,10 +14,11 @@ namespace KaleGroup.Data.Entities
         public string PageTopSubject { get; set; }
         public string PageTopDescription { get; set; }
         public string PageTopBackground { get; set; }
-        public string PageTopImages { get; set; }
+        public string? PageTopImages { get; set; }
         public string PageDescription { get; set; }
          public bool IsActive { get; set; }
         public string PageUrl { get; set; }
+        public string EnKeyword { get; set; }
 
         public string Keyword { get; set; }
         public string EnName { get; set; }

@@ -31,6 +31,7 @@ namespace KaleGroup.Business.Business
                 webPage.PageUrl = item.PageUrl;
                 webPage.IsMenu = item.IsMenu;
                 webPage.IsSubMenu = item.IsSubMenu;
+                webPage.IsActive = item.IsActive;
                 webPage.Id = item.Id;
 
                 webPageList.Add(webPage);
@@ -43,6 +44,9 @@ namespace KaleGroup.Business.Business
 
         {
             var pageResult = _webPagesRepository.GetWebPageByPageUrl(pageUrl);
+            if (pageResult == null)
+                return null;
+
 
             WebPagesDtos webPage = new WebPagesDtos();
 
@@ -173,6 +177,129 @@ namespace KaleGroup.Business.Business
 
             }
             return webPageList;
+        }
+
+        public void AddWebPages(WebPagesDtos param)
+
+        {
+
+            WebPages webPages = new WebPages();
+
+
+            webPages.Name = param.Name;
+            webPages.MenuId = param.MenuId;
+            webPages.PageTopSubject = param.PageTopSubject;
+            webPages.PageTopDescription = param.PageTopDescription;
+            webPages.PageTopBackground = param.PageTopBackground;
+            webPages.PageTopImages = param.PageTopImages;
+            webPages.PageDescription = param.PageDescription;
+            webPages.IsActive = true;
+            webPages.PageUrl = param.PageUrl;
+            webPages.Keyword = param.Keyword;
+            webPages.EnName = param.EnName;
+            webPages.EnPageTopSubject = param.EnPageTopSubject;
+            webPages.EnPageTopDescription = param.EnPageTopDescription;
+            webPages.EnPageTopBackground = param.EnPageTopBackground;
+            webPages.EnPageDescription = param.EnPageDescription;
+            webPages.EnPageUrl = param.EnPageUrl;
+            webPages.IsNews = param.IsNews;
+            webPages.IsSubMenu = param.IsSubMenu;
+            webPages.IsMenu = param.IsMenu;
+            webPages.IsTopBody = param.IsTopBody;
+            webPages.IsButtomBody = param.IsButtomBody;
+            webPages.CreatedAt = param.CreatedAt;
+            webPages.EnKeyword = param.EnKeyword;
+            webPages.IsSlider = param.IsSlider;
+
+            _webPagesRepository.Insert(webPages);
+        }
+
+        public WebPagesDtos GetWebPageById(int id)
+
+        {
+            var pageResult = _webPagesRepository.GetById(id);
+
+            WebPagesDtos webPage = new WebPagesDtos();
+
+            webPage.Id = pageResult.Id;
+            webPage.Name = pageResult.Name;
+            webPage.MenuId = pageResult.MenuId;
+            webPage.PageTopSubject = pageResult.PageTopSubject;
+            webPage.PageTopDescription = pageResult.PageTopDescription;
+            webPage.PageTopBackground = pageResult.PageTopBackground;
+            webPage.PageTopImages = pageResult.PageTopImages;
+            webPage.PageDescription = pageResult.PageDescription;
+            webPage.IsActive = pageResult.IsActive;
+            webPage.PageUrl = pageResult.PageUrl;
+            webPage.Keyword = pageResult.Keyword;
+            webPage.EnName = pageResult.EnName;
+            webPage.EnPageTopSubject = pageResult.EnPageTopSubject;
+            webPage.EnPageTopDescription = pageResult.EnPageTopDescription;
+            webPage.EnPageTopBackground = pageResult.EnPageTopBackground;
+            webPage.EnPageDescription = pageResult.EnPageDescription;
+            webPage.EnPageUrl = pageResult.EnPageUrl;
+            webPage.IsNews = pageResult.IsNews;
+            webPage.IsSubMenu = pageResult.IsSubMenu;
+            webPage.IsMenu = pageResult.IsMenu;
+            webPage.IsTopBody = pageResult.IsTopBody;
+            webPage.IsButtomBody = pageResult.IsButtomBody;
+            webPage.CreatedAt = pageResult.CreatedAt;
+            webPage.EnKeyword = pageResult.EnKeyword;
+            webPage.IsSlider = pageResult.IsSlider;
+
+            return webPage;
+        }
+
+        public void UpdateWebPages(WebPagesDtos param)
+        {
+
+            WebPages webPages = new WebPages();
+
+            webPages.Id = param.Id;
+            webPages.Name = param.Name;
+            webPages.MenuId = param.MenuId;
+            webPages.PageTopSubject = param.PageTopSubject;
+            webPages.PageTopDescription = param.PageTopDescription;
+            webPages.PageTopBackground = param.PageTopBackground;
+            webPages.PageTopImages = param.PageTopImages;
+            webPages.PageDescription = param.PageDescription;
+            webPages.IsActive = param.IsActive;
+            webPages.PageUrl = param.PageUrl;
+            webPages.Keyword = param.Keyword;
+            webPages.EnName = param.EnName;
+            webPages.EnPageTopSubject = param.EnPageTopSubject;
+            webPages.EnPageTopDescription = param.EnPageTopDescription;
+            webPages.EnPageTopBackground = param.EnPageTopBackground;
+            webPages.EnPageDescription = param.EnPageDescription;
+            webPages.EnPageUrl = param.EnPageUrl;
+            webPages.IsNews = param.IsNews;
+            webPages.IsSubMenu = param.IsSubMenu;
+            webPages.IsMenu = param.IsMenu;
+            webPages.IsTopBody = param.IsTopBody;
+            webPages.IsButtomBody = param.IsButtomBody;
+            webPages.CreatedAt = param.CreatedAt;
+            webPages.EnKeyword = param.EnKeyword;
+            webPages.IsSlider = param.IsSlider;
+            webPages.CreatedAt = DateTime.Now;
+
+            _webPagesRepository.Update(webPages);
+        }
+        public void PasivePage(int id)
+        {
+            _webPagesRepository.PasivePage(id);
+        }
+        public void DeletePage(int id)
+        {
+
+            var filePath = _webPagesRepository.GetById(id);
+
+            _webPagesRepository.Delete(id);
+
+
+            if (File.Exists(@"../KaleGroup.Web/wwwroot/" + filePath.PageTopImages))
+            {
+                File.Delete(@"../KaleGroup.Web/wwwroot/" + filePath.PageTopImages);
+            }
         }
     }
 }

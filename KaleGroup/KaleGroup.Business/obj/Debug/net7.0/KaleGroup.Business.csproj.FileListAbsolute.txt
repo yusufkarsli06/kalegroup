@@ -17,3 +17,4 @@ D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.dl
 D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\refint\KaleGroup.Business.dll
 D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\ref\KaleGroup.Business.dll
+D:\kalegroup\KaleGroup\KaleGroup.Business\obj\Debug\net7.0\KaleGroup.Business.sourcelink.json

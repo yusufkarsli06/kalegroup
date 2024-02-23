@@ -5,10 +5,9 @@
 }
 
 
-<div class="container mt-5 mb-5">
-    <div class="heading mb-3">
-        Dosyalar
-        <h1 class="text-center">
+
+    <div class="heading mb-3">        
+        <h1 class="text-left">
 
             <a href="@Url.Action("AddFile","UploadFile")" class="btn btn-primary pull-right">Dosya Ekle</a>
             @Html.AntiForgeryToken()
@@ -60,7 +59,7 @@
                         
                         <a href="@Url.Action("PasiveFile","File",new { fileId = item.Id })" class="btn btn-sm btn-primary">
                             <i class="uil uil-refresh"></i>
-                            @if (item.IsActive)
+                            @if (!item.IsActive)
                             {
                                 <text>Aktif Et</text>
                             }
@@ -80,21 +79,3 @@
             }
         </tbody>
     </table>
-</div>
-
-<script>
-    $(document).ready(function () {
-        $("#dataTable").dataTable({
-            "language": {
-                "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Turkish.json"
-            },
-            "searching": true,
-            "ordering": true,
-            "paging": true,
-            "pagingType": "full_numbers",
-            "pageLength": 20,
-            "responsive": true,
-            "order": [[1, 'asc']]
-        });
-    });
-</script>

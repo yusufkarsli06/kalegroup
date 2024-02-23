@@ -1,0 +1,269 @@
+﻿@model KaleGroup.Admin.Models.AddWebPagesViewModel
+@{
+    ViewData["Title"] = "Sayfa Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#summernote').summernote({
+            height: 600,
+            minHeight: null,
+            maxHeight: null,
+            focus: false
+        });
+    });
+
+     
+</script>
+
+ <script>
+ 
+
+    $(document).ready(function () {
+        $('.summernote').summernote({
+            height: 600,
+            minHeight: null,
+            maxHeight: null,
+            focus: false
+        });
+
+    });
+</script>  
+
+<div class="heading mb-3">
+    <h4 class="text-left"> <span class="text-primary">Sayfa Oluştur</span></h4>
+</div>
+
+
+<form asp-controller="WebPages" asp-action="AddPage" asp-validator="true" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <div class="row">
+         
+        <div class="col-lg-7">
+            <div class="form-group position-relative">
+                <label>Menü Adı <span class="text-danger">*</span></label>
+                <select asp-for="MenuId" class="form-select form-control" aria-label="Menü">
+                    <option selected>Menü Seçiniz</option>
+                    @foreach (var item in Model.MenuSelectionViewModel)
+                    {
+                        <option value="@item.MenuId">@item.MenuName</option>
+                    }
+
+
+                </select>
+            </div>
+        </div>
+
+        <br />
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Adı <span class="text-danger">*</span></label>
+                <i data-feather="name" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Adı İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="name" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnName">
+                <span asp-validation-for="EnName" class="text-danger mt-2"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık<span class="text-danger">*</span></label>
+                <i data-feather="pageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageTopSubject">
+                <span asp-validation-for="PageTopSubject" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="enPageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageTopSubject">
+                <span asp-validation-for="EnPageTopSubject" class="text-danger mt-2"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık Açıklama<span class="text-danger">*</span></label>
+                <i data-feather="pageTopDescription" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageTopDescription">
+                <span asp-validation-for="PageTopDescription" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık Açıklama İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="enPageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageTopDescription">
+                <span asp-validation-for="EnPageTopDescription" class="text-danger mt-2"></span>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="form-group position-relative">
+                <i data-feather="mail" class="fea icon-sm icons"></i>
+                <label>Üst Resim   <span class="text-danger"></span></label>
+                <input type="file" asp-for="UploadFile" class="form-control pl-5">
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="form-group position-relative">
+                <label>Sayfa Açıklama<span class="text-danger">*</span></label>              
+                <textarea id="summernote" name="PageDescription"></textarea> 
+               
+            </div>
+        </div>  
+        
+        <div class="col-lg-12">
+            <div class="form-group position-relative">
+                <label>Sayfa Açıklama İngilizce<span class="text-danger">*</span></label>              
+                <textarea id="summernote" class="summernote" name="EnPageDescription"></textarea> 
+             </div>
+        </div> 
+ 
+
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Url<span class="text-danger">*</span></label>
+                <i data-feather="pageUrl" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageUrl">
+                <span asp-validation-for="PageUrl" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Url İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="enPageUrl" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageUrl">
+                <span asp-validation-for="EnPageUrl" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Anahtar Kelime<span class="text-danger">*</span></label>
+                <i data-feather="keyword" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="Keyword">
+                <span asp-validation-for="Keyword" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Anahtar Kelime İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="enKeyword" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnKeyword">
+                <span asp-validation-for="EnKeyword" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Arka Plan Renk<span class="text-danger">*</span></label>
+                <i data-feather="pageTopBackground" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageTopBackground">
+                <span asp-validation-for="PageTopBackground" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>İngilizce Arka Plan Renk<span class="text-danger">*</span></label>
+                <i data-feather="enPageTopBackground" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageTopBackground">
+                <span asp-validation-for="EnPageTopBackground" class="text-danger mt-2"></span>
+            </div>
+        </div>
+            <div class="col-12">
+                <div class="form-group position-relative">
+                    <label>Aktif mi ?</label>
+                    <div class="">
+                        <input type="radio" value="false" asp-for="IsActive" /> Evet
+                        <input type="radio" value="false" asp-for="IsActive" /> Hayır<br />
+
+                        <span asp-validation-for="IsActive" class="text-danger mt-2"></span>
+                    </div>
+                </div>
+            </div>
+        <div class="col-12">
+            <div class="form-group position-relative">
+                <label>Haber Sayfası mı?</label>
+                <div class="">
+                    <input type="radio" value="true" asp-for="IsNews" /> Evet
+                    <input type="radio" value="false" asp-for="IsNews" /> Hayır<br />
+                    <span asp-validation-for="IsNews" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="form-group position-relative">
+                <label>Alt Menü mü?</label>
+                <div class="">
+                    <input type="radio" value="true" asp-for="IsSubMenu" /> Evet
+                    <input type="radio" value="false" asp-for="IsSubMenu" /> Hayır<br />
+                    <span asp-validation-for="IsSubMenu" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-group position-relative">
+                <label>Üst Menü mü?</label>
+                <div class="">
+                    <input type="radio" value="true" asp-for="IsMenu" /> Evet
+                    <input type="radio" value="false" asp-for="IsMenu" /> Hayır<br />
+                    <span asp-validation-for="IsMenu" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-group position-relative">
+                <label>AnaSayfa Ortasında Gözüksün mü?</label>
+                <div class="">
+                    <input type="radio" value="true" asp-for="IsTopBody" /> Evet
+                    <input type="radio" value="false" asp-for="IsTopBody" /> Hayır<br />
+                    <span asp-validation-for="IsTopBody" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="form-group position-relative">
+                <label>AnaSayfa Altında Gözüksün mü?</label>
+                <div class="">
+                    <input type="radio" value="true" asp-for="IsButtomBody" /> Evet
+                    <input type="radio" value="false" asp-for="IsButtomBody" /> Hayır<br />
+                    <span asp-validation-for="IsButtomBody" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-group position-relative">
+                <label>Slider Gözüksün mü?</label>
+                <div class="">
+                    <input type="radio" value="true" asp-for="IsSlider" /> Evet
+                    <input type="radio" value="false" asp-for="IsSlider" /> Hayır<br />
+                    <span asp-validation-for="IsSlider" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="col-lg-3 mb-0">
+            <input type="submit" class="btn btn-primary btn-block" value="Kaydet">
+        </div>
+    </div>
+</form>
+ 

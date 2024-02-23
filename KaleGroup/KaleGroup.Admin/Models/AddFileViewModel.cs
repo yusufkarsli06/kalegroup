@@ -8,7 +8,7 @@ namespace KaleGroup.Admin.Models
         public bool IsActive { get; set; }
         public string FilePath { get; set; }
         public string FileUrl { get; set; }
-        public byte[] UploadFile { get; set; }
+        public IFormFile UploadFile { get; set; }
       
 
     }

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\publish\kaleadmin</_PublishTargetUrl>
+    <History>True|2024-02-19T08:48:30.3411998Z;True|2024-01-25T15:20:47.8233841+03:00;True|2024-01-24T10:51:19.1473748+03:00;True|2024-01-24T10:50:08.7024348+03:00;True|2024-01-24T09:34:34.9003196+03:00;True|2024-01-04T01:10:25.4756384+03:00;True|2024-01-04T00:56:24.6365347+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

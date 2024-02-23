@@ -2,8 +2,6 @@
 using KaleGroup.Business.IBusiness;
 using KaleGroup.Data.Entities;
 using KaleGroup.DataAccess.Repository.Slider.Interface;
-using KaleGroup.DataAccess.Repository.SubMenu.Interface;
-using Nest;
 
 namespace KaleGroup.Business.Business
 {
@@ -16,16 +14,38 @@ namespace KaleGroup.Business.Business
             _sliderRepository = sliderRepository;
         }
 
-        public List<SliderDtos> GetSliderByMenuIdList(int menuId)
+        public List<SliderDtos> GetSliderByPageIdList(int pageId)
         {
             List<SliderDtos> sliderList = new List<SliderDtos>();
-            var sliderResult = _sliderRepository.GetAll().Where(x=>x.MenuId==menuId && x.IsActive).OrderBy(x=>x.OrderNumber);
+            var sliderResult = _sliderRepository.GetAll().Where(x=>x.PageId == pageId && x.IsActive).OrderBy(x=>x.OrderNumber);
             foreach (var item in sliderResult)
             {
                 SliderDtos slider = new SliderDtos();
 
-                slider.MenuId = item.MenuId;
+                slider.PageId = item.PageId;
                 slider.FilePath = item.FilePath;
+                slider.EnFilePath = item.EnFilePath;
+                slider.IsActive = item.IsActive;
+                slider.Id = item.Id;
+                slider.OrderNumber = item.OrderNumber;
+                slider.PageUrl = item.PageUrl;
+                slider.EnPageUrl = item.EnPageUrl;
+                sliderList.Add(slider);
+
+            }
+            return sliderList;
+        }
+        public List<SliderDtos> GetSliderList()
+        {
+            List<SliderDtos> sliderList = new List<SliderDtos>();
+            var sliderResult = _sliderRepository.GetAll().OrderBy(x => x.OrderNumber);
+            foreach (var item in sliderResult)
+            {
+                SliderDtos slider = new SliderDtos();
+
+                slider.PageId = item.PageId;
+                slider.FilePath = item.FilePath;
+                slider.EnFilePath = item.EnFilePath;
                 slider.IsActive = item.IsActive;
                 slider.Id = item.Id;
                 slider.OrderNumber = item.OrderNumber;
@@ -41,16 +61,29 @@ namespace KaleGroup.Business.Business
             _sliderRepository.PasiveSlider(id);
         }
 
-        public void DeleteSlider(int menuId)
+        public void DeleteSlider(int id)
         {
-            _sliderRepository.Delete(menuId);
+            var sliderResult = _sliderRepository.GetById(id);
+
+            _sliderRepository.Delete(id);
+            
+            if (File.Exists(@"../KaleGroup.Web/wwwroot/"+sliderResult.FilePath))
+            {
+                File.Delete(@"../KaleGroup.Web/wwwroot/"+sliderResult.FilePath);
+            }
+            
+            if (File.Exists(@"../KaleGroup.Web/wwwroot/"+sliderResult.EnFilePath))
+            {
+                File.Delete(@"../KaleGroup.Web/wwwroot/"+sliderResult.EnFilePath);
+            }
         }
         public void AddSlider(SliderDtos param)
         {
             Slider slider = new Slider();
 
             slider.FilePath = param.FilePath;
-            slider.MenuId = param.MenuId;         
+            slider.EnFilePath = param.EnFilePath;
+            slider.PageId = param.PageId;         
             slider.OrderNumber = param.OrderNumber;         
             slider.IsActive = true;
             slider.PageUrl = param.PageUrl;
@@ -64,7 +97,8 @@ namespace KaleGroup.Business.Business
 
             slider.Id = param.Id;
             slider.FilePath = param.FilePath;
-            slider.MenuId = param.MenuId;          
+            slider.EnFilePath = param.EnFilePath;
+            slider.PageId = param.PageId;          
             slider.IsActive = param.IsActive;
             slider.OrderNumber = param.OrderNumber;
             slider.PageUrl = param.PageUrl;
@@ -80,7 +114,8 @@ namespace KaleGroup.Business.Business
 
             sliderResult.Id = sliderResult.Id;
             sliderDtos.FilePath  = sliderResult.FilePath;
-            sliderDtos.MenuId = sliderResult.MenuId; 
+            sliderDtos.EnFilePath  = sliderResult.EnFilePath;
+            sliderDtos.PageId = sliderResult.PageId; 
             sliderDtos.IsActive = sliderResult.IsActive;
             sliderDtos.PageUrl = sliderResult.PageUrl;
             sliderDtos.EnPageUrl = sliderResult.EnPageUrl;

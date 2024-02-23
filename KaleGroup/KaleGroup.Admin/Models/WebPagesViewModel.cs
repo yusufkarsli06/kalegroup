@@ -9,7 +9,7 @@ namespace KaleGroup.Admin.Models
         public string PageTopSubject { get; set; }
         public string PageTopDescription { get; set; }
         public string PageTopBackground { get; set; }
-        public string PageTopImages { get; set; }
+        public string? PageTopImages { get; set; }
         public string PageDescription { get; set; }
         public bool IsActive { get; set; }
         public string PageUrl { get; set; }
@@ -29,6 +29,7 @@ namespace KaleGroup.Admin.Models
         public string LastPageUrl { get; set; }
         public string LastPageName { get; set; }
         public bool IsSlider { get; set; }
+        public string CreatedAt { get; set; }
       
 
     }

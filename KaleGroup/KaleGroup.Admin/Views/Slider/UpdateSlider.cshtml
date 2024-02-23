@@ -1,0 +1,93 @@
+﻿@model KaleGroup.Admin.Models.AddSliderViewModel
+@{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<div class="container mt-5 mb-5">
+    <div class="heading mb-3">
+        <h1 class="text-center">Slider Düzenle</h1>
+    </div>
+    <form asp-controller="Slider" asp-action="UpdateSlider" asp-validator="true" method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        <div class="row">
+            <input type="hidden" asp-for="Id">
+
+            <div class="col-lg-7">
+                <div class="form-group position-relative">
+                    <label>Sayfa Adı <span class="text-danger">*</span></label>
+                    <select asp-for="PageId" class="form-select form-control" aria-label="Sayfa">
+                      
+                        @if (Model.PageId == 1)
+                        {
+                        <option value="1" selected>AnaSayfa</option>
+                        }
+                        @foreach (var item in Model.PageSelectionViewModel)
+                        {
+                          
+
+                            if (item.PageId == Model.PageId)
+                            {
+                                <option value="@item.PageId" selected>@item.PageName</option>
+                            }
+                            else
+                            {
+                                <option value="@item.PageId">@item.PageName</option>
+                            }
+                        }
+
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Slider <span class="text-danger">*</span></label>
+                <label for="exampleFormControlFile1">Dosya Yükle</label>
+                <input type="file" name="UploadFile" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+
+            <div class="form-group">
+                <label>İngilizce Slider <span class="text-danger">*</span></label>
+                <label for="exampleFormControlFile1">Dosya Yükle</label>
+                <input type="file" name="EnUploadFile" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group position-relative">
+                    <label>Slider Url <span class="text-danger">*</span></label>
+                    <i data-feather="user" class="fea icon-sm icons"></i>
+                    <input type="text" class="form-control pl-5" asp-for="PageUrl">
+                    <span asp-validation-for="PageUrl" class="text-danger mt-2"></span>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="form-group position-relative">
+                    <label>Slider İngilizce Url <span class="text-danger">*</span></label>
+                    <i data-feather="slider" class="fea icon-sm icons"></i>
+                    <input type="text" class="form-control pl-5" asp-for="EnPageUrl">
+                    <span asp-validation-for="EnPageUrl" class="text-danger mt-2"></span>
+                </div>
+            </div>
+
+
+            <div class="col-12">
+                <div class="form-group position-relative">
+                    <label>Aktif mi ?</label>
+                    <div class="">
+                        <input type="radio" value="true" asp-for="IsActive" /> Evet
+                        <input type="radio" value="false" asp-for="IsActive" /> Hayır<br />
+
+                        <span asp-validation-for="IsActive" class="text-danger mt-2"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 mb-0">
+                <input type="submit" class="btn btn-primary btn-block" value="Kaydet">
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,10 +1,12 @@
 ﻿using KaleGroup.Admin.Models;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KaleGroup.Admin.Controllers
 {
+    [Authorize]
     public class MenuController : Controller
     {
         private readonly IMenuLogic _menuLogic;
@@ -44,7 +46,7 @@ namespace KaleGroup.Admin.Controllers
         public IActionResult AddMenu()
         {
             AddMenuViewModel vm = new AddMenuViewModel();
-
+            vm.IsActive = true;
             return View(vm);
         }
         public IActionResult UpdateMenu(int menuId)

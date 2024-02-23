@@ -19,6 +19,7 @@ namespace KaleGroup.Business.Dto
         public string PageUrl { get; set; }
 
         public string Keyword { get; set; }
+        public string EnKeyword { get; set; }
         public string EnName { get; set; }
         public string EnPageTopSubject { get; set; }
         public string EnPageTopDescription { get; set; }

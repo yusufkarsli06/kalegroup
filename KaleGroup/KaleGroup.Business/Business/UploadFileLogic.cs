@@ -22,11 +22,16 @@ namespace KaleGroup.Business.Business
             _fileRepository = fileRepository;
         }
 
-        public void AddFile(UploadFileDtos uploadFile)
+        public void AddFile(UploadFileDtos param)
         {
             UploadFiles uploadFiles = new UploadFiles();
-            uploadFiles.FilePath = uploadFiles.FilePath;
-             
+
+            uploadFiles.FileName = param.FileName;
+            uploadFiles.FilePath = param.FilePath;
+            uploadFiles.FileUrl = param.FileUrl;
+            uploadFiles.Description = param.Description;
+            uploadFiles.IsActive = param.IsActive;
+
             _fileRepository.Insert(uploadFiles);
 
         }
@@ -74,6 +79,13 @@ namespace KaleGroup.Business.Business
         public void DeleteFile(int fileId)
         {
             _fileRepository.Delete(fileId);
+
+            var uploadFiles = _fileRepository.GetById(fileId);
+
+            if (File.Exists(@"../KaleGroup.Web/wwwroot/"+uploadFiles.FilePath))
+            {
+                File.Delete(@"../KaleGroup.Web/wwwroot/"+uploadFiles.FilePath);
+            }
         }
 
         public void UpdateFile(UploadFileDtos param)

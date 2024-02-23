@@ -5,21 +5,26 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Security.Claims;
 using KaleGroup.Business.IBusiness;
+using Microsoft.AspNetCore.Authorization;
+using NPOI.SS.Formula.Functions;
 
 namespace KaleGroup.Admin.Controllers
 {
+    
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IUserLogic _userLogic;
+ 
         public HomeController(ILogger<HomeController> logger, IUserLogic userLogic)
         {
             _logger = logger;
             _userLogic = userLogic;
         }
-
+        [Authorize]
         public IActionResult Index()
         {
+           
             return View();
         }
 
@@ -34,8 +39,18 @@ namespace KaleGroup.Admin.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-  
+        public IActionResult Login()
+        {
 
+            return View(new LoginViewModel());
+        }
+        public async Task<IActionResult> LogOut()
+        {
+  
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+             return RedirectToAction("Login", "Home");
+        }
         [HttpPost]
         public IActionResult Login(LoginViewModel param)
         {

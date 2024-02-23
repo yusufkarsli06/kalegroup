@@ -17,10 +17,11 @@ namespace KaleGroup.Business.IBusiness
         List<WebPagesDtos> GetWebPageByMenuId(int menuId);
         List<WebPagesDtos> GetWebPageByDetailList(bool isTopBody = false, bool isButtomBody = false, bool isNews = false);
         List<WebPagesDtos> GetWebSearchList(string language, string searchText);
+        void AddWebPages(WebPagesDtos param);
+        WebPagesDtos GetWebPageById(int id);
+        void UpdateWebPages(WebPagesDtos param);
+        void PasivePage(int id);
+        void DeletePage(int id);
     }
 }
- 
- 
- 
- 
  

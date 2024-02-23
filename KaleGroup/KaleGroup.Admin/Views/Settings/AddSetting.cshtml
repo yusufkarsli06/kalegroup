@@ -1,0 +1,51 @@
+﻿ @model KaleGroup.Admin.Models.AddSettingsViewModel
+ @{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ 
+
+<div class="container mt-5 mb-5">
+    <div class="heading mb-3">
+        <h1 class="text-center">Sistem Ayarı Ekle</h1>
+    </div>
+    <form asp-controller="Settings" asp-action="AddSetting" asp-validator="true">
+        @Html.AntiForgeryToken()
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group position-relative">
+                    <label>Key <span class="text-danger">*</span></label>
+                    <i data-feather="user" class="fea icon-sm icons"></i>
+                    <input type="text" class="form-control pl-5"  asp-for="SettingsKey">
+                    <span asp-validation-for="SettingsKey" class="text-danger mt-2"></span>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="form-group position-relative">
+                    <label>Value <span class="text-danger">*</span></label>
+                    <i data-feather="user" class="fea icon-sm icons"></i>
+                    <input type="text" class="form-control pl-5" asp-for="SettingsValue">
+                    <span asp-validation-for="SettingsValue" class="text-danger mt-2"></span>
+                </div>
+            </div>
+
+
+            <div class="col-12">
+                <div class="form-group position-relative">
+                    <label>Aktif mi?</label>
+                    <div class="">
+                        <input type="radio" value="true" asp-for="IsActive" /> Evet
+                        <input type="radio" value="false" asp-for="IsActive" /> Hayır<br />
+                        <span asp-validation-for="IsActive" class="text-danger mt-2"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 mb-0">
+                <input type="submit" class="btn btn-primary btn-block" value="Kaydet">
+            </div>
+        </div>
+    </form>
+</div>

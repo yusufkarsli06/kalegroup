@@ -1,16 +1,19 @@
 using KaleGroup.Business.Business;
 using KaleGroup.Business.IBusiness;
+using KaleGroup.Common.Helper;
 using KaleGroup.DataAccess.Context;
 using KaleGroup.DataAccess.Repository.Files.Command;
 using KaleGroup.DataAccess.Repository.Files.Interface;
 using KaleGroup.DataAccess.Repository.Menu.Command;
 using KaleGroup.DataAccess.Repository.Pages.Command;
 using KaleGroup.DataAccess.Repository.Pages.Interface;
+using KaleGroup.DataAccess.Repository.Settings.Interface;
 using KaleGroup.DataAccess.Repository.Slider.Command;
 using KaleGroup.DataAccess.Repository.Slider.Interface;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
 using KaleGroup.DataAccess.Repository.User.Command;
 using KaleGroup.DataAccess.Repository.User.Interface;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,7 +21,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(@"Server=localhost\SQLEXPRESS;Database=kalegroup;MultipleActiveResultSets=true;Integrated Security=True; TrustServerCertificate=True"));
+ builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(@"Server=104.247.167.130\MSSQLSERVER2019;Database=yusufk13_kalearge;User=yusufk13_kalearge; Password=R4wv5k@54; TrustServerCertificate=True"), ServiceLifetime.Transient);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IUserLogic, UserLogic>();
@@ -27,6 +30,8 @@ builder.Services.AddTransient<ISubMenuLogic, SubMenuLogic>();
 builder.Services.AddTransient<IUploadFileLogic, UploadFileLogic>();
 builder.Services.AddTransient<IWebPagesLogic, WebPagesLogic>();
 builder.Services.AddTransient<ISliderLogic, SliderLogic>();
+builder.Services.AddTransient<ISettingsLogic, SettingsLogic>();
+builder.Services.AddTransient<ICacheHelper, CacheHelper>();
 
 
 builder.Services.AddTransient(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));
@@ -36,13 +41,21 @@ builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IUploadFilesRepository, UploadFilesRepository>();
 builder.Services.AddTransient<IWebPagesRepository, WebPagesRepository>();
 builder.Services.AddTransient<ISliderRepository, SliderRepository>();
+builder.Services.AddTransient<ISettingsRepository, SettingsRepository>();
 builder.Services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddSession();
-
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt =>
+{
+    opt.LoginPath = new PathString("/Home/Login");
+    opt.AccessDeniedPath = new PathString("/Home/Error");
+    opt.Cookie.SameSite = SameSiteMode.None;
+    opt.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+    opt.Cookie.IsEssential = true;
+});
 var app = builder.Build();
 
 

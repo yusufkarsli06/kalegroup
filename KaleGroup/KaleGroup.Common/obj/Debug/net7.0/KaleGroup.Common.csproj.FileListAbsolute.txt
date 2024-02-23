@@ -10,3 +10,4 @@ D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleGroup.Common.dll
 D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\refint\KaleGroup.Common.dll
 D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleGroup.Common.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\ref\KaleGroup.Common.dll
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleGroup.Common.sourcelink.json

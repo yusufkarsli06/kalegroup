@@ -1,0 +1,81 @@
+﻿@model List<KaleGroup.Admin.Models.SettingsViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+     <div class="heading mb-3">
+         <h1 class="text-left">
+
+            <a href="@Url.Action("AddSetting","Settings")" class="btn btn-primary pull-right">Sistem Ayarı Ekle</a>
+            @Html.AntiForgeryToken()
+        </h1>
+    </div>
+    <table id="dataTable" class="table table-striped table-bordered" width="100%">
+        <thead>
+            <tr>
+                <th>
+                    Key
+                </th>
+                <th>
+                    Value
+                </th>
+                <th>
+                    Aktif / Pasif
+                </th>
+                <th>
+                    İşlem
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.SettingsKey
+
+                    </td>
+                    <td>
+                        @item.SettingsValue
+                    </td>
+                    <td>
+                        @if (item.IsActive)
+                        {
+                            <text>Aktif</text>
+                        }
+                        else
+                        {
+                            <text>Pasif</text>
+                        }
+                    </td>
+
+                    <td class="text-center">
+                             <a href="@Url.Action("UpdateSetting","Settings",new { id = item.Id })" class="btn btn-sm btn-primary" target="_blank"><i class="uil uil-refresh"></i> Güncelle</a>
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" asp-for="@item.Id" id="Id" name="Id" />
+                        <a href="@Url.Action("PasiveSetting","Settings",new { id = item.Id })" class="btn btn-sm btn-primary">
+                            <i class="uil uil-refresh"></i>
+                                @if (!item.IsActive)
+                                {
+                                    <text>Aktif Et</text>
+                                }
+                                else
+                                {
+                                    <text>Pasif Et</text>
+                                }
+                                </a>
+
+                        @Html.AntiForgeryToken()
+                        <a href="@Url.Action("DeleteSetting","Settings",new { id  = item.Id })" class="btn btn-sm btn-danger"><i class="uil uil-refresh"></i> Sil</a>
+                        @Html.AntiForgeryToken()
+
+              
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+ 

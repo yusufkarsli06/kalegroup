@@ -95,42 +95,21 @@
                 </div>
 
                 <ul class="sidebar-menu">
-                    <li>
-                        <a href="@Url.Action("Index","Home")"><i class="ti ti-user me-2"></i>Anasayfa</a>
-                    </li>
-
- 
-
-                    <li>
-                        <a href="@Url.Action("Index","Menu")"><i class="ti ti-apps me-2"></i>Menu</a>
-
-                    </li>
-
-                    <li>
-                        <a href="@Url.Action("Index","SubMenu")"><i class="ti ti-apps me-2"></i>Alt Menu</a>
-
-                    </li>
-                    <li>
-                        <a href="@Url.Action("Index","UploadFile")"><i class="ti ti-apps me-2"></i>Dosyalar</a>
-
-                    </li>
-
-                     
+                    <li><a href="@Url.Action("Index","Home")"><i class="ti ti-user me-2"></i>Anasayfa</a></li> 
+                    <li><a href="@Url.Action("Index","Menu")"><i class="ti ti-apps me-2"></i>Menu</a></li>
+                    <li><a href="@Url.Action("Index","WebPages")"><i class="ti ti-apps me-2"></i>Sayfalar</a> </li>
+                    <li><a href="@Url.Action("Index","Slider")"><i class="ti ti-apps me-2"></i>Slider</a> </li>
+                    <li> <a href="@Url.Action("Index","UploadFile")"><i class="ti ti-apps me-2"></i>Dosyalar</a></li>                     
                     <li><a href="@Url.Action("Index","User")"><i class="ti ti-user me-2"></i>Kullanıcı Ayarları</a></li>
-
-
-                    <li><a href="@Url.Action("Logout","Admin")"><i class="ti ti-brand-gravatar me-2"></i>Çıkış</a></li>
-
-                    <!--end col-->
-
-
+                    <li><a href="@Url.Action("Index","Settings")"><i class="ti ti-brand-gravatar me-2"></i>Sistem Ayarları</a></li>
+                    <li><a href="@Url.Action("Logout","Home")"><i class="ti ti-brand-gravatar me-2"></i>Çıkış</a></li>
+                
                 </ul>
-                <!-- sidebar-menu  -->
+          
             </div>
 
         </nav>
-        <!-- sidebar-wrapper  -->
-        <!-- Start Page Content -->
+   
         <main class="page-content ">
             <div class="top-header">
                 <div class="header-bar d-flex justify-content-between border-bottom">
@@ -184,20 +163,13 @@
                         <script>document.write(new Date().getFullYear())</script> Designer By KaleGroup
                     </p>
                 </div>
-            </div>
-            <!--end col-->
-        </div>
-        <!--end row-->
+            </div>         
+        </div>      
     </div>
-    <!--end container-->
 </footer>
-<!--end footer-->
-<!-- End -->
+
         </main>
-<!--End page-content" -->
     </div>
-<!-- page-wrapper -->
-<!-- Offcanvas Start -->
 <div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight"
      aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header border-bottom">
@@ -210,19 +182,15 @@
     <div class="offcanvas-body p-4 px-md-5">
         <div class="row">
             <div class="col-12">
-                <!-- Style switcher -->
                 <div id="style-switcher">
                 </div>
-                <!-- end Style switcher -->
             </div>
-            <!--end col-->
         </div>
     </div>
 
     <div class="offcanvas-footer p-3 border-top text-center">
         <ul class="list-unstyled social-icon mb-0">
-            @* <li class="list-inline-item mb-0"><a href="https://1.envato.market/4n73n" class="rounded"><i
-            class="ti ti-shopping-cart align-middle" title="Buy Now"></i></a></li>*@
+        
             <li class="list-inline-item mb-0">
                 <a href="https://dribbble.com/shreethemes" class="rounded">
                     <i class="ti ti-brand-dribbble align-middle" title="dribbble"></i>
@@ -254,44 +222,35 @@
                 </a>
             </li>
         </ul>
-        <!--end icon-->
+  
     </div>
 </div>
-<!-- Offcanvas End -->
-<!-- javascript -->
 <script src="~/js/bootstrap.bundle.min.js"></script>
-<!-- simplebar -->
+
 <script src="~/js/simplebar.min.js"></script>
-<!-- Icons -->
+
 <script src="~/js/feather.min.js"></script>
 
-<!-- Main Js -->
 <script src="~/js/plugins.init.js"></script>
 <script src="~/js/app.js"></script>
 <a href="#" class="btn btn-icon btn-soft-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
-<!-- Back to top -->
-<!-- javascript -->
+
 <script src="~/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/jquery.easing.min.js"></script>
 <script src="~/js/scrollspy.min.js"></script>
-<!-- SLIDER -->
+
 <script src="~/js/owl.carousel.min.js "></script>
 <script src="~/js/owl.init.js "></script>
-<!-- Icons -->
+
 <script src="~/js/feather.min.js"></script>
 <script src="https://unicons.iconscout.com/release/v2.1.9/script/monochrome/bundle.js"></script>
-<!-- Main Js -->
-    <script src="~/js/app.js"></script>
-<!-- Form Helper -->
-@*<script src="/formhelper/formhelper.bundle.min.js"></script>*@
-<!--Data Table-->
+ <script src="~/js/app.js"></script>
+
 <script type="text/javascript" src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="//cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
-<!--Rich Text-->
 <script src="~/js/jquery.richtext.min.js"></script>
 <script src="~/js/jquery.mask.min.js"></script>
 <script src="~/js/jquery.dataTables.min.js"></script>
-<!-- include summernote css/js -->
 <script>
     $(document).ready(function () {
 
@@ -309,6 +268,8 @@
             });
 
     });
+
+
 </script>
  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>

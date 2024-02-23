@@ -68,5 +68,26 @@ namespace KaleGroup.DataAccess.Repository.Pages.Command
             }
 
         }
+
+        public void PasivePage(int id)
+        {
+            var webPage = _dbSet.Where(x => x.Id == id).FirstOrDefault();
+
+            if (webPage.IsActive == false)
+            {
+                webPage.IsActive = true;
+            }
+            else
+            {
+                webPage.IsActive = false;
+            }
+
+
+            _dbContext.Entry(webPage).State = EntityState.Modified;
+
+            _dbContext.SaveChanges();
+
+
+        }
     }
 }

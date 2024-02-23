@@ -1,74 +1,118 @@
-﻿ 
-
-@using Microsoft.AspNetCore.Http
+﻿@using Microsoft.AspNetCore.Http
 @using Newtonsoft.Json;
 @inject IHttpContextAccessor HttpContextAccessor
 @{
     //Get object from session
+
+
+    var mySessionSettingsObject = HttpContextAccessor.HttpContext.Session.GetString("settingsModel");
+
+    var settingModel = JsonConvert.DeserializeObject<List<SettingsViewModel>>(mySessionSettingsObject);
+
+
+
     var mySessionObject = HttpContextAccessor.HttpContext.Session.GetString("menuModel");
     var menuModel = JsonConvert.DeserializeObject<List<MenuViewModel>>(mySessionObject);
 }
 <!DOCTYPE html>
 <html>
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
 <head>
-    <title>Kale Grubu</title>
+    <title>Kale Arge</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content="Kale Grubu">
+    <meta name="title" content="Kale Arge">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="shortcut icon" type="~/image/png" href="~/favicon.png" />
-    <link rel="stylesheet" href="~/use.typekit.net/rlu6mzh.css">
-    <link rel="stylesheet" href="~/cdn.jsdelivr.net/npm/%40mdi/font%404.7.95/css/materialdesignicons.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="~/cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="~/css/main.css">
-    <link rel="stylesheet" href="~/css/extend.css">
+    <link href="~/use.typekit.net/rlu6mzh.css" rel="stylesheet" />
 
+  
+     <link href="~/cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="~/cdn.jsdelivr.net/npm/%40mdi/font@4.7.95/css/materialdesignicons.min.css" rel="stylesheet" />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYLLZNZTR5"></script>
+    <link rel="stylesheet" href="~/css/main.css"  />
+    <link href="~/css/extend.css" rel="stylesheet" />
+    <link href="~/use.typekit.net/rlu6mzh.css" rel="stylesheet" />
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+        @settingModel.Where(x => x.Key == "google_analitik").Select(x => x.Value).FirstOrDefault();
 
-        gtag('config', 'G-SYLLZNZTR5');
     </script>
+@*     <script>
+        $(function () {
+            search.init({
+                nodeId: 1,
+                searchUrl: '/Search/SearchInPages'
+            });
+
+            $('.raw-content *').css("font-family", "").css("font-size", "");
+            $('.raw-content span, .raw-content font').contents().unwrap();
+
+            $('.lightbox .btn-close').click(function () {
+                var popupId = $(this).attr("data-id");
+
+                if ($(this).hasClass("lightbox"))
+                    $(this).removeClass("open");
+                else
+                    $(this).parents(".lightbox").removeClass("open");
+
+                if (popupId != null && popupId !== '') {
+                    document.cookie = 'popup-display-' + popupId + '=success';
+                }
+            });
+        }
+        )
+    </script> *@
+
 </head>
 <body>
     <main>
         <header class="app-header bg-dark text-white sticky-top">
             <div class="container d-flex align-items-center">
                 <a href="../" title="">
-                    <img src="~/image/logo.svg" alt="" class="mr-5 mr-xl-5">
+                    <img src="~/image/logo.svg" alt="" class="mr-10 mr-xl-10" style="height:50px" width="100px">
                 </a>
                 <ul class="nav flex-grow-1 mr-5 d-none d-lg-flex">
 
                     @foreach (var item in menuModel)
                     {
-                        <li class="submenu">
+                        @if (item.WebPagesViewModel.Count > 0)
+                        {
+                            <li class="submenu">
 
-                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
-                                @item.Name
-                            </a>
+                                <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
+                                    @item.Name
+                                </a>
 
-                            <ol>
-                                @foreach (var subItem in item.WebPagesViewModel)
-                                {
-                                    <li>
-                                        <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
-                                            @subItem.Name
-                                        </a>
-                                    </li>
-                                }
+                                <ol>
+                                    @foreach (var subItem in item.WebPagesViewModel)
+                                    {
+                                        <li>
+                                            <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
+                                                @subItem.Name
+                                            </a>
+                                        </li>
+                                    }
 
-                            </ol>
-                        </li>
+                                </ol>
+
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="">
+
+                                <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
+                                    @item.Name
+                                </a>
+
+
+                            </li>
+
+                        }
                     }
- 
+
 
                 </ul>
                 <ul class="nav align-items-center ml-auto">
@@ -89,22 +133,22 @@
                             <a href="#" title="" data-code="tr-TR">
                                 English
                             </a>
-                            
+
                         }
                         @if (ViewBag.Language == "tr")
                         {
 
                             <ol>
                                 <li>
-                                <a href="@Url.Action("SetLanguage","Home",new { language = "tr" })" data-code="tr-TR" title="T&#xFC;rk&#xE7;e">
-                                   Türkçe
-                                </a>
-                            </li>
-                            <li>
-                                <a href="@Url.Action("SetLanguage","Home",new { language = "en" })" data-code="en-US" title="English">
-                                    English
-                                </a>
-                            </li>
+                                    <a href="@Url.Action("SetLanguage","Home",new { language = "tr" })" data-code="tr-TR" title="T&#xFC;rk&#xE7;e">
+                                        Türkçe
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("SetLanguage","Home",new { language = "en" })" data-code="en-US" title="English">
+                                        English
+                                    </a>
+                                </li>
                             </ol>
                         }
                         else
@@ -138,38 +182,38 @@
         </header>
 
 
-@RenderBody()
+        @RenderBody()
 
-<script src="~/js/main.js"></script>
-<script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
-<script src="~/js/search.js"></script>
+        <script src="~/js/main.js"></script>
+        <script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="~/js/search.js"></script>
 
 
 
-<script>
-    $(function () {
-        search.init({
-            nodeId: 1,
-            searchUrl: '/Search/SearchInPages'
-        });
+        <script>
+            $(function () {
+                search.init({
+                    nodeId: 1,
+                    searchUrl: '/Search/SearchInPages'
+                });
 
-        $('.raw-content *').css("font-family", "").css("font-size", "");
-        $('.raw-content span, .raw-content font').contents().unwrap();
+                $('.raw-content *').css("font-family", "").css("font-size", "");
+                $('.raw-content span, .raw-content font').contents().unwrap();
 
-        $('.lightbox .btn-close').click(function () {
-            var popupId = $(this).attr("data-id");
+                $('.lightbox .btn-close').click(function () {
+                    var popupId = $(this).attr("data-id");
 
-            if ($(this).hasClass("lightbox"))
-                $(this).removeClass("open");
-            else
-                $(this).parents(".lightbox").removeClass("open");
+                    if ($(this).hasClass("lightbox"))
+                        $(this).removeClass("open");
+                    else
+                        $(this).parents(".lightbox").removeClass("open");
 
-            if (popupId != null && popupId !== '') {
-                document.cookie = 'popup-display-' + popupId + '=success';
-            }
-        });
-    })
-</script>
+                    if (popupId != null && popupId !== '') {
+                        document.cookie = 'popup-display-' + popupId + '=success';
+                    }
+                });
+            })
+        </script>
 
 </body>
 
@@ -198,7 +242,7 @@
                                     </a>
                                 </li>
                                 }
-                                
+
 
                             </li>
                         </ul>
@@ -210,23 +254,23 @@
             </div>
             <div class="col-lg-4 order-1 order-md-2">
                 <div class="social-pages text-right">
-                    <a href="https://www.facebook.com/kalegrubu/" target="_blank" title="">
+                    <a href="@settingModel.Where(x=>x.Key=="facebook").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
                         <i class="mdi mdi-facebook"></i>
                     </a>
 
-                    <a href="https://twitter.com/kalegrubu" target="_blank" title="">
+                    <a href="@settingModel.Where(x=>x.Key=="twitter").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
                         <i class="mdi mdi-twitter"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/company/kalegrubu/" target="_blank" title="">
+                    <a href="@settingModel.Where(x=>x.Key=="linkedin").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
                         <i class="mdi mdi-linkedin"></i>
                     </a>
 
-                    <a href="https://www.instagram.com/kalegrubu/" target="_blank" title="">
+                    <a href="@settingModel.Where(x=>x.Key=="instagram").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
                         <i class="mdi mdi-instagram"></i>
                     </a>
 
-                    <a href="https://www.youtube.com/channel/UCgQSAhDy2hK87q7FT4Y9Cfw" target="_blank" title="">
+                    <a href="@settingModel.Where(x=>x.Key=="youtube").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
                         <i class="mdi mdi-youtube"></i>
                     </a>
                 </div>
@@ -236,32 +280,32 @@
 </footer>
 @if (ViewBag.Language == "tr")
 {
-<div class="bg-light p-3">
-            <div class="container d-flex align-items-center justify-content-center justify-md-content-start text-sm flex-wrap">
-                <span>&copy; 2023 Kale Grubu T&#xFC;m haklar&#x131; sakl&#x131;d&#x131;r.</span>
-                <div class="ml-md-auto mt-3 mt-md-0">
-                    <a href="etik-hat.html" class="mr-5 mr-md-3">
-                        Etik Hat
-                    </a>
-                    <a href="Uploads/805dac88812b4cdfbfcd856e99952a92.pdf" class="mr-5 mr-md-3">
-                        KVKK
-                    </a>
-                    <a href="Uploads/7b52f99d0e25494e825e423e25cae8ad.pdf" class="mr-5 mr-md-3">
-                       Çerez Politikası
-                    </a>
-                    <a href="Uploads/e2c2214676c9490797274a78ec9f0414.pdf" class="mr-5 mr-md-3">
-                        Aydınlatma Metni
-                    </a>
-                    <a href="Uploads/67e297cda1dc4d2c9fe00752be09533a.pdf" class="mr-5 mr-md-3">
-                        Veri Sahibi Başvuru Formu
-                    </a>
-                    <a href="Uploads/c0045e01945c4c55a215a84ec8ba7f05.pdf" class="">
-                       Çalışan Adayı Aydınlatma Metni
-                    </a>
-                </div>
+    <div class="bg-light p-3">
+        <div class="container d-flex align-items-center justify-content-center justify-md-content-start text-sm flex-wrap">
+            <span>&copy; 2023 Kale Grubu T&#xFC;m haklar&#x131; sakl&#x131;d&#x131;r.</span>
+            <div class="ml-md-auto mt-3 mt-md-0">
+                <a href="bilgiguvenligi" class="mr-5 mr-md-3">
+                    Bilgi Güvenliği Politikamız
+                </a>
+                <a href="Uploads/805dac88812b4cdfbfcd856e99952a92.pdf" class="mr-5 mr-md-3">
+                    KVKK Politikamız
+                </a>
+                <a href="Uploads/7b52f99d0e25494e825e423e25cae8ad.pdf" class="mr-5 mr-md-3">
+                    Çerez Politikası
+                </a>
+                <a href="Uploads/e2c2214676c9490797274a78ec9f0414.pdf" class="mr-5 mr-md-3">
+                    Aydınlatma Metni
+                </a>
+                <a href="Uploads/67e297cda1dc4d2c9fe00752be09533a.pdf" class="mr-5 mr-md-3">
+                    Başvuru Formu
+                </a>
+
             </div>
         </div>
-        }else{
+    </div>
+}
+else
+{
 
     <div class="bg-light p-3">
         <div class="container d-flex align-items-center justify-content-center justify-md-content-start text-sm flex-wrap">
@@ -282,6 +326,6 @@
             </div>
         </div>
     </div>
-        }
+}
 
 </html>

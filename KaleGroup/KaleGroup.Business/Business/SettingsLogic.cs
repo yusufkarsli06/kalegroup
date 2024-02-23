@@ -9,17 +9,17 @@ namespace KaleGroup.Business.Business
     public class SettingsLogic:ISettingsLogic
     {
         private readonly ISettingsRepository _settingsRepository;
-        private readonly ICacheHelper _cacheHelper;
-        string settingsCacheKey="kalearge-settings-cache";
-        public SettingsLogic(ISettingsRepository settingsRepository, ICacheHelper cacheHelper)
+  
+     
+        public SettingsLogic(ISettingsRepository settingsRepository)
         {
             _settingsRepository = settingsRepository;
-            _cacheHelper = cacheHelper;
+        
         }
         public List<SettingsDto> GetSettingsList()
         {
             List<SettingsDto> settingsList = new List<SettingsDto>();
-            var settingsResult = _settingsRepository.Table.Where(x =>   x.IsActive);
+            var settingsResult = _settingsRepository.GetAll();
             foreach (var item in settingsResult)
             {
                 SettingsDto settings = new SettingsDto();
@@ -32,9 +32,7 @@ namespace KaleGroup.Business.Business
                 settingsList.Add(settings);
 
             }
-            //todo cache nasıl set edilecek.
-          //  _cacheHelper.SetCache(settingsCacheKey, settingsList);
-
+           
             return settingsList;
         }
         public void PasiveSettings(int id)
@@ -45,8 +43,7 @@ namespace KaleGroup.Business.Business
         public void DeleteSettings(int id)
         {
             _settingsRepository.Delete(id);
-            _cacheHelper.DeleteCache(settingsCacheKey);
-        }
+         }
 
         public void AddSettings(SettingsDto param)
         {
@@ -58,19 +55,18 @@ namespace KaleGroup.Business.Business
 
             _settingsRepository.Insert(settings);
             
-            _cacheHelper.DeleteCache(settingsCacheKey);
-        }
+         }
         public void UpdateSettings(SettingsDto param)
         {
             Settings settings = new Settings();
 
+            settings.Id = param.Id;
             settings.SettingsKey = param.SettingsKey;
             settings.SettingsValue = param.SettingsValue;
             settings.IsActive = param.IsActive;
 
             _settingsRepository.Update(settings);
-            _cacheHelper.DeleteCache(settingsCacheKey);
-        }
+         }
 
         public SettingsDto GetSettings(int id)
         {

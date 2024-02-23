@@ -1,10 +1,12 @@
 ﻿using KaleGroup.Admin.Models;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KaleGroup.Admin.Controllers
 {
+    [Authorize]
     public class UserController : Controller
     {
 
@@ -44,7 +46,7 @@ namespace KaleGroup.Admin.Controllers
         public IActionResult AddUser()
         {
             AddUserViewModel vm = new AddUserViewModel();
-
+            vm.IsActive = true;
             return View(vm);
           
         }
@@ -56,6 +58,7 @@ namespace KaleGroup.Admin.Controllers
             userDtos.Username = param.Username;
             userDtos.Email = param.Email;
             userDtos.Password = param.Password;
+            userDtos.IsActive = param.IsActive;
             _userLogic.AddUser(userDtos);
             return RedirectToAction("Index");            
         }

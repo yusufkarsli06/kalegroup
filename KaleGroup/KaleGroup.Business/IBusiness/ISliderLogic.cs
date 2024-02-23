@@ -12,12 +12,14 @@ namespace KaleGroup.Business.IBusiness
 {
     public interface ISliderLogic
     {
-        List<SliderDtos> GetSliderByMenuIdList(int menuId);
+        List<SliderDtos> GetSliderByPageIdList(int pageId);
         void PasiveSlider(int id);
-        void DeleteSlider(int menuId);
+        void DeleteSlider(int id);
         void AddSlider(SliderDtos param);
         void UpdateSlider(SliderDtos param);
         SliderDtos GetSlider(int id);
-      
+        List<SliderDtos> GetSliderList();
+
+
     }
 }

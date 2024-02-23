@@ -1,10 +1,12 @@
 ﻿using KaleGroup.Admin.Models;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KaleGroup.Web.Controllers
 {
+    [Authorize]
     public class SubMenuController : Controller
     {
         private readonly ISubMenuLogic _subMenuLogic;
