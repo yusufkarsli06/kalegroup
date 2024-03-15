@@ -78,14 +78,13 @@ namespace KaleGroup.Business.Business
 
         public void DeleteFile(int fileId)
         {
-            _fileRepository.Delete(fileId);
-
             var uploadFiles = _fileRepository.GetById(fileId);
 
             if (File.Exists(@"../KaleGroup.Web/wwwroot/"+uploadFiles.FilePath))
             {
                 File.Delete(@"../KaleGroup.Web/wwwroot/"+uploadFiles.FilePath);
             }
+            _fileRepository.Delete(fileId);
         }
 
         public void UpdateFile(UploadFileDtos param)

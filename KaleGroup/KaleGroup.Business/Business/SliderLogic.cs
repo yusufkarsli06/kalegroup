@@ -30,6 +30,7 @@ namespace KaleGroup.Business.Business
                 slider.OrderNumber = item.OrderNumber;
                 slider.PageUrl = item.PageUrl;
                 slider.EnPageUrl = item.EnPageUrl;
+                slider.IsTurnImage = item.IsTurnImage;
                 sliderList.Add(slider);
 
             }
@@ -51,6 +52,7 @@ namespace KaleGroup.Business.Business
                 slider.OrderNumber = item.OrderNumber;
                 slider.PageUrl = item.PageUrl;
                 slider.EnPageUrl = item.EnPageUrl;
+                slider.IsTurnImage = item.IsTurnImage;
                 sliderList.Add(slider);
 
             }
@@ -88,6 +90,7 @@ namespace KaleGroup.Business.Business
             slider.IsActive = true;
             slider.PageUrl = param.PageUrl;
             slider.EnPageUrl = param.EnPageUrl;
+            slider.IsTurnImage = param.IsTurnImage;
             _sliderRepository.Insert(slider);
         }
 
@@ -103,6 +106,7 @@ namespace KaleGroup.Business.Business
             slider.OrderNumber = param.OrderNumber;
             slider.PageUrl = param.PageUrl;
             slider.EnPageUrl = param.EnPageUrl;
+            slider.IsTurnImage = param.IsTurnImage;
             _sliderRepository.Update(slider);
         }
 
@@ -119,7 +123,8 @@ namespace KaleGroup.Business.Business
             sliderDtos.IsActive = sliderResult.IsActive;
             sliderDtos.PageUrl = sliderResult.PageUrl;
             sliderDtos.EnPageUrl = sliderResult.EnPageUrl;
-            sliderResult.OrderNumber = sliderResult.OrderNumber;
+            sliderDtos.OrderNumber = sliderResult.OrderNumber;
+            sliderDtos.IsTurnImage = sliderResult.IsTurnImage;
 
             return sliderDtos;
 

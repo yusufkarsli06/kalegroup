@@ -8,6 +8,7 @@ namespace KaleGroup.Admin.Models
         public bool IsActive { get; set; }
         public string EnName { get; set; }
         public string EnDescription { get; set; }
+        public int OrderNumber { get; set; }
 
      }
 }

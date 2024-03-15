@@ -31,6 +31,7 @@ namespace KaleGroup.Web.Models
         public string PageTopSubject { get; set; }
         public string PageTopDescription { get; set; }
         public string PageUrl { get; set; }
+        public int PageId { get; set; }
 
     }
 

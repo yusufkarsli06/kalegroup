@@ -62,6 +62,7 @@ namespace KaleGroup.Business.Business
             webPage.PageDescription = pageResult.PageDescription;
             webPage.PageUrl = pageResult.PageUrl;
             webPage.Keyword = pageResult.Keyword;
+            webPage.EnKeyword = pageResult.EnKeyword;
 
             webPage.EnPageTopSubject = pageResult.EnPageTopSubject;
             webPage.EnPageTopSubject = pageResult.EnPageTopSubject;
@@ -142,6 +143,7 @@ namespace KaleGroup.Business.Business
                 webPage.CreatedAt = item.CreatedAt;
                 webPage.IsSubMenu = item.IsSubMenu;
                 webPage.IsSlider = item.IsSlider;
+                webPage.HomeImage = item.HomeImage;
 
 
                 webPageList.Add(webPage);
@@ -210,6 +212,7 @@ namespace KaleGroup.Business.Business
             webPages.CreatedAt = param.CreatedAt;
             webPages.EnKeyword = param.EnKeyword;
             webPages.IsSlider = param.IsSlider;
+            webPages.HomeImage = param.HomeImage; 
 
             _webPagesRepository.Insert(webPages);
         }
@@ -246,6 +249,7 @@ namespace KaleGroup.Business.Business
             webPage.CreatedAt = pageResult.CreatedAt;
             webPage.EnKeyword = pageResult.EnKeyword;
             webPage.IsSlider = pageResult.IsSlider;
+            webPage.HomeImage = pageResult.HomeImage;
 
             return webPage;
         }
@@ -280,6 +284,7 @@ namespace KaleGroup.Business.Business
             webPages.CreatedAt = param.CreatedAt;
             webPages.EnKeyword = param.EnKeyword;
             webPages.IsSlider = param.IsSlider;
+            webPages.HomeImage = param.HomeImage;
             webPages.CreatedAt = DateTime.Now;
 
             _webPagesRepository.Update(webPages);

@@ -35,6 +35,7 @@ namespace KaleGroup.Admin.Controllers
                 slider.IsActive = item.IsActive;
                 slider.OrderNumber = item.OrderNumber;
                 slider.Id = item.Id;
+                slider.IsTurnImage = item.IsTurnImage;
                 vm.Add(slider);
             }
             return View(vm);
@@ -94,6 +95,7 @@ namespace KaleGroup.Admin.Controllers
                 sliderDtos.PageId = param.PageId;
                 sliderDtos.PageUrl = param.PageUrl;
                 sliderDtos.EnPageUrl = param.EnPageUrl;
+                sliderDtos.IsTurnImage = param.IsTurnImage;
 
                 _sliderLogic.AddSlider(sliderDtos);
 
@@ -127,6 +129,7 @@ namespace KaleGroup.Admin.Controllers
             vm.PageId = sliderResult.PageId;
             vm.PageUrl = sliderResult.PageUrl;
             vm.EnPageUrl = sliderResult.EnPageUrl;
+            vm.IsTurnImage = sliderResult.IsTurnImage;
 
             return View(vm);
         }
@@ -165,6 +168,7 @@ namespace KaleGroup.Admin.Controllers
                 sliderDtos.PageUrl = param.PageUrl;
                 sliderDtos.EnPageUrl = param.EnPageUrl;
                 sliderDtos.Id = param.Id;
+                sliderDtos.IsTurnImage = param.IsTurnImage;
 
                 _sliderLogic.UpdateSlider(sliderDtos);
             }

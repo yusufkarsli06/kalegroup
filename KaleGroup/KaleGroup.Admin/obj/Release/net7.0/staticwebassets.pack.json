@@ -481,6 +481,10 @@
       "PackagePath": "staticwebassets\\images\\demos\\rtl.png"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\favicon.png",
       "PackagePath": "staticwebassets\\images\\favicon.png"
     },
@@ -1127,6 +1131,486 @@
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\quill\\editor.js",
       "PackagePath": "staticwebassets\\quill\\editor.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-af.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-af.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ar.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ar.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-bg.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bg.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-bn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-bs.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bs.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ca.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ca.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-cs.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-cs.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-cy.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-cy.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-da.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-da.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-de.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-de.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-el.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-el.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-en.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-en.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-es.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-es.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-et.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-et.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fa.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fa.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fil.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fil.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fj.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fj.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ga.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ga.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-gu.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-gu.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-he.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-he.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-hi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-hr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ht.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ht.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-hu.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hu.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-id.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-id.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-is.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-is.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-it.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-it.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ja.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ja.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-kn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-kn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ko.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ko.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-lt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-lt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-lv.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-lv.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mg.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mg.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ml.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ml.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ms.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ms.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mww.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mww.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-nb.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-nb.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-nl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-nl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-otq.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-otq.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pa.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pa.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pt-pt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pt-pt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ro.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ro.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ru.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ru.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sk.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sk.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sm.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sm.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Latn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sr-Latn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sv.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sv.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sw.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sw.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ta.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ta.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-te.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-te.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-th.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-th.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Latn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tlh-Latn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-to.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-to.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-tr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ty.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ty.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-uk.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-uk.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ur.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ur.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-vi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-vi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-yua.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-yua.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hans.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-zh-Hans.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hant.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-zh-Hant.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\-combine-plugin.txt",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\-combine-plugin.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\all_plugins.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\all_plugins.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\html2pdf.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\html2pdf.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\imageeditor.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\imageeditor.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\insertcode.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertcode.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\insertemoji.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertemoji.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\insertgallery.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertgallery.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\inserttemplate.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\inserttemplate.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\samples\\insertcode_v1.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\samples\\insertcode_v1.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\note.txt",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\note.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\rte-upload.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte-upload.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\rte.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\rte_theme_default.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte_theme_default.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\colorpicker_more_ns.htm",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\colorpicker_more_ns.htm"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\help.htm",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\help.htm"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\1x1.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\1x1.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_Color.cur",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_Color.cur"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_gradients.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_gradients.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Color.cur",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Color.cur"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical1.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Vertical1.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Vertical2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_gradients.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_gradients.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_hue2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_hue2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\formbn.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\formbn.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\multiclavier.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\multiclavier.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\richtexteditor_content.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_content.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_preview.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_preview.js"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_blog.scss",

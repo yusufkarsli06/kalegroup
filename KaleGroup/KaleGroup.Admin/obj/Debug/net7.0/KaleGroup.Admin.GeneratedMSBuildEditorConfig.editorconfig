@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\kalegroup\KaleGroup\KaleGroup.Admin
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/FooterMenu/AddFooterMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTWVudVxBZGRGb290ZXJNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/FooterMenu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/FooterMenu/UpdateFooterMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyTWVudVxVcGRhdGVGb290ZXJNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -90,16 +102,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViTWVudVxVcGRhdGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/UploadFile/AddFile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZVxBZGRGaWxlLmNzaHRtbA==
+[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/UploadFiles/AddFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZXNcQWRkRmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/UploadFile/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZVxJbmRleC5jc2h0bWw=
+[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/UploadFiles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/UploadFile/UpdateFile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZVxVcGRhdGVGaWxlLmNzaHRtbA==
+[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/UploadFiles/UpdateFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBsb2FkRmlsZXNcVXBkYXRlRmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/User/AddUser.cshtml]
@@ -112,6 +124,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/WebPages/AddPage - Copy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViUGFnZXNcQWRkUGFnZSAtIENvcHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/kalegroup/KaleGroup/KaleGroup.Admin/Views/WebPages/AddPage.cshtml]

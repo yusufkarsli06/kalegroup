@@ -26,6 +26,7 @@ namespace KaleGroup.DataAccess.Context
         public DbSet<Menus> Menus { get; set; }
         public DbSet<Slider> Slider { get; set; }
         public DbSet<Settings> Settings { get; set; }
+        public DbSet<FooterMenus> FooterMenus { get; set; }
         
 
 

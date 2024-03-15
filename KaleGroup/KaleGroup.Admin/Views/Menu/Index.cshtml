@@ -17,8 +17,11 @@
     <table id="dataTable" class="table table-striped table-bordered" width="100%">
         <thead>
             <tr>
+            <th>
+                Menü Adı
+            </th>
                 <th>
-                    Menü Adı
+                   Sıra No
                 </th>
                 <th>
                     Açıklama
@@ -36,6 +39,10 @@
             @foreach (var item in Model)
             {
                 <tr>
+                <td>
+                    @item.OrderNumber
+
+                </td>
                     <td>
                         @item.Name
 

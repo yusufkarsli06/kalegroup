@@ -33,5 +33,6 @@ namespace KaleGroup.Business.Dto
         public bool IsButtomBody { get; set; }
         public bool IsSlider { get; set; }
         public DateTime CreatedAt { get; set; }
+        public string HomeImage { get; set; }
     }
 }

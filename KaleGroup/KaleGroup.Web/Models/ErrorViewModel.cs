@@ -4,6 +4,6 @@ namespace KaleGroup.Web.Models
     {
         public string? RequestId { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId { get; set; }
     }
 }

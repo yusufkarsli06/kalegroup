@@ -3,7 +3,8 @@
     public class SliderViewModel
     {
         public string FilePath { get; set; }
-
         public string PageUrl { get; set; }
+        public bool IsTurnImage { get; set; }
+
     }
 }

@@ -29,17 +29,19 @@ builder.Services.AddTransient<IUploadFileLogic, UploadFileLogic>();
 builder.Services.AddTransient<IWebPagesLogic, WebPagesLogic>();
 builder.Services.AddTransient<ISliderLogic, SliderLogic>();
 builder.Services.AddTransient<ISettingsLogic, SettingsLogic>();
+builder.Services.AddTransient<IFooterMenusLogic, FooterMenusLogic>();
 
 
 builder.Services.AddTransient(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));
 builder.Services.AddTransient<IMenuRepository, MenuRepository>();
 builder.Services.AddTransient<ISubMenuRepository, SubMenuRepository>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
-builder.Services.AddTransient<IUploadFilesRepository, UploadFilesRepository>();
+ builder.Services.AddTransient<IUploadFilesRepository, UploadFilesRepository>();
 builder.Services.AddTransient<IWebPagesRepository, WebPagesRepository>();
 builder.Services.AddTransient<ISliderRepository, SliderRepository>();
 builder.Services.AddTransient<ISettingsRepository, SettingsRepository>();
 builder.Services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddTransient<IFooterMenusRepository, FooterMenusRepository>();
 
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();

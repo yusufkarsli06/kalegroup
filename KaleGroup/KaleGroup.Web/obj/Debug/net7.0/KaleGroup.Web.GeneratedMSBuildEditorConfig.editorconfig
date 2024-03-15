@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\kalegroup\KaleGroup\KaleGroup.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Home/bilgiguvenligi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxiaWxnaWd1dmVubGlnaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Home/FooterPages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb290ZXJQYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/kalegroup/KaleGroup/KaleGroup.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

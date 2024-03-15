@@ -2,7 +2,6 @@ namespace KaleGroup.Admin.Models
 {
     public class MenuViewModel
     {
- 
 
         public int Id { get; set; }
         public string Name { get; set; }
@@ -11,7 +10,7 @@ namespace KaleGroup.Admin.Models
         public string EnName { get; set; }
         public string EnDescription { get; set; }
         public string PageUrl { get; set; }
-
+        public int OrderNumber { get; set; }
       
      }
 }

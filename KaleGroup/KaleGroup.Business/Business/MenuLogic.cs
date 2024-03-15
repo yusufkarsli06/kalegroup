@@ -17,7 +17,7 @@ namespace KaleGroup.Business.Business
         public List<MenuDtos> GetMenuList()
         {
             List<MenuDtos> menuList = new List<MenuDtos>();
-            var menuResult = _menuRepository.GetAll();
+            var menuResult = _menuRepository.GetAll().OrderBy(x=>x.OrderNumber);
             foreach (var item in menuResult)
             {
                 MenuDtos menu = new MenuDtos();
@@ -27,6 +27,7 @@ namespace KaleGroup.Business.Business
                 menu.EnName = item.EnName;
                 menu.IsActive = item.IsActive;
                 menu.Id = item.Id;
+                menu.OrderNumber = item.OrderNumber;
                 menuList.Add(menu);
 
             }
@@ -49,6 +50,7 @@ namespace KaleGroup.Business.Business
             menus.EnDescription = param.EnDescription;
             menus.EnName = param.EnName;
             menus.IsActive = true;
+            menus.OrderNumber = param.OrderNumber;
             _menuRepository.Insert(menus);
         }
 
@@ -60,7 +62,8 @@ namespace KaleGroup.Business.Business
             menus.Description = param.Description;
             menus.EnDescription = param.EnDescription;
             menus.EnName = param.EnName;
-            menus.IsActive = true;
+            menus.IsActive = param.IsActive;
+            menus.OrderNumber = param.OrderNumber;
             _menuRepository.Update(menus);
         }
 
@@ -76,9 +79,8 @@ namespace KaleGroup.Business.Business
             menuDtos.EnName = menuResult.EnName;
             menuDtos.IsActive = menuResult.IsActive;
             menuDtos.Id = menuResult.Id;
+            menuDtos.OrderNumber = menuResult.OrderNumber;
             return menuDtos;
-
-
         }
     }
 }

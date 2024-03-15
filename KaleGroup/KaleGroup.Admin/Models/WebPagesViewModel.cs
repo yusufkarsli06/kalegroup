@@ -2,7 +2,7 @@ namespace KaleGroup.Admin.Models
 {
     public class WebPagesViewModel
     {
-    
+
         public int Id { get; set; }
         public string Name { get; set; }
         public int MenuId { get; set; }
@@ -30,8 +30,8 @@ namespace KaleGroup.Admin.Models
         public string LastPageName { get; set; }
         public bool IsSlider { get; set; }
         public string CreatedAt { get; set; }
-      
+        public string HomeImage { get; set; }
 
     }
-   
+
 }

@@ -17,7 +17,7 @@ namespace KaleGroup.Admin.Models
         public string EnPageUrl { get; set; }
         public IFormFile UploadFile { get; set; }
         public IFormFile EnUploadFile { get; set; }
-
+        public bool IsTurnImage { get; set; }
         public List<PageSelectionViewModel> PageSelectionViewModel { get; set; }
 
     }

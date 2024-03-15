@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace KaleGroup.Admin.Controllers
 {
     [Authorize]
-    public class UploadFileController : Controller
+    public class UploadFilesController : Controller
     {
         private readonly IUploadFileLogic _uploadFileLogic;
-        public UploadFileController(IUploadFileLogic uploadFileLogic)
+        public UploadFilesController(IUploadFileLogic uploadFileLogic)
         {
             _uploadFileLogic = uploadFileLogic;
         }
@@ -30,7 +30,8 @@ namespace KaleGroup.Admin.Controllers
                 file.Description = item.Description;
                 file.IsActive = item.IsActive;
                 file.Id = item.Id;
-
+                file.FileUrl = "../kalearge.canavardata.com/wwwroot/" + item.FileUrl;
+ 
                 vm.Add(file);
             }
             return View(vm);
@@ -117,7 +118,7 @@ namespace KaleGroup.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpPost]
+     
 
         public IActionResult PasiveFile(int fileId)
         {
@@ -127,7 +128,7 @@ namespace KaleGroup.Admin.Controllers
 
         }
 
-        [HttpPost]
+    
 
         public IActionResult DeleteFile(int fileId)
         {

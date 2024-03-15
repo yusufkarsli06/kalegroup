@@ -14,6 +14,7 @@ namespace KaleGroup.Admin.Models
         public string PageTopDescription { get; set; }
         public string PageTopBackground { get; set; }
         public string? PageTopImages { get; set; }
+        public string? HomeImage { get; set; }
         public IFormFile PageTopImagesFiles { get; set; }
         public string PageDescription { get; set; }
         public bool IsActive { get; set; }
@@ -37,6 +38,7 @@ namespace KaleGroup.Admin.Models
         public bool IsSlider { get; set; }
         public List<MenuSelectionViewModel> MenuSelectionViewModel { get; set; }
         public IFormFile? UploadFile { get; set; }
+        public IFormFile? HomeImageUploadFile { get; set; }
 
 
 

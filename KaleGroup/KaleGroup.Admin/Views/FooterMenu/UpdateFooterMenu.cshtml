@@ -1,0 +1,129 @@
+﻿@model KaleGroup.Admin.Models.AddFooterMenuViewModel
+@{
+    ViewData["Title"] = "Footer Menü Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<script src="~/richtexteditor/lang/rte-lang-tr.js"></script>
+<link href="~/richtexteditor/rte_theme_default.css" rel="stylesheet" />
+<script src="~/richtexteditor/rte.js"></script>
+<script src="~/richtexteditor/plugins/all_plugins.js"></script>
+<script src="~/richtexteditor/rte-upload.js"></script>
+
+<div class="heading mb-3">
+    <h4 class="text-left"> <span class="text-primary">Footer Menü Oluştur</span></h4>
+</div>
+
+
+
+<form asp-controller="FooterMenu" asp-action="UpdateFooterMenu" asp-validator="true" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <input type="hidden" asp-for="Id">
+        <input type="hidden" asp-for="FileUrl">
+        <input type="hidden" asp-for="EnFileUrl">
+        <br />
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Adı <span class="text-danger">*</span></label>
+                <i data-feather="name" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageName">
+                <span asp-validation-for="PageName" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Adı İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="name" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageName">
+                <span asp-validation-for="EnPageName" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Url<span class="text-danger">*</span></label>
+                <i data-feather="pageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageUrl">
+                <span asp-validation-for="PageUrl" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>İngilizce Sayfa Url<span class="text-danger">*</span></label>
+                <i data-feather="pageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageUrl">
+                <span asp-validation-for="EnPageUrl" class="text-danger mt-2"></span>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="form-group position-relative">
+                <i data-feather="mail" class="fea icon-sm icons"></i>
+                <label>Dosya <span class="text-danger"></span></label>
+                <input type="file" asp-for="UploadFile" class="form-control pl-5">
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group position-relative">
+                <i data-feather="homeImageUploadFile" class="fea icon-sm icons"></i>
+                <label>İngilizce Dosya   <span class="text-danger"></span></label>
+                <input type="file" asp-for="EnUploadFile" class="form-control pl-5">
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="form-group position-relative">
+                <label>Sayfa Açıklama<span class="text-danger">*</span></label>
+                @*<textarea id="summernote" name="PageDescription"></textarea>*@
+                <input type="hidden" asp-for="Description">
+                <div id="div_editor1" class="richtexteditor" style="height: 900px;">  @Html.Raw(Model.Description) </div>
+
+                <script>
+                    var editor1 = new RichTextEditor(document.getElementById("div_editor1"));
+                    editor1.attachEvent("change", function () {
+                        document.getElementById("Description").value = editor1.getHTMLCode();
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="form-group position-relative">
+                <label>Sayfa Açıklama İngilizce<span class="text-danger">*</span></label>
+                @* <textarea id="summernote" class="summernote" ></textarea> *@
+                <input type="hidden" asp-for="EnDescription">
+                <div id="div_editor2" class="richtexteditor" style="height: 900px;"> @Html.Raw(Model.EnDescription) </div>
+                <script>
+                    var editor2 = new RichTextEditor(document.getElementById("div_editor2"));
+                    editor2.attachEvent("change", function () {
+                        document.getElementById("EnDescription").value = editor2.getHTMLCode();
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-group position-relative">
+                <label>Aktif mi?</label>
+                <div class="">
+                    <input type="radio" value="true" asp-for="IsActive" /> Evet
+                    <input type="radio" value="false" asp-for="IsActive" /> Hayır<br />
+                    <span asp-validation-for="IsActive" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sıra Numarası <span class="text-danger">*</span></label>
+                <i data-feather="user" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="OrderNumber">
+                <span asp-validation-for="OrderNumber" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        
+    </div>
+    <br />
+    <br />
+    <div class="col-lg-3 mb-0">
+        <input type="submit" class="btn btn-primary btn-block" value="Kaydet">
+    </div>
+</form>

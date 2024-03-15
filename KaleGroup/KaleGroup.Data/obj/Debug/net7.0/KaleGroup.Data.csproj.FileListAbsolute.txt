@@ -5,8 +5,8 @@ D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.GeneratedM
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.AssemblyInfoInputs.cache
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.AssemblyInfo.cs
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.csproj.CoreCompileInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.sourcelink.json
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.dll
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\refint\KaleGroup.Data.dll
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\ref\KaleGroup.Data.dll
-D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net7.0\KaleGroup.Data.sourcelink.json

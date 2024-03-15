@@ -15,5 +15,7 @@ namespace KaleGroup.Business.Dto
         public int OrderNumber { get; set; }
         public string PageUrl { get; set; }
         public string EnPageUrl { get; set; }
+        public bool IsTurnImage { get; set; }
+
     }
 }

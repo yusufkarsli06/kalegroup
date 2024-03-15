@@ -87,6 +87,23 @@ namespace KaleGroup.Admin.Controllers
             else
             {
                 pagesDto.PageTopImages = null;
+            } 
+            
+            if (param.HomeImageUploadFile != null)
+            {
+                var extent = Path.GetExtension(param.HomeImageUploadFile.FileName);
+
+               string  randomName = ($"{Guid.NewGuid()}{extent}");
+
+                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+
+                using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
+                    param.HomeImageUploadFile.CopyTo(fileStream);
+                pagesDto.HomeImage = "Uploads/" + randomName;
+            }
+            else
+            {
+                pagesDto.HomeImage = null;
             }
 
 
@@ -179,6 +196,8 @@ namespace KaleGroup.Admin.Controllers
             vm.IsButtomBody = pagesResult.IsButtomBody;
             vm.EnKeyword = pagesResult.EnKeyword;
             vm.IsSlider = pagesResult.IsSlider;
+            vm.PageTopImages = pagesResult.PageTopImages;
+            vm.HomeImage = pagesResult.HomeImage;
 
 
      
@@ -215,22 +234,39 @@ namespace KaleGroup.Admin.Controllers
             pageDtos.EnKeyword = param.EnKeyword;
             pageDtos.IsSlider = param.IsSlider;
 
-            if (param.PageTopImagesFiles != null)
+            if (param.UploadFile != null)
             {
                 var extent = Path.GetExtension(param.UploadFile.FileName);
 
-                var randomName = ($"{Guid.NewGuid()}{extent}");
+                string randomName = ($"{Guid.NewGuid()}{extent}");
 
                 string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
 
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
-                    param.PageTopImagesFiles.CopyTo(fileStream);
-
-
-
+                    param.UploadFile.CopyTo(fileStream);
                 pageDtos.PageTopImages = "Uploads/" + randomName;
             }
+            else
+            {
+                pageDtos.PageTopImages = param.PageTopImages;
+            }
 
+            if (param.HomeImageUploadFile != null)
+            {
+                var extent = Path.GetExtension(param.HomeImageUploadFile.FileName);
+
+                string randomName = ($"{Guid.NewGuid()}{extent}");
+
+                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+
+                using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
+                    param.HomeImageUploadFile.CopyTo(fileStream);
+                pageDtos.HomeImage = "Uploads/" + randomName;
+            }
+            else
+            {
+                pageDtos.HomeImage = param.HomeImage;
+            }
 
             _webPagesLogic.UpdateWebPages(pageDtos);
 

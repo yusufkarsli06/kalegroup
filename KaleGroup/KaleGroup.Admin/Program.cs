@@ -21,11 +21,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
- builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(@"Server=104.247.167.130\MSSQLSERVER2019;Database=yusufk13_kalearge;User=yusufk13_kalearge; Password=R4wv5k@54; TrustServerCertificate=True"), ServiceLifetime.Transient);
+builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(@"Server=104.247.167.130\MSSQLSERVER2019;Database=yusufk13_kalearge;User=yusufk13_kalearge; Password=R4wv5k@54; TrustServerCertificate=True"), ServiceLifetime.Transient);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IUserLogic, UserLogic>();
 builder.Services.AddTransient<IMenuLogic, MenuLogic>();
+builder.Services.AddTransient<IFooterMenusLogic, FooterMenusLogic>();
 builder.Services.AddTransient<ISubMenuLogic, SubMenuLogic>();
 builder.Services.AddTransient<IUploadFileLogic, UploadFileLogic>();
 builder.Services.AddTransient<IWebPagesLogic, WebPagesLogic>();
@@ -38,6 +39,8 @@ builder.Services.AddTransient(typeof(KaleGroup.DataAccess.Abstract.IRepository<>
 builder.Services.AddTransient<IMenuRepository, MenuRepository>();
 builder.Services.AddTransient<ISubMenuRepository, SubMenuRepository>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IFooterMenusRepository, FooterMenusRepository>();
+
 builder.Services.AddTransient<IUploadFilesRepository, UploadFilesRepository>();
 builder.Services.AddTransient<IWebPagesRepository, WebPagesRepository>();
 builder.Services.AddTransient<ISliderRepository, SliderRepository>();

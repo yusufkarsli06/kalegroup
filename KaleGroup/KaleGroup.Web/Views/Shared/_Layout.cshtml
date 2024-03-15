@@ -2,67 +2,68 @@
 @using Newtonsoft.Json;
 @inject IHttpContextAccessor HttpContextAccessor
 @{
-    //Get object from session
-
 
     var mySessionSettingsObject = HttpContextAccessor.HttpContext.Session.GetString("settingsModel");
 
     var settingModel = JsonConvert.DeserializeObject<List<SettingsViewModel>>(mySessionSettingsObject);
 
-
-
     var mySessionObject = HttpContextAccessor.HttpContext.Session.GetString("menuModel");
     var menuModel = JsonConvert.DeserializeObject<List<MenuViewModel>>(mySessionObject);
+
+    var mySessionFooterObject = HttpContextAccessor.HttpContext.Session.GetString("footerModel");
+    var footerMenuModel = JsonConvert.DeserializeObject<List<FooterMenuView>>(mySessionFooterObject);
 }
 <!DOCTYPE html>
 <html>
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
 <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
     <title>Kale Arge</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title" content="Kale Arge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Kale Arge">
+    <meta name="keywords" content="@ViewBag.Keywords">
     <link rel="shortcut icon" type="~/image/png" href="~/favicon.png" />
     <link href="~/use.typekit.net/rlu6mzh.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/rlu6mzh.css">
 
-  
-     <link href="~/cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="~/cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet" />
     <link href="~/cdn.jsdelivr.net/npm/%40mdi/font@4.7.95/css/materialdesignicons.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="~/css/main.css"  />
+    <link rel="stylesheet" href="~/css/main.css" />
     <link href="~/css/extend.css" rel="stylesheet" />
     <link href="~/use.typekit.net/rlu6mzh.css" rel="stylesheet" />
     <script>
         @settingModel.Where(x => x.Key == "google_analitik").Select(x => x.Value).FirstOrDefault();
 
     </script>
-@*     <script>
-        $(function () {
-            search.init({
-                nodeId: 1,
-                searchUrl: '/Search/SearchInPages'
-            });
 
-            $('.raw-content *').css("font-family", "").css("font-size", "");
-            $('.raw-content span, .raw-content font').contents().unwrap();
+    @*     <script>
+    $(function () {
+    search.init({
+    nodeId: 1,
+    searchUrl: '/Search/SearchInPages'
+    });
 
-            $('.lightbox .btn-close').click(function () {
-                var popupId = $(this).attr("data-id");
+    $('.raw-content *').css("font-family", "").css("font-size", "");
+    $('.raw-content span, .raw-content font').contents().unwrap();
 
-                if ($(this).hasClass("lightbox"))
-                    $(this).removeClass("open");
-                else
-                    $(this).parents(".lightbox").removeClass("open");
+    $('.lightbox .btn-close').click(function () {
+    var popupId = $(this).attr("data-id");
 
-                if (popupId != null && popupId !== '') {
-                    document.cookie = 'popup-display-' + popupId + '=success';
-                }
-            });
-        }
-        )
+    if ($(this).hasClass("lightbox"))
+    $(this).removeClass("open");
+    else
+    $(this).parents(".lightbox").removeClass("open");
+
+    if (popupId != null && popupId !== '') {
+    document.cookie = 'popup-display-' + popupId + '=success';
+    }
+    });
+    }
+    )
     </script> *@
 
 </head>
@@ -71,7 +72,7 @@
         <header class="app-header bg-dark text-white sticky-top">
             <div class="container d-flex align-items-center">
                 <a href="../" title="">
-                    <img src="~/image/logo.svg" alt="" class="mr-10 mr-xl-10" style="height:50px" width="100px">
+                    <img src="~/image/logo.svg" alt="" class="mr-10 mr-xl-10" style="height:35px" width="173px">
                 </a>
                 <ul class="nav flex-grow-1 mr-5 d-none d-lg-flex">
 
@@ -80,19 +81,40 @@
                         @if (item.WebPagesViewModel.Count > 0)
                         {
                             <li class="submenu">
+                                @if (item.PageUrl != null)
+                                {
+                                    <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
+                                        @item.Name
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="#" title="@item.Name ">
+                                        @item.Name
+                                    </a>
+                                }
 
-                                <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
-                                    @item.Name
-                                </a>
 
-                                <ol>
+                                <ol style="display: none;">
                                     @foreach (var subItem in item.WebPagesViewModel)
                                     {
-                                        <li>
-                                            <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
-                                                @subItem.Name
-                                            </a>
-                                        </li>
+                                        if (subItem.PageUrl != null)
+                                        {
+                                            <li>
+                                                <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
+                                                    @subItem.Name
+                                                </a>
+                                            </li>
+                                        }
+                                        else
+                                        {
+                                            <li>
+                                                <a href="#" title="@subItem.Name">
+                                                    @subItem.Name
+                                                </a>
+                                            </li>
+                                        }
+
                                     }
 
                                 </ol>
@@ -102,10 +124,19 @@
                         else
                         {
                             <li class="">
+                                @if (item.PageUrl != null)
+                                {
+                                    <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
+                                        @item.Name
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="#" title="@item.Name ">
+                                        @item.Name
+                                    </a>
+                                }
 
-                                <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
-                                    @item.Name
-                                </a>
 
 
                             </li>
@@ -115,6 +146,7 @@
 
 
                 </ul>
+
                 <ul class="nav align-items-center ml-auto">
                     <li class="d-none d-md-inline">
                         <a href="#" title="" class="open-search-box d-flex align-items-center">
@@ -181,151 +213,228 @@
             </div>
         </header>
 
+        <div class="search-box">
+            <span class="search-box-close-btn">
+                <i class="mdi mdi-close"></i>
+            </span>
+            <div class="container position-relative h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-md-6">
+                        <form id="form-search" asp-controller="Home" asp-action="SearchResult">
+                            <div class="d-flex flex-column">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="searchText" placeholder="Arama Yapın...">
+                                </div>
+                                <div class="d-none d-md-block">
+                                    <div id="all-results" class="mt-10 d-none">
+                                        <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
+                                            T&#xDC;M SONU&#xC7;LARI G&#xD6;R
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="search-results">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         @RenderBody()
 
-        <script src="~/js/main.js"></script>
-        <script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
-        <script src="~/js/search.js"></script>
+
+
+        <footer class="app-footer bg-dark text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 order-2 order-md-1">
+                        <div class="footer-menu d-flex justify-space-between">
+
+
+                            @foreach (var item in menuModel)
+                            {
+                                <ul>
+                                    <li>
+
+                                        <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name " class="font-weight-semi-bold">
+                                            @item.Name
+                                        </a>
+
+
+                                        @foreach (var subItem in item.WebPagesViewModel)
+                                        {
+                                        <li>
+                                            <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
+                                                    @subItem.Name
+                                            </a>
+                                        </li>
+                                        }
+
+
+                                    </li>
+                                </ul>
+                            }
 
 
 
-        <script>
-            $(function () {
-                search.init({
-                    nodeId: 1,
-                    searchUrl: '/Search/SearchInPages'
-                });
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-1 order-md-2">
+                        <div class="social-pages text-right">
+                            <a href="@settingModel.Where(x=>x.Key=="facebook").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
+                                <i class="mdi mdi-facebook"></i>
+                            </a>
 
-                $('.raw-content *').css("font-family", "").css("font-size", "");
-                $('.raw-content span, .raw-content font').contents().unwrap();
+                            <a href="@settingModel.Where(x=>x.Key=="twitter").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
+                                <i class="mdi mdi-twitter"></i>
+                            </a>
 
-                $('.lightbox .btn-close').click(function () {
-                    var popupId = $(this).attr("data-id");
+                            <a href="@settingModel.Where(x=>x.Key=="linkedin").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
+                                <i class="mdi mdi-linkedin"></i>
+                            </a>
 
-                    if ($(this).hasClass("lightbox"))
-                        $(this).removeClass("open");
-                    else
-                        $(this).parents(".lightbox").removeClass("open");
+                            <a href="@settingModel.Where(x=>x.Key=="instagram").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
+                                <i class="mdi mdi-instagram"></i>
+                            </a>
 
-                    if (popupId != null && popupId !== '') {
-                        document.cookie = 'popup-display-' + popupId + '=success';
-                    }
-                });
-            })
-        </script>
+                            <a href="@settingModel.Where(x=>x.Key=="youtube").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
+                                <i class="mdi mdi-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-</body>
-
-<footer class="app-footer bg-dark text-white py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 order-2 order-md-1">
-                <div class="footer-menu d-flex justify-space-between">
-
-
-                    @foreach (var item in menuModel)
+        <div class="bg-light p-3">
+            <div class="container d-flex align-items-center justify-content-center justify-md-content-start text-sm flex-wrap">
+                <span>&copy; 2024 Kale Grubu T&#xFC;m haklar&#x131; sakl&#x131;d&#x131;r.</span>
+                <div class="ml-md-auto mt-3 mt-md-0">
+                    @foreach (var item in footerMenuModel)
                     {
-                        <ul>
-                            <li>
+                        if (item.IsUrl)
+                        {
+                            <a href="@Url.Action("FooterPages","Home", new { pageUrl = item.PageUrl })" target="_blank" class="mr-5 mr-md-3">
+                                @item.Name
+                            </a>
+                        }
+                        else
+                        {
+                            <a href="@item.PageUrl" class="mr-5 mr-md-3" target="_blank">
+                                @item.Name
+                            </a>
+                        }
+                    }
 
-                                <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="@item.Name " class="font-weight-semi-bold">
-                                    @item.Name
-                                </a>
 
+                </div>
+            </div>
+        </div>
+        <nav id="mobile-menu">
+            <ul>
+                @foreach (var item in menuModel)
+                {
+                    <li class="submenu">
 
-                                @foreach (var subItem in item.WebPagesViewModel)
-                                {
+                        <a href="@Url.Action("Pages", "Home", new { pageUrl = item.PageUrl })" title="@item.Name ">
+                            @item.Name
+                        </a>
+
+                        <ol>
+                            @foreach (var subItem in item.WebPagesViewModel)
+                            {
                                 <li>
                                     <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
-                                            @subItem.Name
+                                        @subItem.Name
                                     </a>
                                 </li>
-                                }
+                            }
 
+                        </ol>
+                    </li>
+                }
+            </ul>
+            <a href="#" title="" class="menu-close">
+                <i class="mdi mdi-close"></i>
+            </a>
+            <span class="mm-footer">
+                <span class="head">
+                    <span>
+                        <span class="flag-icon flag-icon-tr"></span> T&#xFC;rk&#xE7;e
+                    </span>
+                    <i class="mdi mdi-chevron-down ml-auto"></i>
+                </span>
+                <span class="languages">
+                    <a href="../" title="" data-code="tr-TR">
+                        <span class="flag-icon flag-icon-tr-TR"></span>
+                        Türkçe
+                    </a>
+                    <a href="../" title="" data-code="en-US">
+                        <span class="flag-icon flag-icon-en-US"></span>
+                        English
+                    </a>
+                </span>
+            </span>
+        </nav>
 
-                            </li>
-                        </ul>
-                    }
+        <div class="search-box-mobile">
+            <span class="search-box-close-btn">
+                <i class="mdi mdi-close"></i>
+            </span>
+            <div class="container position-relative h-100">
 
-
-
+                <div id="all-results-mobile" class="mt-10 d-none">
+                    <a href="javascript:$('#form-search-mobile').submit();" title="" class="all-results btn btn-outline-dark btn-block">
+                        T&#xDC;M SONU&#xC7;LARI G&#xD6;R
+                    </a>
                 </div>
-            </div>
-            <div class="col-lg-4 order-1 order-md-2">
-                <div class="social-pages text-right">
-                    <a href="@settingModel.Where(x=>x.Key=="facebook").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
-                        <i class="mdi mdi-facebook"></i>
-                    </a>
-
-                    <a href="@settingModel.Where(x=>x.Key=="twitter").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
-                        <i class="mdi mdi-twitter"></i>
-                    </a>
-
-                    <a href="@settingModel.Where(x=>x.Key=="linkedin").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
-                        <i class="mdi mdi-linkedin"></i>
-                    </a>
-
-                    <a href="@settingModel.Where(x=>x.Key=="instagram").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
-                        <i class="mdi mdi-instagram"></i>
-                    </a>
-
-                    <a href="@settingModel.Where(x=>x.Key=="youtube").Select(x=>x.Value).FirstOrDefault()" target="_blank" title="">
-                        <i class="mdi mdi-youtube"></i>
-                    </a>
+                <div class="row align-items-center h-100">
+                    <div class="col-12">
+                        <div class="d-flex flex-column">
+                            <form id="form-search" asp-controller="Home" asp-action="SearchResult">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="searchText" placeholder="Arama Yap&#x131;n...">
+                                </div>
+                                <div id="search-results-mobile"></div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</footer>
-@if (ViewBag.Language == "tr")
-{
-    <div class="bg-light p-3">
-        <div class="container d-flex align-items-center justify-content-center justify-md-content-start text-sm flex-wrap">
-            <span>&copy; 2023 Kale Grubu T&#xFC;m haklar&#x131; sakl&#x131;d&#x131;r.</span>
-            <div class="ml-md-auto mt-3 mt-md-0">
-                <a href="bilgiguvenligi" class="mr-5 mr-md-3">
-                    Bilgi Güvenliği Politikamız
-                </a>
-                <a href="Uploads/805dac88812b4cdfbfcd856e99952a92.pdf" class="mr-5 mr-md-3">
-                    KVKK Politikamız
-                </a>
-                <a href="Uploads/7b52f99d0e25494e825e423e25cae8ad.pdf" class="mr-5 mr-md-3">
-                    Çerez Politikası
-                </a>
-                <a href="Uploads/e2c2214676c9490797274a78ec9f0414.pdf" class="mr-5 mr-md-3">
-                    Aydınlatma Metni
-                </a>
-                <a href="Uploads/67e297cda1dc4d2c9fe00752be09533a.pdf" class="mr-5 mr-md-3">
-                    Başvuru Formu
-                </a>
 
             </div>
         </div>
-    </div>
-}
-else
-{
 
-    <div class="bg-light p-3">
-        <div class="container d-flex align-items-center justify-content-center justify-md-content-start text-sm flex-wrap">
-            <span>&copy; 2023 Kale Group. All rights reserved.</span>
-            <div class="ml-md-auto mt-3 mt-md-0">
-                <a href="../Uploads/ccc9e3ae2d724ca5b09f998004cfe2d5.pdf" class="mr-5 mr-md-3">
-                    Protection of Personal Data
-                </a>
-                <a href="../Uploads/7b52f99d0e25494e825e423e25cae8ad.pdf" class="mr-5 mr-md-3">
-                    Cookie Policy
-                </a>
-                <a href="../Uploads/e2c2214676c9490797274a78ec9f0414.pdf" class="mr-5 mr-md-3">
-                    Clarification Text
-                </a>
-                <a href="../Uploads/67e297cda1dc4d2c9fe00752be09533a.pdf" class="">
-                    Application Form
-                </a>
-            </div>
-        </div>
-    </div>
-}
+    </main>
 
+    <script src="~/js/main.js"></script>
+    <script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="~/js/search.js"></script>
+</body>
 </html>
+<script>
+    $(function () {
+        search.init({
+            nodeId: 1,
+            searchUrl: '/Search/SearchInPages'
+        });
+
+        $('.raw-content *').css("font-family", "").css("font-size", "");
+        $('.raw-content span, .raw-content font').contents().unwrap();
+
+        $('.lightbox .btn-close').click(function () {
+            var popupId = $(this).attr("data-id");
+
+            if ($(this).hasClass("lightbox"))
+                $(this).removeClass("open");
+            else
+                $(this).parents(".lightbox").removeClass("open");
+
+            if (popupId != null && popupId !== '') {
+                document.cookie = 'popup-display-' + popupId + '=success';
+            }
+        });
+    })
+</script>

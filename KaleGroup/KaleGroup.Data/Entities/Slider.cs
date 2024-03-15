@@ -1,9 +1,4 @@
 ﻿using KaleGroup.Data.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KaleGroup.Data.Entities
 {
@@ -16,6 +11,8 @@ namespace KaleGroup.Data.Entities
         public bool IsActive { get; set; }
         public int PageId { get; set; }
         public int OrderNumber { get; set; }
+        public bool IsTurnImage { get; set; }
+
 
     }
 }

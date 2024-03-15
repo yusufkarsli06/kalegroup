@@ -34,6 +34,7 @@ namespace KaleGroup.Admin.Controllers
                 menu.EnDescription = item.EnDescription;
                 menu.IsActive = item.IsActive;
                 menu.Id= item.Id;
+                menu.OrderNumber = item.OrderNumber;
                  
             
                 vm.Add(menu);
@@ -60,6 +61,7 @@ namespace KaleGroup.Admin.Controllers
             vm.Description = menuDtos.Description;
             vm.IsActive = menuDtos.IsActive;
             vm.Id = menuDtos.Id;
+            vm.OrderNumber = menuDtos.OrderNumber;
              
 
             return View(vm);
@@ -75,6 +77,7 @@ namespace KaleGroup.Admin.Controllers
             menuDtos.Description = param.Description;
             menuDtos.Id = param.Id;
             menuDtos.IsActive = param.IsActive;
+            menuDtos.OrderNumber = param.OrderNumber;
 
             _menuLogic.UpdateMenu(menuDtos);
             return RedirectToAction("Index");
@@ -88,6 +91,7 @@ namespace KaleGroup.Admin.Controllers
             menuDtos.EnDescription = param.EnDescription;
             menuDtos.Description = param.Description;
             menuDtos.IsActive = param.IsActive;
+            menuDtos.OrderNumber = param.OrderNumber;
             _menuLogic.AddMenu(menuDtos);
             return RedirectToAction("Index");
         }

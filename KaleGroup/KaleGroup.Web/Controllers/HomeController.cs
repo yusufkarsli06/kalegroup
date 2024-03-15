@@ -21,11 +21,12 @@ namespace KaleGroup.Web.Controllers
         private readonly IWebPagesLogic _webPagesLogic;
         private readonly ISliderLogic _sliderLogic;
         private readonly ISettingsLogic _settingsLogic;
+        private readonly IFooterMenusLogic _footerMenusLogic;
         string language = "tr";//todo düzeltilmesi gerekiyor.Request.Cookies["language"];
 
         public HomeController(ILogger<HomeController> logger,
           IMenuLogic menuLogic, IWebPagesLogic webPagesLogic, IUserLogic userLogic, ISliderLogic sliderLogic
-           , ISettingsLogic settingsLogic)
+           , ISettingsLogic settingsLogic, IFooterMenusLogic footerMenusLogic)
         {
             _logger = logger;
             _webPagesLogic = webPagesLogic;
@@ -33,55 +34,17 @@ namespace KaleGroup.Web.Controllers
             _userLogic = userLogic;
             _sliderLogic = sliderLogic;
             _settingsLogic = settingsLogic;
+            _footerMenusLogic = footerMenusLogic;
         }
 
         public IActionResult Index()
         {
+            SetFooterMenuSession();
+            SetMenuSession();
             SetLanguage("tr"); //todo dil seçeneği düzeltilecek.
-            List<MenuViewModel> menuList = new List<MenuViewModel>();
-
-            HomeViewModel vm = new HomeViewModel();
-
-
-            var menuResult = _menuLogic.GetMenuList().Where(x => x.IsActive).ToList();
-
-            var webPageResult = _webPagesLogic.GetAllWebPagesList();
-
-            foreach (var item in menuResult)
-            {
-
-
-                List<WebPagesViewModel> webPageList = new List<WebPagesViewModel>();
-                MenuViewModel menu = new MenuViewModel();
-
-                menu.Name = language == "tr" ? item.Name : item.EnName;
-                menu.Id = item.Id;
-                menu.PageUrl = language == "tr" ? webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.PageUrl).FirstOrDefault() :
-                    webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.EnPageUrl).FirstOrDefault();
-
-                var webPageListResult = webPageResult.Where(x => x.MenuId == item.Id && !x.IsMenu && x.IsSubMenu).ToList();
-
-                foreach (var subItem in webPageListResult)
-                {
-                    WebPagesViewModel webPage = new WebPagesViewModel();
-                    webPage.Name = language == "tr" ? subItem.Name : subItem.EnName; ;
-
-                    webPage.MenuId = subItem.MenuId;
-                    webPage.PageUrl = language == "tr" ? subItem.PageUrl : subItem.EnPageUrl;
-                    webPage.PageTopSubject = language == "tr" ? subItem.PageTopSubject : subItem.EnPageTopSubject;
-                    webPage.Id = subItem.Id;
-                    webPageList.Add(webPage);
-                }
-                menu.WebPagesViewModel = webPageList;
-                menuList.Add(menu);
-            }
+ 
+            HomeViewModel vm = new HomeViewModel();           
             ViewBag.Language = language;
-
-
-            var str = JsonConvert.SerializeObject(menuList);
-            HttpContext.Session.SetString("menuModel", str);
-
-     
 
             vm.SliderViewModel = GetSliderList(1);
             vm.TopBodyViewModel = GetTopBodyList();
@@ -91,11 +54,17 @@ namespace KaleGroup.Web.Controllers
 
             return View(vm);
         }
-
+        public IActionResult bilgiguvenligi()
+        {
+            ViewBag.Language = "tr";
+            return View();
+        }
         public IActionResult Pages(string pageUrl)
         {
             try
             {
+                if (pageUrl == "" || pageUrl==null)
+                    return View("Error");
 
                 WebPagesViewModel vm = new WebPagesViewModel();
 
@@ -153,6 +122,8 @@ namespace KaleGroup.Web.Controllers
                 }
                 ViewBag.Language = language;
                 vm.SliderViewModel = GetSliderList(pageResult.Id);
+
+                ViewBag.Keywords = language == "tr" ? pageResult.Keyword : pageResult.EnKeyword;
                 return View(vm);
 
             }
@@ -162,53 +133,83 @@ namespace KaleGroup.Web.Controllers
                 return View("Index");
             }
         }
-
         public IActionResult SearchResult(string searchText)
         {
             SearchViewModel vm = new SearchViewModel();
-
             vm.SearchText = searchText;
 
             List<SearchMenuViewModel> searchMenuListViewModel = new List<SearchMenuViewModel>();
-            List<SearchListViewModel> searchListViewModel = new List<SearchListViewModel>();
-
-
             var mySessionObject = HttpContext.Session.GetString("menuModel");
             var menuModel = JsonConvert.DeserializeObject<List<MenuViewModel>>(mySessionObject);
             var pageResult = _webPagesLogic.GetWebSearchList(language, searchText);
+
             foreach (var item in menuModel)
             {
-                SearchMenuViewModel searchMenuViewModel = new SearchMenuViewModel();
-                searchMenuViewModel.MenuName = language == "tr" ? item.Name : item.EnName;
+                var searchListViewModel = new List<SearchListViewModel>(); 
 
-
-                foreach (var resultItem in pageResult.Where(x => x.MenuId == item.Id))
+               
+                var filteredResults = pageResult.Where(x => x.MenuId == item.Id).ToList();
+                if (filteredResults.Count > 0)
                 {
-                    SearchListViewModel searchListView = new SearchListViewModel();
-                    searchListView.PageUrl = language == "tr" ? resultItem.PageUrl : resultItem.EnPageUrl;
-                    searchListView.Name = language == "tr" ? resultItem.Name : resultItem.EnName;
-                    searchListView.PageTopSubject = language == "tr" ? resultItem.PageTopSubject : resultItem.EnPageTopSubject;
-                    searchListView.PageTopDescription = language == "tr" ? resultItem.PageTopDescription : resultItem.EnPageTopDescription;
-                    searchListViewModel.Add(searchListView);
-                }
-                searchMenuViewModel.SearchListViewModel = searchListViewModel;
-                searchMenuListViewModel.Add(searchMenuViewModel);
-            }
-            vm.SearchMenuViewModel = searchMenuListViewModel;
+                    SearchMenuViewModel searchMenuViewModel = new SearchMenuViewModel();
+                    searchMenuViewModel.MenuName = language == "tr" ? item.Name : item.EnName;
 
+                    foreach (var resultItem in filteredResults)
+                    {
+                        SearchListViewModel searchListView = new SearchListViewModel();
+                        searchListView.PageUrl = language == "tr" ? resultItem.PageUrl : resultItem.EnPageUrl;
+                        searchListView.Name = language == "tr" ? resultItem.Name : resultItem.EnName;
+                        searchListView.PageTopSubject = language == "tr" ? resultItem.PageTopSubject : resultItem.EnPageTopSubject;
+                        searchListView.PageTopDescription = language == "tr" ? resultItem.PageTopDescription : resultItem.EnPageTopDescription;
+                        searchListView.PageId = resultItem.Id;
+                        searchListViewModel.Add(searchListView);
+                    }
+
+                    searchMenuViewModel.SearchListViewModel = searchListViewModel;
+                    searchMenuListViewModel.Add(searchMenuViewModel);
+                }
+            }
+
+            vm.SearchMenuViewModel = searchMenuListViewModel;
             ViewBag.Language = language;
             return View(vm);
+        }
+        public IActionResult FooterPages(string pageUrl)
+        {
+            try
+            {
+                if (pageUrl == "" || pageUrl == null)
+                    return View("Error");
+
+                FooterPagesViewModel vm = new FooterPagesViewModel();
+
+                var pageResult = _footerMenusLogic.GetFooterMenuPageByPageUrl(pageUrl);
+
+                if (pageResult == null)
+                    return View("Index");
+
+                vm.PageDescription = language == "tr" ? pageResult.Description : pageResult.EnDescription;
+
+                return View(vm);
+
+            }
+            catch (Exception)
+            {
+                return View("Index");
+            }
         }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View();
+            ErrorViewModel vm = new ErrorViewModel();
+            vm.RequestId = "101";
+            vm.ShowRequestId = true;
+           
+            
+            return View(vm);
         }
-
-
-
         public IActionResult SetLanguage(string language)
         {
             CookieOptions cookie = new CookieOptions();
@@ -228,6 +229,7 @@ namespace KaleGroup.Web.Controllers
 
                 slider.FilePath = language == "tr" ? item.FilePath : item.EnFilePath;
                 slider.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
+                slider.IsTurnImage = item.IsTurnImage;
                 sliderList.Add(slider);
             }
 
@@ -245,7 +247,7 @@ namespace KaleGroup.Web.Controllers
             {
                 TopBodyViewModel topBody = new TopBodyViewModel();
 
-                topBody.FilePath = item.PageTopImages;
+                topBody.FilePath = item.HomeImage!=null ?item.HomeImage: item.PageTopImages;
                 topBody.Name = language == "tr" ? item.Name : item.EnName;
 
                 topBody.Description = language == "tr" ? item.PageTopDescription : item.EnPageTopDescription;
@@ -266,7 +268,7 @@ namespace KaleGroup.Web.Controllers
             {
                 ButtomBodyViewModel buttomBody = new ButtomBodyViewModel();
 
-                buttomBody.FilePath = item.PageTopImages;
+                buttomBody.FilePath = item.HomeImage != null ? item.HomeImage : item.PageTopImages;
                 buttomBody.Name = language == "tr" ? item.Name : item.EnName;
                 buttomBody.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
 
@@ -275,20 +277,19 @@ namespace KaleGroup.Web.Controllers
 
             return buttomBodyList;
         }
-
         private List<NewsBodyViewModel> GetNewBodyList()
         {
             List<NewsBodyViewModel> newBodyList = new List<NewsBodyViewModel>();
 
-            var pageResult = _webPagesLogic.GetWebPageByDetailList(false, false, true);
+            var pageResult = _webPagesLogic.GetWebPageByDetailList(false, false, true).OrderByDescending(x => x.CreatedAt).Take(4);
             foreach (var item in pageResult)
             {
                 NewsBodyViewModel newBody = new NewsBodyViewModel();
 
-                newBody.FilePath = item.PageTopImages;
+                newBody.FilePath = item.HomeImage!=null? item.HomeImage: item.PageTopImages;
                 newBody.Name = language == "tr" ? item.Name : item.EnName;
                 newBody.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
-                newBody.NewsDate = item.CreatedAt.ToString("dd.MMMM.yyyy");
+                newBody.NewsDate = item.CreatedAt.ToShortDateString();
 
                 newBodyList.Add(newBody);
             }
@@ -311,6 +312,72 @@ namespace KaleGroup.Web.Controllers
             }
 
             HttpContext.Session.SetString("settingsModel", JsonConvert.SerializeObject(list));
+        }
+        private void SetMenuSession()
+        {
+            List<MenuViewModel> menuList = new List<MenuViewModel>();
+             
+            var menuResult = _menuLogic.GetMenuList().Where(x => x.IsActive).ToList();
+
+            var webPageResult = _webPagesLogic.GetAllWebPagesList();
+
+            foreach (var item in menuResult)
+            {
+                List<WebPagesViewModel> webPageList = new List<WebPagesViewModel>();
+                MenuViewModel menu = new MenuViewModel();
+
+                menu.Name = language == "tr" ? item.Name : item.EnName;
+                menu.Id = item.Id;
+                menu.PageUrl = language == "tr" ? webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.PageUrl).FirstOrDefault() :
+                    webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.EnPageUrl).FirstOrDefault();
+
+                var webPageListResult = webPageResult.Where(x => x.MenuId == item.Id && !x.IsMenu && x.IsSubMenu).ToList();
+
+                foreach (var subItem in webPageListResult)
+                {
+                    WebPagesViewModel webPage = new WebPagesViewModel();
+                    webPage.Name = language == "tr" ? subItem.Name : subItem.EnName; ;
+
+                    webPage.MenuId = subItem.MenuId;
+                    webPage.PageUrl = language == "tr" ? subItem.PageUrl : subItem.EnPageUrl;
+                    webPage.PageTopSubject = language == "tr" ? subItem.PageTopSubject : subItem.EnPageTopSubject;
+                    webPage.Id = subItem.Id;
+
+                    webPageList.Add(webPage);
+                }
+                menu.WebPagesViewModel = webPageList;
+                menuList.Add(menu);
+            }          
+
+            var str = JsonConvert.SerializeObject(menuList);
+            HttpContext.Session.SetString("menuModel", str);
+        }
+        private void SetFooterMenuSession()
+        {
+            List<FooterMenuView> footerMenuList = new List<FooterMenuView>();
+
+            var resultFooterMenu = _footerMenusLogic.GetFooterMenuList().Where(x => x.IsActive);
+
+            foreach (var item in resultFooterMenu)
+            {
+                FooterMenuView footerMenu = new FooterMenuView();
+                if (language == "tr")
+                {
+                    footerMenu.PageUrl = item.PageUrl != null ? item.PageUrl : item.FileUrl;
+                    footerMenu.Name = item.PageName;
+                    footerMenu.IsUrl = item.PageUrl != null ? true : false;
+                }
+                else
+                {
+                    footerMenu.PageUrl = item.EnPageUrl != null ? item.EnPageUrl : item.EnFileUrl;
+                    footerMenu.Name = item.EnPageName;
+                    footerMenu.IsUrl = item.PageUrl != null ? true : false;
+                }
+                footerMenuList.Add(footerMenu);
+            }
+
+            var str = JsonConvert.SerializeObject(footerMenuList);
+            HttpContext.Session.SetString("footerModel", str);
         }
     }
 }

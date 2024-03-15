@@ -72,6 +72,19 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-12">
+                <div class="form-group position-relative">
+                    <label> Sprite Resim mi?</label>
+                    <div class="">
+                        <input type="radio" value="true" asp-for="IsTurnImage" /> Evet
+                        <input type="radio" value="false" asp-for="IsTurnImage" /> Hayır<br />
+
+                        <span asp-validation-for="IsTurnImage" class="text-danger mt-2"></span>
+                    </div>
+                </div>
+            </div>
+
             <div class="col-lg-6">
                 <div class="form-group position-relative">
                     <label>Sıra Numarası <span class="text-danger">*</span></label>
