@@ -32,19 +32,27 @@
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item ">
-                    @if (ViewBag.Language == "tr")
-                    {
+
+                @if (ViewBag.Language == "tr")
+                {
+                    <li class="breadcrumb-item ">
                         <a href="../">Anasayfa</a>
-                    }
-                    else
-                    {
+                    </li>
+                }
+                else
+                {
+                    <li class="breadcrumb-item ">
                         <a href="../">Home</a>
-                    }
-                </li>
-                <li class="breadcrumb-item ">
-                    <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })"> @Model.LastPageName</a>
-                </li>
+                    </li>
+                }
+
+                @if (Model.LastPageName != null)
+                {
+                    <li class="breadcrumb-item ">
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })"> @Model.LastPageName</a>
+                    </li>
+                }
+
                 @if (!Model.IsMenu)
                 {
                     <li class="breadcrumb-item active">
@@ -66,7 +74,7 @@
     </div>
 </section>
 
-@if (Model.IsMenu)
+@if (Model.IsMenu || Model.Id == 46)
 {
     <section class="mb-5">
         <div class="container">
@@ -108,7 +116,7 @@
 {
     <section class="mb-3 mb-md-5">
         <div class="container">
-            <div class="row" >
+            <div class="row">
                 <div class="content-text col-md-8 offset-md-2 text-justify">
                     <div class="images-slider mb-5 mt-5">
                         <div class="swiper-pagination d-block d-md-none"></div>
@@ -154,7 +162,7 @@
                             <img src="~/sprite/img/img-loading.png" alt="">
                             <div class="product-sprite" data-image="/@spriteItem.FilePath"></div>
 
-                         </figure> <!-- .product-viewer -->
+                        </figure> <!-- .product-viewer -->
 
                         <div class="cd-product-viewer-handle">
                             <span class="fill"></span>
@@ -167,4 +175,4 @@
     }
 }
 
- 
+

@@ -108,6 +108,8 @@ namespace KaleGroup.Business.Business
                 webPage.IsMenu = item.IsMenu;
                 webPage.IsSubMenu = item.IsSubMenu;
                 webPage.IsSlider = item.IsSlider;
+                webPage.IsNews = item.IsNews;
+                webPage.CreatedAt = item.CreatedAt;
 
 
                 webPageList.Add(webPage);

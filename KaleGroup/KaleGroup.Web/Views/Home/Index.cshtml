@@ -120,7 +120,7 @@
     {
         <section class="news-slider bg-light py-4 py-md-7">
             <div class="container">
-                <h2 class="mb-5 text-center">Haberler</h2>
+                <h2 class="mb-5 text-center">Etkileşimler</h2>
                 <div class="swiper-container">
                     <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
                         @foreach (var item in Model.NewsBodyViewModel)
@@ -148,11 +148,11 @@
                             <div class="mt-0 mt-md-7 text-right text-md-center">
                                 @if (ViewBag.Language == "tr")
                                 {
-                                    <a href="@Url.Action("Pages","Home", new { pageUrl = "haberler" })" class="btn btn-outline-dark">Tümünü Gör</a>
+                                    <a href="@Url.Action("Pages","Home", new { pageUrl = "etkilesimler" })" class="btn btn-outline-dark">Tümünü Gör</a>
                                 }
                                 else
                                 {
-                                    <a href="@Url.Action("Pages","Home", new { pageUrl = "news" })" class="btn btn-outline-dark">See All</a>
+                                    <a href="@Url.Action("Pages","Home", new { pageUrl = "interactions" })" class="btn btn-outline-dark">See All</a>
                                 }
                             </div>
                         </div>

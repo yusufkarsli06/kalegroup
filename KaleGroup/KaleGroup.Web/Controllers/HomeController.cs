@@ -100,9 +100,9 @@ namespace KaleGroup.Web.Controllers
 
                 vm.IsMenu = pageResult.IsMenu;
 
-                if (pageResult.IsMenu)
+                if (pageResult.IsMenu || pageResult.Id==46)
                 {
-                    var subPageResult = _webPagesLogic.GetWebPageByMenuId(pageResult.MenuId).Where(x => !x.IsMenu);
+                    var subPageResult = _webPagesLogic.GetWebPageByMenuId(pageResult.MenuId).Where(x => !x.IsMenu && x.IsNews);
 
                     List<SubPagesViewModel> subPageList = new List<SubPagesViewModel>();
 
@@ -113,7 +113,7 @@ namespace KaleGroup.Web.Controllers
                         subPage.PageUrl = language == "tr" ? item.PageUrl : item.EnPageUrl;
                         subPage.PageImage = item.PageTopImages;
                         subPage.PageTopSubject = language == "tr" ? item.PageTopSubject : item.EnPageTopSubject;
-                        subPage.CreatedAt = item.CreatedAt.ToString("dd.MMMM.yyyy");
+                        subPage.CreatedAt = item.CreatedAt.ToShortDateString(); ;
                         subPage.IsNews = item.IsNews;
                         subPageList.Add(subPage);
                     }

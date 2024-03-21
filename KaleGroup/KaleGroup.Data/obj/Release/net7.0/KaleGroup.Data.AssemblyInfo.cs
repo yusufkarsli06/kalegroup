@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KaleGroup.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9851d56526857bbe38a4a3d1b8a7d30eb2ee4a5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dc7a67ccaadce42706d07b43faa0d685cfded1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("KaleGroup.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KaleGroup.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
