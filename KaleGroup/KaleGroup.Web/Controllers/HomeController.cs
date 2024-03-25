@@ -87,6 +87,7 @@ namespace KaleGroup.Web.Controllers
                 vm.PageUrl = language == "tr" ? pageResult.PageUrl : pageResult.EnPageUrl;
                 //todo anahtar kelime ingilizce 
                 vm.Keyword = pageResult.Keyword;
+                vm.IsNews = pageResult.IsNews;
 
                 //todo bağlı olduğu sayfa bilgileri 
 
@@ -124,6 +125,7 @@ namespace KaleGroup.Web.Controllers
                 vm.SliderViewModel = GetSliderList(pageResult.Id);
 
                 ViewBag.Keywords = language == "tr" ? pageResult.Keyword : pageResult.EnKeyword;
+                vm.PageDescription = vm.PageDescription.Replace(@"/\[/ g", "<").Replace(@"/\]/ g", ">");
                 return View(vm);
 
             }
@@ -187,6 +189,10 @@ namespace KaleGroup.Web.Controllers
 
                 if (pageResult == null)
                     return View("Index");
+
+                vm.PageTopSubject = language == "tr" ? pageResult.PageTopSubject : pageResult.EnPageTopSubject;
+                vm.PageTopBackground = pageResult.PageTopBackground;
+                vm.PageTopDescription = language == "tr" ? pageResult.PageTopDescription : pageResult.EnPageTopDescription;
 
                 vm.PageDescription = language == "tr" ? pageResult.Description : pageResult.EnDescription;
 

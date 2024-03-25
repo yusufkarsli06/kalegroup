@@ -30,7 +30,7 @@ namespace KaleGroup.Admin.Controllers
                 footerMenu.IsActive = item.IsActive;
                 footerMenu.Id = item.Id;
                 footerMenu.OrderNumber = item.OrderNumber;
-
+                footerMenu.PageTopSubject = item.PageTopSubject;
                 vm.Add(footerMenu);
             }
 
@@ -61,7 +61,11 @@ namespace KaleGroup.Admin.Controllers
             vm.Description = footerMenuDtos.Description;
             vm.EnDescription = footerMenuDtos.EnDescription;
             vm.OrderNumber = footerMenuDtos.OrderNumber;
-
+            vm.PageTopBackground = footerMenuDtos.PageTopBackground;
+            vm.PageTopSubject = footerMenuDtos.PageTopSubject;
+            vm.PageTopDescription = footerMenuDtos.PageTopDescription;
+            vm.EnPageTopSubject = footerMenuDtos.EnPageTopSubject;
+            vm.EnPageTopDescription = footerMenuDtos.EnPageTopDescription;
             return View(vm);
         }
 
@@ -114,7 +118,11 @@ namespace KaleGroup.Admin.Controllers
             footerMenuDtos.Description = param.Description;
             footerMenuDtos.EnDescription = param.EnDescription;
             footerMenuDtos.OrderNumber = param.OrderNumber;
-
+            footerMenuDtos.PageTopSubject = param.PageTopSubject;
+            footerMenuDtos.PageTopBackground = param.PageTopBackground;
+            footerMenuDtos.PageTopDescription = param.PageTopDescription;
+            footerMenuDtos.EnPageTopSubject = param.EnPageTopSubject;
+            footerMenuDtos.EnPageTopDescription = param.EnPageTopDescription;
             _footerMenusLogic.UpdateFooterMenu(footerMenuDtos);
             return RedirectToAction("Index");
         }
@@ -167,7 +175,12 @@ namespace KaleGroup.Admin.Controllers
             footerMenuDtos.Description = param.Description;
             footerMenuDtos.EnDescription = param.EnDescription;
             footerMenuDtos.OrderNumber = param.OrderNumber;
+            footerMenuDtos.PageTopSubject = param.PageTopSubject;
+            footerMenuDtos.PageTopBackground = param.PageTopBackground;
+            footerMenuDtos.PageTopDescription = param.PageTopDescription;
 
+            footerMenuDtos.EnPageTopSubject = param.EnPageTopSubject;
+            footerMenuDtos.EnPageTopDescription = param.EnPageTopDescription;
             _footerMenusLogic.AddFooterMenu(footerMenuDtos);
             return RedirectToAction("Index");
         }

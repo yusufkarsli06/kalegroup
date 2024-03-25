@@ -39,6 +39,41 @@
                 <span asp-validation-for="EnPageName" class="text-danger mt-2"></span>
             </div>
         </div>
+
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık<span class="text-danger">*</span></label>
+                <i data-feather="pageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageTopSubject">
+                <span asp-validation-for="PageTopSubject" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="enPageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageTopSubject">
+                <span asp-validation-for="EnPageTopSubject" class="text-danger mt-2"></span>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık Açıklama<span class="text-danger">*</span></label>
+                <i data-feather="pageTopDescription" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="PageTopDescription">
+                <span asp-validation-for="PageTopDescription" class="text-danger mt-2"></span>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group position-relative">
+                <label>Sayfa Üst Başlık Açıklama İngilizce<span class="text-danger">*</span></label>
+                <i data-feather="enPageTopSubject" class="fea icon-sm icons"></i>
+                <input type="text" class="form-control pl-5" asp-for="EnPageTopDescription">
+                <span asp-validation-for="EnPageTopDescription" class="text-danger mt-2"></span>
+            </div>
+        </div>
+      
         <div class="col-lg-6">
             <div class="form-group position-relative">
                 <label>Sayfa Url<span class="text-danger">*</span></label>
@@ -55,7 +90,16 @@
                 <span asp-validation-for="EnPageUrl" class="text-danger mt-2"></span>
             </div>
         </div>
-
+        <div class="col-lg-12">
+            <div class="col-lg-6">
+                <div class="form-group position-relative">
+                    <label>Arka Plan Renk<span class="text-danger">*</span></label>
+                    <i data-feather="pageTopBackground" class="fea icon-sm icons"></i>
+                    <input type="text" class="form-control pl-5" asp-for="PageTopBackground">
+                    <span asp-validation-for="PageTopBackground" class="text-danger mt-2"></span>
+                </div>
+            </div>
+        </div>
         <div class="col-md-12">
             <div class="form-group position-relative">
                 <i data-feather="mail" class="fea icon-sm icons"></i>

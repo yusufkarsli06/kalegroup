@@ -2,6 +2,8 @@
 
 @model KaleGroup.Web.Models.WebPagesViewModel
 
+ 
+
 <section class="bg-lavender page-promo pb-5" style="background: @Model.PageTopBackground;">
     <div class="container">
         <div class="page-promo-image" style="background-image: url('/@Model.PageTopImages');"></div>
@@ -15,13 +17,35 @@
                 </p>
             </div>
         </div>
-        @if (!Model.IsMenu)
+        @if (!Model.IsMenu && Model.Id != 46 && !Model.IsNews)
         {
             <div class="row">
                 <div class="col-12">
                     <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })" title="" class="btn btn-dark btn-size-160">
                         <i class="mdi mdi-arrow-left text-xl mr-2"></i>
                         @Model.LastPageName
+                    </a>
+                </div>
+            </div>
+        }
+        else if (Model.IsNews)
+        {
+            <div class="row">
+                <div class="col-12">
+                    <a href="@Url.Action("Pages","Home", new { pageUrl = "etkilesimler" })" title="" class="btn btn-dark btn-size-160">
+                        <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                        Etkileşimler
+                    </a>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-12">
+                    <a href="@Url.Action("Index","Home")" title="" class="btn btn-dark btn-size-160">
+                        <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                        Anasayfa
                     </a>
                 </div>
             </div>
@@ -52,7 +76,12 @@
                         <a href="@Url.Action("Pages","Home", new { pageUrl = Model.LastPageUrl })"> @Model.LastPageName</a>
                     </li>
                 }
-
+                @if (Model.IsNews)
+                {
+                    <li class="breadcrumb-item active">
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = "etkilesimler" })">Etkileşimler</a>
+                    </li>
+                }
                 @if (!Model.IsMenu)
                 {
                     <li class="breadcrumb-item active">
@@ -69,7 +98,8 @@
         <div class="row">
             <div class="content-text raw-content col-md-8 offset-md-2 text-justify">
                 @Html.Raw(Model.PageDescription)
-            </div>
+               
+             </div>
         </div>
     </div>
 </section>

@@ -14,6 +14,11 @@ namespace KaleGroup.Data.Entities
         public string? Description { get; set; }
         public string? EnDescription { get; set; }
         public int OrderNumber { get; set; }
+        public string? PageTopSubject { get; set; }
+        public string? PageTopDescription { get; set; }
+        public string? PageTopBackground { get; set; }
+        public string? EnPageTopSubject { get; set; }
+        public string? EnPageTopDescription { get; set; }
     }
 }
 

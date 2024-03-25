@@ -1,7 +1,37 @@
-﻿@using System.Web;
+﻿@model KaleGroup.Web.Models.FooterPagesViewModel
+@using System.Web;
+@{
 
-@model KaleGroup.Web.Models.FooterPagesViewModel
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+  <section class="bg-lavender page-promo pb-5" style="background: @Model.PageTopBackground;">
  
+     <div class="container">
+        <div class="page-promo-image"></div>
+
+         <div class="row mt-4 mt-md-6 mb-3 mb-md-7">
+            <div class="col-md-8">
+                <h1>@Model.PageTopSubject</h1>
+            </div>
+            <div class="col-md-4">
+                <p class="font-weight-medium text-lg" style="padding-top: 20px;">
+                    @Model.PageTopDescription
+                </p>
+            </div>
+        </div>
+     
+            <div class="row">
+                <div class="col-12">
+                    <a href="@Url.Action("Index","Home")" title="" class="btn btn-dark btn-size-160">
+                        <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                        Anasayfa
+                    </a>
+                </div>
+            </div>
+        
+    </div>
+</section>
 <section class="mb-5">
     <div class="container">
         <div class="row">

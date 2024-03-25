@@ -6,6 +6,7 @@ namespace KaleGroup.Admin.Models
         public string PageName { get; set; }
         public bool IsActive { get; set; }
         public int OrderNumber { get; set; }
-
+        public string? PageTopSubject { get; set; }
+  
     }
 }

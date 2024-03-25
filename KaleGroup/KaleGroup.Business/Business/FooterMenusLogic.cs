@@ -33,6 +33,11 @@ namespace KaleGroup.Business.Business
             footerMenuDtos.Description = footerMenuResult.Description;
             footerMenuDtos.EnDescription = footerMenuResult.EnDescription;
             footerMenuDtos.OrderNumber = footerMenuResult.OrderNumber;
+            footerMenuDtos.PageTopSubject = footerMenuResult.PageTopSubject;
+            footerMenuDtos.PageTopDescription = footerMenuResult.PageTopDescription; 
+            footerMenuDtos.EnPageTopSubject = footerMenuResult.EnPageTopSubject;
+            footerMenuDtos.EnPageTopDescription = footerMenuResult.EnPageTopDescription;
+            footerMenuDtos.PageTopBackground = footerMenuResult.PageTopBackground;
 
             return footerMenuDtos;
 
@@ -56,7 +61,11 @@ namespace KaleGroup.Business.Business
                 footerMenu.Description = item.Description;
                 footerMenu.EnDescription = item.EnDescription;
                 footerMenu.OrderNumber = item.OrderNumber;
-
+                footerMenu.PageTopSubject = item.PageTopSubject;
+                footerMenu.PageTopBackground = item.PageTopBackground;
+                footerMenu.PageTopDescription = item.PageTopDescription;
+                footerMenu.EnPageTopSubject = item.EnPageTopSubject;
+                footerMenu.EnPageTopDescription = item.EnPageTopDescription;
                 footerMenuList.Add(footerMenu);
             }
             return footerMenuList;
@@ -82,7 +91,11 @@ namespace KaleGroup.Business.Business
             footerMenu.Description = param.Description;
             footerMenu.EnDescription = param.EnDescription;
             footerMenu.OrderNumber = param.OrderNumber;
-
+            footerMenu.PageTopSubject = param.PageTopSubject;
+            footerMenu.PageTopBackground = param.PageTopBackground;
+            footerMenu.PageTopDescription = param.PageTopDescription;
+            footerMenu.EnPageTopSubject = param.EnPageTopSubject;
+            footerMenu.EnPageTopDescription = param.EnPageTopDescription;
             _footerMenusRepository.Insert(footerMenu);
         }
         public void UpdateFooterMenu(FooterMenuDtos param)
@@ -99,7 +112,11 @@ namespace KaleGroup.Business.Business
             footerMenu.Description = param.Description;
             footerMenu.EnDescription = param.EnDescription;
             footerMenu.OrderNumber = param.OrderNumber;
-
+            footerMenu.PageTopSubject = param.PageTopSubject;
+            footerMenu.PageTopBackground = param.PageTopBackground;
+            footerMenu.PageTopDescription = param.PageTopDescription;
+            footerMenu.EnPageTopSubject = param.EnPageTopSubject;
+            footerMenu.EnPageTopDescription = param.EnPageTopDescription;
             _footerMenusRepository.Update(footerMenu);
         }
         public FooterMenuDtos GetFooterMenu(int footerMenuId)
@@ -119,7 +136,11 @@ namespace KaleGroup.Business.Business
             footerMenuDtos.Description = footerMenuResult.Description;
             footerMenuDtos.EnDescription = footerMenuResult.EnDescription;
             footerMenuDtos.OrderNumber = footerMenuResult.OrderNumber;
-
+            footerMenuDtos.PageTopSubject = footerMenuResult.PageTopSubject;
+            footerMenuDtos.PageTopBackground = footerMenuResult.PageTopBackground;
+            footerMenuDtos.PageTopDescription = footerMenuResult.PageTopDescription;
+            footerMenuDtos.EnPageTopSubject = footerMenuResult.EnPageTopSubject;
+            footerMenuDtos.EnPageTopDescription = footerMenuResult.EnPageTopDescription;
             return footerMenuDtos;
         }
     }

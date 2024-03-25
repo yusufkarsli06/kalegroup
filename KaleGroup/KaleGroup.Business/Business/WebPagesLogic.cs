@@ -73,6 +73,7 @@ namespace KaleGroup.Business.Business
             webPage.IsMenu = pageResult.IsMenu;
             webPage.IsSubMenu = pageResult.IsSubMenu;
             webPage.IsSlider = pageResult.IsSlider;
+            webPage.IsNews = pageResult.IsNews;
 
 
             return webPage;
