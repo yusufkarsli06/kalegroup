@@ -32,10 +32,23 @@
         {
             <div class="row">
                 <div class="col-12">
-                    <a href="@Url.Action("Pages","Home", new { pageUrl = "etkilesimler" })" title="" class="btn btn-dark btn-size-160">
-                        <i class="mdi mdi-arrow-left text-xl mr-2"></i>
-                        Etkileşimler
-                    </a>
+                    @if (ViewBag.Language == "tr")
+                    {
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = "etkilesimler" })" title="" class="btn btn-dark btn-size-160">
+                            <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                            Etkileşimler
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Pages","Home", new { pageUrl = "interactions" })" title="" class="btn btn-dark btn-size-160">
+                            <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                            Interactions
+                        </a>
+                    }
+
+
+                    
                 </div>
             </div>
         }
@@ -43,10 +56,20 @@
         {
             <div class="row">
                 <div class="col-12">
-                    <a href="@Url.Action("Index","Home")" title="" class="btn btn-dark btn-size-160">
-                        <i class="mdi mdi-arrow-left text-xl mr-2"></i>
-                        Anasayfa
-                    </a>
+                    @if (ViewBag.Language == "tr")
+                    {
+                        <a href="@Url.Action("Index","Home")" title="" class="btn btn-dark btn-size-160">
+                            <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                            Anasayfa
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Index","Home")" title="" class="btn btn-dark btn-size-160">
+                            <i class="mdi mdi-arrow-left text-xl mr-2"></i>
+                            Home
+                        </a>
+                    }
                 </div>
             </div>
         }

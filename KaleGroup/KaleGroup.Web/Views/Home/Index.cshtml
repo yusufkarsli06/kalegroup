@@ -120,7 +120,14 @@
     {
         <section class="news-slider bg-light py-4 py-md-7">
             <div class="container">
-                <h2 class="mb-5 text-center">Etkileşimler</h2>
+                @if (ViewBag.Language == "tr")
+                {
+                    <h2 class="mb-5 text-center">Etkileşimler</h2>
+                }
+                else
+                {
+                    <h2 class="mb-5 text-center">Interactions</h2>
+                }
                 <div class="swiper-container">
                     <div class="swiper-wrapper align-self-stretch pl-1 pb-2">
                         @foreach (var item in Model.NewsBodyViewModel)

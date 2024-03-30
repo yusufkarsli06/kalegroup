@@ -29,6 +29,7 @@ namespace KaleGroup.Business.Business
                 webPage.EnName = item.EnName;
                 webPage.MenuId = item.MenuId;
                 webPage.PageUrl = item.PageUrl;
+                webPage.EnPageUrl = item.EnPageUrl;
                 webPage.IsMenu = item.IsMenu;
                 webPage.IsSubMenu = item.IsSubMenu;
                 webPage.IsActive = item.IsActive;
@@ -111,6 +112,7 @@ namespace KaleGroup.Business.Business
                 webPage.IsSlider = item.IsSlider;
                 webPage.IsNews = item.IsNews;
                 webPage.CreatedAt = item.CreatedAt;
+                webPage.HomeImage = item.HomeImage;
 
 
                 webPageList.Add(webPage);

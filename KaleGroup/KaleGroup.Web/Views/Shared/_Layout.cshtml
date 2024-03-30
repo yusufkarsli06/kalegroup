@@ -149,9 +149,19 @@
 
                 <ul class="nav align-items-center ml-auto">
                     <li class="d-none d-md-inline">
-                        <a href="#" title="" class="open-search-box d-flex align-items-center">
-                            <i class="mdi mdi-magnify text-lg mr-2"></i> Arama
-                        </a>
+                        @if (ViewBag.Language == "tr")
+                        {
+                            <a href="#" title="" class="open-search-box d-flex align-items-center">
+                                <i class="mdi mdi-magnify text-lg mr-2"></i> Arama
+                            </a>
+                        }
+                        else
+                        {
+                            <a href="#" title="" class="open-search-box d-flex align-items-center">
+                                <i class="mdi mdi-magnify text-lg mr-2"></i> Search
+                            </a>
+
+                        }
                     </li>
                     <li class="submenu d-none d-md-inline">
                         @if (ViewBag.Language == "tr")
@@ -221,18 +231,38 @@
                 <div class="row align-items-center h-100">
                     <div class="col-md-6">
                         <form id="form-search" asp-controller="Home" asp-action="SearchResult">
-                            <div class="d-flex flex-column">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="searchText" placeholder="Arama Yapın...">
-                                </div>
-                                <div class="d-none d-md-block">
-                                    <div id="all-results" class="mt-10 d-none">
-                                        <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
-                                            T&#xDC;M SONU&#xC7;LARI G&#xD6;R
-                                        </a>
+
+                            @if (ViewBag.Language == "tr")
+                            {
+                                <div class="d-flex flex-column">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="searchText" placeholder="Arama Yapın...">
+                                    </div>
+                                    <div class="d-none d-md-block">
+                                        <div id="all-results" class="mt-10 d-none">
+                                            <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
+                                                T&#xDC;M SONU&#xC7;LARI G&#xD6;R
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            }
+                            else
+                            {
+                                <div class="d-flex flex-column">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="searchText" placeholder="Search...">
+                                    </div>
+                                    <div class="d-none d-md-block">
+                                        <div id="all-results" class="mt-10 d-none">
+                                            <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
+                                                Search Results
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            }
                         </form>
                     </div>
                     <div class="col-md-6">
@@ -311,19 +341,28 @@
 
         <div class="bg-light p-3">
             <div class="container d-flex align-items-center justify-content-center justify-md-content-start text-sm flex-wrap">
-                <span>&copy; @DateTime.Now.Year Kale Grubu T&#xFC;m haklar&#x131; sakl&#x131;d&#x131;r.</span>
+                @if (ViewBag.Language == "tr")
+                {
+                    <span>&copy; @DateTime.Now.Year Kale Arge Tüm hakları saklıdır.</span>
+                }
+                else
+                {
+
+
+                    <span>&copy; @DateTime.Now.Year Kale Arge All rights reserved.</span>
+                }
                 <div class="ml-md-auto mt-3 mt-md-0">
                     @foreach (var item in footerMenuModel)
                     {
                         if (item.IsUrl)
                         {
-                            <a href="@Url.Action("FooterPages","Home", new { pageUrl = item.PageUrl })"  class="mr-5 mr-md-3">
+                            <a href="@Url.Action("FooterPages","Home", new { pageUrl = item.PageUrl })" class="mr-5 mr-md-3">
                                 @item.Name
                             </a>
                         }
                         else
                         {
-                            <a href="@item.PageUrl" class="mr-5 mr-md-3" >
+                            <a href="@item.PageUrl" class="mr-5 mr-md-3">
                                 @item.Name
                             </a>
                         }
@@ -395,9 +434,18 @@
                     <div class="col-12">
                         <div class="d-flex flex-column">
                             <form id="form-search" asp-controller="Home" asp-action="SearchResult">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="searchText" placeholder="Arama Yap&#x131;n...">
-                                </div>
+                                @if (ViewBag.Language == "tr")
+                                {
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="searchText" placeholder="Arama Yap&#x131;n...">
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="searchText" placeholder="Search...">
+                                    </div>
+                                }
                                 <div id="search-results-mobile"></div>
                             </form>
                         </div>

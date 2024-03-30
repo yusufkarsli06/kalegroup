@@ -59,11 +59,15 @@ namespace KaleGroup.DataAccess.Repository.Pages.Command
             }
             else
             {
-                return _dbSet.Where(x => searchText.Contains(x.EnName)
-                || searchText.Contains(x.EnPageDescription)
-                || searchText.Contains(x.EnPageTopDescription)
-                || searchText.Contains(x.EnPageTopSubject)
+
+                return _dbSet.Where(x =>
+                x.EnName.Contains(searchText)
+               || x.EnPageDescription.Contains(searchText)
+               || x.EnPageTopDescription.Contains(searchText)
+               || x.EnPageTopSubject.Contains(searchText)
                 ).ToList();
+
+ 
 
             }
 
