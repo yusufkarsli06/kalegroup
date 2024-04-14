@@ -55,13 +55,11 @@ namespace KaleGroup.Web.Controllers
 
             return View(vm);
         }
-        public IActionResult bilgiguvenligi()
-        {
-            ViewBag.Language = "tr";
-            return View();
-        }
+ 
         public IActionResult Pages(string pageUrl)
         {
+            SetFooterMenuSession();
+            SetMenuSession();
             try
             {
                 string language = Request.Cookies["language"];
@@ -158,6 +156,8 @@ namespace KaleGroup.Web.Controllers
         }
         public IActionResult SearchResult(string searchText)
         {
+            SetFooterMenuSession();
+            SetMenuSession();
             string language = Request.Cookies["language"];
             SearchViewModel vm = new SearchViewModel();
             vm.SearchText = searchText;
@@ -200,6 +200,8 @@ namespace KaleGroup.Web.Controllers
         }
         public IActionResult FooterPages(string pageUrl)
         {
+            SetFooterMenuSession();
+            SetMenuSession();
             try
             {
                 if (pageUrl == "" || pageUrl == null)
@@ -232,6 +234,8 @@ namespace KaleGroup.Web.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            SetFooterMenuSession();
+            SetMenuSession();
             ErrorViewModel vm = new ErrorViewModel();
             vm.RequestId = "101";
             vm.ShowRequestId = true;
@@ -266,7 +270,6 @@ namespace KaleGroup.Web.Controllers
             return sliderList;
 
         }
-
         private List<TopBodyViewModel> GetTopBodyList()
         {
             string language = Request.Cookies["language"];
@@ -347,71 +350,83 @@ namespace KaleGroup.Web.Controllers
         }
         private void SetMenuSession()
         {
-            string language = Request.Cookies["language"];
-            List<MenuViewModel> menuList = new List<MenuViewModel>();
-             
-            var menuResult = _menuLogic.GetMenuList().Where(x => x.IsActive).ToList();
-
-            var webPageResult = _webPagesLogic.GetAllWebPagesList();
-
-            foreach (var item in menuResult)
+            var mySessionObject = HttpContext.Session.GetString("menuModel");
+            if (mySessionObject == null)
             {
-                List<WebPagesViewModel> webPageList = new List<WebPagesViewModel>();
-                MenuViewModel menu = new MenuViewModel();
 
-                menu.Name = language == "tr" ? item.Name : item.EnName;
-                menu.Id = item.Id;
-                menu.PageUrl = language == "tr" ? webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.PageUrl).FirstOrDefault() :
-                    webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.EnPageUrl).FirstOrDefault();
+                string language = Request.Cookies["language"];
+                List<MenuViewModel> menuList = new List<MenuViewModel>();
 
-                var webPageListResult = webPageResult.Where(x => x.MenuId == item.Id && !x.IsMenu && x.IsSubMenu).ToList();
+                var menuResult = _menuLogic.GetMenuList().Where(x => x.IsActive).ToList();
 
-                foreach (var subItem in webPageListResult)
+                var webPageResult = _webPagesLogic.GetAllWebPagesList();
+
+                foreach (var item in menuResult)
                 {
-                    WebPagesViewModel webPage = new WebPagesViewModel();
-                    webPage.Name = language == "tr" ? subItem.Name : subItem.EnName; ;
+                    List<WebPagesViewModel> webPageList = new List<WebPagesViewModel>();
+                    MenuViewModel menu = new MenuViewModel();
 
-                    webPage.MenuId = subItem.MenuId;
-                    webPage.PageUrl = language == "tr" ? subItem.PageUrl : subItem.EnPageUrl;
-                    webPage.PageTopSubject = language == "tr" ? subItem.PageTopSubject : subItem.EnPageTopSubject;
-                    webPage.Id = subItem.Id;
+                    menu.Name = language == "tr" ? item.Name : item.EnName;
+                    menu.Id = item.Id;
+                    menu.PageUrl = language == "tr" ? webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.PageUrl).FirstOrDefault() :
+                        webPageResult.Where(x => x.MenuId == item.Id && x.IsMenu).Select(x => x.EnPageUrl).FirstOrDefault();
 
-                    webPageList.Add(webPage);
+                    var webPageListResult = webPageResult.Where(x => x.MenuId == item.Id && !x.IsMenu && x.IsSubMenu).ToList();
+
+                    foreach (var subItem in webPageListResult)
+                    {
+                        WebPagesViewModel webPage = new WebPagesViewModel();
+                        webPage.Name = language == "tr" ? subItem.Name : subItem.EnName; ;
+
+                        webPage.MenuId = subItem.MenuId;
+                        webPage.PageUrl = language == "tr" ? subItem.PageUrl : subItem.EnPageUrl;
+                        webPage.PageTopSubject = language == "tr" ? subItem.PageTopSubject : subItem.EnPageTopSubject;
+                        webPage.Id = subItem.Id;
+
+                        webPageList.Add(webPage);
+                    }
+                    menu.WebPagesViewModel = webPageList;
+                    menuList.Add(menu);
                 }
-                menu.WebPagesViewModel = webPageList;
-                menuList.Add(menu);
-            }          
 
-            var str = JsonConvert.SerializeObject(menuList);
-            HttpContext.Session.SetString("menuModel", str);
+                var str = JsonConvert.SerializeObject(menuList);
+                HttpContext.Session.SetString("menuModel", str);
+            }
         }
         private void SetFooterMenuSession()
         {
-            string language = Request.Cookies["language"];
-            List<FooterMenuView> footerMenuList = new List<FooterMenuView>();
+ 
+            var mySessionFooterObject = HttpContext.Session.GetString("footerModel");
 
-            var resultFooterMenu = _footerMenusLogic.GetFooterMenuList().Where(x => x.IsActive);
-
-            foreach (var item in resultFooterMenu)
+            if (mySessionFooterObject == null)
             {
-                FooterMenuView footerMenu = new FooterMenuView();
-                if (language == "tr")
-                {
-                    footerMenu.PageUrl = item.PageUrl != null ? item.PageUrl : item.FileUrl;
-                    footerMenu.Name = item.PageName;
-                    footerMenu.IsUrl = item.PageUrl != null ? true : false;
-                }
-                else
-                {
-                    footerMenu.PageUrl = item.EnPageUrl != null ? item.EnPageUrl : item.EnFileUrl;
-                    footerMenu.Name = item.EnPageName;
-                    footerMenu.IsUrl = item.PageUrl != null ? true : false;
-                }
-                footerMenuList.Add(footerMenu);
-            }
 
-            var str = JsonConvert.SerializeObject(footerMenuList);
-            HttpContext.Session.SetString("footerModel", str);
+                string language = Request.Cookies["language"];
+                List<FooterMenuView> footerMenuList = new List<FooterMenuView>();
+
+                var resultFooterMenu = _footerMenusLogic.GetFooterMenuList().Where(x => x.IsActive);
+
+                foreach (var item in resultFooterMenu)
+                {
+                    FooterMenuView footerMenu = new FooterMenuView();
+                    if (language == "tr")
+                    {
+                        footerMenu.PageUrl = item.PageUrl != null ? item.PageUrl : item.FileUrl;
+                        footerMenu.Name = item.PageName;
+                        footerMenu.IsUrl = item.PageUrl != null ? true : false;
+                    }
+                    else
+                    {
+                        footerMenu.PageUrl = item.EnPageUrl != null ? item.EnPageUrl : item.EnFileUrl;
+                        footerMenu.Name = item.EnPageName;
+                        footerMenu.IsUrl = item.PageUrl != null ? true : false;
+                    }
+                    footerMenuList.Add(footerMenu);
+                }
+
+                var str = JsonConvert.SerializeObject(footerMenuList);
+                HttpContext.Session.SetString("footerModel", str);
+            }
         }
     }
 }

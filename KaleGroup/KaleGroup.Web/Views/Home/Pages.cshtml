@@ -115,17 +115,20 @@
         </nav>
     </div>
 </section>
+@if (Model.SubPagesViewModel.Count == 0)
+{
+    <section class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="content-text raw-content col-md-8 offset-md-2 text-justify">
+                    @Html.Raw(Model.PageDescription)
 
-<section class="mb-5">
-    <div class="container">
-        <div class="row">
-            <div class="content-text raw-content col-md-8 offset-md-2 text-justify">
-                @Html.Raw(Model.PageDescription)
-               
-             </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+}
+
 
 @if (Model.IsMenu || Model.Id == 46)
 {
@@ -134,32 +137,66 @@
             <div class="row">
                 @foreach (var item in Model.SubPagesViewModel)
                 {
-                    <div class="col-md-3 mb-4">
-                        <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card bg-dark card-hover text-white">
-                            <img src="/@item.PageImage" srcset="/@item.PageImage" class="card-img" alt="">
-                            <div class="card-img-overlay">
-                                <div>
-                                    <h6 class="card-title">@item.PageTopSubject</h6>
-                                    @if (item.IsNews)
-                                    {
-                                        <time class="text-xs text-muted px-4 mb-2">@item.CreatedAt</time>
-                                    }
-                                    else
-                                    {
-                                        @if (ViewBag.Language == "tr")
+                    if (Model.Id == 35)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card bg-dark card-hover text-white">
+                                <img src="/@item.PageImage" srcset="/@item.PageImage" class="card-img" alt="">
+                                <div class="card-img-overlay">
+                                    <div>
+                                        <h6 class="card-title">@item.PageTopSubject</h6>
+                                        @if (item.IsNews)
                                         {
-                                            <button class="btn btn-danger btn-h-33">    İNCELE    </button>
+                                            <time class="text-xs text-muted px-4 mb-2">@item.CreatedAt</time>
                                         }
                                         else
                                         {
-                                            <button class="btn btn-danger btn-h-33">   VIEW     </button>
+                                            @if (ViewBag.Language == "tr")
+                                            {
+                                                <button class="btn btn-danger btn-h-33">    İNCELE    </button>
+                                            }
+                                            else
+                                            {
+                                                <button class="btn btn-danger btn-h-33">   VIEW     </button>
 
+                                            }
                                         }
-                                    }
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-md-3 mb-4">
+                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl })" title="" class="card bg-dark card-hover text-white">
+                                <img src="/@item.PageImage" srcset="/@item.PageImage" class="card-img" alt="">
+                                <div class="card-img-overlay">
+                                    <div>
+                                        <h6 class="card-title">@item.PageTopSubject</h6>
+                                        @if (item.IsNews)
+                                        {
+                                            <time class="text-xs text-muted px-4 mb-2">@item.CreatedAt</time>
+                                        }
+                                        else
+                                        {
+                                            @if (ViewBag.Language == "tr")
+                                            {
+                                                <button class="btn btn-danger btn-h-33">    İNCELE    </button>
+                                            }
+                                            else
+                                            {
+                                                <button class="btn btn-danger btn-h-33">   VIEW     </button>
+
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    }
+                   
                 }
             </div>
         </div>

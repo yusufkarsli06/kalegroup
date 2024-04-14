@@ -1,4 +1,4 @@
-using KaleGroup.Business.Business;
+﻿using KaleGroup.Business.Business;
 using KaleGroup.Business.IBusiness;
 using KaleGroup.DataAccess.Context;
 using KaleGroup.DataAccess.Repository.Files.Command;
@@ -12,6 +12,7 @@ using KaleGroup.DataAccess.Repository.Slider.Interface;
 using KaleGroup.DataAccess.Repository.SubMenu.Interface;
 using KaleGroup.DataAccess.Repository.User.Command;
 using KaleGroup.DataAccess.Repository.User.Interface;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -68,9 +69,24 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "pageRoute",
+        pattern: "/{pageUrl}",
+        defaults: new { controller = "Home", action = "Pages" }
+    );
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
+
+
 app.UseCookiePolicy();
 
   
