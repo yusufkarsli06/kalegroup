@@ -350,9 +350,9 @@ namespace KaleGroup.Web.Controllers
         }
         private void SetMenuSession()
         {
-            var mySessionObject = HttpContext.Session.GetString("menuModel");
-            if (mySessionObject == null)
-            {
+            //var mySessionObject = HttpContext.Session.GetString("menuModel");
+            //if (mySessionObject == null)
+            //{
 
                 string language = Request.Cookies["language"];
                 List<MenuViewModel> menuList = new List<MenuViewModel>();
@@ -387,7 +387,7 @@ namespace KaleGroup.Web.Controllers
                     }
                     menu.WebPagesViewModel = webPageList;
                     menuList.Add(menu);
-                }
+                //}
 
                 var str = JsonConvert.SerializeObject(menuList);
                 HttpContext.Session.SetString("menuModel", str);
@@ -398,8 +398,8 @@ namespace KaleGroup.Web.Controllers
  
             var mySessionFooterObject = HttpContext.Session.GetString("footerModel");
 
-            if (mySessionFooterObject == null)
-            {
+            //if (mySessionFooterObject == null)
+            //{
 
                 string language = Request.Cookies["language"];
                 List<FooterMenuView> footerMenuList = new List<FooterMenuView>();
@@ -426,7 +426,7 @@ namespace KaleGroup.Web.Controllers
 
                 var str = JsonConvert.SerializeObject(footerMenuList);
                 HttpContext.Session.SetString("footerModel", str);
-            }
+            //}
         }
     }
 }

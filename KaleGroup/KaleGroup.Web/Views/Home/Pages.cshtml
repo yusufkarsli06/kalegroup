@@ -2,7 +2,7 @@
 
 @model KaleGroup.Web.Models.WebPagesViewModel
 
- 
+
 
 <section class="bg-lavender page-promo pb-5" style="background: @Model.PageTopBackground;">
     <div class="container">
@@ -48,7 +48,7 @@
                     }
 
 
-                    
+
                 </div>
             </div>
         }
@@ -144,7 +144,6 @@
                                 <img src="/@item.PageImage" srcset="/@item.PageImage" class="card-img" alt="">
                                 <div class="card-img-overlay">
                                     <div>
-                                        <h6 class="card-title">@item.PageTopSubject</h6>
                                         @if (item.IsNews)
                                         {
                                             <time class="text-xs text-muted px-4 mb-2">@item.CreatedAt</time>
@@ -153,10 +152,15 @@
                                         {
                                             @if (ViewBag.Language == "tr")
                                             {
+
+                                                
                                                 <button class="btn btn-danger btn-h-33">    İNCELE    </button>
+                                             
                                             }
                                             else
                                             {
+                                               
+
                                                 <button class="btn btn-danger btn-h-33">   VIEW     </button>
 
                                             }
@@ -194,9 +198,9 @@
                                 </div>
                             </a>
                         </div>
-                        
+
                     }
-                   
+
                 }
             </div>
         </div>
