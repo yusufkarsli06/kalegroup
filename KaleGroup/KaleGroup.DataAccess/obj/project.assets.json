@@ -263,14 +263,14 @@
           }
         }
       },
-      "KaleGroup.Data/1.0.0": {
+      "KaleArge.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/KaleGroup.Data.dll": {}
+          "bin/placeholder/KaleArge.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/KaleGroup.Data.dll": {}
+          "bin/placeholder/KaleArge.Data.dll": {}
         }
       }
     }
@@ -755,15 +755,15 @@
         "version.txt"
       ]
     },
-    "KaleGroup.Data/1.0.0": {
+    "KaleArge.Data/1.0.0": {
       "type": "project",
-      "path": "../KaleGroup.Data/KaleGroup.Data.csproj",
-      "msbuildProject": "../KaleGroup.Data/KaleGroup.Data.csproj"
+      "path": "../KaleGroup.Data/KaleArge.Data.csproj",
+      "msbuildProject": "../KaleGroup.Data/KaleArge.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "KaleGroup.Data >= 1.0.0",
+      "KaleArge.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.14",
       "NEST >= 7.17.5"
     ]
@@ -775,9 +775,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleGroup.DataAccess.csproj",
-      "projectName": "KaleGroup.DataAccess",
-      "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleGroup.DataAccess.csproj",
+      "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
+      "projectName": "KaleArge.DataAccess",
+      "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
       "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
       "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
@@ -801,8 +801,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj": {
-              "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj"
+            "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
+              "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
             }
           }
         }

@@ -14,6 +14,7 @@ namespace KaleGroup.Admin.Controllers
 
         private readonly IWebPagesLogic _webPagesLogic;
         private readonly IMenuLogic _menuLogic;
+        public string filePath = @"../kalearge.canavardata.com/wwwroot/Uploads";
         public WebPagesController(IWebPagesLogic webPagesLogic, IMenuLogic menuLogic)
         {
             _webPagesLogic = webPagesLogic;
@@ -78,7 +79,7 @@ namespace KaleGroup.Admin.Controllers
 
                string  randomName = ($"{Guid.NewGuid()}{extent}");
 
-                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+                string savePath = Path.Combine(filePath, randomName);
 
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
                     param.UploadFile.CopyTo(fileStream);
@@ -95,7 +96,7 @@ namespace KaleGroup.Admin.Controllers
 
                string  randomName = ($"{Guid.NewGuid()}{extent}");
 
-                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+                string savePath = Path.Combine(filePath, randomName);
 
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
                     param.HomeImageUploadFile.CopyTo(fileStream);
@@ -240,7 +241,7 @@ namespace KaleGroup.Admin.Controllers
 
                 string randomName = ($"{Guid.NewGuid()}{extent}");
 
-                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+                string savePath = Path.Combine(filePath, randomName);
 
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
                     param.UploadFile.CopyTo(fileStream);
@@ -257,7 +258,7 @@ namespace KaleGroup.Admin.Controllers
 
                 string randomName = ($"{Guid.NewGuid()}{extent}");
 
-                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+                string savePath = Path.Combine(filePath, randomName);
 
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
                     param.HomeImageUploadFile.CopyTo(fileStream);

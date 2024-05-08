@@ -1441,22 +1441,22 @@
           }
         }
       },
-      "KaleGroup.Business/1.0.0": {
+      "KaleArge.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "KaleGroup.Common": "1.0.0",
-          "KaleGroup.Data": "1.0.0",
-          "KaleGroup.DataAccess": "1.0.0"
+          "KaleArge.Common": "1.0.0",
+          "KaleArge.Data": "1.0.0",
+          "KaleArge.DataAccess": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/KaleGroup.Business.dll": {}
+          "bin/placeholder/KaleArge.Business.dll": {}
         },
         "runtime": {
-          "bin/placeholder/KaleGroup.Business.dll": {}
+          "bin/placeholder/KaleArge.Business.dll": {}
         }
       },
-      "KaleGroup.Common/1.0.0": {
+      "KaleArge.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1464,35 +1464,35 @@
           "NPOI": "2.6.2"
         },
         "compile": {
-          "bin/placeholder/KaleGroup.Common.dll": {}
+          "bin/placeholder/KaleArge.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/KaleGroup.Common.dll": {}
+          "bin/placeholder/KaleArge.Common.dll": {}
         }
       },
-      "KaleGroup.Data/1.0.0": {
+      "KaleArge.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/KaleGroup.Data.dll": {}
+          "bin/placeholder/KaleArge.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/KaleGroup.Data.dll": {}
+          "bin/placeholder/KaleArge.Data.dll": {}
         }
       },
-      "KaleGroup.DataAccess/1.0.0": {
+      "KaleArge.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "KaleGroup.Data": "1.0.0",
+          "KaleArge.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "NEST": "7.17.5"
         },
         "compile": {
-          "bin/placeholder/KaleGroup.DataAccess.dll": {}
+          "bin/placeholder/KaleArge.DataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/KaleGroup.DataAccess.dll": {}
+          "bin/placeholder/KaleArge.DataAccess.dll": {}
         }
       }
     }
@@ -3892,31 +3892,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "KaleGroup.Business/1.0.0": {
+    "KaleArge.Business/1.0.0": {
       "type": "project",
-      "path": "../KaleGroup.Business/KaleGroup.Business.csproj",
-      "msbuildProject": "../KaleGroup.Business/KaleGroup.Business.csproj"
+      "path": "../KaleGroup.Business/KaleArge.Business.csproj",
+      "msbuildProject": "../KaleGroup.Business/KaleArge.Business.csproj"
     },
-    "KaleGroup.Common/1.0.0": {
+    "KaleArge.Common/1.0.0": {
       "type": "project",
-      "path": "../KaleGroup.Common/KaleGroup.Common.csproj",
-      "msbuildProject": "../KaleGroup.Common/KaleGroup.Common.csproj"
+      "path": "../KaleGroup.Common/KaleArge.Common.csproj",
+      "msbuildProject": "../KaleGroup.Common/KaleArge.Common.csproj"
     },
-    "KaleGroup.Data/1.0.0": {
+    "KaleArge.Data/1.0.0": {
       "type": "project",
-      "path": "../KaleGroup.Data/KaleGroup.Data.csproj",
-      "msbuildProject": "../KaleGroup.Data/KaleGroup.Data.csproj"
+      "path": "../KaleGroup.Data/KaleArge.Data.csproj",
+      "msbuildProject": "../KaleGroup.Data/KaleArge.Data.csproj"
     },
-    "KaleGroup.DataAccess/1.0.0": {
+    "KaleArge.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../KaleGroup.DataAccess/KaleGroup.DataAccess.csproj",
-      "msbuildProject": "../KaleGroup.DataAccess/KaleGroup.DataAccess.csproj"
+      "path": "../KaleGroup.DataAccess/KaleArge.DataAccess.csproj",
+      "msbuildProject": "../KaleGroup.DataAccess/KaleArge.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "KaleGroup.Business >= 1.0.0",
-      "KaleGroup.DataAccess >= 1.0.0",
+      "KaleArge.Business >= 1.0.0",
+      "KaleArge.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
       "Newtonsoft.Json >= 13.0.3"
@@ -3929,9 +3929,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\KaleGroup.Web.csproj",
-      "projectName": "KaleGroup.Web",
-      "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\KaleGroup.Web.csproj",
+      "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\KaleArge.Web.csproj",
+      "projectName": "KaleArge.Web",
+      "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\KaleArge.Web.csproj",
       "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
       "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\obj\\",
       "projectStyle": "PackageReference",
@@ -3955,11 +3955,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleGroup.Business.csproj": {
-              "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleGroup.Business.csproj"
+            "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj": {
+              "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj"
             },
-            "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleGroup.DataAccess.csproj": {
-              "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleGroup.DataAccess.csproj"
+            "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj": {
+              "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj"
             }
           }
         }

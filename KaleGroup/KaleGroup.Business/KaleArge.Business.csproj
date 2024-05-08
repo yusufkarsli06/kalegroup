@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KaleGroup.Common\KaleArge.Common.csproj" />
+    <ProjectReference Include="..\KaleGroup.DataAccess\KaleArge.DataAccess.csproj" />
+    <ProjectReference Include="..\KaleGroup.Data\KaleArge.Data.csproj" />
+  </ItemGroup>
+
+</Project>

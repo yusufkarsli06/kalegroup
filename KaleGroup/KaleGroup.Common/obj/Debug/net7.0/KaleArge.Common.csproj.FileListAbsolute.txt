@@ -1,0 +1,13 @@
+D:\kalegroup\KaleGroup\KaleGroup.Common\bin\Debug\net7.0\KaleArge.Common.deps.json
+D:\kalegroup\KaleGroup\KaleGroup.Common\bin\Debug\net7.0\KaleArge.Common.dll
+D:\kalegroup\KaleGroup\KaleGroup.Common\bin\Debug\net7.0\KaleArge.Common.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.csproj.AssemblyReference.cache
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.AssemblyInfoInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.AssemblyInfo.cs
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.csproj.CoreCompileInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.sourcelink.json
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.dll
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\refint\KaleArge.Common.dll
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\KaleArge.Common.pdb
+D:\kalegroup\KaleGroup\KaleGroup.Common\obj\Debug\net7.0\ref\KaleArge.Common.dll

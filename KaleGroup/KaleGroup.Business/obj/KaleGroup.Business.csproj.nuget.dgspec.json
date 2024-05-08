@@ -39,8 +39,8 @@
               "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleGroup.DataAccess.csproj": {
                 "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleGroup.DataAccess.csproj"
               },
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj"
+              "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
+                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
               }
             }
           }
@@ -173,8 +173,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj"
+              "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
+                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
               }
             }
           }
@@ -218,12 +218,12 @@
         }
       }
     },
-    "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj": {
+    "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj",
-        "projectName": "KaleGroup.Data",
-        "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleGroup.Data.csproj",
+        "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj",
+        "projectName": "KaleArge.Data",
+        "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
         "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\obj\\",
         "projectStyle": "PackageReference",

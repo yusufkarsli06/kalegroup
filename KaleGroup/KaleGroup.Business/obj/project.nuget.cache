@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NnaQr/F0gHTpaRQ98KILEZ4elPj1sLVr9g+0DeX9dyZCs+6DIhwCsiLZJiHYjoa+M3SqM4QJpoU6dx5B2cgZ7w==",
+  "dgSpecHash": "g4VAkGQTlcsw/5rGRBjlPpptQXGkiL8LRt7krVoPzNlOR8sXbDV7LvSNvA0IzTySF5nXDOQjo9AUc10YAodmVg==",
   "success": true,
-  "projectFilePath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleGroup.Business.csproj",
+  "projectFilePath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yusuf\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",

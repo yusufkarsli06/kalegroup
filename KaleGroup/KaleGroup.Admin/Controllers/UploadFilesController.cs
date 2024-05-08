@@ -11,6 +11,7 @@ namespace KaleGroup.Admin.Controllers
     public class UploadFilesController : Controller
     {
         private readonly IUploadFileLogic _uploadFileLogic;
+        public string filePath = @"../kalearge.canavardata.com/wwwroot/Uploads";
         public UploadFilesController(IUploadFileLogic uploadFileLogic)
         {
             _uploadFileLogic = uploadFileLogic;
@@ -30,7 +31,7 @@ namespace KaleGroup.Admin.Controllers
                 file.Description = item.Description;
                 file.IsActive = item.IsActive;
                 file.Id = item.Id;
-                file.FileUrl = "../kalearge.canavardata.com/wwwroot/" + item.FileUrl;
+                file.FileUrl = filePath + item.FileUrl;
  
                 vm.Add(file);
             }
@@ -55,7 +56,7 @@ namespace KaleGroup.Admin.Controllers
 
                 var randomName = ($"{Guid.NewGuid()}{extent}");
 
-                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+                string savePath = Path.Combine(filePath, randomName);
 
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
                     param.UploadFile.CopyTo(fileStream);
@@ -99,7 +100,7 @@ namespace KaleGroup.Admin.Controllers
 
                 var randomName = ($"{Guid.NewGuid()}{extent}");
 
-                string savePath = Path.Combine(@"../kalearge.canavardata.com/wwwroot/Uploads", randomName);
+                string savePath = Path.Combine(filePath, randomName);
 
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
                     param.UploadFile.CopyTo(fileStream);

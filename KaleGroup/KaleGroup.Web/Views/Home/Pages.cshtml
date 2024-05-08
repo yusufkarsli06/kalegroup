@@ -248,15 +248,17 @@
 
     @foreach (var spriteItem in Model.SliderViewModel.Where(x => x.IsTurnImage).ToList())
     {
+         
         <div class="row justify-content-center mx-auto">
             <div class="col-xl-4 col-lg-8 col-md-12">
-                <div class="cd-product-viewer-wrapper" data-frame="17" data-friction="0.33">
+                <div class="cd-product-viewer-wrapper"  data-frame="17" data-friction="0.33">
                     <div>
                         <figure class="product-viewer">
+                        
                             <img src="~/sprite/img/img-loading.png" alt="">
-                            <div class="product-sprite" data-image="/@spriteItem.FilePath"></div>
-
-                        </figure> <!-- .product-viewer -->
+                             <div class="product-sprite"  data-image="/@spriteItem.FilePath"></div>
+                            
+                        </figure>  
 
                         <div class="cd-product-viewer-handle">
                             <span class="fill"></span>
@@ -266,7 +268,10 @@
                 </div>
             </div>
         </div>
+  
     }
 }
 
 
+ 
+ 

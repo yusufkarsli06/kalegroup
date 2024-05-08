@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DDclDa8p3DbhYNmfF3JYVT+n+6mrnHPvR/r2IVfxK4ZP/s0E9lkHKoXv9H7d8fAoTvJAuK0RSY3IUr5gG4hh5Q==",
+  "dgSpecHash": "c/wR+YdHjRp2OB0r0xFLCs/dgrxcDBKNvHTnFQ1Bfs6+yy+QE0ylO3eOTpSytCZPxhcnCGOV5nkMofhYRIjCpg==",
   "success": true,
-  "projectFilePath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\KaleGroup.Web.csproj",
+  "projectFilePath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\KaleArge.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yusuf\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

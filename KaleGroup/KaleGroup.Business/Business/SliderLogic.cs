@@ -8,7 +8,7 @@ namespace KaleGroup.Business.Business
     public class SliderLogic : ISliderLogic
     {
         private readonly ISliderRepository _sliderRepository;
-
+        public string filePath = @"../KaleGroup.Web/wwwroot/";
         public SliderLogic(ISliderRepository sliderRepository)
         {
             _sliderRepository = sliderRepository;
@@ -69,14 +69,14 @@ namespace KaleGroup.Business.Business
 
             _sliderRepository.Delete(id);
             
-            if (File.Exists(@"../KaleGroup.Web/wwwroot/"+sliderResult.FilePath))
+            if (File.Exists(filePath + sliderResult.FilePath))
             {
-                File.Delete(@"../KaleGroup.Web/wwwroot/"+sliderResult.FilePath);
+                File.Delete(filePath + sliderResult.FilePath);
             }
             
-            if (File.Exists(@"../KaleGroup.Web/wwwroot/"+sliderResult.EnFilePath))
+            if (File.Exists(filePath + sliderResult.EnFilePath))
             {
-                File.Delete(@"../KaleGroup.Web/wwwroot/"+sliderResult.EnFilePath);
+                File.Delete(filePath + sliderResult.EnFilePath);
             }
         }
         public void AddSlider(SliderDtos param)

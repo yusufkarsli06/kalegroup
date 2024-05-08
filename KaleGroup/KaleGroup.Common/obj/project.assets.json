@@ -1112,9 +1112,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleGroup.Common.csproj",
-      "projectName": "KaleGroup.Common",
-      "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleGroup.Common.csproj",
+      "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
+      "projectName": "KaleArge.Common",
+      "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
       "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
       "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\obj\\",
       "projectStyle": "PackageReference",

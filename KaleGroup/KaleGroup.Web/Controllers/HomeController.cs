@@ -60,6 +60,8 @@ namespace KaleGroup.Web.Controllers
         {
             SetFooterMenuSession();
             SetMenuSession();
+            SetSettingsSession();
+
             try
             {
                 string language = Request.Cookies["language"];

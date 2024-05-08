@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\KaleGroup.Admin.bundle.scp.css",
-      "PackagePath": "staticwebassets\\KaleGroup.Admin.bundle.scp.css"
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\KaleArge.Admin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KaleArge.Admin.bundle.scp.css"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\0362af27-1cd2-405c-8584-58301fcdb008.png",
@@ -2597,20 +2597,20 @@
       "PackagePath": "staticwebassets\\use.typekit.net\\rlu6mzh.css"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.KaleGroup.Admin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.KaleArge.Admin.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.KaleGroup.Admin.props",
-      "PackagePath": "build\\KaleGroup.Admin.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.KaleArge.Admin.props",
+      "PackagePath": "build\\KaleArge.Admin.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.KaleGroup.Admin.props",
-      "PackagePath": "buildMultiTargeting\\KaleGroup.Admin.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.KaleArge.Admin.props",
+      "PackagePath": "buildMultiTargeting\\KaleArge.Admin.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.KaleGroup.Admin.props",
-      "PackagePath": "buildTransitive\\KaleGroup.Admin.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.KaleArge.Admin.props",
+      "PackagePath": "buildTransitive\\KaleArge.Admin.props"
     }
   ],
   "ElementsToRemove": []
