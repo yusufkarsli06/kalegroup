@@ -248,7 +248,26 @@
 
     @foreach (var spriteItem in Model.SliderViewModel.Where(x => x.IsTurnImage).ToList())
     {
+      
+        var dynamicSpriteUrl =  @spriteItem.FilePath;  
+ 
+<style>
+    .cd-product-viewer-wrapper .product-sprite {
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 1700%;
+                background: url('@dynamicSpriteUrl') no-repeat center center;
+                background-size: 100%;
+                opacity: 0;
+                -webkit-transition: opacity 0.3s;
+                -moz-transition: opacity 0.3s;
+                transition: opacity 0.3s;
          
+    }
+</style>
         <div class="row justify-content-center mx-auto">
             <div class="col-xl-4 col-lg-8 col-md-12">
                 <div class="cd-product-viewer-wrapper"  data-frame="17" data-friction="0.33">

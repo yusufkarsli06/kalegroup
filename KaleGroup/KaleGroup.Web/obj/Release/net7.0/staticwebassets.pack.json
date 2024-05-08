@@ -3289,10 +3289,6 @@
       "PackagePath": "staticwebassets\\Uploads\\152fb1f4-d739-4bce-a537-9b262fecc705.jpg"
     },
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\18edec8d-5f6d-4cea-92cf-d536c8f68867.png",
-      "PackagePath": "staticwebassets\\Uploads\\18edec8d-5f6d-4cea-92cf-d536c8f68867.png"
-    },
-    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\1b362920-a077-4044-8e6b-ff9c2ee3ebba.png",
       "PackagePath": "staticwebassets\\Uploads\\1b362920-a077-4044-8e6b-ff9c2ee3ebba.png"
     },
@@ -3417,6 +3413,10 @@
       "PackagePath": "staticwebassets\\Uploads\\557eff74-d816-4a6e-8049-b715946aabba.jpg"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\559b937d-72c5-4fa0-aafa-3da828f9a1fe (2).jpg",
+      "PackagePath": "staticwebassets\\Uploads\\559b937d-72c5-4fa0-aafa-3da828f9a1fe (2).jpg"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\559b937d-72c5-4fa0-aafa-3da828f9a1fe.jpg",
       "PackagePath": "staticwebassets\\Uploads\\559b937d-72c5-4fa0-aafa-3da828f9a1fe.jpg"
     },
@@ -3435,10 +3435,6 @@
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\59a329ea-2b08-443b-a4fa-f9e312d480eb.jpeg",
       "PackagePath": "staticwebassets\\Uploads\\59a329ea-2b08-443b-a4fa-f9e312d480eb.jpeg"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\5a78607e-3b52-4b0e-b3db-98b47edc3b26.png",
-      "PackagePath": "staticwebassets\\Uploads\\5a78607e-3b52-4b0e-b3db-98b47edc3b26.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\5ce54e42-c3d9-44b0-ba70-d2196cf0e69c.png",
@@ -3471,10 +3467,6 @@
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\7294d429-1cdb-4fe1-9bb0-c035ee94aaa5.jpg",
       "PackagePath": "staticwebassets\\Uploads\\7294d429-1cdb-4fe1-9bb0-c035ee94aaa5.jpg"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\79107ce2-13ca-460e-b1af-75c4fe0eadff.png",
-      "PackagePath": "staticwebassets\\Uploads\\79107ce2-13ca-460e-b1af-75c4fe0eadff.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\79edbe6c-bfb3-4eb3-b946-3b1ab0254414.png",
@@ -3513,10 +3505,6 @@
       "PackagePath": "staticwebassets\\Uploads\\8792d9a1-ceaa-45bc-9c1e-959f29b39053.png"
     },
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\891c73f0-e6c0-47ef-b863-749c8a684590.png",
-      "PackagePath": "staticwebassets\\Uploads\\891c73f0-e6c0-47ef-b863-749c8a684590.png"
-    },
-    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\8a369791-e886-40fb-b96e-25e77efaf474.png",
       "PackagePath": "staticwebassets\\Uploads\\8a369791-e886-40fb-b96e-25e77efaf474.png"
     },
@@ -3549,10 +3537,6 @@
       "PackagePath": "staticwebassets\\Uploads\\99751313-5e07-44f7-9275-fc5919511ecf.jpg"
     },
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\99b45dd0-f65f-4bb0-b5b3-90fcc0b6adc5.png",
-      "PackagePath": "staticwebassets\\Uploads\\99b45dd0-f65f-4bb0-b5b3-90fcc0b6adc5.png"
-    },
-    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\9c28ecc3-68c3-436f-a13a-2b179dab855c.jpg",
       "PackagePath": "staticwebassets\\Uploads\\9c28ecc3-68c3-436f-a13a-2b179dab855c.jpg"
     },
@@ -3567,10 +3551,6 @@
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a31e3c02-5b40-4bc3-b4f3-08d4949bfba6.jpg",
       "PackagePath": "staticwebassets\\Uploads\\a31e3c02-5b40-4bc3-b4f3-08d4949bfba6.jpg"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a3a2b34e-3ebf-4b28-81c9-01e88bdb9339.png",
-      "PackagePath": "staticwebassets\\Uploads\\a3a2b34e-3ebf-4b28-81c9-01e88bdb9339.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a69852b6-2ca0-40d4-bdfd-8a2a4178dd30.png",
@@ -3589,16 +3569,16 @@
       "PackagePath": "staticwebassets\\Uploads\\b4ef959c-0cce-4ef3-a025-e22354bbb36c.jpg"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\b6c86749-caf4-412a-89eb-f62929c8f1b6.png",
+      "PackagePath": "staticwebassets\\Uploads\\b6c86749-caf4-412a-89eb-f62929c8f1b6.png"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\bbebe6bd-01b8-4224-9514-c620bb969cc6.png",
       "PackagePath": "staticwebassets\\Uploads\\bbebe6bd-01b8-4224-9514-c620bb969cc6.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\c0ddb5d4-840c-4175-8979-ebd02faec596.png",
       "PackagePath": "staticwebassets\\Uploads\\c0ddb5d4-840c-4175-8979-ebd02faec596.png"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\c77f4511-7106-46a5-a8fb-1760b8d72856.jpg",
-      "PackagePath": "staticwebassets\\Uploads\\c77f4511-7106-46a5-a8fb-1760b8d72856.jpg"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\c80917e8-a6ce-41d8-8964-7f63d048d817.jpg",
@@ -3613,20 +3593,12 @@
       "PackagePath": "staticwebassets\\Uploads\\cca27259-6a44-4a26-8aee-58670c350267.jpg"
     },
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\cd-arrows.svg",
-      "PackagePath": "staticwebassets\\Uploads\\cd-arrows.svg"
-    },
-    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\cd928762-84e5-49df-8985-1096702a16db.png",
       "PackagePath": "staticwebassets\\Uploads\\cd928762-84e5-49df-8985-1096702a16db.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\ce69bab5-dcae-46c5-ba55-847ef0b424b9.png",
       "PackagePath": "staticwebassets\\Uploads\\ce69bab5-dcae-46c5-ba55-847ef0b424b9.png"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\d19e0ad3-9b20-4c8e-a699-82f74a6a36a3.png",
-      "PackagePath": "staticwebassets\\Uploads\\d19e0ad3-9b20-4c8e-a699-82f74a6a36a3.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\d74ff3dd-2617-4b0e-8144-70d720355740.pdf",
@@ -3673,10 +3645,6 @@
       "PackagePath": "staticwebassets\\Uploads\\f49f2cfb-e8e6-4b7b-bd60-825cc7853466.jpg"
     },
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\fa27617c-61b9-4931-8f1d-b84927b6de08.png",
-      "PackagePath": "staticwebassets\\Uploads\\fa27617c-61b9-4931-8f1d-b84927b6de08.png"
-    },
-    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\fa34cf5e-6c34-441d-a442-857405237359.png",
       "PackagePath": "staticwebassets\\Uploads\\fa34cf5e-6c34-441d-a442-857405237359.png"
     },
@@ -3685,16 +3653,8 @@
       "PackagePath": "staticwebassets\\Uploads\\ff1b0558-1335-45e7-bce8-bddf7c305306.png"
     },
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\img-loading.png",
-      "PackagePath": "staticwebassets\\Uploads\\img-loading.png"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\img-sprite.png",
-      "PackagePath": "staticwebassets\\Uploads\\img-sprite.png"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\scoped_dir21232_1129617664\\setup.exe",
-      "PackagePath": "staticwebassets\\Uploads\\scoped_dir21232_1129617664\\setup.exe"
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\img\\img-sprite.png",
+      "PackagePath": "staticwebassets\\Uploads\\img\\img-sprite.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\setup.exe",
@@ -6761,16 +6721,8 @@
       "PackagePath": "staticwebassets\\sprite\\img\\cd-arrows.svg"
     },
     {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\img\\d19e0ad3-9b20-4c8e-a699-82f74a6a36a3.png.png",
-      "PackagePath": "staticwebassets\\sprite\\img\\d19e0ad3-9b20-4c8e-a699-82f74a6a36a3.png.png"
-    },
-    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\img\\img-loading.png",
       "PackagePath": "staticwebassets\\sprite\\img\\img-loading.png"
-    },
-    {
-      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\img\\img-sprite.png",
-      "PackagePath": "staticwebassets\\sprite\\img\\img-sprite.png"
     },
     {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\js\\jquery-2.1.4.js",
