@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KaleArge.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd585113056fa13bc1810491aa7ba81096d5c3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d060c2cdcaf40b980e897d761f59d9c0dd6340d")]
 [assembly: System.Reflection.AssemblyProductAttribute("KaleArge.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KaleArge.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,36 +4,45 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-<section class="mt-5">
-    <div class="container">
-        <div class="promo-slider">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    @if (Model != null)
-                    {
-                        @foreach (var item in Model.SliderViewModel)
+@if (Model!=null && Model.SliderViewModel.Count > 0)
+{
+    <section class="mt-5">
+        <div class="container">
+            <div class="promo-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        @if (Model != null)
                         {
-                            <div class="swiper-slide">
-                                <a href="@item.PageUrl" title="">
-                                    <img src="@item.FilePath" srcset="@item.FilePath" alt="">
-                                </a>
-                            </div>
-                        }
-                    }
 
-                </div>
-                <div class="d-block d-md-none swiper-pagination text-center"></div>
-                <div class="swiper-prev">
-                    <i class="mdi mdi-arrow-left"></i>
-                </div>
-                <div class="swiper-next">
-                    <i class="mdi mdi-arrow-right"></i>
+
+
+                            @foreach (var item in Model.SliderViewModel)
+                            {
+                                <div class="swiper-slide">
+                                    <a href="@item.PageUrl" title="">
+                                        <img src="@item.FilePath" srcset="@item.FilePath" alt="">
+                                    </a>
+                                </div>
+                            }
+
+
+
+                        }
+
+                    </div>
+                    <div class="d-block d-md-none swiper-pagination text-center"></div>
+                    <div class="swiper-prev">
+                        <i class="mdi mdi-arrow-left"></i>
+                    </div>
+                    <div class="swiper-next">
+                        <i class="mdi mdi-arrow-right"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+}
+
 @if (Model != null)
 {
     @foreach (var item in Model.TopBodyViewModel)

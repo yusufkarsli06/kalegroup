@@ -60,6 +60,7 @@ namespace KaleGroup.Business.Business
             webPage.PageTopDescription = pageResult.PageTopDescription;
             webPage.EnPageTopDescription = pageResult.EnPageTopDescription;
             webPage.PageTopImages = pageResult.PageTopImages;
+            webPage.EnPageTopImages = pageResult.EnPageTopImages;
             webPage.PageDescription = pageResult.PageDescription;
             webPage.PageUrl = pageResult.PageUrl;
             webPage.Keyword = pageResult.Keyword;
@@ -98,6 +99,7 @@ namespace KaleGroup.Business.Business
                 webPage.PageTopDescription = item.PageTopDescription;
                 webPage.EnPageTopDescription = item.EnPageTopDescription;
                 webPage.PageTopImages = item.PageTopImages;
+                webPage.EnPageTopImages = item.EnPageTopImages;
                 webPage.PageDescription = item.PageDescription;
                 webPage.PageUrl = item.PageUrl;
                 webPage.Keyword = item.Keyword;
@@ -137,6 +139,7 @@ namespace KaleGroup.Business.Business
                 webPage.PageTopDescription = item.PageTopDescription;
                 webPage.EnPageTopDescription = item.EnPageTopDescription;
                 webPage.PageTopImages = item.PageTopImages;
+                webPage.EnPageTopImages = item.EnPageTopImages;
                 webPage.PageDescription = item.PageDescription;
                 webPage.PageUrl = item.PageUrl;
 
@@ -198,6 +201,7 @@ namespace KaleGroup.Business.Business
             webPages.PageTopSubject = param.PageTopSubject;
             webPages.PageTopDescription = param.PageTopDescription;
             webPages.PageTopBackground = param.PageTopBackground;
+            webPages.EnPageTopImages = param.EnPageTopImages;
             webPages.PageTopImages = param.PageTopImages;
             webPages.PageDescription = param.PageDescription;
             webPages.IsActive = true;
@@ -236,6 +240,7 @@ namespace KaleGroup.Business.Business
             webPage.PageTopDescription = pageResult.PageTopDescription;
             webPage.PageTopBackground = pageResult.PageTopBackground;
             webPage.PageTopImages = pageResult.PageTopImages;
+            webPage.EnPageTopImages = pageResult.EnPageTopImages;
             webPage.PageDescription = pageResult.PageDescription;
             webPage.IsActive = pageResult.IsActive;
             webPage.PageUrl = pageResult.PageUrl;
@@ -271,6 +276,7 @@ namespace KaleGroup.Business.Business
             webPages.PageTopDescription = param.PageTopDescription;
             webPages.PageTopBackground = param.PageTopBackground;
             webPages.PageTopImages = param.PageTopImages;
+            webPages.EnPageTopImages = param.EnPageTopImages;
             webPages.PageDescription = param.PageDescription;
             webPages.IsActive = param.IsActive;
             webPages.PageUrl = param.PageUrl;
@@ -309,6 +315,10 @@ namespace KaleGroup.Business.Business
             if (File.Exists(@"../KaleGroup.Web/wwwroot/" + filePath.PageTopImages))
             {
                 File.Delete(@"../KaleGroup.Web/wwwroot/" + filePath.PageTopImages);
+            } 
+            if (File.Exists(@"../KaleGroup.Web/wwwroot/" + filePath.EnPageTopImages))
+            {
+                File.Delete(@"../KaleGroup.Web/wwwroot/" + filePath.EnPageTopImages);
             }
         }
     }

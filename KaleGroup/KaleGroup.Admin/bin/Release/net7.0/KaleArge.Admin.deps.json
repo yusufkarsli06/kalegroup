@@ -33,10 +33,10 @@
   },
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "KaleGroup.Admin/1.0.0": {
+      "KaleArge.Admin/1.0.0": {
         "dependencies": {
-          "KaleGroup.Business": "1.0.0",
-          "KaleGroup.Common": "1.0.0",
+          "KaleArge.Business": "1.0.0",
+          "KaleArge.Common": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14",
           "Microsoft.AspNetCore.Antiforgery": "7.0.0.0",
@@ -337,10 +337,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "KaleGroup.Admin.dll": {}
+          "KaleArge.Admin.dll": {}
         },
         "compile": {
-          "KaleGroup.Admin.dll": {}
+          "KaleArge.Admin.dll": {}
         }
       },
       "Azure.Core/1.25.0": {
@@ -1260,50 +1260,50 @@
           "lib/net6.0/System.Windows.Extensions.dll": {}
         }
       },
-      "KaleGroup.Business/1.0.0": {
+      "KaleArge.Business/1.0.0": {
         "dependencies": {
-          "KaleGroup.Common": "1.0.0",
-          "KaleGroup.Data": "1.0.0",
-          "KaleGroup.DataAccess": "1.0.0"
+          "KaleArge.Common": "1.0.0",
+          "KaleArge.Data": "1.0.0",
+          "KaleArge.DataAccess": "1.0.0"
         },
         "runtime": {
-          "KaleGroup.Business.dll": {}
+          "KaleArge.Business.dll": {}
         },
         "compile": {
-          "KaleGroup.Business.dll": {}
+          "KaleArge.Business.dll": {}
         }
       },
-      "KaleGroup.Common/1.0.0": {
+      "KaleArge.Common/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
           "NPOI": "2.6.2"
         },
         "runtime": {
-          "KaleGroup.Common.dll": {}
+          "KaleArge.Common.dll": {}
         },
         "compile": {
-          "KaleGroup.Common.dll": {}
+          "KaleArge.Common.dll": {}
         }
       },
-      "KaleGroup.Data/1.0.0": {
+      "KaleArge.Data/1.0.0": {
         "runtime": {
-          "KaleGroup.Data.dll": {}
+          "KaleArge.Data.dll": {}
         },
         "compile": {
-          "KaleGroup.Data.dll": {}
+          "KaleArge.Data.dll": {}
         }
       },
-      "KaleGroup.DataAccess/1.0.0": {
+      "KaleArge.DataAccess/1.0.0": {
         "dependencies": {
-          "KaleGroup.Data": "1.0.0",
+          "KaleArge.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "NEST": "7.17.5"
         },
         "runtime": {
-          "KaleGroup.DataAccess.dll": {}
+          "KaleArge.DataAccess.dll": {}
         },
         "compile": {
-          "KaleGroup.DataAccess.dll": {}
+          "KaleArge.DataAccess.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/7.0.0.0": {
@@ -3085,7 +3085,7 @@
     }
   },
   "libraries": {
-    "KaleGroup.Admin/1.0.0": {
+    "KaleArge.Admin/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -3629,22 +3629,22 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "KaleGroup.Business/1.0.0": {
+    "KaleArge.Business/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "KaleGroup.Common/1.0.0": {
+    "KaleArge.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "KaleGroup.Data/1.0.0": {
+    "KaleArge.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "KaleGroup.DataAccess/1.0.0": {
+    "KaleArge.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

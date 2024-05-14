@@ -17,7 +17,7 @@
                 </p>
             </div>
         </div>
-        @if (!Model.IsMenu && Model.Id != 46 && !Model.IsNews)
+        @if (!Model.IsMenu && Model.Id != 46 && !Model.IsNews && !string.IsNullOrEmpty(Model.LastPageUrl))
         {
             <div class="row">
                 <div class="col-12">
@@ -105,7 +105,7 @@
                         <a href="@Url.Action("Pages","Home", new { pageUrl = "etkilesimler" })">Etkileşimler</a>
                     </li>
                 }
-                @if (!Model.IsMenu)
+                @if (!Model.IsMenu && Model.PageUrl!=null)
                 {
                     <li class="breadcrumb-item active">
                         <a href="@Url.Action("Pages","Home", new { pageUrl = Model.PageUrl })">@Model.PageTopSubject</a>

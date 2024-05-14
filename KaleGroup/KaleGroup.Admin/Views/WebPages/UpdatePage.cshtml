@@ -25,6 +25,7 @@
     <div class="row">
         <input type="hidden" asp-for="Id">
         <input type="hidden" asp-for="PageTopImages">
+        <input type="hidden" asp-for="EnPageTopImages">
         <input type="hidden" asp-for="HomeImage">
         <div class="col-lg-7">
             <div class="form-group position-relative">
@@ -100,6 +101,13 @@
                 <i data-feather="mail" class="fea icon-sm icons"></i>
                 <label>Üst Resim   <span class="text-danger"></span></label>
                 <input type="file" asp-for="UploadFile" class="form-control pl-5">
+            </div>
+        </div>  
+        <div class="col-md-12">
+            <div class="form-group position-relative">
+                <i data-feather="mail" class="fea icon-sm icons"></i>
+                <label>İngilizce Üst Resim   <span class="text-danger"></span></label>
+                <input type="file" asp-for="EnUploadFile" class="form-control pl-5">
             </div>
         </div>
         <div class="col-md-12">

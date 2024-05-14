@@ -15,6 +15,7 @@ namespace KaleGroup.Data.Entities
         public string? PageTopDescription { get; set; }
         public string? PageTopBackground { get; set; }
         public string? PageTopImages { get; set; }
+        public string? EnPageTopImages { get; set; }
         public string? PageDescription { get; set; }
          public bool IsActive { get; set; }
         public string? PageUrl { get; set; }

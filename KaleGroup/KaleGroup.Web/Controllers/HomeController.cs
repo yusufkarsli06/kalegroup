@@ -42,7 +42,7 @@ namespace KaleGroup.Web.Controllers
             SetFooterMenuSession();
             SetMenuSession();
             if(Request.Cookies["language"]==null)
-                SetLanguage("tr"); 
+                SetLanguage("tr",""); 
  
             HomeViewModel vm = new HomeViewModel();           
             ViewBag.Language = Request.Cookies["language"];
@@ -84,7 +84,7 @@ namespace KaleGroup.Web.Controllers
                 vm.PageTopBackground = pageResult.PageTopBackground;
                 vm.PageTopDescription = language == "tr" ? pageResult.PageTopDescription : pageResult.EnPageTopDescription;
 
-                vm.PageTopImages = pageResult.PageTopImages;
+                 vm.PageTopImages = language == "tr" ? pageResult.PageTopImages : pageResult.EnPageTopImages;
                 vm.PageDescription = language == "tr" ? pageResult.PageDescription : pageResult.EnPageDescription;
                 vm.PageUrl = language == "tr" ? pageResult.PageUrl : pageResult.EnPageUrl;
                 //todo anahtar kelime ingilizce 
@@ -147,7 +147,8 @@ namespace KaleGroup.Web.Controllers
                 vm.SliderViewModel = GetSliderList(pageResult.Id);
 
                 ViewBag.Keywords = language == "tr" ? pageResult.Keyword : pageResult.EnKeyword;
-                 return View(vm);
+                ViewBag.PageUrl = language == "tr" ? pageResult.PageUrl : pageResult.EnPageUrl;
+                return View(vm);
 
             }
             catch (Exception)
@@ -245,12 +246,22 @@ namespace KaleGroup.Web.Controllers
             
             return View(vm);
         }
-        public IActionResult SetLanguage(string language)
+        public IActionResult SetLanguage(string language,string pageUrl)
         {
             CookieOptions cookie = new CookieOptions();
             cookie.Expires = DateTime.Now.AddMonths(1);
             Response.Cookies.Append("language", language, cookie);
-            return RedirectToAction("Index");
+
+            if (string.IsNullOrEmpty(pageUrl))
+            {
+                return RedirectToAction("Index");
+            }
+
+            var pageResult = _webPagesLogic.GetWebPageByPageUrl(pageUrl);
+
+            pageUrl = language=="tr" ? pageResult.PageUrl : pageResult.EnPageUrl;
+
+            return RedirectToAction("Pages",new { pageUrl = pageUrl });
         }
         private List<SliderViewModel> GetSliderList(int pageId)
         {

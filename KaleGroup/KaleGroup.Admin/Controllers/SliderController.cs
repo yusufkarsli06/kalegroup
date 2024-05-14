@@ -79,6 +79,8 @@ namespace KaleGroup.Admin.Controllers
                 using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
                     param.UploadFile.CopyTo(fileStream);
 
+
+
                 var enExtent = Path.GetExtension(param.EnUploadFile.FileName);
 
                 var enRandomName = ($"{Guid.NewGuid()}{enExtent}");
@@ -87,6 +89,8 @@ namespace KaleGroup.Admin.Controllers
 
                 using (FileStream fileStream = new FileStream((string)enSavePath, FileMode.Create))
                     param.EnUploadFile.CopyTo(fileStream);
+
+
 
                 SliderDtos sliderDtos = new SliderDtos();
 
@@ -158,7 +162,7 @@ namespace KaleGroup.Admin.Controllers
 
                 string enSavePath = Path.Combine(filePath, enRandomName);
 
-                using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
+                using (FileStream fileStream = new FileStream((string)enSavePath, FileMode.Create))
                     param.EnUploadFile.CopyTo(fileStream);
 
                 SliderDtos sliderDtos = new SliderDtos();

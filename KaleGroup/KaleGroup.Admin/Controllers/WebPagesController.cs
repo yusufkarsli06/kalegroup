@@ -89,6 +89,23 @@ namespace KaleGroup.Admin.Controllers
             {
                 pagesDto.PageTopImages = null;
             } 
+              
+            if (param.EnUploadFile != null)
+            {
+                var extent = Path.GetExtension(param.EnUploadFile.FileName);
+
+               string  randomName = ($"{Guid.NewGuid()}{extent}");
+
+                string savePath = Path.Combine(filePath, randomName);
+
+                using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
+                    param.EnUploadFile.CopyTo(fileStream);
+                pagesDto.EnPageTopImages = "Uploads/" + randomName;
+            }
+            else
+            {
+                pagesDto.EnPageTopImages = null;
+            } 
             
             if (param.HomeImageUploadFile != null)
             {
@@ -198,6 +215,7 @@ namespace KaleGroup.Admin.Controllers
             vm.EnKeyword = pagesResult.EnKeyword;
             vm.IsSlider = pagesResult.IsSlider;
             vm.PageTopImages = pagesResult.PageTopImages;
+            vm.EnPageTopImages = pagesResult.EnPageTopImages;
             vm.HomeImage = pagesResult.HomeImage;
 
 
@@ -250,6 +268,23 @@ namespace KaleGroup.Admin.Controllers
             else
             {
                 pageDtos.PageTopImages = param.PageTopImages;
+            }   
+            
+            if (param.EnUploadFile != null)
+            {
+                var extent = Path.GetExtension(param.EnUploadFile.FileName);
+
+                string randomName = ($"{Guid.NewGuid()}{extent}");
+
+                string savePath = Path.Combine(filePath, randomName);
+
+                using (FileStream fileStream = new FileStream((string)savePath, FileMode.Create))
+                    param.EnUploadFile.CopyTo(fileStream);
+                pageDtos.EnPageTopImages = "Uploads/" + randomName;
+            }
+            else
+            {
+                pageDtos.EnPageTopImages = param.EnPageTopImages;
             }
 
             if (param.HomeImageUploadFile != null)
