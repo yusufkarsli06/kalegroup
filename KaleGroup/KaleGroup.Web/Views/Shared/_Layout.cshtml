@@ -288,16 +288,24 @@
                             {
                                 <ul>
                                     <li>
-
-                                        <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl ==null?"#":item.PageUrl })" title="@item.Name " class="font-weight-semi-bold">
+                                        @if (item.PageUrl != null)
+                                        {
+                                            <a href="@Url.Action("Pages","Home", new { pageUrl =item.PageUrl })" title="@item.Name " class="font-weight-semi-bold">
+                                                @item.Name
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                        <a href="#" title="@item.Name " class="font-weight-semi-bold">
                                             @item.Name
                                         </a>
+                                        }
 
 
                                         @foreach (var subItem in item.WebPagesViewModel)
                                         {
                                         <li>
-                                            <a href="@Url.Action("Pages","Home", new { pageUrl = item.PageUrl ==null?"#":item.PageUrl })" title="@subItem.Name">
+                                            <a href="@Url.Action("Pages","Home", new { pageUrl = subItem.PageUrl })" title="@subItem.Name">
                                                     @subItem.Name
                                             </a>
                                         </li>
