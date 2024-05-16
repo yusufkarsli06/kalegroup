@@ -1,7 +1,6 @@
 ﻿using KaleGroup.Admin.Models;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
-using KaleGroup.Data.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -117,9 +116,7 @@ namespace KaleGroup.Admin.Controllers
                 _uploadFileLogic.UpdateFile(fileDtos);
             }
             return RedirectToAction("Index");
-        }
-
-     
+        }    
 
         public IActionResult PasiveFile(int fileId)
         {
@@ -127,9 +124,7 @@ namespace KaleGroup.Admin.Controllers
 
             return RedirectToAction("Index");
 
-        }
-
-    
+        }  
 
         public IActionResult DeleteFile(int fileId)
         {

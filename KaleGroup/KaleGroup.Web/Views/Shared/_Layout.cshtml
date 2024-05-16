@@ -223,55 +223,7 @@
             </div>
         </header>
 
-        <div class="search-box">
-            <span class="search-box-close-btn">
-                <i class="mdi mdi-close"></i>
-            </span>
-            <div class="container position-relative h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-md-6">
-                        <form id="form-search" asp-controller="Home" asp-action="SearchResult">
-
-                            @if (ViewBag.Language == "tr")
-                            {
-                                <div class="d-flex flex-column">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="searchText" placeholder="Arama Yapın...">
-                                    </div>
-                                    <div class="d-none d-md-block">
-                                        <div id="all-results" class="mt-10 d-none">
-                                            <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
-                                                T&#xDC;M SONU&#xC7;LARI G&#xD6;R
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            }
-                            else
-                            {
-                                <div class="d-flex flex-column">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="searchText" placeholder="Search...">
-                                    </div>
-                                    <div class="d-none d-md-block">
-                                        <div id="all-results" class="mt-10 d-none">
-                                            <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
-                                                Search Results
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            }
-                        </form>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="search-results">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+     
 
         @RenderBody()
 
@@ -377,6 +329,8 @@
                 </div>
             </div>
         </div>
+
+    </main>
         <nav id="mobile-menu">
             <ul>
                 @foreach (var item in menuModel)
@@ -423,7 +377,69 @@
                 </span>
             </span>
         </nav>
+        @if (ViewBag.Language == "tr")
+        {
+            <div class="search-box">
+                <span class="search-box-close-btn">
+                    <i class="mdi mdi-close"></i>
+                </span>
+                <div class="container position-relative h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-md-6">
+                            <form id="form-search" asp-controller="Home" asp-action="SearchResult">
+                                <div class="d-flex flex-column">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="searchText" placeholder="Arama Yapınız...">
+                                    </div>
+                                    <div class="d-none d-md-block">
+                                        <div id="all-results" class="mt-10 d-none">
+                                            <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
+                                                TÜM SONUÇLARI GÖSTER
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="search-results"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="search-box">
+                <span class="search-box-close-btn">
+                    <i class="mdi mdi-close"></i>
+                </span>
+                <div class="container position-relative h-100">
+                    <div class="row align-items-center h-100">
+                        <div class="col-md-6">
+                            <form id="form-search" asp-controller="Home" asp-action="SearchResult">
+                                <div class="d-flex flex-column">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="searchText" placeholder="Search...">
+                                    </div>
+                                    <div class="d-none d-md-block">
+                                        <div id="all-results" class="mt-10 d-none">
+                                            <a href="javascript:$('#form-search').submit();" title="" class="all-results btn btn-outline-dark">
+                                                Search Results
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="search-results"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        }
         <div class="search-box-mobile">
             <span class="search-box-close-btn">
                 <i class="mdi mdi-close"></i>
@@ -459,19 +475,18 @@
 
             </div>
         </div>
-
-    </main>
+     
+  
 
     <script src="~/js/main.js"></script>
     <script src="../cdn.jsdelivr.net/gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="~/js/search.js"></script>
-</body>
-</html>
+
 <script>
     $(function () {
         search.init({
             nodeId: 1,
-            searchUrl: '/Search/SearchInPages'
+                searchUrl: '/Home/SearchResultBefore'
         });
 
         $('.raw-content *').css("font-family", "").css("font-size", "");
@@ -491,3 +506,5 @@
         });
     })
 </script>
+</body>
+</html>

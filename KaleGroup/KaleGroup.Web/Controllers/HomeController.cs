@@ -22,8 +22,7 @@ namespace KaleGroup.Web.Controllers
         private readonly ISliderLogic _sliderLogic;
         private readonly ISettingsLogic _settingsLogic;
         private readonly IFooterMenusLogic _footerMenusLogic;
-        // "tr"todo düzeltilmesi gerekiyor.;
-
+ 
         public HomeController(ILogger<HomeController> logger,
           IMenuLogic menuLogic, IWebPagesLogic webPagesLogic, IUserLogic userLogic, ISliderLogic sliderLogic
            , ISettingsLogic settingsLogic, IFooterMenusLogic footerMenusLogic)
@@ -175,6 +174,51 @@ namespace KaleGroup.Web.Controllers
                 var searchListViewModel = new List<SearchListViewModel>(); 
 
                
+                var filteredResults = pageResult.Where(x => x.MenuId == item.Id).ToList();
+                if (filteredResults.Count > 0)
+                {
+                    SearchMenuViewModel searchMenuViewModel = new SearchMenuViewModel();
+                    searchMenuViewModel.MenuName = language == "tr" ? item.Name : item.EnName;
+
+                    foreach (var resultItem in filteredResults)
+                    {
+                        SearchListViewModel searchListView = new SearchListViewModel();
+                        searchListView.PageUrl = language == "tr" ? resultItem.PageUrl : resultItem.EnPageUrl;
+                        searchListView.Name = language == "tr" ? resultItem.Name : resultItem.EnName;
+                        searchListView.PageTopSubject = language == "tr" ? resultItem.PageTopSubject : resultItem.EnPageTopSubject;
+                        searchListView.PageTopDescription = language == "tr" ? resultItem.PageTopDescription : resultItem.EnPageTopDescription;
+                        searchListView.PageId = resultItem.Id;
+                        searchListViewModel.Add(searchListView);
+                    }
+
+                    searchMenuViewModel.SearchListViewModel = searchListViewModel;
+                    searchMenuListViewModel.Add(searchMenuViewModel);
+                }
+            }
+
+            vm.SearchMenuViewModel = searchMenuListViewModel;
+            ViewBag.Language = language;
+            return View(vm);
+        }
+
+        public IActionResult SearchResultBefore(string searchText)
+        {
+            SetFooterMenuSession();
+            SetMenuSession();
+            string language = Request.Cookies["language"];
+            SearchViewModel vm = new SearchViewModel();
+            vm.SearchText = searchText;
+
+            List<SearchMenuViewModel> searchMenuListViewModel = new List<SearchMenuViewModel>();
+            var mySessionObject = HttpContext.Session.GetString("menuModel");
+            var menuModel = JsonConvert.DeserializeObject<List<MenuViewModel>>(mySessionObject);
+            var pageResult = _webPagesLogic.GetWebSearchList(language, searchText).Take(3);
+
+            foreach (var item in menuModel)
+            {
+                var searchListViewModel = new List<SearchListViewModel>();
+
+
                 var filteredResults = pageResult.Where(x => x.MenuId == item.Id).ToList();
                 if (filteredResults.Count > 0)
                 {
@@ -363,9 +407,7 @@ namespace KaleGroup.Web.Controllers
         }
         private void SetMenuSession()
         {
-            //var mySessionObject = HttpContext.Session.GetString("menuModel");
-            //if (mySessionObject == null)
-            //{
+             
 
                 string language = Request.Cookies["language"];
                 List<MenuViewModel> menuList = new List<MenuViewModel>();
@@ -400,7 +442,7 @@ namespace KaleGroup.Web.Controllers
                     }
                     menu.WebPagesViewModel = webPageList;
                     menuList.Add(menu);
-                //}
+               
 
                 var str = JsonConvert.SerializeObject(menuList);
                 HttpContext.Session.SetString("menuModel", str);
@@ -410,9 +452,7 @@ namespace KaleGroup.Web.Controllers
         {
  
             var mySessionFooterObject = HttpContext.Session.GetString("footerModel");
-
-            //if (mySessionFooterObject == null)
-            //{
+             
 
                 string language = Request.Cookies["language"];
                 List<FooterMenuView> footerMenuList = new List<FooterMenuView>();
@@ -439,7 +479,7 @@ namespace KaleGroup.Web.Controllers
 
                 var str = JsonConvert.SerializeObject(footerMenuList);
                 HttpContext.Session.SetString("footerModel", str);
-            //}
+            
         }
     }
 }
