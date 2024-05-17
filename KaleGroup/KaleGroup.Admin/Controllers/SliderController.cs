@@ -13,7 +13,7 @@ namespace KaleGroup.Admin.Controllers
     {
         private readonly ISliderLogic _sliderLogic;
         private readonly IWebPagesLogic _pageLogic;
-        public string filePath = @"../kalearge.canavardata.com/wwwroot/Uploads";
+        public string filePath = @"../kalearge.com.tr/wwwroot/Uploads";
 
         public SliderController(ISliderLogic sliderLogic, IWebPagesLogic pageLogic)
         {

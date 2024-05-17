@@ -10,7 +10,7 @@ namespace KaleGroup.Admin.Controllers
     public class UploadFilesController : Controller
     {
         private readonly IUploadFileLogic _uploadFileLogic;
-        public string filePath = @"../kalearge.canavardata.com/wwwroot/Uploads";
+        public string filePath = @"../kalearge.com.tr/wwwroot/Uploads";
         public UploadFilesController(IUploadFileLogic uploadFileLogic)
         {
             _uploadFileLogic = uploadFileLogic;

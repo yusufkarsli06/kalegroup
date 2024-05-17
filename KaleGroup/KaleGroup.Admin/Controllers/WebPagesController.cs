@@ -14,7 +14,7 @@ namespace KaleGroup.Admin.Controllers
 
         private readonly IWebPagesLogic _webPagesLogic;
         private readonly IMenuLogic _menuLogic;
-        public string filePath = @"../kalearge.canavardata.com/wwwroot/Uploads";
+        public string filePath = @"../kalearge.com.tr/wwwroot/Uploads";
         public WebPagesController(IWebPagesLogic webPagesLogic, IMenuLogic menuLogic)
         {
             _webPagesLogic = webPagesLogic;
