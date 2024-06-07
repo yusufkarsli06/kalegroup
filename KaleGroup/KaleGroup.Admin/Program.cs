@@ -17,11 +17,14 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+string key = "f7d46c49-3ae8-42bc-9f40-959d540aa016";
+string dbConnection = HashHelper.DecryptStringFromBase64_Aes("QR5viYpZ+nPryhYHhZg0cfd1JULqrbY3ulhCUcKM/yHJgLfIw46PXyJ9USL6nK9X8PhjRvn6zulSoU2zS2vgkEE219d9Q3MAKIMscy2E0FdoUJ3+r63C5JP2mxU/o8HEWhRtu+FTeKxBKGulhO8JVC06t557Wm7ws4JrKHSyAxFgiJ1ll4KxtSLN38IaR+O0", key);
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(@"Server=104.247.167.130\MSSQLSERVER2019;Database=yusufk13_kalearge;User=yusufk13_kalearge; Password=R4wv5k@54; TrustServerCertificate=True"), ServiceLifetime.Transient);
+builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(dbConnection), ServiceLifetime.Transient);
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IUserLogic, UserLogic>();

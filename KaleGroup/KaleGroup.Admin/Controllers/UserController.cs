@@ -43,6 +43,8 @@ namespace KaleGroup.Admin.Controllers
         {
             return View();
         }
+
+
         public IActionResult AddUser()
         {
             AddUserViewModel vm = new AddUserViewModel();

@@ -26,5 +26,38 @@ namespace KaleGroup.Common.Helper
             }
         }
 
+        public static string DecryptStringFromBase64_Aes(string input, string password)
+        {
+            byte[] passwordBytes = SHA256.Create().ComputeHash(Encoding.UTF8.GetBytes(password));
+            byte[] IV = MD5.Create().ComputeHash(Encoding.UTF8.GetBytes(password));
+            byte[] cipherText = Convert.FromBase64String(input);
+
+            string plaintext;
+
+            using (AesCryptoServiceProvider aesAlg = new AesCryptoServiceProvider())
+            {
+                aesAlg.Key = passwordBytes;
+                aesAlg.IV = IV;
+
+                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
+
+                // Create the streams used for decryption. 
+                using (MemoryStream msDecrypt = new MemoryStream(cipherText))
+                {
+                    using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
+                    {
+                        using (StreamReader srDecrypt = new StreamReader(csDecrypt))
+                        {
+                            plaintext = srDecrypt.ReadToEnd();
+                        }
+                    }
+                }
+
+            }
+
+            return plaintext;
+        }
+
+   
     }
 }
