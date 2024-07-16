@@ -1,0 +1,16 @@
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Release\net8.0\KaleArge.DataAccess.deps.json
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Release\net8.0\KaleArge.DataAccess.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Release\net8.0\KaleArge.DataAccess.pdb
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Release\net8.0\KaleArge.Data.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\bin\Release\net8.0\KaleArge.Data.pdb
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.csproj.AssemblyReference.cache
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.AssemblyInfoInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.AssemblyInfo.cs
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.csproj.CoreCompileInputs.cache
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.sourcelink.json
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.csproj.CopyComplete
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\refint\KaleArge.DataAccess.dll
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\KaleArge.DataAccess.pdb
+D:\kalegroup\KaleGroup\KaleGroup.DataAccess\obj\Release\net8.0\ref\KaleArge.DataAccess.dll

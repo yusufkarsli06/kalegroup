@@ -15,16 +15,23 @@ using KaleGroup.DataAccess.Repository.User.Command;
 using KaleGroup.DataAccess.Repository.User.Interface;
 using Microsoft.EntityFrameworkCore;
 
-string key = "f7d46c49-3ae8-42bc-9f40-959d540aa016";
-string dbConnection =HashHelper.DecryptStringFromBase64_Aes("QR5viYpZ+nPryhYHhZg0cfd1JULqrbY3ulhCUcKM/yHJgLfIw46PXyJ9USL6nK9X8PhjRvn6zulSoU2zS2vgkEE219d9Q3MAKIMscy2E0FdoUJ3+r63C5JP2mxU/o8HEWhRtu+FTeKxBKGulhO8JVC06t557Wm7ws4JrKHSyAxFgiJ1ll4KxtSLN38IaR+O0", key);
 
+ 
 var builder = WebApplication.CreateBuilder(args);
+string password = builder.Configuration.GetConnectionString("key");
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(dbConnection), ServiceLifetime.Transient);
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
+builder.Services.AddDbContext<BaseContext>(options =>
+    options.UseSqlServer(HashHelper.DecryptStringFromBase64_Aes(connectionString,password)),
+    ServiceLifetime.Transient);
+
+
+ builder.Services.AddControllersWithViews();
+
+ 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IUserLogic, UserLogic>();
 builder.Services.AddTransient<IMenuLogic, MenuLogic>();
@@ -57,12 +64,10 @@ var app = builder.Build();
  
 app.UseSession();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
@@ -72,9 +77,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Home}/{action=Index}/{id?}");
+ 
 
 app.UseEndpoints(endpoints =>
 {

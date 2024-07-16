@@ -1,0 +1,3901 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\KaleArge.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KaleArge.Web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Files\\31302002_ISMS17_2022-02-26_TR.pdf",
+      "PackagePath": "staticwebassets\\Files\\31302002_ISMS17_2022-02-26_TR.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\02633fa9-490b-4ca2-8720-601efa8d541d.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\02633fa9-490b-4ca2-8720-601efa8d541d.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\057c392d-da16-44db-bb07-ca57cdb9dc22.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\057c392d-da16-44db-bb07-ca57cdb9dc22.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\05f3c8e8-70ab-41cb-9ab6-1c95ca565874.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\05f3c8e8-70ab-41cb-9ab6-1c95ca565874.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\099a603b-c78a-4f0d-8b38-96410556c52d.png",
+      "PackagePath": "staticwebassets\\Uploads\\099a603b-c78a-4f0d-8b38-96410556c52d.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\0a16aaed-08b7-4054-92b8-e4ac795ab123.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\0a16aaed-08b7-4054-92b8-e4ac795ab123.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\0ae4f7d8-fba1-41e2-81e6-330037a62a27.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\0ae4f7d8-fba1-41e2-81e6-330037a62a27.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\0d3f1a20-2174-4778-ba27-8bef4f8a7b54.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\0d3f1a20-2174-4778-ba27-8bef4f8a7b54.jpeg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\152fb1f4-d739-4bce-a537-9b262fecc705.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\152fb1f4-d739-4bce-a537-9b262fecc705.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\18edec8d-5f6d-4cea-92cf-d536c8f68867.png",
+      "PackagePath": "staticwebassets\\Uploads\\18edec8d-5f6d-4cea-92cf-d536c8f68867.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\1b362920-a077-4044-8e6b-ff9c2ee3ebba.png",
+      "PackagePath": "staticwebassets\\Uploads\\1b362920-a077-4044-8e6b-ff9c2ee3ebba.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\1c6159a3-bba2-4a49-8ec6-405b87d9005a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1c6159a3-bba2-4a49-8ec6-405b87d9005a.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\1ec1c4e0-3e01-48f0-98ff-b97ca0cd40f5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1ec1c4e0-3e01-48f0-98ff-b97ca0cd40f5.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\202963f9-6957-4bd0-8b63-9cbd91e1608d.png",
+      "PackagePath": "staticwebassets\\Uploads\\202963f9-6957-4bd0-8b63-9cbd91e1608d.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\21f5851f-29ec-4a6d-b460-9fe688f10161.png",
+      "PackagePath": "staticwebassets\\Uploads\\21f5851f-29ec-4a6d-b460-9fe688f10161.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\22c4a699-461c-4234-88c1-f35429acc779.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\22c4a699-461c-4234-88c1-f35429acc779.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\2a336065-d9c8-4164-b1c3-4e954a69d563.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2a336065-d9c8-4164-b1c3-4e954a69d563.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\2c3fcc3a-54f7-4929-b063-eafa9cb73a38.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2c3fcc3a-54f7-4929-b063-eafa9cb73a38.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\2f3c5b27-8f34-4822-b8ce-4adfe00f935e.png",
+      "PackagePath": "staticwebassets\\Uploads\\2f3c5b27-8f34-4822-b8ce-4adfe00f935e.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\2fad0fb8-995a-49d6-bcdd-5c598b9f2309.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2fad0fb8-995a-49d6-bcdd-5c598b9f2309.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\3046f8f7-aabb-445f-bb7f-e5b720bc6137.png",
+      "PackagePath": "staticwebassets\\Uploads\\3046f8f7-aabb-445f-bb7f-e5b720bc6137.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\30a677a9-3398-4e03-86a4-9d2852046409.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\30a677a9-3398-4e03-86a4-9d2852046409.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\31b39869-f930-4963-9125-9adc5a7a6dba.png",
+      "PackagePath": "staticwebassets\\Uploads\\31b39869-f930-4963-9125-9adc5a7a6dba.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\32dc59c8-8149-4030-8b9b-19fbc279996b.png",
+      "PackagePath": "staticwebassets\\Uploads\\32dc59c8-8149-4030-8b9b-19fbc279996b.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\33592f95-02a4-4dbc-8c20-b08c11a2f4a3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\33592f95-02a4-4dbc-8c20-b08c11a2f4a3.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\3558357e-282d-418d-9c00-7fd3da9664d9.png",
+      "PackagePath": "staticwebassets\\Uploads\\3558357e-282d-418d-9c00-7fd3da9664d9.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\36021108-7799-40bd-89fb-aa201f9c25ca.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\36021108-7799-40bd-89fb-aa201f9c25ca.jpeg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\3682c787-ce13-4da2-af15-42d0bb5bb6d9.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3682c787-ce13-4da2-af15-42d0bb5bb6d9.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\374fb0a1-adc1-407e-a556-d6fcd6b757a1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\374fb0a1-adc1-407e-a556-d6fcd6b757a1.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\3752b68c-d37d-4bf8-b0c6-eda292ccefe9.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\3752b68c-d37d-4bf8-b0c6-eda292ccefe9.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\39d6566b-12da-46a2-b93a-a8881bc0d2d2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\39d6566b-12da-46a2-b93a-a8881bc0d2d2.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\3f17baa3-5fcb-4b53-bce0-825244542575.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3f17baa3-5fcb-4b53-bce0-825244542575.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\43928c7e-f21d-4e79-8c8e-9391df6eb76a.png",
+      "PackagePath": "staticwebassets\\Uploads\\43928c7e-f21d-4e79-8c8e-9391df6eb76a.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\47a1c3e3-3905-4827-b84a-e2c0b836b077.png",
+      "PackagePath": "staticwebassets\\Uploads\\47a1c3e3-3905-4827-b84a-e2c0b836b077.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4838c153-7b6f-4a1c-9a73-5091ae92d2d8.png",
+      "PackagePath": "staticwebassets\\Uploads\\4838c153-7b6f-4a1c-9a73-5091ae92d2d8.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4b52ec8d-3bd6-42f0-8108-601e968ed7be.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4b52ec8d-3bd6-42f0-8108-601e968ed7be.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4c0d0c65-ffdf-488a-ad2c-58f275524f49.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4c0d0c65-ffdf-488a-ad2c-58f275524f49.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4c5a82fa-7624-4708-a388-50bb00b377a8.png",
+      "PackagePath": "staticwebassets\\Uploads\\4c5a82fa-7624-4708-a388-50bb00b377a8.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4cae96b8-d52e-419b-8f97-09a18a14e040.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\4cae96b8-d52e-419b-8f97-09a18a14e040.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4d2e5d3a-479c-495e-adb1-06742f45c011.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4d2e5d3a-479c-495e-adb1-06742f45c011.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4e07160f-5c2b-4b0e-a2df-7948429b3c81.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4e07160f-5c2b-4b0e-a2df-7948429b3c81.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4ebafb0b-08b1-4ce8-9147-e3ec696d107d.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4ebafb0b-08b1-4ce8-9147-e3ec696d107d.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4f7bfa83-fcbe-48e2-8b38-b3057e2e86a1.png",
+      "PackagePath": "staticwebassets\\Uploads\\4f7bfa83-fcbe-48e2-8b38-b3057e2e86a1.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\4fd3ffd5-6a11-4156-93e7-1cfdf3232a35.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4fd3ffd5-6a11-4156-93e7-1cfdf3232a35.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\50e4e84a-4361-4bf7-b35d-6956db1fb2f3.png",
+      "PackagePath": "staticwebassets\\Uploads\\50e4e84a-4361-4bf7-b35d-6956db1fb2f3.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\523ce3c0-73b9-4aa9-abff-b88186cf7283.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\523ce3c0-73b9-4aa9-abff-b88186cf7283.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\52d15500-67c9-4e9a-8e2a-c06095573b8a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\52d15500-67c9-4e9a-8e2a-c06095573b8a.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\53233021-1ac0-46d3-ae1b-6d6afcd06a08.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\53233021-1ac0-46d3-ae1b-6d6afcd06a08.jpeg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\5412abc9-c001-4c9d-be6a-208103e0c7c3.png",
+      "PackagePath": "staticwebassets\\Uploads\\5412abc9-c001-4c9d-be6a-208103e0c7c3.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\545efba9-c295-45c3-9041-44a9e9fcc80f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\545efba9-c295-45c3-9041-44a9e9fcc80f.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\557eff74-d816-4a6e-8049-b715946aabba.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\557eff74-d816-4a6e-8049-b715946aabba.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\559b937d-72c5-4fa0-aafa-3da828f9a1fe.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\559b937d-72c5-4fa0-aafa-3da828f9a1fe.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\56b8479e-2f1b-4cfe-b02e-fb1f5a1930e6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\56b8479e-2f1b-4cfe-b02e-fb1f5a1930e6.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\576aedd5-6b8e-492e-9f74-97a0cc968131.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\576aedd5-6b8e-492e-9f74-97a0cc968131.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\59535d3e-9f37-4e1c-9feb-17a637e181be.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\59535d3e-9f37-4e1c-9feb-17a637e181be.jpeg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\5969f8e9-7444-4654-8946-2bb8f01a983e.png",
+      "PackagePath": "staticwebassets\\Uploads\\5969f8e9-7444-4654-8946-2bb8f01a983e.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\599cf9cd-cb23-4628-9c35-8abe31a479fb.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\599cf9cd-cb23-4628-9c35-8abe31a479fb.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\59a329ea-2b08-443b-a4fa-f9e312d480eb.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\59a329ea-2b08-443b-a4fa-f9e312d480eb.jpeg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\5a78607e-3b52-4b0e-b3db-98b47edc3b26.png",
+      "PackagePath": "staticwebassets\\Uploads\\5a78607e-3b52-4b0e-b3db-98b47edc3b26.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\5ce54e42-c3d9-44b0-ba70-d2196cf0e69c.png",
+      "PackagePath": "staticwebassets\\Uploads\\5ce54e42-c3d9-44b0-ba70-d2196cf0e69c.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\67e297cda1dc4d2c9fe00752be09533a.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\67e297cda1dc4d2c9fe00752be09533a.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\69131294-7562-4dac-a246-61ee48839449.png",
+      "PackagePath": "staticwebassets\\Uploads\\69131294-7562-4dac-a246-61ee48839449.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\6973e2fd-f604-4153-8fc1-955027f116f8.png",
+      "PackagePath": "staticwebassets\\Uploads\\6973e2fd-f604-4153-8fc1-955027f116f8.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\698234be-0385-47b5-a1a0-56e02ae6caa0.png",
+      "PackagePath": "staticwebassets\\Uploads\\698234be-0385-47b5-a1a0-56e02ae6caa0.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\6c69ef5f-474b-4d32-8d6a-a883bee874ff.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\6c69ef5f-474b-4d32-8d6a-a883bee874ff.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\6cb81421-0846-4568-b08d-45384c18010f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\6cb81421-0846-4568-b08d-45384c18010f.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\6dd84896-9c71-4de5-9e00-a08d2af683a5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\6dd84896-9c71-4de5-9e00-a08d2af683a5.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\70e8886c-40a9-49b7-9786-01430cbb0d87.png",
+      "PackagePath": "staticwebassets\\Uploads\\70e8886c-40a9-49b7-9786-01430cbb0d87.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\7294d429-1cdb-4fe1-9bb0-c035ee94aaa5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\7294d429-1cdb-4fe1-9bb0-c035ee94aaa5.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\751cc63f-c24e-47b6-924b-133b5029bc6a.png",
+      "PackagePath": "staticwebassets\\Uploads\\751cc63f-c24e-47b6-924b-133b5029bc6a.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\77128053-d728-41de-806e-3ecb7dfb04ea.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\77128053-d728-41de-806e-3ecb7dfb04ea.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\79107ce2-13ca-460e-b1af-75c4fe0eadff.png",
+      "PackagePath": "staticwebassets\\Uploads\\79107ce2-13ca-460e-b1af-75c4fe0eadff.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\796f8fbe-7937-4307-9ef3-c7eba5202b94.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\796f8fbe-7937-4307-9ef3-c7eba5202b94.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\79edbe6c-bfb3-4eb3-b946-3b1ab0254414.png",
+      "PackagePath": "staticwebassets\\Uploads\\79edbe6c-bfb3-4eb3-b946-3b1ab0254414.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\7a08e97d-6137-4ccd-9c43-ead73af7955f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\7a08e97d-6137-4ccd-9c43-ead73af7955f.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\7b52f99d0e25494e825e423e25cae8ad.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\7b52f99d0e25494e825e423e25cae8ad.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\7ed9acb7-7b8e-440f-b2d6-5f639ba3dc5b.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\7ed9acb7-7b8e-440f-b2d6-5f639ba3dc5b.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\7efda71f-f21f-4738-9740-9173edced7e5.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\7efda71f-f21f-4738-9740-9173edced7e5.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\805dac88812b4cdfbfcd856e99952a92.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\805dac88812b4cdfbfcd856e99952a92.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\81e1e6e6-3dcc-46e4-9785-d87d62abb68f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\81e1e6e6-3dcc-46e4-9785-d87d62abb68f.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\86300d72-64e2-4083-b516-62cddfeb98d7.png",
+      "PackagePath": "staticwebassets\\Uploads\\86300d72-64e2-4083-b516-62cddfeb98d7.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\8635178b-c32f-4b57-a99d-8dcba0660fac.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\8635178b-c32f-4b57-a99d-8dcba0660fac.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\8707781a-f0fe-4ccc-bdcd-622096ef20be.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\8707781a-f0fe-4ccc-bdcd-622096ef20be.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\8792d9a1-ceaa-45bc-9c1e-959f29b39053.png",
+      "PackagePath": "staticwebassets\\Uploads\\8792d9a1-ceaa-45bc-9c1e-959f29b39053.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\891c73f0-e6c0-47ef-b863-749c8a684590.png",
+      "PackagePath": "staticwebassets\\Uploads\\891c73f0-e6c0-47ef-b863-749c8a684590.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\8a369791-e886-40fb-b96e-25e77efaf474.png",
+      "PackagePath": "staticwebassets\\Uploads\\8a369791-e886-40fb-b96e-25e77efaf474.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\8c38dcd7-884b-409f-9960-3878fbb1031c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\8c38dcd7-884b-409f-9960-3878fbb1031c.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\8fb1749f-48a6-4c7e-9e62-4b44d41972fc.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\8fb1749f-48a6-4c7e-9e62-4b44d41972fc.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\90ffbd2c-f5da-42cf-831a-62160a2793cc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\90ffbd2c-f5da-42cf-831a-62160a2793cc.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\91954941-99f2-44d4-aee8-9b42637318ef.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\91954941-99f2-44d4-aee8-9b42637318ef.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\92f8c5fd-2cb9-4ce6-9545-9694d18eeb76.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\92f8c5fd-2cb9-4ce6-9545-9694d18eeb76.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\94bbfb1d-555e-4427-9590-166d458240eb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\94bbfb1d-555e-4427-9590-166d458240eb.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\990989cd-0d69-4221-9fd9-97b6874901ba.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\990989cd-0d69-4221-9fd9-97b6874901ba.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\99751313-5e07-44f7-9275-fc5919511ecf.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\99751313-5e07-44f7-9275-fc5919511ecf.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\9979d757-3289-46b2-a863-b421d69e7292.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\9979d757-3289-46b2-a863-b421d69e7292.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\99b45dd0-f65f-4bb0-b5b3-90fcc0b6adc5.png",
+      "PackagePath": "staticwebassets\\Uploads\\99b45dd0-f65f-4bb0-b5b3-90fcc0b6adc5.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\99fa7d33-afbd-49ce-8f99-99d97a017075.png",
+      "PackagePath": "staticwebassets\\Uploads\\99fa7d33-afbd-49ce-8f99-99d97a017075.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\9c28ecc3-68c3-436f-a13a-2b179dab855c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\9c28ecc3-68c3-436f-a13a-2b179dab855c.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\9da3351f-83ee-4634-a006-82348571ecd8.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\9da3351f-83ee-4634-a006-82348571ecd8.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\9f100270-3c16-4a78-bcc4-fa46a3c61ceb.png",
+      "PackagePath": "staticwebassets\\Uploads\\9f100270-3c16-4a78-bcc4-fa46a3c61ceb.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\9f65a0f2-7833-4566-b3d5-912d8fe4efa4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\9f65a0f2-7833-4566-b3d5-912d8fe4efa4.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a05d490d-7c54-4ed4-9997-de0d082029b6.png",
+      "PackagePath": "staticwebassets\\Uploads\\a05d490d-7c54-4ed4-9997-de0d082029b6.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a31e3c02-5b40-4bc3-b4f3-08d4949bfba6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a31e3c02-5b40-4bc3-b4f3-08d4949bfba6.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a3a2b34e-3ebf-4b28-81c9-01e88bdb9339.png",
+      "PackagePath": "staticwebassets\\Uploads\\a3a2b34e-3ebf-4b28-81c9-01e88bdb9339.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a47fcb59-9ca8-43d3-abc5-d10e8909ddf9.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a47fcb59-9ca8-43d3-abc5-d10e8909ddf9.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a69852b6-2ca0-40d4-bdfd-8a2a4178dd30.png",
+      "PackagePath": "staticwebassets\\Uploads\\a69852b6-2ca0-40d4-bdfd-8a2a4178dd30.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\a6e66d6b-f796-4c11-b4a3-754593b173bd.png",
+      "PackagePath": "staticwebassets\\Uploads\\a6e66d6b-f796-4c11-b4a3-754593b173bd.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\abb3386c-33d7-45e0-acbd-3a424e0f28c7.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\abb3386c-33d7-45e0-acbd-3a424e0f28c7.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\af22db0d-f511-4604-b216-ef97e49748d7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\af22db0d-f511-4604-b216-ef97e49748d7.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\afc27081-e018-4deb-8b01-1f8d9d4ca606.png",
+      "PackagePath": "staticwebassets\\Uploads\\afc27081-e018-4deb-8b01-1f8d9d4ca606.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\b09bf01a-7aa0-4134-a7f9-685acc0df22e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\b09bf01a-7aa0-4134-a7f9-685acc0df22e.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\b23a8a81-9643-4452-9de8-eef5ccf32f22.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\b23a8a81-9643-4452-9de8-eef5ccf32f22.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\b4ef959c-0cce-4ef3-a025-e22354bbb36c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\b4ef959c-0cce-4ef3-a025-e22354bbb36c.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\b6c86749-caf4-412a-89eb-f62929c8f1b6.png",
+      "PackagePath": "staticwebassets\\Uploads\\b6c86749-caf4-412a-89eb-f62929c8f1b6.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\bbebe6bd-01b8-4224-9514-c620bb969cc6.png",
+      "PackagePath": "staticwebassets\\Uploads\\bbebe6bd-01b8-4224-9514-c620bb969cc6.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\c0ddb5d4-840c-4175-8979-ebd02faec596.png",
+      "PackagePath": "staticwebassets\\Uploads\\c0ddb5d4-840c-4175-8979-ebd02faec596.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\c314b155-de25-44e5-8bcb-667b9d25472c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\c314b155-de25-44e5-8bcb-667b9d25472c.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\c77f4511-7106-46a5-a8fb-1760b8d72856.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\c77f4511-7106-46a5-a8fb-1760b8d72856.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\c80917e8-a6ce-41d8-8964-7f63d048d817.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\c80917e8-a6ce-41d8-8964-7f63d048d817.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\cba07f26-d99a-43b8-8fa2-b07e8d690b6d.png",
+      "PackagePath": "staticwebassets\\Uploads\\cba07f26-d99a-43b8-8fa2-b07e8d690b6d.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\cbafd9fb-0122-44ba-a2f1-03f8292650c6.png",
+      "PackagePath": "staticwebassets\\Uploads\\cbafd9fb-0122-44ba-a2f1-03f8292650c6.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\cca27259-6a44-4a26-8aee-58670c350267.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\cca27259-6a44-4a26-8aee-58670c350267.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\cd928762-84e5-49df-8985-1096702a16db.png",
+      "PackagePath": "staticwebassets\\Uploads\\cd928762-84e5-49df-8985-1096702a16db.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\ce69bab5-dcae-46c5-ba55-847ef0b424b9.png",
+      "PackagePath": "staticwebassets\\Uploads\\ce69bab5-dcae-46c5-ba55-847ef0b424b9.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\d19e0ad3-9b20-4c8e-a699-82f74a6a36a3.png",
+      "PackagePath": "staticwebassets\\Uploads\\d19e0ad3-9b20-4c8e-a699-82f74a6a36a3.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\d3ba4107-12d8-47e1-9d12-6a57506238ad.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\d3ba4107-12d8-47e1-9d12-6a57506238ad.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\d74ff3dd-2617-4b0e-8144-70d720355740.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\d74ff3dd-2617-4b0e-8144-70d720355740.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\da615c22-13c7-4fdb-ac8c-b43e86813d6a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\da615c22-13c7-4fdb-ac8c-b43e86813d6a.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\ddc734e7-cf15-4e6c-82cd-946f8724f374.png",
+      "PackagePath": "staticwebassets\\Uploads\\ddc734e7-cf15-4e6c-82cd-946f8724f374.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\df297d81-13d2-4fef-98fe-4e17c6be35d0.png",
+      "PackagePath": "staticwebassets\\Uploads\\df297d81-13d2-4fef-98fe-4e17c6be35d0.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\e28bae4f-44c0-4c0f-bc5e-6bc9968278c7.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\e28bae4f-44c0-4c0f-bc5e-6bc9968278c7.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\e2c2214676c9490797274a78ec9f0414.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\e2c2214676c9490797274a78ec9f0414.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\e7f886b9-a8e7-4be3-8bc2-577ebb3b6f63.png",
+      "PackagePath": "staticwebassets\\Uploads\\e7f886b9-a8e7-4be3-8bc2-577ebb3b6f63.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\e9ef723c-19c2-4768-8345-4d910aa2df58.png",
+      "PackagePath": "staticwebassets\\Uploads\\e9ef723c-19c2-4768-8345-4d910aa2df58.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\eb6119c5-a4fa-4551-97c8-63a640979839.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\eb6119c5-a4fa-4551-97c8-63a640979839.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\eece718e-4891-4d1c-a3e0-b92ca4cb4c4c.png",
+      "PackagePath": "staticwebassets\\Uploads\\eece718e-4891-4d1c-a3e0-b92ca4cb4c4c.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\ef3fe375-8ad5-4e88-a08b-5cd9d53e1563.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\ef3fe375-8ad5-4e88-a08b-5cd9d53e1563.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\ef9cebe3-d7f0-48a4-aac5-5220d20ab5e1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\ef9cebe3-d7f0-48a4-aac5-5220d20ab5e1.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\f0ed0bdb-5858-41c7-a3bf-426874013be2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f0ed0bdb-5858-41c7-a3bf-426874013be2.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\f1566ee8-cd20-4c9c-b176-58130af6458e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f1566ee8-cd20-4c9c-b176-58130af6458e.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\f49f2cfb-e8e6-4b7b-bd60-825cc7853466.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f49f2cfb-e8e6-4b7b-bd60-825cc7853466.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\f578c377-afa6-45e3-9991-bbb575e58ce0.png",
+      "PackagePath": "staticwebassets\\Uploads\\f578c377-afa6-45e3-9991-bbb575e58ce0.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\f728a81b-6247-4a05-8266-919aa942bba0.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f728a81b-6247-4a05-8266-919aa942bba0.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\f859d1c2-6397-4fb6-86a5-a7b8e84b69ed.png",
+      "PackagePath": "staticwebassets\\Uploads\\f859d1c2-6397-4fb6-86a5-a7b8e84b69ed.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\f9ad46fa-781c-42e3-8388-aec70a6b38eb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f9ad46fa-781c-42e3-8388-aec70a6b38eb.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\fa27617c-61b9-4931-8f1d-b84927b6de08.png",
+      "PackagePath": "staticwebassets\\Uploads\\fa27617c-61b9-4931-8f1d-b84927b6de08.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\fa34cf5e-6c34-441d-a442-857405237359.png",
+      "PackagePath": "staticwebassets\\Uploads\\fa34cf5e-6c34-441d-a442-857405237359.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\fd88b9c4-3880-435a-a882-04b55d9f7cb1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\fd88b9c4-3880-435a-a882-04b55d9f7cb1.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\fecb1b9b-ec0a-40ed-922f-78fe059699ad.png",
+      "PackagePath": "staticwebassets\\Uploads\\fecb1b9b-ec0a-40ed-922f-78fe059699ad.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\Uploads\\ff1b0558-1335-45e7-bce8-bddf7c305306.png",
+      "PackagePath": "staticwebassets\\Uploads\\ff1b0558-1335-45e7-bce8-bddf7c305306.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\22f12f\\0000000000000000000157d2\\27\\a04c7",
+      "PackagePath": "staticwebassets\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\22f12f\\0000000000000000000157d2\\27\\d04c7",
+      "PackagePath": "staticwebassets\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\22f12f\\0000000000000000000157d2\\27\\l04c7",
+      "PackagePath": "staticwebassets\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\2c3915\\0000000000000000000157b8\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\2c3915\\0000000000000000000157b8\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\2c3915\\0000000000000000000157b8\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\30420e\\00000000000000003b9b1a9e\\27\\a04c7",
+      "PackagePath": "staticwebassets\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\30420e\\00000000000000003b9b1a9e\\27\\d04c7",
+      "PackagePath": "staticwebassets\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\30420e\\00000000000000003b9b1a9e\\27\\l04c7",
+      "PackagePath": "staticwebassets\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\51ce34\\0000000000000000000157db\\27\\a34b8",
+      "PackagePath": "staticwebassets\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\51ce34\\0000000000000000000157db\\27\\d34b8",
+      "PackagePath": "staticwebassets\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\51ce34\\0000000000000000000157db\\27\\l34b8",
+      "PackagePath": "staticwebassets\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\526238\\0000000000000000000157d3\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\526238\\0000000000000000000157d3\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\526238\\0000000000000000000157d3\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\5855b2\\00000000000000003b9b1a98\\27\\a64f0",
+      "PackagePath": "staticwebassets\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\5855b2\\00000000000000003b9b1a98\\27\\d64f0",
+      "PackagePath": "staticwebassets\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\5855b2\\00000000000000003b9b1a98\\27\\l64f0",
+      "PackagePath": "staticwebassets\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\5c3c84\\0000000000000000000157bc\\27\\a64f0",
+      "PackagePath": "staticwebassets\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\5c3c84\\0000000000000000000157bc\\27\\d64f0",
+      "PackagePath": "staticwebassets\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\5c3c84\\0000000000000000000157bc\\27\\l64f0",
+      "PackagePath": "staticwebassets\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\7158ff\\00000000000000003b9b1a9c\\27\\a9f0d",
+      "PackagePath": "staticwebassets\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\7158ff\\00000000000000003b9b1a9c\\27\\d9f0d",
+      "PackagePath": "staticwebassets\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\7158ff\\00000000000000003b9b1a9c\\27\\l9f0d",
+      "PackagePath": "staticwebassets\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\8847eb\\0000000000000000000157da\\27\\a64f0",
+      "PackagePath": "staticwebassets\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\8847eb\\0000000000000000000157da\\27\\d64f0",
+      "PackagePath": "staticwebassets\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\8847eb\\0000000000000000000157da\\27\\l64f0",
+      "PackagePath": "staticwebassets\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\8948c6\\00000000000000003b9b1a9d\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\8948c6\\00000000000000003b9b1a9d\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\8948c6\\00000000000000003b9b1a9d\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\961cbb\\00000000000000003b9b1a99\\27\\a0dca",
+      "PackagePath": "staticwebassets\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\961cbb\\00000000000000003b9b1a99\\27\\d0dca",
+      "PackagePath": "staticwebassets\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\961cbb\\00000000000000003b9b1a99\\27\\l0dca",
+      "PackagePath": "staticwebassets\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\98f96f\\00000000000000003b9b1a97\\27\\a34b8",
+      "PackagePath": "staticwebassets\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\98f96f\\00000000000000003b9b1a97\\27\\d34b8",
+      "PackagePath": "staticwebassets\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\98f96f\\00000000000000003b9b1a97\\27\\l34b8",
+      "PackagePath": "staticwebassets\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\9b5307\\0000000000000000000157b7\\27\\a04c7",
+      "PackagePath": "staticwebassets\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\9b5307\\0000000000000000000157b7\\27\\d04c7",
+      "PackagePath": "staticwebassets\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\9b5307\\0000000000000000000157b7\\27\\l04c7",
+      "PackagePath": "staticwebassets\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\aa2f9",
+      "PackagePath": "staticwebassets\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\da2f9",
+      "PackagePath": "staticwebassets\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\la2f9",
+      "PackagePath": "staticwebassets\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\e344c9\\00000000000000003b9b1a9b\\27\\a01ea",
+      "PackagePath": "staticwebassets\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\e344c9\\00000000000000003b9b1a9b\\27\\d01ea",
+      "PackagePath": "staticwebassets\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\e344c9\\00000000000000003b9b1a9b\\27\\l01ea",
+      "PackagePath": "staticwebassets\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\ef7efe\\0000000000000000000157bd\\27\\a34b8",
+      "PackagePath": "staticwebassets\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\ef7efe\\0000000000000000000157bd\\27\\d34b8",
+      "PackagePath": "staticwebassets\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\af\\ef7efe\\0000000000000000000157bd\\27\\l34b8",
+      "PackagePath": "staticwebassets\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\cdn.jsdelivr.net\\npm\\@mdi\\font@4.7.95\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\cdn.jsdelivr.net\\npm\\@mdi\\font@4.7.95\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\css\\extend.css",
+      "PackagePath": "staticwebassets\\css\\extend.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\css\\mejs-controls.svg",
+      "PackagePath": "staticwebassets\\css\\mejs-controls.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ad.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ad.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ae.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ae.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\af.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\af.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ag.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ag.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ai.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ai.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\al.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\al.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\am.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\am.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ao.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ao.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\aq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\aq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ar.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ar.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\as.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\as.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\at.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\at.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\au.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\au.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\aw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\aw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ax.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ax.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\az.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\az.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ba.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ba.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\be.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\be.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bs.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bs.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\by.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\by.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\bz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\bz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ca.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ca.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ch.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ch.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ci.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ci.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ck.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ck.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\co.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\co.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cx.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cx.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\cz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\cz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\dj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\dk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\dm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\do.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\do.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\dz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\dz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ec.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ec.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ee.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ee.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\eg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\eg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\eh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\eh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\er.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\er.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\es-ca.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\es-ca.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\es.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\es.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\et.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\et.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\eu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\eu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\fi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\fj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\fk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\fm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\fo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ga.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ga.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-eng.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-nir.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-sct.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ge.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ge.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gs.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gs.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\gy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\gy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\hk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\hm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\hn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\hr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ht.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ht.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\hu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\hu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\id.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\id.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ie.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ie.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\il.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\il.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\im.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\im.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\io.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\io.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\iq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\iq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ir.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ir.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\is.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\is.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\it.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\it.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\je.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\je.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\jm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\jm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\jo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\jo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\jp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\jp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ke.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ke.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\kg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\kh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ki.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ki.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\km.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\km.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\kn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\kp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\kr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\kw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ky.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ky.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\kz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\kz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\la.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\la.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\lb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\lc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\li.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\li.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\lk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\lr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ls.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ls.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\lt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\lu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\lv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\lv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ly.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ly.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ma.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ma.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\md.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\md.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\me.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\me.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ml.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ml.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mo.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mp.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mq.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ms.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ms.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mx.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mx.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\my.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\my.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\mz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\mz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\na.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\na.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\nc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ne.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ne.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\nf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ng.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ng.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ni.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ni.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\nl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\no.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\no.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\np.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\np.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\nr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\nu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\nz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\nz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\om.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\om.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pa.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pe.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pe.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ph.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ph.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ps.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ps.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\pw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\pw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\py.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\py.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\qa.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\qa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\re.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\re.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ro.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ro.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\rs.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\rs.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ru.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ru.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\rw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\rw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sa.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sb.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sd.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\se.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\se.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sh.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\si.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\si.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\so.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\so.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ss.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ss.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\st.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\st.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sx.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sx.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\sz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\sz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\td.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\td.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\th.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\th.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tj.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tl.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\to.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\to.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tv.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\tz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\tz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ua.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ua.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ug.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ug.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\um.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\um.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\un.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\un.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\uy.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\uy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\uz.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\uz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\va.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\va.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\vc.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ve.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ve.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\vg.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\vi.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\vn.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\vu.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\vu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\wf.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\wf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ws.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ws.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\xk.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\xk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\ye.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\ye.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\yt.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\yt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\za.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\za.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\zm.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\zm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\1x1\\zw.svg",
+      "PackagePath": "staticwebassets\\flags\\1x1\\zw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ad.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ad.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ae.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ae.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\af.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\af.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ag.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ag.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ai.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ai.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\al.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\al.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\am.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\am.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ao.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ao.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\aq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\aq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ar.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ar.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\as.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\as.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\at.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\at.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\au.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\au.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\aw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\aw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ax.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ax.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\az.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\az.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ba.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ba.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\be.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\be.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\br.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\br.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bs.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bs.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\by.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\by.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\bz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\bz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ca.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ca.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ch.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ch.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ci.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ci.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ck.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ck.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\co.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\co.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cx.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cx.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\cz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\cz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\de.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\de.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\dj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\dk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\dm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\do.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\do.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\dz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\dz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ec.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ec.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ee.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ee.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\eg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\eg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\eh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\eh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\er.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\er.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\es-ca.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\es-ca.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\es.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\es.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\et.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\et.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\eu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\eu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\fi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\fj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\fk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\fm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\fo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\fr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\fr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ga.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ga.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-eng.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-nir.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-sct.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb-wls.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ge.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ge.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gs.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gs.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\gy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\gy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\hk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\hm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\hn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\hr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ht.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ht.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\hu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\hu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\id.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\id.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ie.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ie.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\il.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\il.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\im.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\im.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\in.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\in.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\io.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\io.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\iq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\iq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ir.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ir.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\is.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\is.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\it.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\it.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\je.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\je.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\jm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\jm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\jo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\jo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\jp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\jp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ke.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ke.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\kg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\kh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ki.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ki.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\km.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\km.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\kn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\kp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\kr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\kw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ky.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ky.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\kz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\kz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\la.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\la.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\lb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\lc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\li.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\li.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\lk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\lr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ls.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ls.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\lt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\lu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\lv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\lv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ly.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ly.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ma.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ma.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\md.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\md.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\me.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\me.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ml.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ml.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mo.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mp.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mq.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mq.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ms.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ms.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mx.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mx.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\my.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\my.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\mz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\mz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\na.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\na.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\nc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ne.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ne.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\nf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ng.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ng.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ni.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ni.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\nl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\no.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\no.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\np.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\np.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\nr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\nu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\nz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\nz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\om.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\om.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pa.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pe.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pe.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ph.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ph.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ps.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ps.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\pw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\pw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\py.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\py.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\qa.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\qa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\re.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\re.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ro.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ro.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\rs.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\rs.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ru.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ru.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\rw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\rw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sa.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sb.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sb.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sd.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sd.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\se.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\se.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sh.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sh.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\si.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\si.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\so.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\so.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ss.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ss.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\st.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\st.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sx.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sx.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\sz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\sz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\td.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\td.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\th.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\th.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tj.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tj.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tl.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tl.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\to.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\to.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tr.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tr.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tv.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tv.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\tz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\tz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ua.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ua.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ug.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ug.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\um.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\um.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\un.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\un.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\us.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\us.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\uy.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\uy.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\uz.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\uz.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\va.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\va.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\vc.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vc.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ve.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ve.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\vg.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vg.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\vi.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vi.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\vn.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vn.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\vu.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\vu.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\wf.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\wf.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ws.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ws.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\xk.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\xk.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\ye.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\ye.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\yt.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\yt.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\za.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\za.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\zm.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\zm.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\flags\\4x3\\zw.svg",
+      "PackagePath": "staticwebassets\\flags\\4x3\\zw.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\image\\kale_arge_logo.svg",
+      "PackagePath": "staticwebassets\\image\\kale_arge_logo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\image\\logo.svg",
+      "PackagePath": "staticwebassets\\image\\logo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\image\\logo1.svg",
+      "PackagePath": "staticwebassets\\image\\logo1.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\image\\logoaa.svg",
+      "PackagePath": "staticwebassets\\image\\logoaa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\image\\logofafafa.svg",
+      "PackagePath": "staticwebassets\\image\\logofafafa.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\image\\logokalearge.svg",
+      "PackagePath": "staticwebassets\\image\\logokalearge.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\js\\search.js",
+      "PackagePath": "staticwebassets\\js\\search.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\p.typekit.net\\p39c3.css",
+      "PackagePath": "staticwebassets\\p.typekit.net\\p39c3.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-af.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-af.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ar.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ar.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-bg.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bg.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-bn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-bs.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bs.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ca.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ca.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-cs.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-cs.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-cy.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-cy.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-da.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-da.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-de.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-de.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-el.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-el.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-en.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-en.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-es.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-es.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-et.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-et.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-fa.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fa.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-fi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-fil.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fil.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-fj.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fj.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-fr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ga.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ga.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-gu.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-gu.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-he.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-he.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-hi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-hr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ht.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ht.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-hu.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hu.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-id.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-id.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-is.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-is.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-it.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-it.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ja.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ja.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-kn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-kn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ko.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ko.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-lt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-lt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-lv.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-lv.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-mg.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mg.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-mi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ml.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ml.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-mr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ms.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ms.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-mt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-mww.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mww.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-nb.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-nb.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-nl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-nl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-otq.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-otq.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-pa.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pa.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-pl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-pt-pt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pt-pt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-pt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ro.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ro.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ru.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ru.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-sk.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sk.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-sl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-sm.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sm.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Latn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sr-Latn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-sv.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sv.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-sw.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sw.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ta.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ta.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-te.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-te.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-th.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-th.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Latn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tlh-Latn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-to.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-to.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-tr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ty.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ty.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-uk.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-uk.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-ur.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ur.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-vi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-vi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-yua.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-yua.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hans.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-zh-Hans.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hant.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-zh-Hant.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\lang\\rte-lang.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\-combine-plugin.txt",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\-combine-plugin.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\all_plugins.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\all_plugins.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\html2pdf.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\html2pdf.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\imageeditor.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\imageeditor.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\insertcode.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertcode.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\insertemoji.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertemoji.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\insertgallery.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertgallery.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\inserttemplate.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\inserttemplate.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\samples\\insertcode_v1.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\samples\\insertcode_v1.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\note.txt",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\note.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\rte-upload.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte-upload.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\rte.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\rte_theme_default.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte_theme_default.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\colorpicker_more_ns.htm",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\colorpicker_more_ns.htm"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\help.htm",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\help.htm"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\1x1.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\1x1.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpie_Color.cur",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_Color.cur"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpie_gradients.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_gradients.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Color.cur",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Color.cur"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical1.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Vertical1.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Vertical2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_gradients.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_gradients.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\cpns_hue2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_hue2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\formbn.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\formbn.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\images\\multiclavier.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\multiclavier.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\richtexteditor_content.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_content.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_preview.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_preview.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\rlu6mzh.css",
+      "PackagePath": "staticwebassets\\rlu6mzh.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\css\\reset.css",
+      "PackagePath": "staticwebassets\\sprite\\css\\reset.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\css\\style.css",
+      "PackagePath": "staticwebassets\\sprite\\css\\style.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\img\\cd-arrows.svg",
+      "PackagePath": "staticwebassets\\sprite\\img\\cd-arrows.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\img\\img-loading.png",
+      "PackagePath": "staticwebassets\\sprite\\img\\img-loading.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\js\\jquery-2.1.4.js",
+      "PackagePath": "staticwebassets\\sprite\\js\\jquery-2.1.4.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\js\\jquery.mobile.custom.min.js",
+      "PackagePath": "staticwebassets\\sprite\\js\\jquery.mobile.custom.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\js\\main.js",
+      "PackagePath": "staticwebassets\\sprite\\js\\main.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\sprite\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\sprite\\js\\modernizr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27\\a04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27\\d04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27\\l04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27\\a04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27\\d04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27\\l04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27\\a34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27\\d34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27\\l34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27\\a64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27\\d64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27\\l64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27\\a64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27\\d64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27\\l64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27\\a9f0d",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27\\d9f0d",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27\\l9f0d",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27\\a64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27\\d64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27\\l64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27\\a0dca",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27\\d0dca",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27\\l0dca",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27\\a34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27\\d34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27\\l34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27\\a04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27\\d04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27\\l04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\aa2f9",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\da2f9",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\la2f9",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27\\a01ea",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27\\d01ea",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27\\l01ea",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27\\a34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27\\d34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27\\l34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Web\\wwwroot\\use.typekit.net\\rlu6mzh.css",
+      "PackagePath": "staticwebassets\\use.typekit.net\\rlu6mzh.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.KaleArge.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.KaleArge.Web.props",
+      "PackagePath": "build\\KaleArge.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KaleArge.Web.props",
+      "PackagePath": "buildMultiTargeting\\KaleArge.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.KaleArge.Web.props",
+      "PackagePath": "buildTransitive\\KaleArge.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

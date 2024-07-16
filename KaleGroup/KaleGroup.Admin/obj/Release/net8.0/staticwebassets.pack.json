@@ -1,0 +1,2617 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\KaleArge.Admin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KaleArge.Admin.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\0362af27-1cd2-405c-8584-58301fcdb008.png",
+      "PackagePath": "staticwebassets\\Upload\\0362af27-1cd2-405c-8584-58301fcdb008.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\30d43691-25e1-444b-80e5-a5655be007ff.jpg",
+      "PackagePath": "staticwebassets\\Upload\\30d43691-25e1-444b-80e5-a5655be007ff.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\4eeb0efd-45c6-47c2-b490-c378817e1f94.pdf",
+      "PackagePath": "staticwebassets\\Upload\\4eeb0efd-45c6-47c2-b490-c378817e1f94.pdf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\519b9d29-fb70-45e1-8054-2d11b7be7fce.jpg",
+      "PackagePath": "staticwebassets\\Upload\\519b9d29-fb70-45e1-8054-2d11b7be7fce.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\52bc267a-859e-4d62-88f7-240a1848053e.jpg",
+      "PackagePath": "staticwebassets\\Upload\\52bc267a-859e-4d62-88f7-240a1848053e.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\55e374ba-a76a-4d99-b2a7-13ff565fa6c3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\55e374ba-a76a-4d99-b2a7-13ff565fa6c3.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\7df2f88d-b03c-4118-a3f9-68239a38960e.jpg",
+      "PackagePath": "staticwebassets\\Upload\\7df2f88d-b03c-4118-a3f9-68239a38960e.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\a26dd7ea-b2f6-4186-99b8-89f89468b632.docx",
+      "PackagePath": "staticwebassets\\Upload\\a26dd7ea-b2f6-4186-99b8-89f89468b632.docx"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\bf983bb1-2b32-45c7-ac2a-3c369add6094.jpg",
+      "PackagePath": "staticwebassets\\Upload\\bf983bb1-2b32-45c7-ac2a-3c369add6094.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\c2dc9181-9407-4b19-8943-97492c113a57.jpg",
+      "PackagePath": "staticwebassets\\Upload\\c2dc9181-9407-4b19-8943-97492c113a57.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\c6cd4f2a-cd5c-4717-ba2e-7b7c91f22375.jpg",
+      "PackagePath": "staticwebassets\\Upload\\c6cd4f2a-cd5c-4717-ba2e-7b7c91f22375.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\cf9c91a6-56e0-4b78-85ad-b559926aad17.jpg",
+      "PackagePath": "staticwebassets\\Upload\\cf9c91a6-56e0-4b78-85ad-b559926aad17.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\d9488ef8-e575-4310-bd90-b1eb7b33e01d.jpg",
+      "PackagePath": "staticwebassets\\Upload\\d9488ef8-e575-4310-bd90-b1eb7b33e01d.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\Upload\\de6e2aa9-16b8-4b68-9af1-3d633af51e7f.jpg",
+      "PackagePath": "staticwebassets\\Upload\\de6e2aa9-16b8-4b68-9af1-3d633af51e7f.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\cdn.jsdelivr.net\\gh\\fancyapps\\fancybox@3.5.7\\dist\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\cdn.jsdelivr.net\\npm\\@mdi\\font@4.7.95\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\cdn.jsdelivr.net\\npm\\@mdi\\font@4.7.95\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\materialdesignicons.css.map",
+      "PackagePath": "staticwebassets\\css\\materialdesignicons.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\css\\simplebar.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark-rtl.css",
+      "PackagePath": "staticwebassets\\css\\style-dark-rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark-rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\style-dark-rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\style-dark-rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\style-dark-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark.css",
+      "PackagePath": "staticwebassets\\css\\style-dark.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark.css.map",
+      "PackagePath": "staticwebassets\\css\\style-dark.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark.min.css",
+      "PackagePath": "staticwebassets\\css\\style-dark.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-dark.min.css.map",
+      "PackagePath": "staticwebassets\\css\\style-dark.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-rtl.css",
+      "PackagePath": "staticwebassets\\css\\style-rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\style-rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\style-rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\style-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\style.min.css.map",
+      "PackagePath": "staticwebassets\\css\\style.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\tabler-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\tabler-icons.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\css\\tiny-slider.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\tiny-slider.css.map",
+      "PackagePath": "staticwebassets\\css\\tiny-slider.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\css\\tobii.min.css",
+      "PackagePath": "staticwebassets\\css\\tobii.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\fonts\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\summernote.eot",
+      "PackagePath": "staticwebassets\\fonts\\summernote.eot"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\summernote.ttf",
+      "PackagePath": "staticwebassets\\fonts\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\summernote.woff",
+      "PackagePath": "staticwebassets\\fonts\\summernote.woff"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\summernote.woff2",
+      "PackagePath": "staticwebassets\\fonts\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\tabler-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons.eot"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\tabler-icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\tabler-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons.ttf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\tabler-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons.woff"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\fonts\\tabler-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\tabler-icons.woff2"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\404.svg",
+      "PackagePath": "staticwebassets\\images\\404.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\account\\bg-chat.png",
+      "PackagePath": "staticwebassets\\images\\account\\bg-chat.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\account\\bg.png",
+      "PackagePath": "staticwebassets\\images\\account\\bg.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\01.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\02.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\03.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\04.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\05.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\06.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\07.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\08.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\bg2.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\bg3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\bg3.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\slide01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\slide01.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\slide02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\slide02.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\slide03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\slide03.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\standard.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\standard.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\travel\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\travel\\01.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\travel\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\travel\\02.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\travel\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\travel\\03.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\travel\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\travel\\04.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\travel\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\travel\\05.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\blog\\travel\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\travel\\06.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\01.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\02.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\03.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\04.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\05.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\06.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\07.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\08.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\09.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\09.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\10.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\11.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\12.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\13.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\14.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\15.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\client\\16.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\amazon.svg",
+      "PackagePath": "staticwebassets\\images\\client\\amazon.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\dribbble.svg",
+      "PackagePath": "staticwebassets\\images\\client\\dribbble.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\facebook.svg",
+      "PackagePath": "staticwebassets\\images\\client\\facebook.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\google.svg",
+      "PackagePath": "staticwebassets\\images\\client\\google.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\instagram.svg",
+      "PackagePath": "staticwebassets\\images\\client\\instagram.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\lenovo.svg",
+      "PackagePath": "staticwebassets\\images\\client\\lenovo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\paypal.svg",
+      "PackagePath": "staticwebassets\\images\\client\\paypal.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\shopify.svg",
+      "PackagePath": "staticwebassets\\images\\client\\shopify.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\spotify.svg",
+      "PackagePath": "staticwebassets\\images\\client\\spotify.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\tinder.svg",
+      "PackagePath": "staticwebassets\\images\\client\\tinder.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\client\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\images\\client\\whatsapp.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\comingsoon.jpg",
+      "PackagePath": "staticwebassets\\images\\comingsoon.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\demos\\dark-rtl.png",
+      "PackagePath": "staticwebassets\\images\\demos\\dark-rtl.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\demos\\dark.png",
+      "PackagePath": "staticwebassets\\images\\demos\\dark.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\demos\\landing.png",
+      "PackagePath": "staticwebassets\\images\\demos\\landing.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\demos\\ltr.png",
+      "PackagePath": "staticwebassets\\images\\demos\\ltr.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\demos\\rtl.png",
+      "PackagePath": "staticwebassets\\images\\demos\\rtl.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\icon\\Email.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\Email.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\icon\\bitcoin.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\bitcoin.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\icon\\calendar.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\calendar.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\icon\\location.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\location.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\images\\logo-light.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\logo.psd",
+      "PackagePath": "staticwebassets\\images\\logo.psd"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\maintenance.jpg",
+      "PackagePath": "staticwebassets\\images\\maintenance.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\cart.png",
+      "PackagePath": "staticwebassets\\images\\shop\\cart.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\categories\\electronics.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\categories\\electronics.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\categories\\fashion.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\categories\\fashion.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\categories\\furniture.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\categories\\furniture.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\categories\\mobile.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\categories\\mobile.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\categories\\music.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\categories\\music.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\categories\\sports.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\categories\\sports.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-1.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-1.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-10.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-10.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-11.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-11.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-12.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-12.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-13.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-13.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-14.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-14.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-15.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-15.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-16.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-16.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-2.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-2.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-3.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-3.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-4.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-4.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-5.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-5.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-6.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-6.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-7.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-7.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-8.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-8.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s-9.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s-9.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s1.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s1.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s10.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s10.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s11.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s11.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s12.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s12.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s13.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s13.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s14.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s14.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s15.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s15.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s16.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s16.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s2.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s2.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s3.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s3.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s4.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s4.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s5.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s5.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s6.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s6.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s7.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s7.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s8.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s8.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\s9.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\s9.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\single-2.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\single-2.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\single-3.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\single-3.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\single-4.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\single-4.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\single-5.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\single-5.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\shop\\product\\single-6.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\product\\single-6.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\subscribe.png",
+      "PackagePath": "staticwebassets\\images\\subscribe.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\usefull-link.txt",
+      "PackagePath": "staticwebassets\\images\\usefull-link.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\user\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\01.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\user\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\02.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\user\\03.jpg",
+      "PackagePath": "staticwebassets\\images\\user\\03.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\user\\login.svg",
+      "PackagePath": "staticwebassets\\images\\user\\login.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\user\\recovery.svg",
+      "PackagePath": "staticwebassets\\images\\user\\recovery.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\user\\signup.svg",
+      "PackagePath": "staticwebassets\\images\\user\\signup.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\1.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\10.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\11.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\12.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\2.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\3.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\4.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\5.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\6.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\7.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\8.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\9.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\images\\work\\single.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\single.jpg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\ckeditor.js",
+      "PackagePath": "staticwebassets\\js\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\js\\feather.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\feather.min.js.map",
+      "PackagePath": "staticwebassets\\js\\feather.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\fullcalendar.init.js",
+      "PackagePath": "staticwebassets\\js\\fullcalendar.init.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mask.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\jquery.richtext.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.richtext.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\owl.init.js",
+      "PackagePath": "staticwebassets\\js\\owl.init.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\plugins.init.js",
+      "PackagePath": "staticwebassets\\js\\plugins.init.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\scrollspy.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollspy.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\shuffle.min.js",
+      "PackagePath": "staticwebassets\\js\\shuffle.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\shuffle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\shuffle.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\js\\simplebar.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\switcher.js",
+      "PackagePath": "staticwebassets\\js\\switcher.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\js\\tiny-slider.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\tiny-slider.js.map",
+      "PackagePath": "staticwebassets\\js\\tiny-slider.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\tobii.min.js",
+      "PackagePath": "staticwebassets\\js\\tobii.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\p.typekit.net\\p39c3.css",
+      "PackagePath": "staticwebassets\\p.typekit.net\\p39c3.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\quill\\editor.js",
+      "PackagePath": "staticwebassets\\quill\\editor.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-af.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-af.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ar.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ar.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-bg.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bg.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-bn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-bs.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-bs.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ca.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ca.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-cs.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-cs.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-cy.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-cy.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-da.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-da.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-de.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-de.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-el.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-el.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-en.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-en.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-es.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-es.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-et.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-et.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fa.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fa.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fil.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fil.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fj.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fj.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-fr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-fr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ga.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ga.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-gu.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-gu.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-he.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-he.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-hi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-hr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ht.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ht.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-hu.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-hu.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-id.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-id.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-is.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-is.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-it.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-it.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ja.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ja.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-kn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-kn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ko.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ko.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-lt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-lt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-lv.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-lv.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mg.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mg.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ml.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ml.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ms.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ms.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-mww.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-mww.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-nb.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-nb.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-nl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-nl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-otq.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-otq.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pa.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pa.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pt-pt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pt-pt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-pt.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-pt.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ro.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ro.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ru.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ru.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sk.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sk.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sm.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sm.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sr-Cyrl.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sr-Latn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sr-Latn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sv.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sv.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-sw.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-sw.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ta.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ta.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-te.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-te.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-th.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-th.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Latn.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tlh-Latn.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tlh-Piqd.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-to.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-to.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-tr.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-tr.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ty.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ty.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-uk.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-uk.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-ur.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-ur.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-vi.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-vi.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-yua.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-yua.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hans.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-zh-Hans.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang-zh-Hant.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang-zh-Hant.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\lang\\rte-lang.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\lang\\rte-lang.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\-combine-plugin.txt",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\-combine-plugin.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\all_plugins.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\all_plugins.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\html2pdf.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\html2pdf.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\imageeditor.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\imageeditor.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\insertcode.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertcode.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\insertemoji.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertemoji.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\insertgallery.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\insertgallery.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\inserttemplate.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\inserttemplate.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\samples\\insertcode_v1.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\samples\\insertcode_v1.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\fabric.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\note.txt",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\note.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-a.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-b.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-c.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\svg\\icon-d.svg"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-code-snippet.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-color-picker.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\plugins\\tui.image-editor\\tui-image-editor.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\rte-upload.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte-upload.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\rte.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\rte_theme_default.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\rte_theme_default.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\colorpicker_more_ns.htm",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\colorpicker_more_ns.htm"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\help.htm",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\help.htm"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\1x1.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\1x1.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_Color.cur",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_Color.cur"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_GradientPositionDark.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_GradientPositionLight.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_VerticalPosition.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_WebSafe.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpie_gradients.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpie_gradients.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Color.cur",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Color.cur"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_ColorSpace1.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_ColorSpace2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_GradientPositionDark.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_GradientPositionLight.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical1.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Vertical1.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_Vertical2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_Vertical2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_VerticalPosition.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_WebSafe.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_gradients.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_gradients.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\cpns_hue2.png",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\cpns_hue2.png"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\formbn.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\formbn.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\images\\multiclavier.gif",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\images\\multiclavier.gif"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\richtexteditor_content.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_content.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.css",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_preview.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\richtexteditor\\runtime\\richtexteditor_preview.js",
+      "PackagePath": "staticwebassets\\richtexteditor\\runtime\\richtexteditor_preview.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\_blog.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_bootstrap-custom.scss",
+      "PackagePath": "staticwebassets\\scss\\_bootstrap-custom.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_calendar.scss",
+      "PackagePath": "staticwebassets\\scss\\_calendar.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_chat.scss",
+      "PackagePath": "staticwebassets\\scss\\_chat.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\_components.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_features.scss",
+      "PackagePath": "staticwebassets\\scss\\_features.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_general.scss",
+      "PackagePath": "staticwebassets\\scss\\_general.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_helper.scss",
+      "PackagePath": "staticwebassets\\scss\\_helper.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_home.scss",
+      "PackagePath": "staticwebassets\\scss\\_home.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_menu.scss",
+      "PackagePath": "staticwebassets\\scss\\_menu.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_price.scss",
+      "PackagePath": "staticwebassets\\scss\\_price.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_shop.scss",
+      "PackagePath": "staticwebassets\\scss\\_shop.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_simplebar.scss",
+      "PackagePath": "staticwebassets\\scss\\_simplebar.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_testi.scss",
+      "PackagePath": "staticwebassets\\scss\\_testi.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_user.scss",
+      "PackagePath": "staticwebassets\\scss\\_user.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\_work.scss",
+      "PackagePath": "staticwebassets\\scss\\_work.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\_bootstrap-custom.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\_bootstrap-custom.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\_common.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\_components.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\_components.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\_general.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\_general.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\_helper.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\_helper.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\_menu.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\_menu.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\_variables.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\dark\\rtl\\_general-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\dark\\rtl\\_general-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\rtl\\_bootstrap-custom-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_bootstrap-custom-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\rtl\\_common-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_common-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\rtl\\_components-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_components-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\rtl\\_general-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_general-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\rtl\\_helper-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_helper-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\rtl\\_menu-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\rtl\\_menu-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\style-dark-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\style-dark-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\style-dark.scss",
+      "PackagePath": "staticwebassets\\scss\\style-dark.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\style-rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\style-rtl.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\summernote\\font\\summernote.eot"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\summernote\\font\\summernote.ttf"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\summernote\\font\\summernote.woff"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\summernote\\font\\summernote.woff2"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ar-AR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ar-AR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ar-AR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ar-AR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ar-AR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ar-AR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-az-AZ.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-az-AZ.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-az-AZ.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-az-AZ.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-az-AZ.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-az-AZ.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-bg-BG.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-bg-BG.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-bg-BG.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-bg-BG.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-bg-BG.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-bg-BG.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ca-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ca-ES.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ca-ES.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ca-ES.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ca-ES.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ca-ES.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-cs-CZ.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-cs-CZ.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-cs-CZ.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-cs-CZ.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-cs-CZ.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-da-DK.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-da-DK.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-da-DK.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-da-DK.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-da-DK.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-da-DK.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-de-DE.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-de-DE.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-de-DE.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-de-DE.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-de-DE.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-de-DE.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-el-GR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-el-GR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-el-GR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-el-GR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-el-GR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-el-GR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-es-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-es-ES.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-es-ES.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-es-ES.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-es-ES.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-es-ES.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-es-EU.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-es-EU.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-es-EU.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-es-EU.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-es-EU.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-es-EU.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fa-IR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fa-IR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fa-IR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fa-IR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fa-IR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fa-IR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fi-FI.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fi-FI.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fi-FI.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fi-FI.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fi-FI.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fi-FI.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fr-FR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fr-FR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fr-FR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fr-FR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-fr-FR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-fr-FR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-gl-ES.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-gl-ES.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-gl-ES.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-gl-ES.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-gl-ES.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-gl-ES.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-he-IL.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-he-IL.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-he-IL.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-he-IL.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-he-IL.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-he-IL.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-hr-HR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-hr-HR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-hr-HR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-hr-HR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-hr-HR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-hr-HR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-hu-HU.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-hu-HU.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-hu-HU.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-hu-HU.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-hu-HU.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-hu-HU.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-id-ID.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-id-ID.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-id-ID.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-id-ID.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-id-ID.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-id-ID.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-it-IT.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-it-IT.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-it-IT.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-it-IT.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-it-IT.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-it-IT.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ja-JP.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ja-JP.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ja-JP.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ja-JP.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ja-JP.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ja-JP.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ko-KR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ko-KR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ko-KR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ko-KR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ko-KR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ko-KR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-lt-LT.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-lt-LT.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-lt-LT.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-lt-LT.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-lt-LT.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-lt-LT.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-lt-LV.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-lt-LV.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-lt-LV.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-lt-LV.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-lt-LV.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-lt-LV.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-mn-MN.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-mn-MN.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-mn-MN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-mn-MN.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-mn-MN.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-mn-MN.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-nb-NO.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-nb-NO.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-nb-NO.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-nb-NO.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-nb-NO.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-nb-NO.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-nl-NL.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-nl-NL.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-nl-NL.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-nl-NL.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-nl-NL.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-nl-NL.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pl-PL.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pl-PL.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pl-PL.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pl-PL.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pl-PL.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pl-PL.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pt-BR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pt-BR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pt-BR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pt-BR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pt-BR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pt-BR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pt-PT.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pt-PT.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pt-PT.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pt-PT.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-pt-PT.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-pt-PT.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ro-RO.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ro-RO.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ro-RO.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ro-RO.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ro-RO.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ro-RO.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ru-RU.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ru-RU.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ru-RU.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ru-RU.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ru-RU.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ru-RU.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sk-SK.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sk-SK.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sk-SK.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sk-SK.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sk-SK.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sk-SK.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sl-SI.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sl-SI.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sl-SI.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sl-SI.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sl-SI.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sl-SI.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sr-RS-Latin.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sr-RS-Latin.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sr-RS-Latin.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sr-RS-Latin.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sr-RS.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sr-RS.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sr-RS.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sr-RS.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sr-RS.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sr-RS.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sv-SE.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sv-SE.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sv-SE.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sv-SE.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-sv-SE.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-sv-SE.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ta-IN.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ta-IN.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ta-IN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ta-IN.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-ta-IN.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-ta-IN.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-th-TH.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-th-TH.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-th-TH.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-th-TH.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-th-TH.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-th-TH.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-tr-TR.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-tr-TR.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-tr-TR.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-tr-TR.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-tr-TR.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-tr-TR.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-uk-UA.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-uk-UA.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-uk-UA.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-uk-UA.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-uk-UA.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-uk-UA.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-uz-UZ.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-uz-UZ.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-uz-UZ.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-uz-UZ.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-uz-UZ.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-vi-VN.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-vi-VN.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-vi-VN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-vi-VN.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-vi-VN.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-vi-VN.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-zh-CN.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-zh-CN.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-zh-CN.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-zh-CN.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-zh-CN.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-zh-CN.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-zh-TW.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-zh-TW.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-zh-TW.min.js",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-zh-TW.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\lang\\summernote-zh-TW.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\lang\\summernote-zh-TW.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\plugin\\databasic\\summernote-ext-databasic.css",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\databasic\\summernote-ext-databasic.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\plugin\\databasic\\summernote-ext-databasic.js",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\databasic\\summernote-ext-databasic.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\plugin\\hello\\summernote-ext-hello.js",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\hello\\summernote-ext-hello.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js",
+      "PackagePath": "staticwebassets\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\summernote\\summernote-bs4.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-bs4.js",
+      "PackagePath": "staticwebassets\\summernote\\summernote-bs4.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-bs4.js.map",
+      "PackagePath": "staticwebassets\\summernote\\summernote-bs4.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-bs4.min.css",
+      "PackagePath": "staticwebassets\\summernote\\summernote-bs4.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-bs4.min.js",
+      "PackagePath": "staticwebassets\\summernote\\summernote-bs4.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-bs4.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\summernote-bs4.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-bs4.min.js.map",
+      "PackagePath": "staticwebassets\\summernote\\summernote-bs4.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-lite.css",
+      "PackagePath": "staticwebassets\\summernote\\summernote-lite.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-lite.js",
+      "PackagePath": "staticwebassets\\summernote\\summernote-lite.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-lite.js.map",
+      "PackagePath": "staticwebassets\\summernote\\summernote-lite.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-lite.min.css",
+      "PackagePath": "staticwebassets\\summernote\\summernote-lite.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-lite.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\summernote-lite.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote-lite.min.js.map",
+      "PackagePath": "staticwebassets\\summernote\\summernote-lite.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\summernote\\summernote.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote.js",
+      "PackagePath": "staticwebassets\\summernote\\summernote.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote.js.map",
+      "PackagePath": "staticwebassets\\summernote\\summernote.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote.min.css",
+      "PackagePath": "staticwebassets\\summernote\\summernote.min.css"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote.min.js.LICENSE.txt",
+      "PackagePath": "staticwebassets\\summernote\\summernote.min.js.LICENSE.txt"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\summernote\\summernote.min.js.map",
+      "PackagePath": "staticwebassets\\summernote\\summernote.min.js.map"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27\\a04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27\\d04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27\\l04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\22f12f\\0000000000000000000157d2\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\2c3915\\0000000000000000000157b8\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27\\a04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27\\d04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27\\l04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\30420e\\00000000000000003b9b1a9e\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27\\a34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27\\d34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27\\l34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\51ce34\\0000000000000000000157db\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\526238\\0000000000000000000157d3\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27\\a64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27\\d64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27\\l64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5855b2\\00000000000000003b9b1a98\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27\\a64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27\\d64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27\\l64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\5c3c84\\0000000000000000000157bc\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27\\a9f0d",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27\\d9f0d",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27\\l9f0d",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\7158ff\\00000000000000003b9b1a9c\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27\\a64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27\\d64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27\\l64f0",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8847eb\\0000000000000000000157da\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27\\a3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27\\d3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27\\l3fe8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\8948c6\\00000000000000003b9b1a9d\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27\\a0dca",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27\\d0dca",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27\\l0dca",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\961cbb\\00000000000000003b9b1a99\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27\\a34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27\\d34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27\\l34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\98f96f\\00000000000000003b9b1a97\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27\\a04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27\\d04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27\\l04c7",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\9b5307\\0000000000000000000157b7\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\aa2f9",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\da2f9",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27\\la2f9",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\b4d13d\\00000000000000003b9b1a9a\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27\\a01ea",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27\\d01ea",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27\\l01ea",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\e344c9\\00000000000000003b9b1a9b\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27\\a34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27\\d34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27\\l34b8",
+      "PackagePath": "staticwebassets\\use.typekit.net\\af\\ef7efe\\0000000000000000000157bd\\27"
+    },
+    {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\use.typekit.net\\rlu6mzh.css",
+      "PackagePath": "staticwebassets\\use.typekit.net\\rlu6mzh.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.KaleArge.Admin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.KaleArge.Admin.props",
+      "PackagePath": "build\\KaleArge.Admin.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KaleArge.Admin.props",
+      "PackagePath": "buildMultiTargeting\\KaleArge.Admin.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.KaleArge.Admin.props",
+      "PackagePath": "buildTransitive\\KaleArge.Admin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
