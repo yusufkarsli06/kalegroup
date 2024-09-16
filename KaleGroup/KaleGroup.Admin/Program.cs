@@ -40,6 +40,7 @@ builder.Services.AddTransient<IWebPagesLogic, WebPagesLogic>();
 builder.Services.AddTransient<ISliderLogic, SliderLogic>();
 builder.Services.AddTransient<ISettingsLogic, SettingsLogic>();
 builder.Services.AddTransient<ICacheHelper, CacheHelper>();
+builder.Services.AddTransient<ICaptchaHelper, CaptchaHelper>();
 
 
 builder.Services.AddTransient(typeof(KaleGroup.DataAccess.Abstract.IRepository<>), typeof(KaleGroup.DataAccess.Abstract.Repository<>));
@@ -75,7 +76,6 @@ app.UseSession();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

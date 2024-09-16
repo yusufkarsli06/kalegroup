@@ -12,11 +12,11 @@ namespace KaleGroup.Common.Helper
     {
         public static string ComputeSha256Hash(string rawData)
         {
-             
+
             using (SHA256 sha256Hash = SHA256.Create())
-            {             
+            {
                 byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
-               
+
                 StringBuilder builder = new StringBuilder();
                 for (int i = 0; i < bytes.Length; i++)
                 {
@@ -58,6 +58,58 @@ namespace KaleGroup.Common.Helper
             return plaintext;
         }
 
-   
+        public static string IsValidPassword(string password)
+        {
+            // 1. Minimum uzunluk kontrolü
+            if (password.Length < 8)
+            {
+                return "Parola en az 8 karakter uzunluğunda olmalıdır.";
+
+            }
+
+            // 2. Büyük harf, küçük harf, rakam ve özel karakter kontrolü
+            if (!password.Any(char.IsUpper))
+            {
+                return "Parola en az bir büyük harf içermelidir.";
+
+            }
+
+            if (!password.Any(char.IsLower))
+            {
+                return "Parola en az bir küçük harf içermelidir.";
+
+            }
+
+            if (!password.Any(char.IsDigit))
+            {
+                return "Parola en az bir rakam içermelidir.";
+
+            }
+            // Özel karakter kontrolü
+            if (!password.Any(ch => !char.IsLetterOrDigit(ch))) 
+            {
+                return "Parola en az bir özel karakter içermelidir.";
+
+            }        
+
+            // 4. Art arda veya sıralı karakter kontrolü
+            string lowerCasePassword = password.ToLower();
+
+            for (int i = 0; i < lowerCasePassword.Length - 2; i++)
+            {
+                // Karakterlerin ASCII kodlarına göre sıralı olup olmadığını kontrol eder
+                if (lowerCasePassword[i + 1] == lowerCasePassword[i] + 1 && lowerCasePassword[i + 2] == lowerCasePassword[i + 1] + 1)
+                {
+                    return "Parola sıralı karakterler içeremez (örneğin: '123', 'abc').";
+                }
+
+                // Ters sıralı kontrolü (örneğin '321' veya 'cba')
+                if (lowerCasePassword[i + 1] == lowerCasePassword[i] - 1 && lowerCasePassword[i + 2] == lowerCasePassword[i + 1] - 1)
+                {
+                    return "Parola sıralı karakterler içeremez (örneğin: '123', 'abc').";
+                }
+            }
+            return "";
+        }
     }
 }

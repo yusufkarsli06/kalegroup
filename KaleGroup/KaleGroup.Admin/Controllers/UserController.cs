@@ -1,6 +1,8 @@
 ﻿using KaleGroup.Admin.Models;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
+using KaleGroup.Common.Helper;
+using KaleGroup.Data.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -56,6 +58,15 @@ namespace KaleGroup.Admin.Controllers
         [HttpPost]
         public IActionResult AddUser(AddUserViewModel param)
         {
+            string passwordValid = HashHelper.IsValidPassword(param.Password);
+
+            if (passwordValid != "")            {          
+
+                ViewBag.ResultText = passwordValid;
+                AddUserViewModel vm = new AddUserViewModel();
+                vm.IsActive = true;
+                return View(vm);
+            }
             UserDtos userDtos = new UserDtos();
             userDtos.Username = param.Username;
             userDtos.Email = param.Email;
@@ -89,6 +100,21 @@ namespace KaleGroup.Admin.Controllers
         [HttpPost]
         public IActionResult ChangePasswordUser(ChangeUserViewModel param)
         {
+            string passwordValid = HashHelper.IsValidPassword(param.NewPassword);
+
+            if (passwordValid != "")
+            {
+                ChangeUserViewModel vm = new ChangeUserViewModel();
+
+                var userDtos = _userLogic.GetUserInfo(param.Id);
+
+                vm.Id = userDtos.Id;
+
+                ViewBag.ResultText = passwordValid;
+
+                return View(vm);
+            }
+
             if (param.NewPassword == param.NewRepeatPassword)
             {
 
@@ -100,13 +126,15 @@ namespace KaleGroup.Admin.Controllers
                 }
                 else
                 {
-                    //todo eski şifre yanlış
+                    ViewBag.ResultText = "Eski Şifre Yanlış";
+
                 }
 
             }
             else
             {
-                //todo şifreler eşleşmiyor.
+                ViewBag.ResultText = "Şifreler eşleşmemektedir.";
+
             }
             return RedirectToAction("Index");
         }

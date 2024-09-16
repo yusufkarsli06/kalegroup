@@ -7,6 +7,7 @@ using System.Security.Claims;
 using KaleGroup.Business.IBusiness;
 using Microsoft.AspNetCore.Authorization;
 using NPOI.SS.Formula.Functions;
+using KaleGroup.Common.Helper;
 
 namespace KaleGroup.Admin.Controllers
 {
@@ -15,11 +16,13 @@ namespace KaleGroup.Admin.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IUserLogic _userLogic;
- 
-        public HomeController(ILogger<HomeController> logger, IUserLogic userLogic)
+        private readonly ICaptchaHelper _captchaHelper;
+        private const int MaxFailedAttempts = 3;
+        public HomeController(ILogger<HomeController> logger, IUserLogic userLogic, ICaptchaHelper captchaHelper)
         {
             _logger = logger;
             _userLogic = userLogic;
+            _captchaHelper = captchaHelper;
         }
         [Authorize]
         public IActionResult Index()
@@ -41,8 +44,20 @@ namespace KaleGroup.Admin.Controllers
 
         public IActionResult Login()
         {
+            int failedAttempts = HttpContext.Session.GetInt32("FailedAttempts") ?? 0;
 
-            return View(new LoginViewModel());
+            var model = new LoginViewModel();
+            model.ShowCaptcha = failedAttempts >= MaxFailedAttempts;
+
+            if (model.ShowCaptcha)
+            {
+                string captchaCode = _captchaHelper.GenerateRandomCode();
+                HttpContext.Session.SetString("CaptchaCode", captchaCode);
+                ViewBag.CaptchaImage = Convert.ToBase64String(_captchaHelper.GenerateCaptchaImage(captchaCode));
+            }
+
+            return View(model);
+         
         }
         public async Task<IActionResult> LogOut()
         {
@@ -63,7 +78,7 @@ namespace KaleGroup.Admin.Controllers
                 Claim[] claims = new Claim[]
                    {
                             new Claim(ClaimTypes.Name,loginResult.Username),
-                            new Claim("EndDate",  DateTime.MinValue.AddDays(30).ToString()),
+                            new Claim("EndDate",  DateTime.MinValue.AddMinutes(15).ToString()),
                             new Claim(ClaimTypes.NameIdentifier, loginResult.Id.ToString())
                    };
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -76,10 +91,33 @@ namespace KaleGroup.Admin.Controllers
                       ExpiresUtc = DateTimeOffset.Now.AddDays(30),
                   }
               );
+                HttpContext.Session.SetInt32("FailedAttempts", 0);
                 return RedirectToAction("Index");
             }
             else
-            {
+            {          
+                int failedAttempts = HttpContext.Session.GetInt32("FailedAttempts") ?? 0;
+                failedAttempts++;
+                HttpContext.Session.SetInt32("FailedAttempts", failedAttempts);
+
+                // Captcha doğrulaması gerekiyorsa kontrol et
+                if (failedAttempts >= MaxFailedAttempts)
+                {
+                    var captchaCode = HttpContext.Session.GetString("CaptchaCode");
+
+                    if (param.CaptchaCode == null || param.CaptchaCode != captchaCode)
+                    {
+                        ModelState.AddModelError(string.Empty, "Captcha doğrulaması başarısız.");
+                        param.ShowCaptcha = true;
+
+                        
+                        captchaCode = _captchaHelper.GenerateRandomCode();
+                        HttpContext.Session.SetString("CaptchaCode", captchaCode);
+                        ViewBag.CaptchaImage = Convert.ToBase64String(_captchaHelper.GenerateCaptchaImage(captchaCode));
+
+                        return View(param);
+                    }
+                }
                 ViewBag.ResultText = "Kullanıcı Adı veya Şifre Yanlış";
                 return View(param);
             }
