@@ -15,6 +15,7 @@ using KaleGroup.DataAccess.Repository.User.Command;
 using KaleGroup.DataAccess.Repository.User.Interface;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 string password = builder.Configuration.GetConnectionString("key");
@@ -63,13 +64,15 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 {
     opt.LoginPath = new PathString("/Home/Login");
     opt.AccessDeniedPath = new PathString("/Home/Error");
-    opt.Cookie.SameSite = SameSiteMode.None;
+    opt.Cookie.SameSite = SameSiteMode.Strict;
     opt.Cookie.SecurePolicy = CookieSecurePolicy.Always;
     opt.Cookie.IsEssential = true;
+    opt.Cookie.HttpOnly = true;  
+    
+
 });
 var app = builder.Build();
-
-
+    
 app.UseSession();
 
 // Configure the HTTP request pipeline.
