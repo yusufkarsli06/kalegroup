@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rFv6q2MdOzSNK7rMZ+TYpgVUAgu5OiEvlbc6OjOH0FxduAysZ0go2uGXQ+31hgz45hPqVlD+JDUmZJaGyN/mAQ==",
+  "dgSpecHash": "ezdw9ELCmDC7ipGDmdAbGBWQE4fYOBcXGYTBv04k3wces1JOP5m+pmh9CAqY2uXtR0Gz8i8kd5+d7DJJ9FWW8w==",
   "success": true,
   "projectFilePath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yusuf\\.nuget\\packages\\antixss\\4.3.0\\antixss.4.3.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
@@ -82,5 +83,16 @@
     "C:\\Users\\yusuf\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AntiXSS 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AntiXSS",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

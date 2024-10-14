@@ -8,10 +8,11 @@ using KaleGroup.Business.IBusiness;
 using Microsoft.AspNetCore.Authorization;
 using NPOI.SS.Formula.Functions;
 using KaleGroup.Common.Helper;
+using KaleArge.Admin.Filter;
 
 namespace KaleGroup.Admin.Controllers
 {
-    
+    [XssProtectionFilter]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

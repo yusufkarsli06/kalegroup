@@ -1,4 +1,5 @@
-﻿using KaleGroup.Admin.Models;
+﻿using KaleArge.Admin.Filter;
+using KaleGroup.Admin.Models;
 using KaleGroup.Business.Business;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
@@ -9,6 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace KaleGroup.Admin.Controllers
 {
     [Authorize]
+    [XssProtectionFilter]
+
     public class SliderController : Controller
     {
         private readonly ISliderLogic _sliderLogic;
