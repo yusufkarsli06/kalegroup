@@ -1,4 +1,5 @@
-﻿using KaleGroup.Admin.Models;
+﻿using KaleArge.Admin.Filter;
+using KaleGroup.Admin.Models;
 using KaleGroup.Business.Dto;
 using KaleGroup.Business.IBusiness;
 using Microsoft.AspNetCore.Authorization;
@@ -7,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace KaleGroup.Web.Controllers
 {
     [Authorize]
+    [XssProtectionFilter]
+
     public class SubMenuController : Controller
     {
         private readonly ISubMenuLogic _subMenuLogic;
