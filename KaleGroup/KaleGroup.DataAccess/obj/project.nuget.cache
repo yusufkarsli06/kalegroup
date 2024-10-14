@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rutLUp0fnGIL+8Bpj2ojhmp6kFPyW9Hiq2zZMz8BnrjqJy3q/8whZWSXEtwyBDoAVw//iEUy32GkKzEYd/GTzQ==",
+  "dgSpecHash": "salxXteLCjZTTRFXtV9/OEiuWS+IAD8TjYELvdmmHnnGhYi3bcRdNkiK4aXYu861Aqu4A9Cxwe3lru3tdGB2vQ==",
   "success": true,
-  "projectFilePath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
+  "projectFilePath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yusuf\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",

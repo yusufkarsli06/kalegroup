@@ -10,3 +10,15 @@ D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.dll
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\refint\KaleArge.Data.dll
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.pdb
 D:\kalegroup\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\ref\KaleArge.Data.dll
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\bin\Debug\net8.0\KaleArge.Data.deps.json
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\bin\Debug\net8.0\KaleArge.Data.dll
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\bin\Debug\net8.0\KaleArge.Data.pdb
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.AssemblyInfoInputs.cache
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.AssemblyInfo.cs
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.csproj.CoreCompileInputs.cache
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.sourcelink.json
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.dll
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\refint\KaleArge.Data.dll
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\KaleArge.Data.pdb
+D:\kalearge son dosyalar\10012024\kaynakkodlari\KaleGroup\KaleGroup.Data\obj\Debug\net8.0\ref\KaleArge.Data.dll

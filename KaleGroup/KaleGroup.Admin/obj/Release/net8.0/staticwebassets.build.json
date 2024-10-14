@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y0Y/1nbdTRLyGdd+HUzYlmi23ij/scFkR6ErNLAv4wc=",
+  "Hash": "+f9pPHkq12K3MbjDwNVBQzfnWwblDWWwimWL4ylgcWQ=",
   "Source": "KaleArge.Admin",
   "BasePath": "_content/KaleArge.Admin",
   "Mode": "Default",
@@ -3853,6 +3853,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\plugins.init.js"
+    },
+    {
+      "Identity": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\protect.js",
+      "SourceId": "KaleArge.Admin",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\",
+      "BasePath": "_content/KaleArge.Admin",
+      "RelativePath": "js/protect.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\protect.js"
     },
     {
       "Identity": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\scrollspy.min.js",

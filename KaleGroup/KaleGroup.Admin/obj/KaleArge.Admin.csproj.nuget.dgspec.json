@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj": {}
+    "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj": {}
   },
   "projects": {
-    "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj": {
+    "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj",
+        "projectUniqueName": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj",
         "projectName": "KaleArge.Admin",
-        "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj",
+        "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Admin\\KaleArge.Admin.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\obj\\",
+        "outputPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj"
+              "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj": {
+                "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj"
               },
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj"
+              "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj": {
+                "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj": {
+    "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj",
+        "projectUniqueName": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj",
         "projectName": "KaleArge.Business",
-        "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj",
+        "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Business\\KaleArge.Business.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Business\\obj\\",
+        "outputPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,14 +113,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj"
+              "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj": {
+                "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj"
               },
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj"
+              "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj": {
+                "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj"
               },
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
+              "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
+                "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj": {
+    "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
+        "projectUniqueName": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
         "projectName": "KaleArge.Common",
-        "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
+        "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\obj\\",
+        "outputPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -224,14 +224,14 @@
         }
       }
     },
-    "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj": {
+    "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
+        "projectUniqueName": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
         "projectName": "KaleArge.DataAccess",
-        "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
+        "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\obj\\",
+        "outputPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -253,8 +253,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
-                "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
+              "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
+                "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
               }
             }
           }
@@ -298,14 +298,14 @@
         }
       }
     },
-    "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
+    "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj",
+        "projectUniqueName": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj",
         "projectName": "KaleArge.Data",
-        "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj",
+        "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\obj\\",
+        "outputPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

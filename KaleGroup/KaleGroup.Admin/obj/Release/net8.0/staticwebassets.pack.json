@@ -861,6 +861,10 @@
       "PackagePath": "staticwebassets\\js\\plugins.init.js"
     },
     {
+      "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\protect.js",
+      "PackagePath": "staticwebassets\\js\\protect.js"
+    },
+    {
       "Id": "D:\\kalegroup\\KaleGroup\\KaleGroup.Admin\\wwwroot\\js\\scrollspy.min.js",
       "PackagePath": "staticwebassets\\js\\scrollspy.min.js"
     },

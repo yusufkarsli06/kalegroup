@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V6Nqu0cQmQOQzH1SDVfH+f5rHADOM+a2PF5GXf5wgfLPKRV8j30XACdakhjNVLdKu7WwolrZgqhFN8uQ7f+cJg==",
+  "dgSpecHash": "XiRZDHotDhEQMooomphGR0L8wyMa3oX6qTHFd+3AF6jPu4DHLifi+3i4x4L4+DGxFApexA0ChkLN4RQBeUmBDg==",
   "success": true,
-  "projectFilePath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
+  "projectFilePath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Common\\KaleArge.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yusuf\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\enums.net\\4.0.1\\enums.net.4.0.1.nupkg.sha512",

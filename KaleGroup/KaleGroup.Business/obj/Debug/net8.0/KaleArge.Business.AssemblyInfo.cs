@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KaleArge.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+693f8c3b424c8f3840e2b6de1aba9c481804fe28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24c0afa0ac31092bf3dcd1416b9f3c51a372552a")]
 [assembly: System.Reflection.AssemblyProductAttribute("KaleArge.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KaleArge.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

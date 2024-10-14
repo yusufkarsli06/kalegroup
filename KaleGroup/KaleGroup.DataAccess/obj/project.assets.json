@@ -775,11 +775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
+      "projectUniqueName": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
       "projectName": "KaleArge.DataAccess",
-      "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
+      "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\KaleArge.DataAccess.csproj",
       "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-      "outputPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.DataAccess\\obj\\",
+      "outputPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -801,8 +801,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
-              "projectPath": "D:\\kalegroup\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
+            "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj": {
+              "projectPath": "D:\\kalearge son dosyalar\\10012024\\kaynakkodlari\\KaleGroup\\KaleGroup.Data\\KaleArge.Data.csproj"
             }
           }
         }
