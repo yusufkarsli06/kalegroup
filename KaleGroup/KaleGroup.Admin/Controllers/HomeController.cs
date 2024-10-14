@@ -88,7 +88,7 @@ namespace KaleGroup.Admin.Controllers
                   new AuthenticationProperties
                   {
                       IsPersistent = true,
-                      ExpiresUtc = DateTimeOffset.Now.AddDays(30),
+                      ExpiresUtc = DateTimeOffset.Now.AddMinutes(15),
                   }
               );
                 HttpContext.Session.SetInt32("FailedAttempts", 0);
