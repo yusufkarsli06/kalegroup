@@ -1,7 +1,15 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
- 
-.tk-sofia-pro-soft { font-family: "Open Sans",sans-serif; }
-.tk-sofia-pro { font-family:  "Open Sans",sans-serif; }
-.tk-sofia-pro-condensed { font-family:  "Open Sans",sans-serif; }
+
+.tk-sofia-pro-soft {
+    font-family: "Outfit",sans-serif;
+}
+
+.tk-sofia-pro {
+    font-family: "Outfit",sans-serif;
+}
+
+.tk-sofia-pro-condensed {
+    font-family: "Outfit",sans-serif;
+}
