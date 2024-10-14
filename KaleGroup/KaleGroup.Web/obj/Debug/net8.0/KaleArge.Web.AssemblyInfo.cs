@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KaleArge.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e50ec52545cf37186e7ea649d5bad5885f0b592")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c43ed31d5bc2f3067fa5645eefdfa12c239d3a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KaleArge.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KaleArge.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

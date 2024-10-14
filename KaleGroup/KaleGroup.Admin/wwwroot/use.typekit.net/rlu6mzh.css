@@ -1,15 +1,7 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
-
-
-.tk-sofia-pro-soft {
-    font-family: "Outfit",sans-serif;
-}
-
-.tk-sofia-pro {
-    font-family: "Outfit",sans-serif;
-}
-
-.tk-sofia-pro-condensed {
-    font-family: "Outfit",sans-serif;
-}
+@font-face {
+    font-family: 'Outfit';
+    src: url('../outfit/outfit-variablefont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+ 
