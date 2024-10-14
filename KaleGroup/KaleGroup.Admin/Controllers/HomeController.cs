@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using NPOI.SS.Formula.Functions;
 using KaleGroup.Common.Helper;
 using KaleArge.Admin.Filter;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace KaleGroup.Admin.Controllers
 {
@@ -19,16 +20,19 @@ namespace KaleGroup.Admin.Controllers
         private readonly IUserLogic _userLogic;
         private readonly ICaptchaHelper _captchaHelper;
         private const int MaxFailedAttempts = 3;
-        public HomeController(ILogger<HomeController> logger, IUserLogic userLogic, ICaptchaHelper captchaHelper)
+        private readonly IMemoryCache _cache;
+
+        public HomeController(IMemoryCache cache, ILogger<HomeController> logger, IUserLogic userLogic, ICaptchaHelper captchaHelper)
         {
             _logger = logger;
             _userLogic = userLogic;
             _captchaHelper = captchaHelper;
+            _cache = cache;
         }
         [Authorize]
         public IActionResult Index()
         {
-           
+
             return View();
         }
 
@@ -45,37 +49,45 @@ namespace KaleGroup.Admin.Controllers
 
         public IActionResult Login()
         {
-            int failedAttempts = HttpContext.Session.GetInt32("FailedAttempts") ?? 0;
 
             var model = new LoginViewModel();
-            model.ShowCaptcha = failedAttempts >= MaxFailedAttempts;
-
-            if (model.ShowCaptcha)
-            {
-                string captchaCode = _captchaHelper.GenerateRandomCode();
-                HttpContext.Session.SetString("CaptchaCode", captchaCode);
-                ViewBag.CaptchaImage = Convert.ToBase64String(_captchaHelper.GenerateCaptchaImage(captchaCode));
-            }
 
             return View(model);
-         
+
         }
         public async Task<IActionResult> LogOut()
         {
-  
+
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-             return RedirectToAction("Login", "Home");
+            return RedirectToAction("Login", "Home");
         }
         [HttpPost]
         public IActionResult Login(LoginViewModel param)
         {
+            string userIp = HttpContext.Connection.RemoteIpAddress.ToString();
+            int failedAttempts;
+
 
             var loginResult = _userLogic.AuthenticateUser(param.Username, param.Password);
 
             if (loginResult != null)
             {
+                var captchaCodeCache = _cache.Get("CaptchaCode").ToString();
+                if (param.CaptchaCode != null)
+                {
+                    if (param.CaptchaCode != captchaCodeCache)
+                    {
+                        ModelState.AddModelError(string.Empty, "Captcha doğrulaması başarısız.");
+                        param.ShowCaptcha = true;
 
+                        var captchaCode = _captchaHelper.GenerateRandomCode();
+                        _cache.Set("CaptchaCode", captchaCode, TimeSpan.FromMinutes(15));
+                        ViewBag.CaptchaImage = Convert.ToBase64String(_captchaHelper.GenerateCaptchaImage(captchaCode));
+
+                        return View(param);
+                    }
+                }
                 Claim[] claims = new Claim[]
                    {
                             new Claim(ClaimTypes.Name,loginResult.Username),
@@ -92,28 +104,37 @@ namespace KaleGroup.Admin.Controllers
                       ExpiresUtc = DateTimeOffset.Now.AddMinutes(15),
                   }
               );
-                HttpContext.Session.SetInt32("FailedAttempts", 0);
+
+                _cache.Set(userIp, 0, TimeSpan.FromMinutes(15));
+
                 return RedirectToAction("Index");
             }
             else
-            {          
-                int failedAttempts = HttpContext.Session.GetInt32("FailedAttempts") ?? 0;
-                failedAttempts++;
-                HttpContext.Session.SetInt32("FailedAttempts", failedAttempts);
+            {
 
-                // Captcha doğrulaması gerekiyorsa kontrol et
-                if (failedAttempts >= MaxFailedAttempts)
+
+                // Eğer cache'de bu IP'ye dair bir kayıt varsa onu al, yoksa 0 başlat.
+                if (!_cache.TryGetValue(userIp, out failedAttempts))
                 {
-                    var captchaCode = HttpContext.Session.GetString("CaptchaCode");
+                    failedAttempts = 0;
+                }
 
-                    if (param.CaptchaCode == null || param.CaptchaCode != captchaCode)
+                failedAttempts++;
+
+                // Yeni değer ile IP adresini cache'de 15 dakika sakla
+                _cache.Set(userIp, failedAttempts, TimeSpan.FromMinutes(15));
+
+                if (failedAttempts >= 3)
+                {
+                    var captchaCodeCache = _cache.Get("CaptchaCode");
+
+                    if (param.CaptchaCode == null || param.CaptchaCode != captchaCodeCache)
                     {
                         ModelState.AddModelError(string.Empty, "Captcha doğrulaması başarısız.");
                         param.ShowCaptcha = true;
 
-                        
-                        captchaCode = _captchaHelper.GenerateRandomCode();
-                        HttpContext.Session.SetString("CaptchaCode", captchaCode);
+                        var captchaCode = _captchaHelper.GenerateRandomCode();
+                        _cache.Set("CaptchaCode", captchaCode, TimeSpan.FromMinutes(15));
                         ViewBag.CaptchaImage = Convert.ToBase64String(_captchaHelper.GenerateCaptchaImage(captchaCode));
 
                         return View(param);

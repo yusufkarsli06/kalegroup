@@ -116,7 +116,7 @@ namespace KaleGroup.Admin.Controllers
             footerMenuDtos.EnPageName = param.EnPageName;
             footerMenuDtos.PageUrl = param.PageUrl;
             footerMenuDtos.EnPageUrl = param.EnPageUrl;
-             footerMenuDtos.IsActive = param.IsActive;
+            footerMenuDtos.IsActive = param.IsActive;
             footerMenuDtos.Description = param.Description;
             footerMenuDtos.EnDescription = param.EnDescription;
             footerMenuDtos.OrderNumber = param.OrderNumber;
